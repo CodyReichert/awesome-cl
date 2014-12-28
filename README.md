@@ -37,7 +37,7 @@ Reference
 ---------
 
 * [Common Lisp Quick Reference][25] - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
-* [CLHS][22] - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form. Can also be downloaded [here via ftp][23] (under a somewhat-free license).
+* [CLHS][22] - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
 * [Minispec][24] - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
 * [Quickdocs][28] - A reference for the libraries provided by Quicklisp.
 
@@ -97,7 +97,7 @@ This contains plugins and other goodies for various text editors.
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
 [21]: http://www.goodreads.com/book/show/1175730.Object_Oriented_Programming_in_Common_LISP
 [22]: http://www.lispworks.com/documentation/lw50/CLHS/Front/index.htm
-[23]: ftp://ftp.lispworks.com/pub/software_tools/reference/HyperSpec-7-0.tar.gz
+
 [24]: http://minispec.org/index.html
 [25]: http://clqr.boundp.org/index.html
 [26]: http://www.paulgraham.com/onlisp.html
