@@ -115,6 +115,8 @@ Beginner
 Intermediate
 ------------
 
+* [Common Lisp tips][152] - A blog with useful tips and tricks.
+* [CommonQt tutorial][154] - A nice introduction to CommonQt.
 * [A tutorial for creating and publishing open-source Common Lisp software][27] - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.
 
 Advanced
@@ -251,6 +253,7 @@ This contains anything which doesn't fit into another category.
 * [envy][142] - Configuration switcher. [FreeBSD][39].
 * [esrap][69] - Packrat parser. [Expat][14].
 * [fast-io][113] - Fast octet-vector/stream I/O. [3-clause BSD][15].
+* [glyphs][153] - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
 * [interface][148] - A protocol library. [3-clause BSD][15].
 * [iolib][112] - I/O library. [Expat][14].
 * [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
@@ -430,3 +433,6 @@ XML
 [149]: http://common-lisp.net/project/alexandria/
 [150]: https://github.com/TBRSS/serapeum/
 [151]: https://github.com/tgutu/clunit
+[152]: http://lisptips.com/
+[153]: https://github.com/ahungry/glyphs/
+[154]: https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/
