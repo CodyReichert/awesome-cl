@@ -28,6 +28,7 @@ Database
 * [cl-mongo][36] - MongoDB client. [Expat][14].
 * [cl-redis][35] - Redis client. [Expat][14].
 * [cl-rethinkdb][37] - RethinkDB client. [Expat][14].
+* [cl-sqlite][155] - Bindings for SQLite. Public domain.
 * [clache][41] - General caching facility. No license specified.
 * [clouchdb][38] - Library for interacting with CouchDB. [FreeBSD][39].
 * [crane][42] - Another ORM. [Expat][14].
@@ -436,3 +437,4 @@ XML
 [152]: http://lisptips.com/
 [153]: https://github.com/ahungry/glyphs/
 [154]: https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/
+[155]: https://github.com/dmitryvk/cl-sqlite
