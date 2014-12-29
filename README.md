@@ -113,6 +113,8 @@ Learning and Tutorials
 Beginner
 --------
 
+* [Common LISP: A Gentle Introduction to Symbolic Computation][161] - A nice introduction into the language.
+
 Intermediate
 ------------
 
@@ -123,6 +125,7 @@ Intermediate
 Advanced
 --------
 
+* [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
 * [On Lisp][26] - Paul Graham's amazing book on Lisp macros (and other interesting things).
 
 Reference
@@ -130,6 +133,7 @@ Reference
 
 * [Common Lisp Quick Reference][25] - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
 * [CLHS][22] - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
+* [Common Lisp the Langauge][160] - The original standard for Common Lisp before the ANSI spec.
 * [Minispec][24] - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
 * [Quickdocs][28] - A reference for the libraries provided by Quicklisp.
 
@@ -149,7 +153,9 @@ Intermediate
 Advanced
 --------
 
+* [Let Over Lambda][156] - A book on advanced macro techniques. All eight chapters are available in the print copy.
 * [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
+* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
 
 Library Manager
 ===============
@@ -192,6 +198,7 @@ Network and Internet
 * [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
 * [saluto][97] - OAuth 2.0 module for the RESTAS web framework. Not available on Quicklisp. No license specified. 
 * [usocket][79] - A portable TCP and UDP socket interface. [Expat][14].
+* [weblocks][159] - An advanced web framework. [LLGPL][8]
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
 
 Numerical and Scientific
@@ -239,6 +246,7 @@ Utilities
 This contains anything which doesn't fit into another category.
 
 * [alexandria][149] - A general-purpose utility library. Public domain.
+* [anaphora][158] - A collection of anaphoric macros. Public domain.
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
@@ -438,3 +446,9 @@ XML
 [153]: https://github.com/ahungry/glyphs/
 [154]: https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/
 [155]: https://github.com/dmitryvk/cl-sqlite
+[156]: http://letoverlambda.com/
+[157]: http://norvig.com/paip.html
+[158]: http://common-lisp.net/project/anaphora/
+[159]: http://weblocks-framework.info/
+[160]: http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html
+[161]: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html
