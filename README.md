@@ -113,6 +113,8 @@ Learning and Tutorials
 Beginner
 --------
 
+* [Common LISP: A Gentle Introduction to Symbolic Computation][161] - A nice introduction into the language.
+
 Intermediate
 ------------
 
@@ -131,6 +133,7 @@ Reference
 
 * [Common Lisp Quick Reference][25] - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
 * [CLHS][22] - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
+* [Common Lisp the Langauge][160] - The original standard for Common Lisp before the ANSI spec.
 * [Minispec][24] - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
 * [Quickdocs][28] - A reference for the libraries provided by Quicklisp.
 
@@ -447,3 +450,5 @@ XML
 [157]: http://norvig.com/paip.html
 [158]: http://common-lisp.net/project/anaphora/
 [159]: http://weblocks-framework.info/
+[160]: http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html
+[161]: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html
