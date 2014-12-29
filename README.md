@@ -123,6 +123,7 @@ Intermediate
 Advanced
 --------
 
+* [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
 * [On Lisp][26] - Paul Graham's amazing book on Lisp macros (and other interesting things).
 
 Reference
@@ -149,7 +150,9 @@ Intermediate
 Advanced
 --------
 
+* [Let Over Lambda][156] - A book on advanced macro techniques. All eight chapters are available in the print copy.
 * [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
+* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
 
 Library Manager
 ===============
@@ -192,6 +195,7 @@ Network and Internet
 * [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
 * [saluto][97] - OAuth 2.0 module for the RESTAS web framework. Not available on Quicklisp. No license specified. 
 * [usocket][79] - A portable TCP and UDP socket interface. [Expat][14].
+* [weblocks][159] - An advanced web framework. [LLGPL][8]
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
 
 Numerical and Scientific
@@ -239,6 +243,7 @@ Utilities
 This contains anything which doesn't fit into another category.
 
 * [alexandria][149] - A general-purpose utility library. Public domain.
+* [anaphora][158] - A collection of anaphoric macros. Public domain.
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
@@ -438,3 +443,7 @@ XML
 [153]: https://github.com/ahungry/glyphs/
 [154]: https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/
 [155]: https://github.com/dmitryvk/cl-sqlite
+[156]: http://letoverlambda.com/
+[157]: http://norvig.com/paip.html
+[158]: http://common-lisp.net/project/anaphora/
+[159]: http://weblocks-framework.info/
