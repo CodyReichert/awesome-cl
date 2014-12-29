@@ -29,6 +29,7 @@ Database
 * [cl-redis][35] - Redis client. [Expat][14].
 * [cl-rethinkdb][37] - RethinkDB client. [Expat][14].
 * [cl-sqlite][155] - Bindings for SQLite. Public domain.
+* [clsql][186] - An SQL database with a Common Lisp interface. [LLGPL][8].
 * [clache][41] - General caching facility. No license specified.
 * [clouchdb][38] - Library for interacting with CouchDB. [FreeBSD][39].
 * [crane][42] - Another ORM. [Expat][14].
@@ -71,10 +72,12 @@ These are libraries for working with graphics, rather than making GUIs (i.e. wid
 * [cl-cairo2][53] - Cairo bindings. [Boost 1.0][54]
 * [cl-gd][61] - A library providing an interface to the GD graphics library. [FreeBSD][39].
 * [cl-horde3d][58] - FFI bindings to the Horde3D graphics library. Not available on Quicklisp. [EPL 1.0][59]
+* [cl-opengl][163] - CFFI bindings to OpenGL, GLU and GLUT APIs. [3-clause BSD][15].
 * [cl-sdl2][60] - Bindings for SDL2 using C2FFI. [Expat][14].
 * [cl-svg][57] - A basic library for producing SVG files. [Expat][14].
 * [CLinch][63] - Common Lisp 2D/3D graphics engine for OpenGL. [FreeBSD][39].
 * [donuts][138] - Graph drawing DSL for Common Lisp. [Expat][14].
+* [lispbuilder-sdl][180] - A set of bindings for SDL. [Expat][14].
 * [okra][62] - CFFI bindings to Ogre. Not available on Quicklisp. [3-clause BSD][15].
 * [Varjo][52] - Lisp to GLSL translator. Not available on Quicklisp. [LLGPL][8].
 * [Vecto][55] - Simple vector drawing library. [FreeBSD][39].
@@ -84,8 +87,10 @@ GUI
 ===
 
 * [cl-cffi-gtk][65] - Binding for GTK+3. [GNU LGPL2.1][11].
+* [cl-gtk2][178] - A binding for GTK+2. [LLGPL][8].
 * [cl-xul][66] - Mozilla XUL bindings. [Expat][14].
 * [CommonQt][64] - A Common Lisp binding for Qt4 via QtSmoke. [FreeBSD][39].
+* [ltk][179] - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 
 Implementations
 ===============
@@ -182,13 +187,16 @@ Network and Internet
 * [cl-irc][83] - An IRC client library. [Expat][14].
 * [cl-markup][101] - Modern markup generation library. [LLGPL][8].
 * [cl-openid][96] - An implementation of OpenID. [LLGPL][8].
+* [cl-who][184] - An HTML generator. [FreeBSD][39].
 * [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8].
 * [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
 * [colleen][82] - IRC bot with a modular framework. [Artistic License 2.0][51].
+* [css-lite][185] - A CSS grammar. [Expat][14].
 * [Djula][100] - A port of Django's template engine to Common Lisp. [Expat][14].
 * [Drakma][78] - An HTTP client. [FreeBSD][39].
 * [eco][98] - Fast, flexible, designer-friendly template engine. [Expat][14].
 * [hermetic][95] - Security for Clack-based web applications. [Expat][14].
+* [hh-web][183] - Framework for building modern web apps. [Expat][14].
 * [http-parse][73] - An HTTP parser in Common Lisp. [Expat][14].
 * [humbler][107] - A Tumblr API interface. [Artistic License 2.0][51].
 * [hunchentoot][108] - A web server. [FreeBSD][39].
@@ -196,7 +204,8 @@ Network and Internet
 * [ningle][93] - A super-micro web framework. [LLGPL][8].
 * [Postmaster][80] - A simple, easy-to-use SMTP/IMAP library. [Expat][14].
 * [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
-* [saluto][97] - OAuth 2.0 module for the RESTAS web framework. Not available on Quicklisp. No license specified. 
+* [saluto][97] - OAuth 2.0 module for the RESTAS web framework. Not available on Quicklisp. [3-clause BSD][15].
+* [sytes][182] - A library for making simple websites quickly. Not available on Quicklisp. No license specified.
 * [usocket][79] - A portable TCP and UDP socket interface. [Expat][14].
 * [weblocks][159] - An advanced web framework. [LLGPL][8]
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
@@ -208,11 +217,13 @@ Numerical and Scientific
 * [GSLL][84] - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [common-lisp-stat][85] - Common Lisp statistics library. [FreeBSD][39].
 * [lisp-matrix][86] - A matrix package. [FreeBSD][39].
+* [maxima][165] - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
 
 
 Parallelism and Concurrency
 ===========================
 
+* [BordeauxThreads][171] - Portable, shared-state concurrency. [Expat][14].
 * [chanl][117] - Portable, channel-based concurrency. [Expat][14], with parts under [3-clause BSD][15].
 * [cl-async][116] - A library for general-purpose, non-blocking programming. [Expat][14].
 * [lesque][141] - A clone of Resque. Not available on Quicklisp. [Expat][14].
@@ -234,11 +245,26 @@ This contains plugins and other goodies for various text editors.
 
 * [SLIME][29] - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
 
+## Vim ##
+
+* [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
+
+Tools
+=====
+
+These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
+
+* [SWIG][173] - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
+
+
 Unit Testing
 ============
 
 * [FiveAM][123] - Simple regression testing framework. [FreeBSD][39].
 * [CLUnit][151] - A unit testing library. [Expat][14].
+* [Lift][175] - Another testing framework. [A range of licenses, all free][176].
+* [Stefil][177] - A test framework that aims to be transparent. Public domain.
+
 
 Utilities
 =========
@@ -248,9 +274,11 @@ This contains anything which doesn't fit into another category.
 * [alexandria][149] - A general-purpose utility library. Public domain.
 * [anaphora][158] - A collection of anaphoric macros. Public domain.
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
-* [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
+* [chipz][167] - A decompression library. [3-clause BSD][15].
 * [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
+* [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
+* [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
 * [cl-cuda][118] - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
 * [cl-fad][111] - A portable pathname library. [FreeBSD][39].
 * [cl-interpol][130] - A set of reader modifications to allow string interpolation. No license specified.
@@ -259,27 +287,33 @@ This contains anything which doesn't fit into another category.
 * [cl-project][136] - General modern project skeletons. [LLGPL][8].
 * [cl-syntax][126] - Reader syntax conventions. [LLGPL][8].
 * [cl21][125] - An experimental project to move Common Lisp into the 21st century. [Expat][14].
+* [closer-mop][162] - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [envy][142] - Configuration switcher. [FreeBSD][39].
 * [esrap][69] - Packrat parser. [Expat][14].
 * [fast-io][113] - Fast octet-vector/stream I/O. [3-clause BSD][15].
+* [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
 * [glyphs][153] - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
 * [interface][148] - A protocol library. [3-clause BSD][15].
 * [iolib][112] - I/O library. [Expat][14].
 * [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
 * [localtime][122] - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
 * [log4cl][124] - Logging framework modelled after Log4J. [Apache2.0][89].
+* [mixalot][181] - A loosely-coupled collection of audio libraries. No license specified.
 * [named-readtables][129] - Provides a readtable namespace, akin to package namespaces. [3-clause BSD][15].
 * [optima][146] - Optimized pattern-matching library. [LLGPL][8].
+* [osicat][172] - A lightweight operating system interface on POSIX-like systems. [Expat][14].
 * [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
 * [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
 * [puri-unicode][75] - Pure URI library with Unicode support. [LLGPL][8].
 * [quicksearch][140] - Look up online libraries from the REPL. [Expat][14].
 * [ratify][77] - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
+* [Salza2][166] - A library for creating compressed data. [FreeBSD][39].
 * [serapeum][150] - Another general-purpose utility library. [Expat][14].
 * [simple-currency][74] - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
 * [template][147] - A library for templates and functions, similar to C++. [3-clause BSD][15].
 * [texp][137] - A DSL to generate TeX. No license specified.
 * [trivial-benchmark][144] - Tiny benchmarking library. [Artistic Licence 2.0][51].
+* [trivial-garbage][174] - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
 * [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [universal-config][143] - A library providing a universal configuration layer. [Artistic License 2.0][51].
@@ -289,6 +323,8 @@ XML
 
 * [CXML][70] - XML parser, with a range of extension libraries. [LLGPL][8].
 * [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
+* [s-xml][168] - A basic parser. [LLGPL][8].
+* [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
 
 [1]: http://common-lisp.net/project/armedbear/
 [2]: http://www.gnu.org/copyleft/gpl.html
@@ -452,3 +488,29 @@ XML
 [159]: http://weblocks-framework.info/
 [160]: http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html
 [161]: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html
+[162]: http://cliki.net/closer-mop
+[163]: https://github.com/3b/cl-opengl
+[164]: http://quickdocs.org/fset/
+[165]: http://maxima.sourceforge.net/
+[166]: http://www.xach.com/lisp/salza2/
+[167]: https://github.com/froydnj/chipz
+[168]: http://cliki.net/S-XML
+[169]: http://quickdocs.org/xmls/
+[170]: https://github.com/AccelerationNet/cl-csv
+[171]: http://common-lisp.net/project/bordeaux-threads/
+[172]: http://common-lisp.net/project/osicat/
+[173]: http://www.swig.org/
+[174]: https://github.com/trivial-garbage/trivial-garbage
+[175]: https://github.com/gwkkwg/lift
+[176]: https://github.com/gwkkwg/lift/blob/master/COPYING
+[177]: http://dwim.hu/project/hu.dwim.stefil?_x=BGZm&_f=SnpbobKv
+[178]: https://github.com/dmitryvk/cl-gtk2
+[179]: http://www.peter-herth.de/ltk/
+[180]: https://code.google.com/p/lispbuilder/wiki/LispbuilderSDL
+[181]: https://github.com/ahefner/mixalot
+[182]: https://github.com/mishoo/sytes
+[183]: https://github.com/hargettp/hh-web
+[184]: http://weitz.de/cl-who/
+[185]: https://github.com/paddymul/css-lite
+[186]: http://clsql.b9.com/
+[187]: https://github.com/kovisoft/slimv
