@@ -17,6 +17,7 @@ Crypto
 
 * [crypto-shortcuts][50] - Collection of common crypto shortcuts. [Artistic License 2.0][51].
 * [Ironclad][49] - A crypto library for Common Lisp. [Expat][14].
+* [cl-sodium][cl-sodium] - libsodium bindings for Common Lisp. Not available in Quicklisp. [MIT][MIT]
 * [trivial-ssh][81] - An SSH client library. [Expat][14].
 
 Database
@@ -513,3 +514,5 @@ XML
 [185]: https://github.com/paddymul/css-lite
 [186]: http://clsql.b9.com/
 [187]: https://github.com/kovisoft/slimv
+[cl-sodium]: https://github.com/orthecreedence/cl-sodium
+[MIT]: http://opensource.org/licenses/MIT
