@@ -11,7 +11,6 @@ Build Systems
 
 * [ASDF][131] - Another System Definition Facility; a build system for Common Lisp. [Expat][14].
 * [asdf-linguist][132] - Extensions for ASDF. [Expat][14].
-* [XCVB][133] - eXtensible Component Verifier and Builder; a scalable system for building large projects. [Expat][14].
 
 Crypto
 ======
@@ -459,7 +458,7 @@ XML
 [130]: http://www.cliki.net/cl-interpol
 [131]: http://common-lisp.net/project/asdf/
 [132]: https://github.com/eudoxia0/asdf-linguist
-[133]: https://github.com/fare/xcvb
+
 [134]: http://quickutil.org/
 [135]: https://github.com/fukamachi/qlot
 [136]: https://github.com/fukamachi/cl-project
