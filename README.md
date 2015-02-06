@@ -16,7 +16,7 @@ Crypto
 ======
 
 * [crypto-shortcuts][50] - Collection of common crypto shortcuts. [Artistic License 2.0][51].
-* [Ironclad][49] - A crypto library for Common Lisp. [Expat][14].
+* [Ironclad][49] - A library of crypto functions for Common Lisp. Not considered secure, but is still useful for the message digest functions. [Expat][14].
 * [trivial-ssh][81] - An SSH client library. [Expat][14].
 
 Database
