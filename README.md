@@ -1,12 +1,58 @@
 # Awesome Common Lisp #
 
-A curated list of Common Lisp good stuff. I give preference to [free software][13] for code, and sellers who aren't evil for physical resources.
+A curated list of _awesome_ Common Lisp stuff. I give preference to
+[free software][13] for code, and sellers who aren't evil for physical
+resources.
 
-This is released under the GNU Free Documentation License - its text is provided in the LICENSE file.
+This is released under the GNU Free Documentation License - its text
+is provided in the LICENSE file.
 
-All libraries listed here are available from [Quicklisp][16] unless stated otherwise.
+All libraries listed here are available from [Quicklisp][16] unless
+stated otherwise.
 
-This is also mirrored on [NotABug](https://notabug.org/CodyReichert/awesome-cl) - a fully-free alternative to Github.
+This is also mirrored on
+[NotABug](https://notabug.org/CodyReichert/awesome-cl) - a fully-free
+alternative to Github.
+
+**Table of Contents**
+- [Awesome Common Lisp](#awesome-common-lisp)
+- [Build Systems](#build-systems)
+- [Crypto](#crypto)
+- [Database](#database)
+- [Foreign Function Interface](#foreign-function-interface)
+  - [C](#c)
+  - [Java](#java)
+  - [Miscellaneous](#miscellaneous)
+  - [Python](#python)
+- [Game Development](#game-development)
+- [Graphics](#graphics)
+- [GUI](#gui)
+- [Implementations](#implementations)
+- [JSON](#json)
+- [Learning and Tutorials](#learning-and-tutorials)
+  - [Online](#online)
+  - [Beginner](#beginner)
+  - [Intermediate](#intermediate)
+  - [Advanced](#advanced)
+  - [Reference](#reference)
+  - [Offline](#offline)
+  - [Beginner](#beginner-1)
+  - [Intermediate](#intermediate-1)
+  - [Advanced](#advanced-1)
+- [Library Manager](#library-manager)
+- [Natural Language Processing](#natural-language-processing)
+- [Network and Internet](#network-and-internet)
+- [Numerical and Scientific](#numerical-and-scientific)
+- [Parallelism and Concurrency](#parallelism-and-concurrency)
+- [Regex](#regex)
+- [Text Editor Resources](#text-editor-resources)
+  - [Emacs](#emacs)
+  - [Vim](#vim)
+- [Tools](#tools)
+- [Unit Testing](#unit-testing)
+- [Utilities](#utilities)
+- [XML](#xml)
+
 
 Build Systems
 =============
