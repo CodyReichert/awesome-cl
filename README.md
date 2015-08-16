@@ -1,4 +1,4 @@
-# Awesome Common Lisp #
+# Awesome Common Lisp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of _awesome_ Common Lisp stuff. I give preference to
 [free software][13] for code, and sellers who aren't evil for physical
