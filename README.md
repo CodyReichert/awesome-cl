@@ -4,13 +4,14 @@ A curated list of _awesome_ Common Lisp stuff. I give preference to
 [free software][13] for code, and sellers who aren't evil for physical
 resources.
 
-This is released under the GNU Free Documentation License - its text
-is provided in the LICENSE file.
-
 All libraries listed here are available from [Quicklisp][16] unless
 stated otherwise.
 
-This is also mirrored on
+See the [contributing](#contributing) section for adding something to the
+list.
+
+This is released under the GNU Free Documentation License - its text
+is provided in the LICENSE file. This repository is also mirrored on
 [NotABug](https://notabug.org/CodyReichert/awesome-cl) - a fully-free
 alternative to Github.
 
@@ -52,6 +53,7 @@ alternative to Github.
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
 - [XML](#xml)
+- [Contributing](#contributing)
 
 
 Build Systems
@@ -367,6 +369,7 @@ This contains anything which doesn't fit into another category.
 * [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [universal-config][143] - A library providing a universal configuration layer. [Artistic License 2.0][51].
 
+
 XML
 ===
 
@@ -374,6 +377,12 @@ XML
 * [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
 * [s-xml][168] - A basic parser. [LLGPL][8].
 * [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
+
+
+Contributing
+============
+Your contributions are always welcome! Please submit a pull request or create
+an issue to add a new framework, library or software to the list.
 
 [1]: http://common-lisp.net/project/armedbear/
 [2]: http://www.gnu.org/copyleft/gpl.html
