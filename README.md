@@ -393,7 +393,7 @@ an issue to add a new framework, library or software to the list.
 [7]: http://ccl.clozure.com/
 [8]: http://opensource.franz.com/preamble.html
 [9]: http://www.cons.org/cmucl/
-[10]: http://ecls.sourceforge.net/
+[10]: https://common-lisp.net/project/ecl/
 [11]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [12]: http://www.sbcl.org/index.html
 [13]: http://www.sbcl.org/manual/index.html#ANSI-Conformance
