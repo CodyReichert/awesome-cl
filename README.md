@@ -140,6 +140,7 @@ GUI
 * [cl-xul][66] - Mozilla XUL bindings. [Expat][14].
 * [CommonQt][64] - A Common Lisp binding for Qt4 via QtSmoke. [FreeBSD][39].
 * [ltk][179] - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
+* [ceramic][192] - Desktop web apps with Common Lisp. [Expat][14].
 
 Implementations
 ===============
@@ -577,3 +578,4 @@ an issue to add a new framework, library or software to the list.
 [189]: https://github.com/triclops200/quickapp-cli
 [190]: https://www.gnu.org/software/gcl/
 [191]: https://github.com/ruricolist/spinneret
+[192]: https://ceramic.github.io/
