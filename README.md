@@ -237,6 +237,7 @@ Network and Internet
 * [cl-markup][101] - Modern markup generation library. [LLGPL][8].
 * [cl-openid][96] - An implementation of OpenID. [LLGPL][8].
 * [cl-who][184] - An HTML generator. [FreeBSD][39].
+* [spinneret][191] - Common Lisp HTML5 generator. [Expat][14].
 * [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8].
 * [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
 * [colleen][82] - IRC bot with a modular framework. [Artistic License 2.0][51].
@@ -575,3 +576,4 @@ an issue to add a new framework, library or software to the list.
 [188]: https://github.com/triclops200/quickapp
 [189]: https://github.com/triclops200/quickapp-cli
 [190]: https://www.gnu.org/software/gcl/
+[191]: https://github.com/ruricolist/spinneret
