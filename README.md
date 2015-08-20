@@ -318,6 +318,7 @@ Unit Testing
 * [CLUnit][151] - A unit testing library. [Expat][14].
 * [Lift][175] - Another testing framework. [A range of licenses, all free][176].
 * [Stefil][177] - A test framework that aims to be transparent. Public domain.
+* [Prove][194] - Yet another unit testing framework [Expat][14].
 
 
 Utilities
@@ -582,3 +583,4 @@ an issue to add a new framework, library or software to the list.
 [191]: https://github.com/ruricolist/spinneret
 [192]: https://ceramic.github.io/
 [193]: https://github.com/CodyReichert/cl-ses/
+[194]: https://github.com/fukamachi/prove
