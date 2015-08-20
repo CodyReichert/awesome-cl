@@ -76,6 +76,7 @@ Database
 * [cl-memcached][40] - Fast, thread-safe interface to the Memcached object caching system. [Expat][14].
 * [cl-mongo][36] - MongoDB client. [Expat][14].
 * [cl-redis][35] - Redis client. [Expat][14].
+* [cl-disque][133] - Disque client. [3-clause BSD][15].
 * [cl-rethinkdb][37] - RethinkDB client. [Expat][14].
 * [cl-sqlite][155] - Bindings for SQLite. Public domain.
 * [clsql][186] - An SQL database with a Common Lisp interface. [LLGPL][8].
@@ -238,6 +239,7 @@ Network and Internet
 * [cl-markup][101] - Modern markup generation library. [LLGPL][8].
 * [cl-openid][96] - An implementation of OpenID. [LLGPL][8].
 * [cl-who][184] - An HTML generator. [FreeBSD][39].
+* [cl-ses][193] - Library for AWS SES. [Expat][14].
 * [spinneret][191] - Common Lisp HTML5 generator. [Expat][14].
 * [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8].
 * [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
@@ -519,7 +521,7 @@ an issue to add a new framework, library or software to the list.
 [130]: http://www.cliki.net/cl-interpol
 [131]: http://common-lisp.net/project/asdf/
 [132]: https://github.com/eudoxia0/asdf-linguist
-
+[133]: https://github.com/CodyReichert/cl-disque
 [134]: http://quickutil.org/
 [135]: https://github.com/fukamachi/qlot
 [136]: https://github.com/fukamachi/cl-project
@@ -579,3 +581,4 @@ an issue to add a new framework, library or software to the list.
 [190]: https://www.gnu.org/software/gcl/
 [191]: https://github.com/ruricolist/spinneret
 [192]: https://ceramic.github.io/
+[193]: https://github.com/CodyReichert/cl-ses/
