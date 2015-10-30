@@ -1,19 +1,20 @@
+# <div align="center"><img src="http://i.imgur.com/jLVXhpc.png"></div>
+
 # Awesome Common Lisp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of _awesome_ Common Lisp stuff. I give preference to
-[free software][13] for code, and sellers who aren't evil for physical
-resources.
+A curated list of _awesome_ Common Lisp stuff.
+
+Add something new! See the [contributing](#contributing) section for adding something to the
+list.
 
 All libraries listed here are available from [Quicklisp][16] unless
 stated otherwise.
 
-See the [contributing](#contributing) section for adding something to the
-list.
-
 This is released under the GNU Free Documentation License - its text
 is provided in the LICENSE file. This repository is also mirrored on
-[NotABug](https://notabug.org/CodyReichert/awesome-cl) - a fully-free
-alternative to Github.
+[NotABug](https://notabug.org/CodyReichert/awesome-cl) - a **fully-free** (as in libre)
+alternative to Github.  Preference is given to [free software][13] and
+sellers who aren't evil for physical resources.
 
 **Table of Contents**
 - [Awesome Common Lisp](#awesome-common-lisp)
