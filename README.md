@@ -392,7 +392,7 @@ Contributing
 Your contributions are always welcome! Please submit a pull request or create
 an issue to add a new framework, library or software to the list.
 
-[1]: http://common-lisp.net/project/armedbear/
+[1]: https://common-lisp.net/project/armedbear/
 [2]: http://www.gnu.org/copyleft/gpl.html
 [3]: http://www.gnu.org/software/classpath/license.html
 [4]: http://common-lisp.net/project/armedbear/faq.shtml#qa
@@ -407,7 +407,7 @@ an issue to add a new framework, library or software to the list.
 [13]: http://www.sbcl.org/manual/index.html#ANSI-Conformance
 [14]: http://directory.fsf.org/wiki/License:Expat
 [15]: http://directory.fsf.org/wiki/License:BSD_3Clause
-[16]: http://www.quicklisp.org/beta/
+[16]: https://www.quicklisp.org/beta/
 [17]: http://www.gigamonkeys.com/book/
 [18]: http://landoflisp.com/
 [19]: http://www.paulgraham.com/acl.html
@@ -429,14 +429,14 @@ an issue to add a new framework, library or software to the list.
 [35]: https://github.com/vseloved/cl-redis
 [36]: https://github.com/fons/cl-mongo
 [37]: https://github.com/orthecreedence/cl-rethinkdb
-[38]: http://common-lisp.net/project/clouchdb/
+[38]: https://common-lisp.net/project/clouchdb/
 [39]: http://directory.fsf.org/wiki?title=License:FreeBSD
 [40]: https://github.com/quasi/cl-memcached
 [41]: https://github.com/html/clache
 [42]: https://github.com/eudoxia0/crane
 [43]: https://github.com/cffi/cffi
 [44]: https://github.com/rpav/cl-autowrap
-[45]: http://common-lisp.net/project/cl-plus-j/
+[45]: https://common-lisp.net/project/cl-plus-j/
 [46]: http://foil.sourceforge.net/
 [47]: http://directory.fsf.org/wiki/License:CPLv1.0
 [48]: https://github.com/pinterface/burgled-batteries
@@ -455,13 +455,13 @@ an issue to add a new framework, library or software to the list.
 [61]: http://weitz.de/cl-gd/
 [62]: https://github.com/aerique/okra
 [63]: https://github.com/BradWBeer/CLinch
-[64]: https://github.com/stassats/commonqt
+[64]: https://github.com/commonqt/commonqt
 [65]: http://www.crategus.com/books/cl-cffi-gtk/
 [66]: https://github.com/mmontone/cl-xul
 [67]: http://xelf.me/
 [68]: http://weitz.de/cl-ppcre/
 [69]: https://github.com/nikodemus/esrap
-[70]: http://common-lisp.net/project/cxml/
+[70]: https://common-lisp.net/project/cxml/
 [71]: https://github.com/Shinmera/plump
 [72]: https://github.com/Shinmera/lquery
 [73]: https://github.com/orthecreedence/http-parse
@@ -475,8 +475,8 @@ an issue to add a new framework, library or software to the list.
 [80]: https://github.com/eudoxia0/postmaster
 [81]: https://github.com/eudoxia0/trivial-ssh
 [82]: https://github.com/Shinmera/colleen
-[83]: http://www.common-lisp.net/project/cl-irc/
-[84]: http://common-lisp.net/project/gsll/
+[83]: https://www.common-lisp.net/project/cl-irc/
+[84]: https://common-lisp.net/project/gsll/
 [85]: https://github.com/blindglobe/common-lisp-stat/
 [86]: https://github.com/blindglobe/lisp-matrix
 [87]: https://github.com/tkych/cl-spark
@@ -488,8 +488,8 @@ an issue to add a new framework, library or software to the list.
 [93]: https://github.com/fukamachi/ningle
 [94]: https://github.com/eudoxia0/clack-errors
 [95]: https://github.com/eudoxia0/hermetic
-[96]: http://common-lisp.net/project/cl-openid/darcs/cl-openid/
-[97]: http://common-lisp.net/project/cl-openid/darcs/cl-openid/
+[96]: https://common-lisp.net/project/cl-openid/darcs/cl-openid/
+[97]: https://common-lisp.net/project/cl-openid/darcs/cl-openid/
 [98]: https://github.com/eudoxia0/eco
 [99]: https://github.com/archimag/cl-closure-template
 [100]: https://github.com/mmontone/djula
@@ -509,21 +509,21 @@ an issue to add a new framework, library or software to the list.
 [114]: https://github.com/lmj/lparallel
 [115]: https://github.com/pkhuong/Xecto
 [116]: https://github.com/orthecreedence/cl-async
-[117]: https://github.com/sykopomp/chanl
+[117]: https://github.com/zkat/chanl
 [118]: https://github.com/takagi/cl-cuda
-[119]: http://common-lisp.net/project/trivial-utf-8/
+[119]: https://common-lisp.net/project/trivial-utf-8/
 [120]: https://github.com/cl-babel/babel
 [121]: https://github.com/fukamachi/cl-locale
-[122]: http://common-lisp.net/project/local-time/
+[122]: https://common-lisp.net/project/local-time/
 [123]: https://github.com/sionescu/fiveam
 [124]: https://github.com/7max/log4cl
 [125]: https://github.com/cl21/cl21
 [126]: https://github.com/m2ym/cl-syntax
-[127]: https://github.com/arielnetworks/cl-annot
+[127]: https://github.com/m2ym/cl-annot
 [128]: http://lisp.hyperprostor.unas.cz/cl-2dsyntax/
 [129]: https://github.com/melisgl/named-readtables
 [130]: http://www.cliki.net/cl-interpol
-[131]: http://common-lisp.net/project/asdf/
+[131]: https://common-lisp.net/project/asdf/
 [132]: https://github.com/eudoxia0/asdf-linguist
 [133]: https://github.com/CodyReichert/cl-disque
 [134]: http://quickutil.org/
@@ -531,7 +531,7 @@ an issue to add a new framework, library or software to the list.
 [136]: https://github.com/fukamachi/cl-project
 [137]: http://mr.gy/software/texp/
 [138]: https://github.com/tkych/donuts
-[139]: http://common-lisp.net/project/iterate/
+[139]: https://common-lisp.net/project/iterate/
 [140]: https://github.com/tkych/quicksearch
 [141]: https://github.com/fukamachi/lesque
 [142]: https://github.com/fukamachi/envy
@@ -541,7 +541,7 @@ an issue to add a new framework, library or software to the list.
 [146]: https://bitbucket.org/tarballs_are_good/cl-algebraic-data-type
 [147]: https://bitbucket.org/tarballs_are_good/template
 [148]: https://bitbucket.org/tarballs_are_good/interface
-[149]: http://common-lisp.net/project/alexandria/
+[149]: https://common-lisp.net/project/alexandria/
 [150]: https://github.com/TBRSS/serapeum/
 [151]: https://github.com/tgutu/clunit
 [152]: http://lisptips.com/
@@ -550,7 +550,7 @@ an issue to add a new framework, library or software to the list.
 [155]: https://github.com/dmitryvk/cl-sqlite
 [156]: http://letoverlambda.com/
 [157]: http://norvig.com/paip.html
-[158]: http://common-lisp.net/project/anaphora/
+[158]: https://common-lisp.net/project/anaphora/
 [159]: http://weblocks-framework.info/
 [160]: http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html
 [161]: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html
@@ -563,8 +563,8 @@ an issue to add a new framework, library or software to the list.
 [168]: http://cliki.net/S-XML
 [169]: http://quickdocs.org/xmls/
 [170]: https://github.com/AccelerationNet/cl-csv
-[171]: http://common-lisp.net/project/bordeaux-threads/
-[172]: http://common-lisp.net/project/osicat/
+[171]: https://common-lisp.net/project/bordeaux-threads/
+[172]: https://common-lisp.net/project/osicat/
 [173]: http://www.swig.org/
 [174]: https://github.com/trivial-garbage/trivial-garbage
 [175]: https://github.com/gwkkwg/lift
@@ -572,7 +572,7 @@ an issue to add a new framework, library or software to the list.
 [177]: http://dwim.hu/project/hu.dwim.stefil?_x=BGZm&_f=SnpbobKv
 [178]: https://github.com/dmitryvk/cl-gtk2
 [179]: http://www.peter-herth.de/ltk/
-[180]: https://code.google.com/p/lispbuilder/wiki/LispbuilderSDL
+[180]: https://github.com/lispbuilder/lispbuilder
 [181]: https://github.com/ahefner/mixalot
 [182]: https://github.com/mishoo/sytes
 [183]: https://github.com/hargettp/hh-web
