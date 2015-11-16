@@ -284,7 +284,7 @@ Parallelism and Concurrency
 * [cl-async][116] - A library for general-purpose, non-blocking programming. [Expat][14].
 * [lesque][141] - A clone of Resque. Not available on Quicklisp. [Expat][14].
 * [lparallel][114] - A library for parallel programming. [3-clause BSD][15].
-* [Xecto][115] - A library for regular array parallelism. No license specified.
+* [Xecto][115] - A library for regular array parallelism. [3-clause BSD][15].
 
 Regex
 =====
