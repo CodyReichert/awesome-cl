@@ -172,6 +172,8 @@ Learning and Tutorials
 Beginner
 --------
 
+* [Learn X in Y minutes | Where X = Common Lisp][195] - Small Common Lisp tutorial covering the essentials.
+* [Practical Common Lisp][17] - A good introductory text to Common Lisp, with practical examples.
 * [Common LISP: A Gentle Introduction to Symbolic Computation][161] - A nice introduction into the language.
 
 Intermediate
@@ -587,3 +589,4 @@ an issue to add a new framework, library or software to the list.
 [192]: https://ceramic.github.io/
 [193]: https://github.com/CodyReichert/cl-ses/
 [194]: https://github.com/fukamachi/prove
+[195]: https://learnxinyminutes.com/docs/common-lisp/
