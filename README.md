@@ -377,7 +377,7 @@ This contains anything which doesn't fit into another category.
 * [trivial-garbage][174] - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
 * [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
-* [universal-config][143] - A library providing a universal configuration layer. [Artistic License 2.0][51].
+* [ubiquitous][143] - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
 
 XML
@@ -537,7 +537,7 @@ an issue to add a new framework, library or software to the list.
 [140]: https://github.com/tkych/quicksearch
 [141]: https://github.com/fukamachi/lesque
 [142]: https://github.com/fukamachi/envy
-[143]: https://github.com/Shinmera/universal-config
+[143]: https://github.com/Shinmera/ubiquitous
 [144]: https://github.com/Shinmera/trivial-benchmark
 [145]: https://github.com/m2ym/trivial-types
 [146]: https://bitbucket.org/tarballs_are_good/cl-algebraic-data-type
