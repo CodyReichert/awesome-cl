@@ -176,6 +176,7 @@ Beginner
 * [Practical Common Lisp][17] - A good introductory text to Common Lisp, with practical examples.
 * [Common LISP: A Gentle Introduction to Symbolic Computation][161] - A nice introduction into the language.
 * [Learn LISP: Simply Easy Learning][196] - A good set of introductory tutorials; includes interactive examples.
+* [Common Lisp Koans][197] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
@@ -206,6 +207,7 @@ Beginner
 
 * [Land of Lisp][18] - A fun, game-oriented introduction to Common Lisp.
 * [Practical Common Lisp][17] - A good introductory text to Common Lisp, with practical examples.
+* [Common Lisp Koans][197] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
@@ -592,3 +594,4 @@ an issue to add a new framework, library or software to the list.
 [194]: https://github.com/fukamachi/prove
 [195]: https://learnxinyminutes.com/docs/common-lisp/
 [196]: http://www.tutorialspoint.com/lisp/index.htm
+[197]: https://github.com/google/lisp-koans
