@@ -87,7 +87,7 @@ Database
 * [clouchdb][38] - Library for interacting with CouchDB. [FreeBSD][39].
 * [crane][42] - Another ORM. [Expat][14].
 * [datafly][30] - A lightweight database library. [3-clause BSD][15].
-* [integral][31] - An ORM. [3-clause BSD][15].
+* [mito][31] - An ORM for Common Lisp with migrations, relationships and PostgreSQL support [LLGPL][8].
 * [postmodern][32] - A library for interacting with PostgreSQL. [zlib][33].
 * [sxql][23] - A DSL for generating SQL. [3-clause BSD][15].
 
@@ -427,7 +427,7 @@ an issue to add a new framework, library or software to the list.
 [28]: http://quickdocs.org/
 [29]: https://github.com/slime/slime
 [30]: https://github.com/fukamachi/datafly
-[31]: https://github.com/fukamachi/integral
+[31]: https://github.com/fukamachi/mito
 [32]: http://marijnhaverbeke.nl/postmodern/
 [33]: http://directory.fsf.org/wiki/License:Zlib
 [34]: https://github.com/fukamachi/cl-dbi
