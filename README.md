@@ -532,7 +532,7 @@ an issue to add a new framework, library or software to the list.
 [131]: https://common-lisp.net/project/asdf/
 [132]: https://github.com/eudoxia0/asdf-linguist
 [133]: https://github.com/CodyReichert/cl-disque
-[134]: http://quickutil.org/
+[134]: https://github.com/tarballs-are-good/quickutil
 [135]: https://github.com/fukamachi/qlot
 [136]: https://github.com/fukamachi/cl-project
 [137]: http://mr.gy/software/texp/
