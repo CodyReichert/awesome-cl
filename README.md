@@ -401,12 +401,12 @@ an issue to add a new framework, library or software to the list.
 [1]: https://common-lisp.net/project/armedbear/
 [2]: http://www.gnu.org/copyleft/gpl.html
 [3]: http://www.gnu.org/software/classpath/license.html
-[4]: http://common-lisp.net/project/armedbear/faq.shtml#qa
+[4]: https://common-lisp.net/project/armedbear/faq.shtml#qa
 [5]: http://www.clisp.org/
 [6]: http://www.gnu.org/software/clisp/impnotes.html
 [7]: http://ccl.clozure.com/
 [8]: http://opensource.franz.com/preamble.html
-[9]: http://www.cons.org/cmucl/
+[9]: https://www.cons.org/cmucl/
 [10]: https://common-lisp.net/project/ecl/
 [11]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [12]: http://www.sbcl.org/index.html
@@ -454,7 +454,7 @@ an issue to add a new framework, library or software to the list.
 [54]: http://directory.fsf.org/wiki/License:Boost1.0
 [55]: http://www.xach.com/lisp/vecto/
 [56]: http://www.xach.com/lisp/zpng/
-[57]: https://code.google.com/p/cl-svg/
+[57]: https://code.google.com/archive/p/cl-svg
 [58]: https://github.com/anwyn/cl-horde3d/
 [59]: http://directory.fsf.org/wiki/License:EPLv1.0
 [60]: https://github.com/lispgames/cl-sdl2
@@ -495,7 +495,7 @@ an issue to add a new framework, library or software to the list.
 [94]: https://github.com/eudoxia0/clack-errors
 [95]: https://github.com/eudoxia0/hermetic
 [96]: https://common-lisp.net/project/cl-openid/darcs/cl-openid/
-[97]: https://common-lisp.net/project/cl-openid/darcs/cl-openid/
+[97]: https://github.com/dmitrys99/saluto
 [98]: https://github.com/eudoxia0/eco
 [99]: https://github.com/archimag/cl-closure-template
 [100]: https://github.com/mmontone/djula
@@ -526,13 +526,13 @@ an issue to add a new framework, library or software to the list.
 [125]: https://github.com/cl21/cl21
 [126]: https://github.com/m2ym/cl-syntax
 [127]: https://github.com/m2ym/cl-annot
-[128]: http://lisp.hyperprostor.unas.cz/cl-2dsyntax/
+[128]: http://www.cliki.net/cl-2dsyntax
 [129]: https://github.com/melisgl/named-readtables
 [130]: http://www.cliki.net/cl-interpol
 [131]: https://common-lisp.net/project/asdf/
 [132]: https://github.com/eudoxia0/asdf-linguist
 [133]: https://github.com/CodyReichert/cl-disque
-[134]: http://quickutil.org/
+[134]: https://github.com/tarballs-are-good/quickutil
 [135]: https://github.com/fukamachi/qlot
 [136]: https://github.com/fukamachi/cl-project
 [137]: http://mr.gy/software/texp/
@@ -584,7 +584,7 @@ an issue to add a new framework, library or software to the list.
 [183]: https://github.com/hargettp/hh-web
 [184]: http://weitz.de/cl-who/
 [185]: https://github.com/paddymul/css-lite
-[186]: http://clsql.b9.com/
+[186]: http://www.cliki.net/CLSQL
 [187]: https://github.com/kovisoft/slimv
 [188]: https://github.com/triclops200/quickapp
 [189]: https://github.com/triclops200/quickapp-cli
