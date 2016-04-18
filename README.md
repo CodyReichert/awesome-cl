@@ -495,7 +495,7 @@ an issue to add a new framework, library or software to the list.
 [94]: https://github.com/eudoxia0/clack-errors
 [95]: https://github.com/eudoxia0/hermetic
 [96]: https://common-lisp.net/project/cl-openid/darcs/cl-openid/
-[97]: https://common-lisp.net/project/cl-openid/darcs/cl-openid/
+[97]: https://github.com/dmitrys99/saluto
 [98]: https://github.com/eudoxia0/eco
 [99]: https://github.com/archimag/cl-closure-template
 [100]: https://github.com/mmontone/djula
