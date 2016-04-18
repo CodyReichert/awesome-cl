@@ -584,7 +584,7 @@ an issue to add a new framework, library or software to the list.
 [183]: https://github.com/hargettp/hh-web
 [184]: http://weitz.de/cl-who/
 [185]: https://github.com/paddymul/css-lite
-[186]: http://clsql.b9.com/
+[186]: http://www.cliki.net/CLSQL
 [187]: https://github.com/kovisoft/slimv
 [188]: https://github.com/triclops200/quickapp
 [189]: https://github.com/triclops200/quickapp-cli
