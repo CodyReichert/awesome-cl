@@ -233,6 +233,7 @@ Natural Language Processing
 ===========================
 
 * [cl-nlp][88] - Natural language processing toolset. [Apache2.0][89].
+* [babel2][198] - Natural language processing framework [Apache2.0][89].
 
 
 Network and Internet
@@ -595,3 +596,4 @@ an issue to add a new framework, library or software to the list.
 [195]: https://learnxinyminutes.com/docs/common-lisp/
 [196]: http://www.tutorialspoint.com/lisp/index.htm
 [197]: https://github.com/google/lisp-koans
+[198]: http://emergent-languages.org/Babel2/
