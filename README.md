@@ -526,7 +526,7 @@ an issue to add a new framework, library or software to the list.
 [125]: https://github.com/cl21/cl21
 [126]: https://github.com/m2ym/cl-syntax
 [127]: https://github.com/m2ym/cl-annot
-[128]: http://lisp.hyperprostor.unas.cz/cl-2dsyntax/
+[128]: http://www.cliki.net/cl-2dsyntax
 [129]: https://github.com/melisgl/named-readtables
 [130]: http://www.cliki.net/cl-interpol
 [131]: https://common-lisp.net/project/asdf/
