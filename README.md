@@ -233,7 +233,7 @@ Natural Language Processing
 ===========================
 
 * [cl-nlp][88] - Natural language processing toolset. [Apache2.0][89].
-* [babel2][198] - Natural language processing framework [Apache2.0][89].
+* [babel2][198] - A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism [Apache2.0][89].
 
 
 Network and Internet
