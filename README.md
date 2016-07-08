@@ -2,7 +2,7 @@
   <img src="http://i.imgur.com/jLVXhpc.png">
 </div>
 
-# Awesome Common Lisp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Common Lisp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Assertible](https://assertible.com/tests/f0fd52e1-ba5e-4b5d-be9d-c2e31dadbb2a/status?api_token=138d9afe7ffa6f508e)](https://github.com/assertible/deployments)
 
 A curated list of _awesome_ Common Lisp stuff.
 
