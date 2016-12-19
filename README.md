@@ -307,6 +307,7 @@ This contains plugins and other goodies for various text editors.
 ## Emacs ##
 
 * [SLIME][29] - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
+* [PORTACLE][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
 
 ## Vim ##
 
@@ -600,3 +601,4 @@ an issue to add a new framework, library or software to the list.
 [198]: http://emergent-languages.org/Babel2/
 [199]: https://github.com/fukamachi/dexador
 [200]: https://opensource.org/licenses/MIT
+[201]: https://shinmera.github.io/portacle/
