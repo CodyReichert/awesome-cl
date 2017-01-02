@@ -477,7 +477,7 @@ an issue to add a new framework, library or software to the list.
 [24]: http://minispec.org/index.html
 [25]: http://clqr.boundp.org/index.html
 [26]: http://www.paulgraham.com/onlisp.html
-[27]: http://arxiv.org/abs/1209.5626
+[27]: https://arxiv.org/abs/1209.5626
 [28]: http://quickdocs.org/
 [29]: https://github.com/slime/slime
 [30]: https://github.com/fukamachi/datafly
