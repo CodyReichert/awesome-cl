@@ -2,7 +2,7 @@
   <img src="http://i.imgur.com/jLVXhpc.png">
 </div>
 
-# Awesome Common Lisp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Common Lisp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Assertible](https://assertible.com/apis/19f22308-4694-40f3-973d-69a5584e9a95/status?api_token=8b55a286830323effb)](https://github.com/assertible/deployments)
 
 A curated list of _awesome_ Common Lisp stuff.
 
@@ -224,6 +224,7 @@ Advanced
 Library Manager
 ===============
 
+* [Roswell][202] - a Lisp implementation installer, script launcher and more. [MIT][200].
 * [qlot][135] - A project-local library installer, similar to Bundler or Carton. [Expat][14].
 * [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
 * [Quickutil][134] - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
@@ -256,6 +257,7 @@ Network and Internet
 * [css-lite][185] - A CSS grammar. [Expat][14].
 * [Djula][100] - A port of Django's template engine to Common Lisp. [Expat][14].
 * [Drakma][78] - An HTTP client. [FreeBSD][39].
+* [Dexador][199] - An HTTP client, that aims at replacing Drakma. [MIT][200].
 * [eco][98] - Fast, flexible, designer-friendly template engine. [Expat][14].
 * [hermetic][95] - Security for Clack-based web applications. [Expat][14].
 * [hh-web][183] - Framework for building modern web apps. [Expat][14].
@@ -306,6 +308,8 @@ This contains plugins and other goodies for various text editors.
 ## Emacs ##
 
 * [SLIME][29] - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
+* [PORTACLE][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
+* [LISP-MACHINE][203] - A Common Lisp IDE in a Docker Container:  Roswell Managed, Clozure CL, Spacemacs, Quicklisp, CLHS
 
 ## Vim ##
 
@@ -597,3 +601,8 @@ an issue to add a new framework, library or software to the list.
 [196]: http://www.tutorialspoint.com/lisp/index.htm
 [197]: https://github.com/google/lisp-koans
 [198]: http://emergent-languages.org/Babel2/
+[199]: https://github.com/fukamachi/dexador
+[200]: https://opensource.org/licenses/MIT
+[201]: https://shinmera.github.io/portacle/
+[202]: https://github.com/roswell/roswell
+[203]: https://github.com/listp/lisp-machine
