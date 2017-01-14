@@ -392,7 +392,6 @@ This contains anything which doesn't fit into another category.
 * [anaphora][158] - A collection of anaphoric macros. Public domain.
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [chipz][167] - A decompression library. [3-clause BSD][15].
-* [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
 * [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
@@ -579,7 +578,6 @@ an issue to add a new framework, library or software to the list.
 [125]: https://github.com/cl21/cl21
 [126]: https://github.com/m2ym/cl-syntax
 [127]: https://github.com/m2ym/cl-annot
-[128]: http://www.cliki.net/cl-2dsyntax
 [129]: https://github.com/melisgl/named-readtables
 [130]: http://www.cliki.net/cl-interpol
 [131]: https://common-lisp.net/project/asdf/
