@@ -21,6 +21,7 @@ sellers who aren't evil for physical resources.
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
+- [Awesome Common Lisp](https://github.com/sindresorhus/awesome)
 - [Build Systems](#build-systems)
 - [Crypto](#crypto)
 - [Database](#database)
@@ -65,6 +66,12 @@ sellers who aren't evil for physical resources.
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
+    - [Language extensions](#language-extensions)
+    - [Files and directories](#files-and-directories)
+    - [Date and time](#date-and-time)
+    - [Data validation](#data-validation)
+    - [CSV](#csv)
+    - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
 
@@ -307,6 +314,8 @@ Javascript
 * [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
 * [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
 * [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.
+* [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
+* [CL-JavaScript][103] - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
 
 Others
 ------
@@ -370,8 +379,11 @@ Tools
 
 These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
 
+* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
 * [quickapp-cli][189] - [quickapp][188] as a command-line utility. [3-clause BSD][15].
+* [quicksearch][140] - Look up online libraries from the REPL. [Expat][14].
 * [SWIG][173] - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
+* [cl-project][136] - General modern project skeletons. [LLGPL][8].
 
 
 Unit Testing
@@ -387,45 +399,63 @@ Unit Testing
 Utilities
 =========
 
-This contains anything which doesn't fit into another category.
+Language extensions
+-------------------
 
+* [cl21][125] - An experimental project to move Common Lisp into the 21st century. [Expat][14].
 * [alexandria][149] - A general-purpose utility library. Public domain.
 * [anaphora][158] - A collection of anaphoric macros. Public domain.
+* [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
+* [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
+* [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
+* [optima][146] - Optimized pattern-matching library. [LLGPL][8].
+* [trivial-types][145] - Trivial type definitions. [LLGPL][8].
+* [interface][148] - A protocol library. [3-clause BSD][15].
+
+Files and directories
+---------------------
+
+* [cl-fad][111] - A portable pathname library. [FreeBSD][39].
+
+Date and time
+-------------
+
+* [localtime][122] - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
+
+Data validation
+---------------
+
+* [ratify][77] - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
+
+CSV
+---
+
+* [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
+
+Other
+-----
+
+This contains anything which doesn't fit into another category.
+
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [chipz][167] - A decompression library. [3-clause BSD][15].
 * [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
-* [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
 * [cl-cuda][118] - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
-* [cl-fad][111] - A portable pathname library. [FreeBSD][39].
 * [cl-interpol][130] - A set of reader modifications to allow string interpolation. No license specified.
-* [CL-JavaScript][103] - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
 * [cl-locale][121] - A simple i18n library. [LLGPL][8].
-* [cl-project][136] - General modern project skeletons. [LLGPL][8].
 * [cl-syntax][126] - Reader syntax conventions. [LLGPL][8].
-* [cl21][125] - An experimental project to move Common Lisp into the 21st century. [Expat][14].
 * [closer-mop][162] - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [envy][142] - Configuration switcher. [FreeBSD][39].
 * [esrap][69] - Packrat parser. [Expat][14].
 * [fast-io][113] - Fast octet-vector/stream I/O. [3-clause BSD][15].
-* [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
 * [glyphs][153] - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
-* [interface][148] - A protocol library. [3-clause BSD][15].
 * [iolib][112] - I/O library. [Expat][14].
-* [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
-* [localtime][122] - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
 * [log4cl][124] - Logging framework modelled after Log4J. [Apache2.0][89].
 * [mixalot][181] - A loosely-coupled collection of audio libraries. No license specified.
 * [named-readtables][129] - Provides a readtable namespace, akin to package namespaces. [3-clause BSD][15].
-* [optima][146] - Optimized pattern-matching library. [LLGPL][8].
 * [osicat][172] - A lightweight operating system interface on POSIX-like systems. [Expat][14].
-* [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
-* [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
-* [puri-unicode][75] - Pure URI library with Unicode support. [LLGPL][8].
-* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
-* [quicksearch][140] - Look up online libraries from the REPL. [Expat][14].
-* [ratify][77] - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
 * [Salza2][166] - A library for creating compressed data. [FreeBSD][39].
 * [serapeum][150] - Another general-purpose utility library. [Expat][14].
 * [simple-currency][74] - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
@@ -433,7 +463,6 @@ This contains anything which doesn't fit into another category.
 * [texp][137] - A DSL to generate TeX. No license specified.
 * [trivial-benchmark][144] - Tiny benchmarking library. [Artistic Licence 2.0][51].
 * [trivial-garbage][174] - A portable finalizer, weak hash-table and weak pointer API. Public domain.
-* [trivial-types][145] - Trivial type definitions. [LLGPL][8].
 * [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [ubiquitous][143] - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
