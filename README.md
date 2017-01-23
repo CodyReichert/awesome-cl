@@ -411,6 +411,7 @@ Language extensions
 * [optima][146] - Optimized pattern-matching library. [LLGPL][8].
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
 * [interface][148] - A protocol library. [3-clause BSD][15].
+* [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
 
 Files and directories
 ---------------------
@@ -432,6 +433,13 @@ CSV
 
 * [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
 
+Strings
+-------
+
+* [cl-interpol][130] - A set of reader modifications to allow string interpolation. No license specified.
+* [cl-strings][] -  A portable, dependency-free set of utilities to manipulate strings in Common Lisp. [MIT][200]
+* [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
+
 Other
 -----
 
@@ -440,10 +448,7 @@ This contains anything which doesn't fit into another category.
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [chipz][167] - A decompression library. [3-clause BSD][15].
 * [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
-* [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
-* [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
 * [cl-cuda][118] - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
-* [cl-interpol][130] - A set of reader modifications to allow string interpolation. No license specified.
 * [cl-locale][121] - A simple i18n library. [LLGPL][8].
 * [cl-syntax][126] - Reader syntax conventions. [LLGPL][8].
 * [closer-mop][162] - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
@@ -463,7 +468,6 @@ This contains anything which doesn't fit into another category.
 * [texp][137] - A DSL to generate TeX. No license specified.
 * [trivial-benchmark][144] - Tiny benchmarking library. [Artistic Licence 2.0][51].
 * [trivial-garbage][174] - A portable finalizer, weak hash-table and weak pointer API. Public domain.
-* [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [ubiquitous][143] - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
 
@@ -685,3 +689,4 @@ an issue to add a new framework, library or software to the list.
 [201]: https://shinmera.github.io/portacle/
 [202]: https://github.com/roswell/roswell
 [203]: https://github.com/listp/lisp-machine
+[204]: https://github.com/diogoalexandrefranco/cl-strings
