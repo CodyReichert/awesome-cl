@@ -232,6 +232,7 @@ Intermediate
 ------------
 
 * [ANSI Common Lisp][19] - A thorough, practical covering of the entire language, with exercises. Not recommended as a starter text, due to [some caveats][20].
+* [Common Lisp Recipes][204] - **Common Lisp Recipes** is a collection of solutions to problems and answers to questions you are likely to encounter when writing real-world applications in Common Lisp.
 
 Advanced
 --------
@@ -685,3 +686,4 @@ an issue to add a new framework, library or software to the list.
 [201]: https://shinmera.github.io/portacle/
 [202]: https://github.com/roswell/roswell
 [203]: https://github.com/listp/lisp-machine
+[204]: http://weitz.de/cl-recipes/
