@@ -316,6 +316,7 @@ Javascript
 * [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.
 * [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
 * [CL-JavaScript][103] - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
+* [SmackJack][204] - An Ajax Common Lisp Library using parenscript to generate javascript and hunchentoot (for now) as the web server. Also allows a server-side lisp function to call a client-side parenscript one.
 
 Others
 ------
@@ -685,3 +686,4 @@ an issue to add a new framework, library or software to the list.
 [201]: https://shinmera.github.io/portacle/
 [202]: https://github.com/roswell/roswell
 [203]: https://github.com/listp/lisp-machine
+[204]: https://github.com/aarvid/SmackJack
