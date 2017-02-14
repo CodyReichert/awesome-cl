@@ -108,6 +108,7 @@ Database
 * [datafly][30] - A lightweight database library. [3-clause BSD][15].
 * [mito][31] - An ORM for Common Lisp with migrations, relationships and PostgreSQL support [LLGPL][8].
 * [postmodern][32] - A library for interacting with PostgreSQL. [zlib][33].
+* [pgloader][https://github.com/dimitri/pgloader] - a data loading tool for PostgreSQL. [PostgreSQL Licence][205].
 * [sxql][23] - A DSL for generating SQL. [3-clause BSD][15].
 
 
@@ -687,3 +688,5 @@ an issue to add a new framework, library or software to the list.
 [202]: https://github.com/roswell/roswell
 [203]: https://github.com/listp/lisp-machine
 [204]: http://weitz.de/cl-recipes/
+[205]: http://www.postgresql.org/about/licence/
+
