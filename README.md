@@ -463,6 +463,7 @@ These are applications or bits of code that make development in Common Lisp easi
 * [quicksearch](https://github.com/tkych/quicksearch) - Look up online libraries from the REPL. [Expat][14].
 * [SWIG](http://www.swig.org/) - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
 * [cl-project](https://github.com/fukamachi/cl-project) - General modern project skeletons. [LLGPL][8].
+* [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
 
 
 Unit Testing
