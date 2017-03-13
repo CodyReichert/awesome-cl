@@ -193,10 +193,10 @@ Beginner
 --------
 
 * [Learn X in Y minutes | Where X = Common Lisp](https://learnxinyminutes.com/docs/common-lisp/) - Small Common Lisp tutorial covering the essentials.
-* [Practical Common Lisp](http://www.gigamonkeys.com/book/) - A good introductory text to Common Lisp, with practical examples.
+* [Practical Common Lisp](206) - A good introductory text to Common Lisp, with practical examples.
 * [Common LISP: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html) - A nice introduction into the language.
 * [Learn LISP: Simply Easy Learning](http://www.tutorialspoint.com/lisp/index.htm) - A good set of introductory tutorials; includes interactive examples.
-* [Common Lisp Koans](https://github.com/google/lisp-koans) - The project guides the learner progressively through many Common Lisp language features.
+* [Common Lisp Koans](201) - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
@@ -226,8 +226,8 @@ Beginner
 --------
 
 * [Land of Lisp](18) - A fun, game-oriented introduction to Common Lisp.
-* [Practical Common Lisp](http://www.gigamonkeys.com/book/) - A good introductory text to Common Lisp, with practical examples.
-* [Common Lisp Koans](https://github.com/google/lisp-koans) - The project guides the learner progressively through many Common Lisp language features.
+* [Practical Common Lisp](206) - A good introductory text to Common Lisp, with practical examples.
+* [Common Lisp Koans](201) - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
@@ -247,7 +247,7 @@ Library Manager
 
 * [Roswell](https://github.com/roswell/roswell) - a Lisp implementation installer, script launcher and more. [MIT][200].
 * [qlot](https://github.com/fukamachi/qlot) - A project-local library installer, similar to Bundler or Carton. [Expat][14].
-* [Quicklisp](https://www.quicklisp.org/beta/) - A library manager containing many libraries, with easy depencency management. [Expat][14].
+* [Quicklisp](16) - A library manager containing many libraries, with easy depencency management. [Expat][14].
 * [Quickutil](https://github.com/tarballs-are-good/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
 
 
@@ -294,7 +294,7 @@ Parsing html
 
 Querying HTML/DOM
 -----------------
-* [lquery](https://github.com/Shinmera/lquery) - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
+* [lquery](72) - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
 
 See also XML below.
 
@@ -503,4 +503,6 @@ an issue to add a new framework, library or software to the list.
 [176]: https://github.com/gwkkwg/lift/blob/master/COPYING
 [188]: https://github.com/triclops200/quickapp
 [200]: https://opensource.org/licenses/MIT
-[205]: http://www.postgresql.org/about/licence/
+[201]: https://github.com/google/lisp-koans
+[205]: https://www.postgresql.org/about/licence/
+[206]: http://www.gigamonkeys.com/book/
