@@ -410,6 +410,7 @@ Language extensions
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
 * [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
+* [series](https://github.com/tokenrove/series/wiki) - Functional style without any runtime penalty at all. [MIT][200].
 * [optima][146] - Optimized pattern-matching library. [LLGPL][8].
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
 * [interface][148] - A protocol library. [3-clause BSD][15].
