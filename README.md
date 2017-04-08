@@ -290,7 +290,7 @@ There are more projects, more or less discontinued but interesting. See the othe
 Parsing html
 ------------
 * [http-parse](https://github.com/orthecreedence/http-parse) - An HTTP parser in Common Lisp. [Expat][14].
-* [Plump](71) - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss](https://github.com/Shinmera/CLSS).
+* [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss](https://github.com/Shinmera/CLSS).
 
 Querying HTML/DOM
 -----------------
@@ -472,7 +472,7 @@ XML
 ===
 
 * [CXML](https://common-lisp.net/project/cxml/) - XML parser, with a range of extension libraries. [LLGPL][8].
-* [Plump](https://github.com/Shinmera/plump) - A lenient XML parser. [Artistic License 2.0][51].
+* [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
 * [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
 * [xmls](http://quickdocs.org/xmls/) - A small, simple, non-validating XML parser. [3-clause BSD][15].
 
@@ -499,6 +499,7 @@ an issue to add a new framework, library or software to the list.
 [51]: http://directory.fsf.org/wiki/License:ArtisticLicense2.0
 [54]: http://directory.fsf.org/wiki/License:Boost1.0
 [59]: http://directory.fsf.org/wiki/License:EPLv1.0
+[71]: https://github.com/Shinmera/plump
 [72]: https://github.com/Shinmera/lquery
 [89]: http://directory.fsf.org/wiki/License:Apache2.0
 [176]: https://github.com/gwkkwg/lift/blob/master/COPYING
