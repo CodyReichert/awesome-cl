@@ -56,6 +56,7 @@ sellers who aren't evil for physical resources.
     - [HTML generators and templates](#html-generators-and-templates)
     - [URI handling](#uri-handling)
     - [Javascript](#javascript)
+    - [Websockets](#websockets)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
@@ -320,6 +321,13 @@ Javascript
 * [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.
 * [CL-JavaScript](http://marijnhaverbeke.nl/cl-javascript/) - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
 * [Wuwei](https://github.com/mtravers/wuwei/) - A toolkit to build Ajax-based web pages. [MIT][200].
+
+Websockets
+----------
+
+* [websocket-driver](https://github.com/fukamachi/websocket-driver) - a WebSocket server/client implementation, backend agnostic (Clack). [3-clause BSD][15].
+
+See more [on cliki](http://www.cliki.net/site/search?query=websockets).
 
 Others
 ------
