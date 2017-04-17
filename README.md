@@ -492,7 +492,7 @@ an issue to add a new framework, library or software to the list.
 [8]: http://opensource.franz.com/preamble.html
 [11]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [13]: http://www.sbcl.org/manual/index.html#ANSI-Conformance
-[14]: http://directory.fsf.org/wiki/License:Expat FOO
+[14]: http://directory.fsf.org/wiki/License:Expat
 [15]: http://directory.fsf.org/wiki/License:BSD_3Clause
 [16]: https://www.quicklisp.org/beta/
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
