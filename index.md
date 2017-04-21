@@ -56,6 +56,7 @@ sellers who aren't evil for physical resources.
     - [HTML generators and templates](#html-generators-and-templates)
     - [URI handling](#uri-handling)
     - [Javascript](#javascript)
+    - [Websockets](#websockets)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
@@ -309,14 +310,24 @@ HTML generators and templates
 
 URI handling
 ------------
+
 * [puri-unicode](https://github.com/archimag/puri-unicode) - Pure URI library with Unicode support. [LLGPL][8].
 
 Javascript
 ----------
+
 * [Parenscript](https://github.com/vsedach/Parenscript) - A translator from Common Lisp to Javascript. [3-clause BSD][15].
 * [parse-js](http://marijnhaverbeke.nl/parse-js/) - A package for parsing ECMAScript 3. [zlib][33].
 * [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.
 * [CL-JavaScript](http://marijnhaverbeke.nl/cl-javascript/) - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
+* [Wuwei](https://github.com/mtravers/wuwei/) - A toolkit to build Ajax-based web pages. [MIT][200].
+
+Websockets
+----------
+
+* [websocket-driver](https://github.com/fukamachi/websocket-driver) - a WebSocket server/client implementation, backend agnostic (Clack). [3-clause BSD][15].
+
+See more [on cliki](http://www.cliki.net/site/search?query=websockets).
 
 Others
 ------
@@ -489,7 +500,7 @@ an issue to add a new framework, library or software to the list.
 [8]: http://opensource.franz.com/preamble.html
 [11]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [13]: http://www.sbcl.org/manual/index.html#ANSI-Conformance
-[14]: http://directory.fsf.org/wiki/License:Expat FOO
+[14]: http://directory.fsf.org/wiki/License:Expat
 [15]: http://directory.fsf.org/wiki/License:BSD_3Clause
 [16]: https://www.quicklisp.org/beta/
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
