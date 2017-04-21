@@ -270,7 +270,8 @@ HTTP clients
 
 HTTP Servers
 ------------
-* [Clack](https://github.com/fukamachi/clack) - A web application environment inspired by Rack and WSGI. [LLGPL][8]. Replaces Hunchentoot.
+* [Clack](https://github.com/fukamachi/clack) - A web application environment inspired by Rack and WSGI. [LLGPL][8].  Provides a unified interface to a webserver of choice (default is Hunchentoot).
+* [Hunchentoot](http://weitz.de/hunchentoot/) - A web server. [2-clause BSD][207]
 * [aserve](https://github.com/franzinc/aserve) - AllegroServe; a web server. [LLGPL][8].
 * [clack-errors](https://github.com/eudoxia0/clack-errors) - Error page middleware for Clack. [LLGPL][8].
 * [hermetic](https://github.com/eudoxia0/hermetic) - Security for Clack-based web applications. [Expat][14].
@@ -519,3 +520,4 @@ an issue to add a new framework, library or software to the list.
 [201]: https://github.com/google/lisp-koans
 [205]: https://www.postgresql.org/about/licence/
 [206]: http://www.gigamonkeys.com/book/
+[207]: https://opensource.org/licenses/bsd-license.php
