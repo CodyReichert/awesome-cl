@@ -318,7 +318,7 @@ URI handling
 Javascript
 ----------
 
-* [Parenscript](https://github.com/vsedach/Parenscript) - A translator from Common Lisp to Javascript. [3-clause BSD][15].
+* [Parenscript](https://github.com/vsedach/Parenscript) - A translator from Common Lisp to Javascript. [3-clause BSD][15]. See [Trident-mode](https://github.com/johnmastro/trident-mode.el), an Emacs mode that provides live interaction with the browser.[unlicence][5].
 * [parse-js](http://marijnhaverbeke.nl/parse-js/) - A package for parsing ECMAScript 3. [zlib][33].
 * [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.
 * [CL-JavaScript](http://marijnhaverbeke.nl/cl-javascript/) - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
@@ -377,6 +377,8 @@ Text Editor Resources
 =====================
 
 This contains plugins and other goodies for various text editors.
+
+* [Parinfer](https://shaunlebron.github.io/parinfer/) - Parinfer is a way to edit lisp code that helps to keep both the indentation and the parenthesis balanced. It is easy to start with and yet it offers advanced features à la Paredit. It is available on many editors (Emacs, Vim, Neovim, Atom, Sublime Text, Visual Studio Code, LightTable, CodeMirror,…).
 
 ## Emacs ##
 
@@ -498,6 +500,7 @@ an issue to add a new framework, library or software to the list.
 [2]: http://www.gnu.org/copyleft/gpl.html
 [3]: http://www.gnu.org/software/classpath/license.html
 [4]: https://common-lisp.net/project/armedbear/faq.shtml#qa
+[5]: http://unlicense.org/
 [6]: http://www.gnu.org/software/clisp/impnotes.html
 [8]: http://opensource.franz.com/preamble.html
 [11]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
