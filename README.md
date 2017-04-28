@@ -217,6 +217,7 @@ Reference
 
 * [Common Lisp Quick Reference](25) - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
 * [CLHS](22) - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
+* [Common Lisp Standard Draft](http://cvberry.com/tech_writings/notes/common_lisp_standard_draft.html) - The final draft of the Common Lisp specifications, in a well formatted PDF.
 * [Common Lisp the Langauge](160) - The original standard for Common Lisp before the ANSI spec.
 * [Minispec](24) - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
 * [Quickdocs](28) - A reference for the libraries provided by Quicklisp.
