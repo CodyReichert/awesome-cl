@@ -170,7 +170,7 @@ GUI
 Implementations
 ===============
 
-* TODO [ABCL](1) - Armed Bear Common Lisp; targets the JVM, compiles to bytecode. [Standard conformance][4]. [GNU GPL3][2] with [Classpath exception][3].
+* TODO [ABCL](https://common-lisp.net/project/armedbear/) - Armed Bear Common Lisp; targets the JVM, compiles to bytecode. [Standard conformance][4]. [GNU GPL3][2] with [Classpath exception][3].
 * [CCL](//ccl.clozure.com/) - Clozure Common Lisp; compiler-only implementation, generates native code.  [LLGPL][8].
 * [CMUCL](//www.cons.org/cmucl/) - An implementation from Carnegie Mellon University. Public domain.
 * [ECL](https://common-lisp.net/project/ecl/) - Embeddable Common Lisp; compiles to C. [GNU LGPL2.1][11].
@@ -194,10 +194,10 @@ Beginner
 --------
 
 * [Learn X in Y minutes | Where X = Common Lisp](https://learnxinyminutes.com/docs/common-lisp/) - Small Common Lisp tutorial covering the essentials.
-* [Practical Common Lisp](206) - A good introductory text to Common Lisp, with practical examples.
+* [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
 * [Common LISP: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html) - A nice introduction into the language.
 * [Learn LISP: Simply Easy Learning](http://www.tutorialspoint.com/lisp/index.htm) - A good set of introductory tutorials; includes interactive examples.
-* [Common Lisp Koans](201) - The project guides the learner progressively through many Common Lisp language features.
+* [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
@@ -209,46 +209,46 @@ Intermediate
 Advanced
 --------
 
-* [Let Over Lambda](156) - A book on advanced macro techniques. The first six chapters are available online.
-* [On Lisp](26) - Paul Graham's amazing book on Lisp macros (and other interesting things).
+* [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
+* [On Lisp](http://www.paulgraham.com/onlisp.html) - Paul Graham's amazing book on Lisp macros (and other interesting things).
 
 Reference
 ---------
 
-* [Common Lisp Quick Reference](25) - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
-* [CLHS](22) - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
-* [Common Lisp the Langauge](160) - The original standard for Common Lisp before the ANSI spec.
-* [Minispec](24) - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
-* [Quickdocs](28) - A reference for the libraries provided by Quicklisp.
+* [Common Lisp Quick Reference](http://clqr.boundp.org/index.html) - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
+* [CLHS](http://www.lispworks.com/documentation/lw50/CLHS/Front/index.htm) - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
+* [Common Lisp the Langauge](http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html) - The original standard for Common Lisp before the ANSI spec.
+* [Minispec](http://minispec.org/index.html) - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
+* [Quickdocs](http://quickdocs.org/) - A reference for the libraries provided by Quicklisp.
 
 ## Offline ##
 
 Beginner
 --------
 
-* [Land of Lisp](18) - A fun, game-oriented introduction to Common Lisp.
-* [Practical Common Lisp](206) - A good introductory text to Common Lisp, with practical examples.
-* [Common Lisp Koans](201) - The project guides the learner progressively through many Common Lisp language features.
+* [Land of Lisp](http://landoflisp.com/) - A fun, game-oriented introduction to Common Lisp.
+* [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
+* [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
 
-* [ANSI Common Lisp](19) - A thorough, practical covering of the entire language, with exercises. Not recommended as a starter text, due to [some caveats][20].
-* [Common Lisp Recipes](204) - **Common Lisp Recipes** is a collection of solutions to problems and answers to questions you are likely to encounter when writing real-world applications in Common Lisp.
+* [ANSI Common Lisp](http://www.paulgraham.com/acl.html) - A thorough, practical covering of the entire language, with exercises. Not recommended as a starter text, due to [some caveats][20].
+* [Common Lisp Recipes](http://weitz.de/cl-recipes/) - **Common Lisp Recipes** is a collection of solutions to problems and answers to questions you are likely to encounter when writing real-world applications in Common Lisp.
 
 Advanced
 --------
 
-* [Let Over Lambda](156) - A book on advanced macro techniques. All eight chapters are available in the print copy.
-* [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS](21) - An old, but very thorough book on CLOS.
-* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp](157) - A book on programming AI that covers some advanced Lisp.
+* [Let Over Lambda][156] - A book on advanced macro techniques. All eight chapters are available in the print copy.
+* [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
+* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
 
 Library Manager
 ===============
 
 * [Roswell](https://github.com/roswell/roswell) - a Lisp implementation installer, script launcher and more. [MIT][200].
 * [qlot](https://github.com/fukamachi/qlot) - A project-local library installer, similar to Bundler or Carton. [Expat][14].
-* [Quicklisp](16) - A library manager containing many libraries, with easy depencency management. [Expat][14].
+* [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
 * [Quickutil](https://github.com/tarballs-are-good/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
 
 
@@ -296,7 +296,7 @@ Parsing html
 
 Querying HTML/DOM
 -----------------
-* [lquery](72) - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
+* [lquery][72] - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
 
 See also XML below.
 
@@ -395,7 +395,7 @@ Tools
 
 These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
 
-* [quickapp](188) - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
+* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
 * [quickapp-cli](https://github.com/triclops200/quickapp-cli) - [quickapp][188] as a command-line utility. [3-clause BSD][15].
 * [quicksearch](https://github.com/tkych/quicksearch) - Look up online libraries from the REPL. [Expat][14].
 * [SWIG](http://www.swig.org/) - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
@@ -509,6 +509,7 @@ an issue to add a new framework, library or software to the list.
 [15]: http://directory.fsf.org/wiki/License:BSD_3Clause
 [16]: https://www.quicklisp.org/beta/
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
+[21]: http://www.goodreads.com/book/show/1175730.Object_Oriented_Programming_in_Common_LISP
 [33]: http://directory.fsf.org/wiki/License:Zlib
 [39]: http://directory.fsf.org/wiki?title=License:FreeBSD
 [47]: http://directory.fsf.org/wiki/License:CPLv1.0
@@ -518,6 +519,8 @@ an issue to add a new framework, library or software to the list.
 [71]: https://github.com/Shinmera/plump
 [72]: https://github.com/Shinmera/lquery
 [89]: http://directory.fsf.org/wiki/License:Apache2.0
+[156]: http://letoverlambda.com/
+[157]: http://norvig.com/paip.html
 [176]: https://github.com/gwkkwg/lift/blob/master/COPYING
 [188]: https://github.com/triclops200/quickapp
 [200]: https://opensource.org/licenses/MIT
