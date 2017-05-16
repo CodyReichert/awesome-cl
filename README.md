@@ -435,6 +435,7 @@ Files and directories
 ---------------------
 
 * [cl-fad](http://weitz.de/cl-fad/) - A portable pathname library. [FreeBSD][39].
+* [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
 
 Date and time
 -------------
@@ -473,7 +474,6 @@ This contains anything which doesn't fit into another category.
 * [log4cl](https://github.com/7max/log4cl) - Logging framework modelled after Log4J. [Apache2.0][89].
 * [mixalot](https://github.com/ahefner/mixalot) - A loosely-coupled collection of audio libraries. No license specified.
 * [named-readtables](https://github.com/melisgl/named-readtables) - Provides a readtable namespace, akin to package namespaces. [3-clause BSD][15].
-* [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems. [Expat][14].
 * [Salza2](http://www.xach.com/lisp/salza2/) - A library for creating compressed data. [FreeBSD][39].
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library. [Expat][14].
 * [simple-currency](https://github.com/a0-prw/simple-currency) - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
