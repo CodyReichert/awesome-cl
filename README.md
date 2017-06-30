@@ -435,7 +435,9 @@ Language extensions
 Files and directories
 ---------------------
 
-* [cl-fad](http://weitz.de/cl-fad/) - A portable pathname library. [FreeBSD][39].
+* [uiop](http://quickdocs.org/uiop/) and its `pathname` package
+  (replaces [cl-fad](http://weitz.de/cl-fad/)). uiop is part of ASDF3
+  and as thus is shipped in many implementations. [MIT][200].
 * [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
 
 Date and time
