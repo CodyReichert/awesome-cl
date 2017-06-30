@@ -204,6 +204,7 @@ Beginner
 Intermediate
 ------------
 
+* [The Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
 * [Common Lisp tips](http://lisptips.com/) - A blog with useful tips and tricks.
 * [CommonQt tutorial](https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/) - A nice introduction to CommonQt.
 * [A tutorial for creating and publishing open-source Common Lisp software](https://arxiv.org/abs/1209.5626) - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.
