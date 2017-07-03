@@ -21,7 +21,6 @@ sellers who aren't evil for physical resources.
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
-- [Awesome Common Lisp](https://github.com/sindresorhus/awesome)
 - [Build Systems](#build-systems)
 - [Crypto](#crypto)
 - [Database](#database)
@@ -64,6 +63,7 @@ sellers who aren't evil for physical resources.
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
     - [Vim](#vim)
+    - [Atom](#atom)
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
@@ -392,6 +392,12 @@ This contains plugins and other goodies for various text editors.
 ## Vim ##
 
 * [SLIMV](https://github.com/kovisoft/slimv) - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
+
+## Atom ##
+
+* [ATOM-SLIME](https://atom.io/packages/atom-slime) allows you to
+  interactively develop Common Lisp code, helping turn Atom into a
+  full-featured Lisp IDE. [MIT][200].
 
 Tools
 =====
