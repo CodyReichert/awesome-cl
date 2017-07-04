@@ -387,6 +387,11 @@ Scripting
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
   Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
+* [Deploy](https://github.com/Shinmera/deploy) - a system to help you
+  easily and quickly deploy standalone common lisp applications as
+  binaries. Specifically it is geared towards applications with
+  foreign library dependencies that run some kind of
+  GUI. [Artistic License 2.0][51].
 
 Text Editor Resources
 =====================
