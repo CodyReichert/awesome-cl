@@ -458,7 +458,7 @@ Plotting
 --------
 
 * [vgplot](https://github.com/volkers/vgplot) - an interface to the
-  gnuplot plotting utility with the intention to resemble to some of
+  gnuplot plotting utility with the intention to resemble some of
   the plot commands of octave or matlab. [GPL3][2].
 
 
