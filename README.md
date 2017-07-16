@@ -73,6 +73,7 @@ sellers who aren't evil for physical resources.
     - [Date and time](#date-and-time)
     - [Data validation](#data-validation)
     - [CSV](#csv)
+    - [Plotting](#plotting)
     - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
@@ -472,6 +473,14 @@ CSV
 ---
 
 * [cl-csv](https://github.com/AccelerationNet/cl-csv) - A library for parsing CSV files. [3-clause BSD][15].
+
+Plotting
+--------
+
+* [vgplot](https://github.com/volkers/vgplot) - an interface to the
+  gnuplot plotting utility with the intention to resemble some of
+  the plot commands of octave or matlab. [GPL3][2].
+
 
 Other
 -----
