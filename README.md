@@ -61,6 +61,7 @@ sellers who aren't evil for physical resources.
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
 - [Regex](#regex)
+- [Scripting](#scripting)
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
     - [Vim](#vim)
@@ -376,6 +377,22 @@ Regex
 
 * [cl-ppcre](http://weitz.de/cl-ppcre/) - Portable, Perl-compatible regular expressions. [FreeBSD][39].
 
+
+Scripting
+=========
+
+* [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) -
+  a lisp installer and scripting environment (helper, launcher,
+  installer) and more. [MIT][200].
+* [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
+  options parser with a concise declaration of options. [MIT][200].
+* [CLON](https://github.com/didierverna/clon) - Command Line Options
+  Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
+* [Deploy](https://github.com/Shinmera/deploy) - a system to help you
+  easily and quickly deploy standalone common lisp applications as
+  binaries. Specifically it is geared towards applications with
+  foreign library dependencies that run some kind of
+  GUI. [Artistic License 2.0][51].
 
 Text Editor Resources
 =====================
