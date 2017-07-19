@@ -168,6 +168,11 @@ GUI
 * [CommonQt](https://github.com/commonqt/commonqt) - A Common Lisp binding for Qt4 via QtSmoke. [FreeBSD][39].
 * [ltk](http://www.peter-herth.de/ltk/) - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 * [ceramic](https://ceramic.github.io/) - Desktop web apps with Common Lisp. [Expat][14].
+* [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
+Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
+windows dynamically using Lisp code and bypass the typical Xcode
+processes. It has 
+[good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
 
 Implementations
 ===============
