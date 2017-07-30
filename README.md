@@ -435,7 +435,9 @@ Unit Testing
 * [Prove](https://github.com/fukamachi/prove) - Yet another unit testing framework [Expat][14].
 * [cl-coveralls](https://github.com/fukamachi/cl-coveralls) - a helper
   library to post test coverage to Coveralls. See
-  [continuous-integration on lisp-lang.org](http://lisp-lang.org/learn/continuous-integration). [FreeBSD][39].
+  [continuous-integration on lisp-lang.org](http://lisp-lang.org/learn/continuous-integration)
+  and
+  [SBCL's code coverage tool](http://www.sbcl.org/manual/index.html#sb_002dcover). [FreeBSD][39].
 
 
 Utilities
