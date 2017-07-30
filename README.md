@@ -73,6 +73,7 @@ sellers who aren't evil for physical resources.
     - [Date and time](#date-and-time)
     - [Data validation](#data-validation)
     - [CSV](#csv)
+    - [Markdown](#markdown)
     - [Plotting](#plotting)
     - [Other](#other)
 - [XML](#xml)
@@ -479,6 +480,11 @@ CSV
 ---
 
 * [cl-csv](https://github.com/AccelerationNet/cl-csv) - A library for parsing CSV files. [3-clause BSD][15].
+
+Markdown
+--------
+
+* [3bmd](https://github.com/3b/3bmd) - a markdown -> html converter. [MIT][200].
 
 Plotting
 --------
