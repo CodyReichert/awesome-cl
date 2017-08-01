@@ -386,6 +386,10 @@ Scripting
 * [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) -
   a lisp installer and scripting environment (helper, launcher,
   installer) and more. [MIT][200].
+* [Shelly](https://github.com/fukamachi/shelly) - execute Common Lisp
+  functions like a shell command, without the need to write a command
+  line arguments parser. And it also can be used as a Make-like
+  build-tool. [FreeBSD][39].
 * [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
