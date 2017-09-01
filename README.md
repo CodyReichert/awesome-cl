@@ -74,6 +74,7 @@ sellers who aren't evil for physical resources.
     - [Data validation](#data-validation)
     - [CSV](#csv)
     - [Documentation builders](#documentation-builders)
+    - [Markdown](#markdown)
     - [Plotting](#plotting)
     - [Other](#other)
 - [XML](#xml)
@@ -172,6 +173,11 @@ GUI
 * [Qtools](https://github.com/Shinmera/qtools/) - A Qt toolkit, based on CommonQt. [Artistic License 2.0][51]
 * [ltk](http://www.peter-herth.de/ltk/) - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 * [ceramic](https://ceramic.github.io/) - Desktop web apps with Common Lisp. [Expat][14].
+* [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
+Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
+windows dynamically using Lisp code and bypass the typical Xcode
+processes. It has 
+[good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
 
 Implementations
 ===============
@@ -387,6 +393,10 @@ Scripting
 * [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) -
   a lisp installer and scripting environment (helper, launcher,
   installer) and more. [MIT][200].
+* [Shelly](https://github.com/fukamachi/shelly) - execute Common Lisp
+  functions like a shell command, without the need to write a command
+  line arguments parser. And it also can be used as a Make-like
+  build-tool. [FreeBSD][39].
 * [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
@@ -413,6 +423,7 @@ This contains plugins and other goodies for various text editors.
 ## Vim ##
 
 * [SLIMV](https://github.com/kovisoft/slimv) - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
+* [Vlime](https://github.com/l04m33/vlime) - VLIME: Vim plus Lisp Is Mostly Evil. A Common Lisp dev environment for Vim (and Neovim). [MIT][200].
 
 Tools
 =====
@@ -484,6 +495,11 @@ Documentation builders
   the same ease as sphinx would a Python project. [GPL3][2]
 * [Codex](https://github.com/CommonDoc/codex) - A beautiful
   documentation system for Common Lisp. [MIT][200].
+
+Markdown
+--------
+
+* [3bmd](https://github.com/3b/3bmd) - a markdown -> html converter. [MIT][200].
 
 Plotting
 --------
