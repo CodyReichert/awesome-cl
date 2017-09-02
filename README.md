@@ -57,6 +57,7 @@ sellers who aren't evil for physical resources.
     - [URI handling](#uri-handling)
     - [Javascript](#javascript)
     - [Websockets](#websockets)
+    - [Static site generators](#static-site-generators)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
@@ -343,6 +344,13 @@ Websockets
 * [websocket-driver](https://github.com/fukamachi/websocket-driver) - a WebSocket server/client implementation, backend agnostic (Clack). [3-clause BSD][15].
 
 See more [on cliki](http://www.cliki.net/site/search?query=websockets).
+
+Static site generators
+----------------------
+
+* [coleslaw](https://github.com/kingcons/coleslaw) and its
+  [coleslaw-cli](https://github.com/40ants/coleslaw-cli) - Flexible
+  Lisp Blogware similar to Frog, Jekyll, or Hakyll. [BSD][15].
 
 Others
 ------
