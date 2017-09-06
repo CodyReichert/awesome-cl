@@ -51,6 +51,7 @@ sellers who aren't evil for physical resources.
     - [HTTP clients](#http-clients)
     - [HTTP Servers](#http-servers)
     - [Web frameworks](#web-frameworks)
+    - [Assets management](#assets-management)
     - [Parsing html](#parsing-html)
     - [Querying HTML/DOM](#querying-htmldom)
     - [HTML generators and templates](#html-generators-and-templates)
@@ -301,6 +302,15 @@ Web frameworks
 * [Lucerne](https://github.com/eudoxia0/lucerne) - A minimal web framework built on Clack, inspired by Flask. [MIT][200].
 
 There are more projects, more or less discontinued but interesting. See the other ressources.
+
+
+Assets management
+-----------------
+
+* [Rock](https://github.com/eudoxia0/rock) - an asset manager for
+  Common Lisp. It's basically a combination of Bower and
+  webassets. [MIT][200].
+
 
 Parsing html
 ------------
