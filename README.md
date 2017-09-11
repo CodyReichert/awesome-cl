@@ -498,6 +498,9 @@ Plotting
 * [vgplot](https://github.com/volkers/vgplot) - an interface to the
   gnuplot plotting utility with the intention to resemble some of
   the plot commands of octave or matlab. [GPL3][2].
+* [eazy-gnuplot](https://github.com/guicho271828/eazy-gnuplot) - a
+  lispy, structure-less Gnuplot library. With its
+  [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
 
 
 Other
