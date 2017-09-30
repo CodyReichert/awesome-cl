@@ -185,6 +185,7 @@ Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
 windows dynamically using Lisp code and bypass the typical Xcode
 processes. It has 
 [good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
+* [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 
 Implementations
 ===============
