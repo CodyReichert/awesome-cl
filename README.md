@@ -150,6 +150,15 @@ Game Development
 ================
 
 * [Xelf](http://xelf.me/) - Extensible game library. Not available on Quicklisp. [GNU LGPL2.1][11].
+* [Trial](https://github.com/shirakumo/trial) - Trial is an OpenGL
+  game engine with a heavy focus on modularity. It is supposed to
+  provide a large toolkit of useful bits and pieces from which you can
+  create a game. [Artistic License 2.0][47].
+* [cl-mpg123](https://shirakumo.github.io/cl-mpg123) and
+  [cl-out123](https://shirakumo.github.io/cl-out123), bindings
+  libraries for libmpg123 and libout123 respectively, giving you fast
+  and easy to use mp3 decoding and cross-platform audio
+  output. [Artistic License 2.0][47].
 
 Graphics
 ========
