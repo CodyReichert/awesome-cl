@@ -511,6 +511,9 @@ Files and directories
   (replaces [cl-fad](http://weitz.de/cl-fad/)). uiop is part of ASDF3
   and as thus is shipped in many implementations. [MIT][200].
 * [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
+* [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
+  collection of utilities to help with pathname
+  operations. [Artistic License 2.0][51].
 
 Date and time
 -------------
