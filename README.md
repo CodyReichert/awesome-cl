@@ -426,6 +426,10 @@ Parallelism and Concurrency
 * [Moira](https://github.com/TBRSS/moira) -  Monitor and restart background threads. In-lisp process supervisor. No license specified.
 * [simple-tasks](https://github.com/Shinmera/simple-tasks) - A very
   simple task scheduling framework. [Artistic License 2.0][51].
+* [deeds](https://github.com/Shinmera/deeds) - Deeds is an Extensible
+  Event Delivery System. It allows for efficient event delivery to
+  multiple handlers with a complex event filtering
+  system. [Artistic License 2.0][51].
 
 Regex
 =====
