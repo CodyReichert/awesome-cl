@@ -404,8 +404,14 @@ Numerical and Scientific
 * [cl-spark](https://github.com/tkych/cl-spark) - Generates sparkline strings for lists of numbers. [Expat][14].
 * [GSLL](https://common-lisp.net/project/gsll/) - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [common-lisp-stat](https://github.com/blindglobe/common-lisp-stat/) - Common Lisp statistics library. [FreeBSD][39].
-* [lisp-matrix](https://github.com/blindglobe/lisp-matrix) - A matrix package. [FreeBSD][39].
 * [maxima](http://maxima.sourceforge.net/) - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
+* [lisp-matrix](https://github.com/blindglobe/lisp-matrix) - A matrix package. [FreeBSD][39].
+* [3-matrices](https://shinmera.github.io/3d-matrices) - A library implementing
+  common matrix calculations, with an emphasis on 2x2,3x3, and 4x4
+  matrices as commonly used in graphics. It provides some numerical
+  functions as well, but those are not the focus. The library is
+  heavily optimised, so it is not made of pretty
+  code. [Artistic License 2.0][51].
 
 
 Parallelism and Concurrency
