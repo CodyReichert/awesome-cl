@@ -471,6 +471,9 @@ Unit Testing
 * [FiveAM](https://github.com/sionescu/fiveam) - Simple regression testing framework. [FreeBSD][39].
 * [CLUnit](https://github.com/tgutu/clunit) - A unit testing library. [Expat][14].
 * [Prove](https://github.com/fukamachi/prove) - Yet another unit testing framework [Expat][14].
+* [Parachute](https://github.com/Shinmera/parachute) - An extensible
+  and cross-compatible testing framework. With test dependencies,
+  conditions, fixtures and restarts. [Artistic License 2.0][51].
 
 
 Utilities
