@@ -502,6 +502,14 @@ Language extensions
 * [cl-2dsyntax](http://www.cliki.net/cl-2dsyntax) - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
 * [cl-annot](https://github.com/m2ym/cl-annot) - Python-like annotations for Common Lisp. [LLGPL][8].
 * [cl-interpol](http://www.cliki.net/cl-interpol) - A set of reader modifications to allow string interpolation. No license specified.
+* [dissect](https://shinmera.github.io/dissect) - when a lot of
+  projects use the “trivial-backtrace” system that just gives them a
+  string with a backtrace, Dissect allows you to capture, step, and
+  completely inspect the stack trace on a variety of Lisp
+  implementations. Also very useful for logging and other situations
+  where execution is automatically continued, but the information of
+  the current stack is still useful to store
+  somewhere. [Artistic License 2.0][51].
 
 
 
