@@ -474,6 +474,10 @@ Unit Testing
 * [Parachute](https://github.com/Shinmera/parachute) - An extensible
   and cross-compatible testing framework. With test dependencies,
   conditions, fixtures and restarts. [Artistic License 2.0][51].
+* [Mockingbird](https://github.com/Chream/mockingbird) - A small
+  stubbing and mocking library for Common Lisp. Can also check wether
+  a stubbed function was called, how many times and with which
+  arguments. [MIT][200].
 
 
 Utilities
