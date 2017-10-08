@@ -424,6 +424,8 @@ Parallelism and Concurrency
 * [lparallel](https://github.com/lmj/lparallel) - A library for parallel programming. [3-clause BSD][15].
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 * [Moira](https://github.com/TBRSS/moira) -  Monitor and restart background threads. In-lisp process supervisor. No license specified.
+* [simple-tasks](https://github.com/Shinmera/simple-tasks) - A very
+  simple task scheduling framework. [Artistic License 2.0][51].
 
 Regex
 =====
