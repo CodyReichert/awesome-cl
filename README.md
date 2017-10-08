@@ -470,8 +470,6 @@ Unit Testing
 
 * [FiveAM](https://github.com/sionescu/fiveam) - Simple regression testing framework. [FreeBSD][39].
 * [CLUnit](https://github.com/tgutu/clunit) - A unit testing library. [Expat][14].
-* [Lift](https://github.com/gwkkwg/lift) - Another testing framework. [A range of licenses, all free][176].
-* [Stefil](http://dwim.hu/project/hu.dwim.stefil?_x=BGZm&_f=SnpbobKv) - A test framework that aims to be transparent. Public domain.
 * [Prove](https://github.com/fukamachi/prove) - Yet another unit testing framework [Expat][14].
 
 
