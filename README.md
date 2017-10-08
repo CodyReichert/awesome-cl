@@ -381,6 +381,10 @@ Static site generators
 Third-party APIs
 ----------------
 
+* [north](https://shinmera.github.io/north) - The successor to the
+  South (Simple OaUTH) library, implementing the full oAuth 1.0a
+  protocol, both client and server sides. Using North you can easily
+  become an oAuth provider or consumer. [Artistic License 2.0][51].
 * [avatar-api](https://github.com/eudoxia0/avatar-api) - Get avatars from Google+, Gravatar and others. [Expat][14].
 * [chirp](https://github.com/Shinmera/chirp) - A Twitter client library. [Artistic License 2.0][51].
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
