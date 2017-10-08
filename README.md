@@ -58,8 +58,8 @@ sellers who aren't evil for physical resources.
     - [URI handling](#uri-handling)
     - [Javascript](#javascript)
     - [Websockets](#websockets)
-    - [Third-party APIs](#third-party-apis)
     - [Static site generators](#static-site-generators)
+    - [Third-party APIs](#third-party-apis)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
@@ -73,6 +73,7 @@ sellers who aren't evil for physical resources.
 - [Utilities](#utilities)
     - [Language extensions](#language-extensions)
     - [Files and directories](#files-and-directories)
+    - [Git](#git)
     - [Date and time](#date-and-time)
     - [Data validation](#data-validation)
     - [CSV](#csv)
@@ -514,6 +515,12 @@ Files and directories
 * [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
   collection of utilities to help with pathname
   operations. [Artistic License 2.0][51].
+
+Git
+---
+
+* [legit](https://shinmera.github.io/legit/) - an interface to the Git
+  binary. [Artistic License 2.0][51].
 
 Date and time
 -------------
