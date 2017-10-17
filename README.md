@@ -341,6 +341,9 @@ HTML generators and templates
 URI handling
 ------------
 
+* [quri](https://github.com/fukamachi/quri) - Another URI library for
+  Common Lisp. Supports userinfo, IPv6 hostname, encoding/decoding
+  utilities,… [BSD_3Clause][15].
 * [puri-unicode](https://github.com/archimag/puri-unicode) - Pure URI library with Unicode support. [LLGPL][8].
 * [purl](https://github.com/eugeneia/purl) - Provides a parser and defines a type for URLs as specified in RFC1738. [GNU GPL3][2].
 * [cl-slug](https://github.com/EuAndreh/cl-slug) - a small library to make slugs, mainly for URIs, transform in CamelCase, remove accentuation and punctuation, for english and beyound. [LLGPL][8].
