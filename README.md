@@ -371,6 +371,10 @@ Static site generators
 Third-party APIs
 ----------------
 
+* [clath](https://github.com/BnMcGn/clath) - a single sign-on
+  middleware for Clack. It allows basic login with OAuth1.0a, OAuth2
+  and OpenID. At the time of writing, it supports authentication from
+  Google, Twitter, LinkedIn, StackExchange, Reddit and Github. [Apache2.0][51].
 * [avatar-api](https://github.com/eudoxia0/avatar-api) - Get avatars from Google+, Gravatar and others. [Expat][14].
 * [chirp](https://github.com/Shinmera/chirp) - A Twitter client library. [Artistic License 2.0][51].
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
