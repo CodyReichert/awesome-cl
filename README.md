@@ -50,6 +50,7 @@ sellers who aren't evil for physical resources.
 - [Network and Internet](#network-and-internet)
     - [HTTP clients](#http-clients)
     - [HTTP Servers](#http-servers)
+        - [Clack plugins](#clack-plugins)
     - [Web frameworks](#web-frameworks)
     - [Assets management](#assets-management)
     - [Parsing html](#parsing-html)
@@ -298,6 +299,15 @@ HTTP Servers
 * [wookie](https://github.com/orthecreedence/wookie) - Asynchronous HTTP server. [Expat][14].
 * [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of libev. [MIT][200].
 
+### Clack plugins
+
+* [clath](https://github.com/BnMcGn/clath) - a single sign-on
+  middleware for Clack. It allows basic login with OAuth1.0a, OAuth2
+  and OpenID. At the time of writing, it supports authentication from
+  Google, Twitter, LinkedIn, StackExchange, Reddit and Github. [Apache2.0][51].
+* [clack-pretend](https://github.com/BnMcGn/clack-pretend) - a testing
+  and debugging tool for clack. [Apache2.0][89].
+
 Web frameworks
 --------------
 * [Caveman](https://github.com/fukamachi/caveman) - A powerful web framework. [LLGPL][8].
@@ -371,10 +381,6 @@ Static site generators
 Third-party APIs
 ----------------
 
-* [clath](https://github.com/BnMcGn/clath) - a single sign-on
-  middleware for Clack. It allows basic login with OAuth1.0a, OAuth2
-  and OpenID. At the time of writing, it supports authentication from
-  Google, Twitter, LinkedIn, StackExchange, Reddit and Github. [Apache2.0][51].
 * [avatar-api](https://github.com/eudoxia0/avatar-api) - Get avatars from Google+, Gravatar and others. [Expat][14].
 * [chirp](https://github.com/Shinmera/chirp) - A Twitter client library. [Artistic License 2.0][51].
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
