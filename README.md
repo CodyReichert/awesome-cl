@@ -50,6 +50,7 @@ sellers who aren't evil for physical resources.
 - [Network and Internet](#network-and-internet)
     - [HTTP clients](#http-clients)
     - [HTTP Servers](#http-servers)
+        - [Clack plugins](#clack-plugins)
     - [Web frameworks](#web-frameworks)
     - [Assets management](#assets-management)
     - [Parsing html](#parsing-html)
@@ -298,6 +299,15 @@ HTTP Servers
 * [hermetic](https://github.com/eudoxia0/hermetic) - Security for Clack-based web applications. [Expat][14].
 * [wookie](https://github.com/orthecreedence/wookie) - Asynchronous HTTP server. [Expat][14].
 * [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of libev. [MIT][200].
+
+### Clack plugins
+
+* [clath](https://github.com/BnMcGn/clath) - a single sign-on
+  middleware for Clack. It allows basic login with OAuth1.0a, OAuth2
+  and OpenID. At the time of writing, it supports authentication from
+  Google, Twitter, LinkedIn, StackExchange, Reddit and Github. [Apache2.0][51].
+* [clack-pretend](https://github.com/BnMcGn/clack-pretend) - a testing
+  and debugging tool for clack. [Apache2.0][89].
 
 Web frameworks
 --------------
