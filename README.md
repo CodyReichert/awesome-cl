@@ -437,6 +437,11 @@ Scripting
   functions like a shell command, without the need to write a command
   line arguments parser. And it also can be used as a Make-like
   build-tool. [FreeBSD][39].
+* [cl-readline](https://github.com/mrkkrp/cl-readline) - a set of
+  functions to edit lines as they are typed in, to maintain a list of
+  previously-entered command lines, to recall and reedit them and
+  perform csh-like history expansion.  Emacs and vi editing
+  modes. [GPL3][2].
 * [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
