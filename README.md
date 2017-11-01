@@ -69,6 +69,7 @@ sellers who aren't evil for physical resources.
     - [Emacs](#emacs)
     - [Vim](#vim)
     - [Atom](#atom)
+    - [Notebooks](#notebooks)
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
@@ -510,6 +511,12 @@ This contains plugins and other goodies for various text editors.
 * [ATOM-SLIME](https://atom.io/packages/atom-slime) allows you to
   interactively develop Common Lisp code, helping turn Atom into a
   full-featured Lisp IDE. [MIT][200].
+  
+## Notebooks ##
+
+* [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
+* [Darkmatter](https://github.com/tamamu/darkmatter) - A
+  notebook-style Common Lisp environment. [MIT][200].
 
 Tools
 =====
