@@ -21,7 +21,6 @@ sellers who aren't evil for physical resources.
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
-- [Awesome Common Lisp](https://github.com/sindresorhus/awesome)
 - [Build Systems](#build-systems)
 - [Crypto](#crypto)
 - [Database](#database)
@@ -69,12 +68,14 @@ sellers who aren't evil for physical resources.
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
     - [Vim](#vim)
+    - [Atom](#atom)
     - [Notebooks](#notebooks)
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
     - [Language extensions](#language-extensions)
     - [Files and directories](#files-and-directories)
+    - [Git](#git)
     - [Date and time](#date-and-time)
     - [Data validation](#data-validation)
     - [CSV](#csv)
@@ -151,6 +152,15 @@ Game Development
 ================
 
 * [Xelf](http://xelf.me/) - Extensible game library. Not available on Quicklisp. [GNU LGPL2.1][11].
+* [Trial](https://github.com/shirakumo/trial) - Trial is an OpenGL
+  game engine with a heavy focus on modularity. It is supposed to
+  provide a large toolkit of useful bits and pieces from which you can
+  create a game. [Artistic License 2.0][47].
+* [cl-mpg123](https://shirakumo.github.io/cl-mpg123) and
+  [cl-out123](https://shirakumo.github.io/cl-out123), bindings
+  libraries for libmpg123 and libout123 respectively, giving you fast
+  and easy to use mp3 decoding and cross-platform audio
+  output. [Artistic License 2.0][47].
 
 Graphics
 ========
@@ -240,6 +250,7 @@ Reference
 
 * [Common Lisp Quick Reference](http://clqr.boundp.org/index.html) - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
 * [CLHS](http://www.lispworks.com/documentation/lw50/CLHS/Front/index.htm) - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
+* [Common Lisp Standard Draft](http://cvberry.com/tech_writings/notes/common_lisp_standard_draft.html) - The final draft of the Common Lisp specifications, in a well formatted PDF.
 * [Common Lisp the Langauge](http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html) - The original standard for Common Lisp before the ANSI spec.
 * [Minispec](http://minispec.org/index.html) - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
 * [Quickdocs](http://quickdocs.org/) - A reference for the libraries provided by Quicklisp.
@@ -383,6 +394,10 @@ Static site generators
 Third-party APIs
 ----------------
 
+* [north](https://shinmera.github.io/north) - The successor to the
+  South (Simple OaUTH) library, implementing the full oAuth 1.0a
+  protocol, both client and server sides. Using North you can easily
+  become an oAuth provider or consumer. [Artistic License 2.0][51].
 * [avatar-api](https://github.com/eudoxia0/avatar-api) - Get avatars from Google+, Gravatar and others. [Expat][14].
 * [chirp](https://github.com/Shinmera/chirp) - A Twitter client library. [Artistic License 2.0][51].
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
@@ -407,8 +422,14 @@ Numerical and Scientific
 * [cl-spark](https://github.com/tkych/cl-spark) - Generates sparkline strings for lists of numbers. [Expat][14].
 * [GSLL](https://common-lisp.net/project/gsll/) - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [common-lisp-stat](https://github.com/blindglobe/common-lisp-stat/) - Common Lisp statistics library. [FreeBSD][39].
-* [lisp-matrix](https://github.com/blindglobe/lisp-matrix) - A matrix package. [FreeBSD][39].
 * [maxima](http://maxima.sourceforge.net/) - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
+* [lisp-matrix](https://github.com/blindglobe/lisp-matrix) - A matrix package. [FreeBSD][39].
+* [3-matrices](https://shinmera.github.io/3d-matrices) - A library implementing
+  common matrix calculations, with an emphasis on 2x2,3x3, and 4x4
+  matrices as commonly used in graphics. It provides some numerical
+  functions as well, but those are not the focus. The library is
+  heavily optimised, so it is not made of pretty
+  code. [Artistic License 2.0][51].
 
 
 Parallelism and Concurrency
@@ -421,6 +442,12 @@ Parallelism and Concurrency
 * [lparallel](https://github.com/lmj/lparallel) - A library for parallel programming. [3-clause BSD][15].
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 * [Moira](https://github.com/TBRSS/moira) -  Monitor and restart background threads. In-lisp process supervisor. No license specified.
+* [simple-tasks](https://github.com/Shinmera/simple-tasks) - A very
+  simple task scheduling framework. [Artistic License 2.0][51].
+* [deeds](https://github.com/Shinmera/deeds) - Deeds is an Extensible
+  Event Delivery System. It allows for efficient event delivery to
+  multiple handlers with a complex event filtering
+  system. [Artistic License 2.0][51].
 
 Regex
 =====
@@ -438,10 +465,18 @@ Scripting
   functions like a shell command, without the need to write a command
   line arguments parser. And it also can be used as a Make-like
   build-tool. [FreeBSD][39].
+* [cl-readline](https://github.com/mrkkrp/cl-readline) - a set of
+  functions to edit lines as they are typed in, to maintain a list of
+  previously-entered command lines, to recall and reedit them and
+  perform csh-like history expansion.  Emacs and vi editing
+  modes. [GPL3][2].
 * [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
   Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
+* [cl-ansi-term](https://github.com/mrkkrp/cl-ansi-term) - print
+  colorized text, horizontal lines, progress bars, (un)ordered lists
+  and tables on ANSI-compliant terminals. [GPL3][2].
 * [Deploy](https://github.com/Shinmera/deploy) - a system to help you
   easily and quickly deploy standalone common lisp applications as
   binaries. Specifically it is geared towards applications with
@@ -471,6 +506,12 @@ This contains plugins and other goodies for various text editors.
 * [Sublime Text](http://www.sublimetext.com/3) has Common Lisp support
   with its "SublimeREPL" package. [Proprietary].
 
+## Atom ##
+
+* [ATOM-SLIME](https://atom.io/packages/atom-slime) allows you to
+  interactively develop Common Lisp code, helping turn Atom into a
+  full-featured Lisp IDE. [MIT][200].
+  
 ## Notebooks ##
 
 * [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
@@ -494,10 +535,20 @@ Unit Testing
 
 * [FiveAM](https://github.com/sionescu/fiveam) - Simple regression testing framework. [FreeBSD][39].
 * [CLUnit](https://github.com/tgutu/clunit) - A unit testing library. [Expat][14].
-* [Lift](https://github.com/gwkkwg/lift) - Another testing framework. [A range of licenses, all free][176].
-* [Stefil](http://dwim.hu/project/hu.dwim.stefil?_x=BGZm&_f=SnpbobKv) - A test framework that aims to be transparent. Public domain.
 * [Prove](https://github.com/fukamachi/prove) - Yet another unit testing framework [Expat][14].
+* [Parachute](https://github.com/Shinmera/parachute) - An extensible
+  and cross-compatible testing framework. With test dependencies,
+  conditions, fixtures and restarts. [Artistic License 2.0][51].
+* [Mockingbird](https://github.com/Chream/mockingbird) - A small
+  stubbing and mocking library for Common Lisp. Can also check wether
+  a stubbed function was called, how many times and with which
+  arguments. [MIT][200].
 * [Check-it](https://github.com/DalekBaldwin/check-it) - A QuickCheck-style randomized property-based testing. [LLGPL][8].
+* [cl-coveralls](https://github.com/fukamachi/cl-coveralls) - a helper
+  library to post test coverage to Coveralls. See
+  [continuous-integration on lisp-lang.org](http://lisp-lang.org/learn/continuous-integration)
+  and
+  [SBCL's code coverage tool](http://www.sbcl.org/manual/index.html#sb_002dcover). [FreeBSD][39].
 
 
 Utilities
@@ -513,6 +564,10 @@ Language extensions
 * [cl-algebraic-data-type](https://bitbucket.org/tarballs_are_good/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [FSet](http://quickdocs.org/fset/) - A functional, set-theoretic collections data structure library. [LLGPL][8].
 * [iterate](https://common-lisp.net/project/iterate/) - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
+* [for](shinmera.github.io/for/) - A concise, lispy and extensible
+  iteration macro. Unlike loop it is extensible and sensible, and
+  unlike iterate it does not require code-walking and is easier to
+  extend. [Artistic License 2.0][51].
 * [series](https://github.com/tokenrove/series/wiki) - Functional style without any runtime penalty at all. [MIT][200].
 * [optima](https://github.com/m2ym/optima) - Optimized pattern-matching library. [LLGPL][8].
 * [trivial-types](https://github.com/m2ym/trivial-types) - Trivial type definitions. [LLGPL][8].
@@ -522,6 +577,14 @@ Language extensions
 * [cl-2dsyntax](http://www.cliki.net/cl-2dsyntax) - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
 * [cl-annot](https://github.com/m2ym/cl-annot) - Python-like annotations for Common Lisp. [LLGPL][8].
 * [cl-interpol](http://www.cliki.net/cl-interpol) - A set of reader modifications to allow string interpolation. No license specified.
+* [dissect](https://shinmera.github.io/dissect) - when a lot of
+  projects use the “trivial-backtrace” system that just gives them a
+  string with a backtrace, Dissect allows you to capture, step, and
+  completely inspect the stack trace on a variety of Lisp
+  implementations. Also very useful for logging and other situations
+  where execution is automatically continued, but the information of
+  the current stack is still useful to store
+  somewhere. [Artistic License 2.0][51].
 
 
 
@@ -532,6 +595,15 @@ Files and directories
   (replaces [cl-fad](http://weitz.de/cl-fad/)). uiop is part of ASDF3
   and as thus is shipped in many implementations. [MIT][200].
 * [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
+* [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
+  collection of utilities to help with pathname
+  operations. [Artistic License 2.0][51].
+
+Git
+---
+
+* [legit](https://shinmera.github.io/legit/) - an interface to the Git
+  binary. [Artistic License 2.0][51].
 
 Date and time
 -------------
@@ -614,6 +686,7 @@ This contains anything which doesn't fit into another category.
 * [trivial-benchmark](https://github.com/Shinmera/trivial-benchmark) - Tiny benchmarking library. [Artistic Licence 2.0][51].
 * [trivial-garbage](https://github.com/trivial-garbage/trivial-garbage) - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-utf8](https://common-lisp.net/project/trivial-utf-8/) - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
+* [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
 
