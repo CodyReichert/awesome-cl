@@ -286,6 +286,7 @@ Library Manager
 * [qlot](https://github.com/fukamachi/qlot) - A project-local library installer, similar to Bundler or Carton. [Expat][14].
 * [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
 * [Quickutil](https://github.com/tarballs-are-good/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
+* [Qi](https://github.com/CodyReichert/qi) - A package manager with a traditionnal approach. [BSD][15].
 
 
 Natural Language Processing
