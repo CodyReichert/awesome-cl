@@ -199,6 +199,7 @@ Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
 windows dynamically using Lisp code and bypass the typical Xcode
 processes. It has 
 [good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
+* [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 
 Implementations
 ===============
@@ -264,6 +265,7 @@ Beginner
 
 * [Land of Lisp](http://landoflisp.com/) - A fun, game-oriented introduction to Common Lisp.
 * [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
+* [Successful Lisp](http://successful-lisp.blogspot.co.id/) - A good book for beginners with some programming background.
 * [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
@@ -399,6 +401,7 @@ Static site generators
 Third-party APIs
 ----------------
 
+* [Aws-sign4](https://github.com/rotatef/aws-sign4) - Common Lisp library for Amazon Web Services signing version 4. [GNU GPL3][2].
 * [north](https://shinmera.github.io/north) - The successor to the
   South (Simple OaUTH) library, implementing the full oAuth 1.0a
   protocol, both client and server sides. Using North you can easily
@@ -679,6 +682,7 @@ This contains anything which doesn't fit into another category.
 * [babel](https://github.com/cl-babel/babel) - A charset encoding/decoding library. [Expat][14].
 * [chipz](https://github.com/froydnj/chipz) - A decompression library. [3-clause BSD][15].
 * [cl-cuda](https://github.com/takagi/cl-cuda) - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
+* [Colorize](https://github.com/kingcons/colorize) - A Syntax Highlighting library. No License Specified.
 * [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
 * [esrap](https://github.com/nikodemus/esrap) - Packrat parser. [Expat][14].
 * [fast-io](https://github.com/rpav/fast-io) - Fast octet-vector/stream I/O. [3-clause BSD][15].
