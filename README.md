@@ -71,6 +71,7 @@ sellers who aren't evil for physical resources.
     - [Sublime Text](#sublime-text)
     - [Atom](#atom)
     - [Notebooks](#notebooks)
+- [Text Processing](#text-processing)
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
@@ -85,7 +86,6 @@ sellers who aren't evil for physical resources.
     - [Plotting](#plotting)
     - [i18n](#i18n)
     - [Logging](#logging)
-    - [Text Processing](#text-processing)
     - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
@@ -524,6 +524,16 @@ This contains plugins and other goodies for various text editors.
 * [Darkmatter](https://github.com/tamamu/darkmatter) - A
   notebook-style Common Lisp environment. [MIT][200].
 
+Text Processing
+===============
+
+* [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
+* [mk-string-metrics](https://github.com/mrkkrp/mk-string-metrics) -
+  Calculate various string metrics efficiently in Common Lisp
+  (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
+  etc). [MIT][200].
+* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
+
 Tools
 =====
 
@@ -659,16 +669,6 @@ Logging
 -------
 
 * [log4cl](https://github.com/7max/log4cl) - Logging framework modelled after Log4J. [Apache2.0][89].
-
-Text Processing
----------------
-
-* [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
-* [mk-string-metrics](https://github.com/mrkkrp/mk-string-metrics) -
-  Calculate various string metrics efficiently in Common Lisp
-  (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
-  etc). [MIT][200].
-* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
 
 
 Other
