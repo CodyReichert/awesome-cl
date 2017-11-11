@@ -75,6 +75,7 @@ sellers who aren't evil for physical resources.
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
+    - [Configuration](#configuration)
     - [Language extensions](#language-extensions)
     - [Files and directories](#files-and-directories)
     - [Git](#git)
@@ -570,6 +571,12 @@ Unit Testing
 Utilities
 =========
 
+Configuration
+-------------
+
+* [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
+* [py-configparser](https://common-lisp.net/project/py-configparser/) - reads and writes Python's ConfigParser-like configuration files. [MIT][200].
+
 Language extensions
 -------------------
 
@@ -679,7 +686,6 @@ This contains anything which doesn't fit into another category.
 * [babel](https://github.com/cl-babel/babel) - A charset encoding/decoding library. [Expat][14].
 * [chipz](https://github.com/froydnj/chipz) - A decompression library. [3-clause BSD][15].
 * [cl-cuda](https://github.com/takagi/cl-cuda) - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
-* [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
 * [esrap](https://github.com/nikodemus/esrap) - Packrat parser. [Expat][14].
 * [fast-io](https://github.com/rpav/fast-io) - Fast octet-vector/stream I/O. [3-clause BSD][15].
 * [glyphs](https://github.com/ahungry/glyphs/) - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
