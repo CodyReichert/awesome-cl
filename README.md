@@ -71,9 +71,11 @@ sellers who aren't evil for physical resources.
     - [Sublime Text](#sublime-text)
     - [Atom](#atom)
     - [Notebooks](#notebooks)
+- [Text Processing](#text-processing)
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
+    - [Configuration](#configuration)
     - [Language extensions](#language-extensions)
     - [Files and directories](#files-and-directories)
     - [Git](#git)
@@ -85,7 +87,6 @@ sellers who aren't evil for physical resources.
     - [Plotting](#plotting)
     - [i18n](#i18n)
     - [Logging](#logging)
-    - [Text Processing](#text-processing)
     - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
@@ -524,6 +525,16 @@ This contains plugins and other goodies for various text editors.
 * [Darkmatter](https://github.com/tamamu/darkmatter) - A
   notebook-style Common Lisp environment. [MIT][200].
 
+Text Processing
+===============
+
+* [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
+* [mk-string-metrics](https://github.com/mrkkrp/mk-string-metrics) -
+  Calculate various string metrics efficiently in Common Lisp
+  (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
+  etc). [MIT][200].
+* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
+
 Tools
 =====
 
@@ -559,6 +570,12 @@ Unit Testing
 
 Utilities
 =========
+
+Configuration
+-------------
+
+* [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
+* [py-configparser](https://common-lisp.net/project/py-configparser/) - reads and writes Python's ConfigParser-like configuration files. [MIT][200].
 
 Language extensions
 -------------------
@@ -660,16 +677,6 @@ Logging
 
 * [log4cl](https://github.com/7max/log4cl) - Logging framework modelled after Log4J. [Apache2.0][89].
 
-Text Processing
----------------
-
-* [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
-* [mk-string-metrics](https://github.com/mrkkrp/mk-string-metrics) -
-  Calculate various string metrics efficiently in Common Lisp
-  (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
-  etc). [MIT][200].
-* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
-
 
 Other
 -----
@@ -679,7 +686,6 @@ This contains anything which doesn't fit into another category.
 * [babel](https://github.com/cl-babel/babel) - A charset encoding/decoding library. [Expat][14].
 * [chipz](https://github.com/froydnj/chipz) - A decompression library. [3-clause BSD][15].
 * [cl-cuda](https://github.com/takagi/cl-cuda) - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
-* [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
 * [esrap](https://github.com/nikodemus/esrap) - Packrat parser. [Expat][14].
 * [fast-io](https://github.com/rpav/fast-io) - Fast octet-vector/stream I/O. [3-clause BSD][15].
 * [glyphs](https://github.com/ahungry/glyphs/) - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
@@ -694,7 +700,6 @@ This contains anything which doesn't fit into another category.
 * [trivial-garbage](https://github.com/trivial-garbage/trivial-garbage) - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-utf8](https://common-lisp.net/project/trivial-utf-8/) - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
-* [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
 
 XML
