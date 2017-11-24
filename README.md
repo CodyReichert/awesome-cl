@@ -195,7 +195,7 @@ GUI
 * [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
 Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
 windows dynamically using Lisp code and bypass the typical Xcode
-processes. It has 
+processes. It has
 [good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
 * [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 
@@ -263,7 +263,7 @@ Beginner
 
 * [Land of Lisp](http://landoflisp.com/) - A fun, game-oriented introduction to Common Lisp.
 * [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
-* [Successful Lisp](http://successful-lisp.blogspot.co.id/) - A good book for beginners with some programming background.
+* [Successful Lisp](https://www.psg.com/~dlamkins/sl/cover.html) - A good book for beginners with some programming background.
 * [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
@@ -514,7 +514,7 @@ This contains plugins and other goodies for various text editors.
 * [ATOM-SLIME](https://atom.io/packages/atom-slime) allows you to
   interactively develop Common Lisp code, helping turn Atom into a
   full-featured Lisp IDE. [MIT][200].
-  
+
 ## Notebooks ##
 
 * [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
