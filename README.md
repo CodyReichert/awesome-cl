@@ -198,7 +198,7 @@ GUI
 * [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
 Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
 windows dynamically using Lisp code and bypass the typical Xcode
-processes. It has 
+processes. It has
 [good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
 * [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 
@@ -235,6 +235,8 @@ Beginner
 * [Learn LISP: Simply Easy Learning](http://www.tutorialspoint.com/lisp/index.htm) - A good set of introductory tutorials; includes interactive examples.
 * [Successful Lisp](https://www.psg.com/~dlamkins/sl/cover.html) - A good book for beginners with some programming background.
 * [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
+* [Lisp Quickstart](https://cs.gmu.edu/~sean/lisp/LispTutorial.html) - A good tutorial to get up and code Common Lisp quickly.
+
 
 Intermediate
 ------------
