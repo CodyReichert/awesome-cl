@@ -87,6 +87,7 @@ sellers who aren't evil for physical resources.
     - [Plotting](#plotting)
     - [i18n](#i18n)
     - [Logging](#logging)
+    - [Text Processing](#text-processing)
     - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
@@ -291,6 +292,7 @@ Library Manager
 * [qlot](https://github.com/fukamachi/qlot) - A project-local library installer, similar to Bundler or Carton. [Expat][14].
 * [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
 * [Quickutil](https://github.com/tarballs-are-good/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
+* [Qi](https://github.com/CodyReichert/qi) - A package manager with a traditionnal approach. [BSD][15].
 
 
 Natural Language Processing
@@ -683,6 +685,17 @@ Logging
 -------
 
 * [log4cl](https://github.com/7max/log4cl) - Logging framework modelled after Log4J. [Apache2.0][89].
+
+
+Text Processing
+---------------
+
+* [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
+* [mk-string-metrics](https://github.com/mrkkrp/mk-string-metrics) -
+  Calculate various string metrics efficiently in Common Lisp
+  (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
+  etc). [MIT][200].
+* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
 
 
 Other
