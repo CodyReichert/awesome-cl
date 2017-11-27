@@ -179,6 +179,7 @@ These are libraries for working with graphics, rather than making GUIs (i.e. wid
 * [CLinch](https://github.com/BradWBeer/CLinch) - Common Lisp 2D/3D graphics engine for OpenGL. [FreeBSD][39].
 * [donuts](https://github.com/tkych/donuts) - Graph drawing DSL for Common Lisp. [Expat][14].
 * [lispbuilder-sdl](https://github.com/lispbuilder/lispbuilder) - A set of bindings for SDL. [Expat][14].
+* [l-lisp](http://www.ii.uib.no/~knute/lsystems/llisp.html) - A framework for generating and simulating plants and fractals. [GNU GPL2][208].
 * [okra](https://github.com/aerique/okra) - CFFI bindings to Ogre. Not available on Quicklisp. [3-clause BSD][15].
 * [Varjo](https://github.com/cbaggers/varjo) - Lisp to GLSL translator. Not available on Quicklisp. [LLGPL][8].
 * [Vecto](http://www.xach.com/lisp/vecto/) - Simple vector drawing library. [FreeBSD][39].
@@ -198,7 +199,7 @@ GUI
 * [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
 Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
 windows dynamically using Lisp code and bypass the typical Xcode
-processes. It has 
+processes. It has
 [good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
 * [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 
@@ -752,3 +753,4 @@ an issue to add a new framework, library or software to the list.
 [205]: https://www.postgresql.org/about/licence/
 [206]: http://www.gigamonkeys.com/book/
 [207]: https://opensource.org/licenses/bsd-license.php
+[208]:https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
