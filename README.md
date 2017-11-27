@@ -626,6 +626,7 @@ Files and directories
 * [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
   collection of utilities to help with pathname
   operations. [Artistic License 2.0][51].
+* [archive](https://github.com/froydnj/archive) - a library for reading and creating archive (tar, cpio) files. [BSD_3Clause][15]. A pure Common Lisp replacement for the 'tar' program.
 
 Git
 ---
