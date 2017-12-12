@@ -141,6 +141,7 @@ Foreign Function Interface
 
 * [CFFI](https://github.com/cffi/cffi) - Portable, easy-to-use C foreign function interface. [Expat][14].
 * [cl-autowrap](https://github.com/rpav/cl-autowrap) - Automatically parses header files into CFFI definitions. [FreeBSD][39].
+* [cl-wiringpi2](https://github.com/TeMPOraL/cl-wiringpi2) -  CFFI bindings to WiringPi 2 for Common Lisp. [MIT][200].
 
 ## Java ##
 
