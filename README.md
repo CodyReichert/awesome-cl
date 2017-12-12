@@ -76,6 +76,7 @@ sellers who aren't evil for physical resources.
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
+    - [Caching](#caching)
     - [Configuration](#configuration)
     - [Language extensions](#language-extensions)
     - [Files and directories](#files-and-directories)
@@ -121,7 +122,6 @@ Database
 * [cl-rethinkdb](https://github.com/orthecreedence/cl-rethinkdb) - RethinkDB client. [Expat][14].
 * [cl-sqlite](https://github.com/dmitryvk/cl-sqlite) - Bindings for SQLite. Public domain.
 * [clsql](http://www.cliki.net/CLSQL) - An SQL database with a Common Lisp interface. [LLGPL][8].
-* [clache](https://github.com/html/clache) - General caching facility. No license specified.
 * [clouchdb](https://common-lisp.net/project/clouchdb/) - Library for interacting with CouchDB. [FreeBSD][39].
 * [crane](https://github.com/eudoxia0/crane) - Another ORM. [Expat][14].
 * [datafly](https://github.com/fukamachi/datafly) - A lightweight database library. [3-clause BSD][15].
@@ -590,6 +590,12 @@ Unit Testing
 
 Utilities
 =========
+
+Caching
+-------
+
+* [clache](https://github.com/html/clache) - General caching facility. No license specified.
+
 
 Configuration
 -------------
