@@ -682,6 +682,10 @@ Documentation builders
   the same ease as sphinx would a Python project. [GPL3][2]
 * [Codex](https://github.com/CommonDoc/codex) - A beautiful
   documentation system for Common Lisp. [MIT][200].
+* [Staple](https://github.com/Shinmera/staple) - a tool to generate
+  documentation pages using an HTML template. Uses the existing
+  README, adds docstrings, crossreferences and links to the
+  CLHS. [ArtisticLicense2.0][51].
 
 Markdown
 --------
