@@ -45,6 +45,7 @@ sellers who aren't evil for physical resources.
     - [Intermediate](#intermediate)
     - [Advanced](#advanced)
 - [Library Manager](#library-manager)
+    - [Interfaces to other package managers](#Interfaces-to-other-package-managers)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
 - [Network and Internet](#network-and-internet)
@@ -78,17 +79,18 @@ sellers who aren't evil for physical resources.
 - [Utilities](#utilities)
     - [Caching](#caching)
     - [Configuration](#configuration)
-    - [Language extensions](#language-extensions)
-    - [Files and directories](#files-and-directories)
-    - [Git](#git)
+        - [CLOS extensions](#clos-extensions)
+    - [CSV](#csv)
     - [Date and time](#date-and-time)
     - [Data validation](#data-validation)
-    - [CSV](#csv)
     - [Documentation builders](#documentation-builders)
+    - [Files and directories](#files-and-directories)
+    - [Git](#git)
+    - [i18n](#i18n)
+    - [Language extensions](#language-extensions)
+    - [Logging](#logging)
     - [Markdown](#markdown)
     - [Plotting](#plotting)
-    - [i18n](#i18n)
-    - [Logging](#logging)
     - [Text Processing](#text-processing)
     - [Other](#other)
 - [XML](#xml)
@@ -612,6 +614,64 @@ Configuration
 * [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
 * [py-configparser](https://common-lisp.net/project/py-configparser/) - reads and writes Python's ConfigParser-like configuration files. [MIT][200].
 
+### CLOS extensions
+
+* [Cells](https://github.com/kennytilton/cells) - "an implementation of the dataflow programming paradigm", or "reactive spreadsheet-like expressiveness for CLOS". Used to build an [algebra learning system](http://tiltontec.com/). With [documentation](https://github.com/stefano/cells-doc/). Lisp LGPL.
+* [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
+
+CSV
+---
+
+* [cl-csv](https://github.com/AccelerationNet/cl-csv) - A library for parsing CSV files. [3-clause BSD][15].
+
+
+Date and time
+-------------
+
+* [localtime](https://common-lisp.net/project/local-time/) - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
+* [chronicity](https://github.com/chaitanyagupta/chronicity) - A natural language date and time parse, to parse strings like "3 days from now". [BSD_3Clause][15].
+
+Data validation
+---------------
+
+* [ratify](https://github.com/Shinmera/ratify) - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
+
+Documentation builders
+----------------------
+
+* [sphinxcontrib-cldomain](https://github.com/russell/sphinxcontrib-cldomain) -
+  Extending Sphinx to cover Common Lisp. To build documentation with
+  the same ease as sphinx would a Python project. [GPL3][2]
+* [Codex](https://github.com/CommonDoc/codex) - A beautiful
+  documentation system for Common Lisp. [MIT][200].
+* [Staple](https://github.com/Shinmera/staple) - a tool to generate
+  documentation pages using an HTML template. Uses the existing
+  README, adds docstrings, crossreferences and links to the
+  CLHS. [ArtisticLicense2.0][51].
+
+Files and directories
+---------------------
+
+* [uiop](http://quickdocs.org/uiop/) and its `pathname` package
+  (replaces [cl-fad](http://weitz.de/cl-fad/)). uiop is part of ASDF3
+  and as thus is shipped in many implementations. [MIT][200].
+* [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
+* [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
+  collection of utilities to help with pathname
+  operations. [Artistic License 2.0][51].
+* [archive](https://github.com/froydnj/archive) - a library for reading and creating archive (tar, cpio) files. [BSD_3Clause][15]. A pure Common Lisp replacement for the 'tar' program.
+
+Git
+---
+
+* [legit](https://shinmera.github.io/legit/) - an interface to the Git
+  binary. [Artistic License 2.0][51].
+
+i18n
+----
+
+* [cl-locale](https://github.com/fukamachi/cl-locale) - A simple i18n library. [LLGPL][8].
+
 Language extensions
 -------------------
 
@@ -643,58 +703,11 @@ Language extensions
   the current stack is still useful to store
   somewhere. [Artistic License 2.0][51].
 
-### CLOS extensions
+Logging
+-------
 
-* [Cells](https://github.com/kennytilton/cells) - "an implementation of the dataflow programming paradigm", or "reactive spreadsheet-like expressiveness for CLOS". Used to build an [algebra learning system](http://tiltontec.com/). With [documentation](https://github.com/stefano/cells-doc/). Lisp LGPL.
-* [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
+* [log4cl](https://github.com/7max/log4cl) - Logging framework modelled after Log4J. [Apache2.0][89]. Advanced integration with Slime.
 
-
-Files and directories
----------------------
-
-* [uiop](http://quickdocs.org/uiop/) and its `pathname` package
-  (replaces [cl-fad](http://weitz.de/cl-fad/)). uiop is part of ASDF3
-  and as thus is shipped in many implementations. [MIT][200].
-* [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
-* [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
-  collection of utilities to help with pathname
-  operations. [Artistic License 2.0][51].
-* [archive](https://github.com/froydnj/archive) - a library for reading and creating archive (tar, cpio) files. [BSD_3Clause][15]. A pure Common Lisp replacement for the 'tar' program.
-
-Git
----
-
-* [legit](https://shinmera.github.io/legit/) - an interface to the Git
-  binary. [Artistic License 2.0][51].
-
-Date and time
--------------
-
-* [localtime](https://common-lisp.net/project/local-time/) - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
-* [chronicity](https://github.com/chaitanyagupta/chronicity) - A natural language date and time parse, to parse strings like "3 days from now". [BSD_3Clause][15].
-
-Data validation
----------------
-
-* [ratify](https://github.com/Shinmera/ratify) - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
-
-CSV
----
-
-* [cl-csv](https://github.com/AccelerationNet/cl-csv) - A library for parsing CSV files. [3-clause BSD][15].
-
-Documentation builders
-----------------------
-
-* [sphinxcontrib-cldomain](https://github.com/russell/sphinxcontrib-cldomain) -
-  Extending Sphinx to cover Common Lisp. To build documentation with
-  the same ease as sphinx would a Python project. [GPL3][2]
-* [Codex](https://github.com/CommonDoc/codex) - A beautiful
-  documentation system for Common Lisp. [MIT][200].
-* [Staple](https://github.com/Shinmera/staple) - a tool to generate
-  documentation pages using an HTML template. Uses the existing
-  README, adds docstrings, crossreferences and links to the
-  CLHS. [ArtisticLicense2.0][51].
 
 Markdown
 --------
@@ -710,17 +723,6 @@ Plotting
 * [eazy-gnuplot](https://github.com/guicho271828/eazy-gnuplot) - a
   lispy, structure-less Gnuplot library. With its
   [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
-
-i18n
-----
-
-* [cl-locale](https://github.com/fukamachi/cl-locale) - A simple i18n library. [LLGPL][8].
-
-Logging
--------
-
-* [log4cl](https://github.com/7max/log4cl) - Logging framework modelled after Log4J. [Apache2.0][89]. Advanced integration with Slime.
-
 
 Text Processing
 ---------------
