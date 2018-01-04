@@ -79,7 +79,6 @@ sellers who aren't evil for physical resources.
 - [Utilities](#utilities)
     - [Caching](#caching)
     - [Configuration](#configuration)
-        - [CLOS extensions](#clos-extensions)
     - [CSV](#csv)
     - [Date and time](#date-and-time)
     - [Data validation](#data-validation)
@@ -88,6 +87,7 @@ sellers who aren't evil for physical resources.
     - [Git](#git)
     - [i18n](#i18n)
     - [Language extensions](#language-extensions)
+        - [CLOS extensions](#clos-extensions)
     - [Linting](#linting)
     - [Logging](#logging)
     - [Markdown](#markdown)
@@ -615,11 +615,6 @@ Configuration
 * [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
 * [py-configparser](https://common-lisp.net/project/py-configparser/) - reads and writes Python's ConfigParser-like configuration files. [MIT][200].
 
-### CLOS extensions
-
-* [Cells](https://github.com/kennytilton/cells) - "an implementation of the dataflow programming paradigm", or "reactive spreadsheet-like expressiveness for CLOS". Used to build an [algebra learning system](http://tiltontec.com/). With [documentation](https://github.com/stefano/cells-doc/). Lisp LGPL.
-* [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
-
 CSV
 ---
 
@@ -703,6 +698,11 @@ Language extensions
   where execution is automatically continued, but the information of
   the current stack is still useful to store
   somewhere. [Artistic License 2.0][51].
+
+### CLOS extensions
+
+* [Cells](https://github.com/kennytilton/cells) - "an implementation of the dataflow programming paradigm", or "reactive spreadsheet-like expressiveness for CLOS". Used to build an [algebra learning system](http://tiltontec.com/). With [documentation](https://github.com/stefano/cells-doc/). Lisp LGPL.
+* [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 
 Linting
 -------
