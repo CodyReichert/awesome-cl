@@ -45,7 +45,7 @@ sellers who aren't evil for physical resources.
     - [Intermediate](#intermediate)
     - [Advanced](#advanced)
 - [Library Manager](#library-manager)
-    - [Interfaces to other package managers](#Interfaces-to-other-package-managers)
+    - [Interfaces to other package managers](#interfaces-to-other-package-managers)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
 - [Network and Internet](#network-and-internet)
