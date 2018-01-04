@@ -88,6 +88,7 @@ sellers who aren't evil for physical resources.
     - [Git](#git)
     - [i18n](#i18n)
     - [Language extensions](#language-extensions)
+    - [Linting](#linting)
     - [Logging](#logging)
     - [Markdown](#markdown)
     - [Plotting](#plotting)
@@ -703,6 +704,13 @@ Language extensions
   the current stack is still useful to store
   somewhere. [Artistic License 2.0][51].
 
+Linting
+-------
+
+* [sblint](https://github.com/fukamachi/sblint) - a linter for Common
+  Lisp source code using SBCL, suited for Reviewdog ([slides](http://www.slideshare.net/fukamachi/sblint)). [BSD_2Clause][17].
+
+
 Logging
 -------
 
@@ -786,6 +794,7 @@ an issue to add a new framework, library or software to the list.
 [14]: http://directory.fsf.org/wiki/License:Expat
 [15]: http://directory.fsf.org/wiki/License:BSD_3Clause
 [16]: https://www.quicklisp.org/beta/
+[17]: https://directory.fsf.org/wiki/License:BSD_2Clause
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
 [21]: http://www.goodreads.com/book/show/1175730.Object_Oriented_Programming_in_Common_LISP
 [33]: http://directory.fsf.org/wiki/License:Zlib
