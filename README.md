@@ -36,6 +36,7 @@ sellers who aren't evil for physical resources.
 - [JSON](#json)
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
+    - [Non-deterministic programming](#non-deterministic-programming)
 - [Learning and Tutorials](#learning-and-tutorials)
     - [Online](#online)
     - [Beginner](#beginner)
@@ -264,6 +265,17 @@ CLOS extensions
 
 * [Cells](https://github.com/kennytilton/cells) - "an implementation of the dataflow programming paradigm", or "reactive spreadsheet-like expressiveness for CLOS". Used to build an [algebra learning system](http://tiltontec.com/). With [documentation](https://github.com/stefano/cells-doc/). Lisp LGPL.
 * [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
+
+Non-deterministic programming
+-----------------------------
+
+* [Screamer](https://github.com/nikodemus/screamer) - augment Common
+  Lisp with practically all of the functionality of both Prolog and
+  constraint logic programming
+  languages. [MIT][200]. [Screamer+](https://github.com/ysz/screamer-plus) -
+  increasing the expressiveness of
+  SCREAMER. [Blog post](https://chriskohlhepp.wordpress.com/reasoning-systems/specification-driven-programming-in-common-lisp/)
+  solving Project Euler puzzles.
 
 
 Learning and Tutorials
