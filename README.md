@@ -586,9 +586,9 @@ This contains plugins and other goodies for various text editors.
 
 ## Emacs ##
 
-* [SLIME](https://github.com/slime/slime) - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
-* [PORTACLE](https://shinmera.github.io/portacle/) - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
-* [LISP-MACHINE](https://github.com/listp/lisp-machine) - A Common Lisp IDE in a Docker Container:  Roswell Managed, Clozure CL, Spacemacs, Quicklisp, CLHS
+* [Slime](https://github.com/slime/slime) - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
+* [Portacle](https://shinmera.github.io/portacle/) - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
+* [cl-devel2](https://hub.docker.com/r/eshamster/cl-devel2/) - a Docker container for Common Lisp development environment. Ships SBCL, CCL, Roswell and Emacs25 with Slime.
 
 ## Vim ##
 
