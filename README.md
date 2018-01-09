@@ -26,6 +26,7 @@ sellers who aren't evil for physical resources.
 - [Build Systems](#build-systems)
 - [Crypto](#crypto)
 - [Database](#database)
+- [Data Structures](#data-structures)
 - [Foreign Function Interface](#foreign-function-interface)
     - [C](#c)
     - [Java](#java)
@@ -139,6 +140,14 @@ Database
 * [elephant](https://common-lisp.net/project/elephant/) - Elephant is a persistent object database for Common Lisp with full transaction semantics. [LLGPL][8].
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
+Data Structures
+===============
+
+* [bst](https://github.com/glv2/bst) - Binary Search Tree. [GPL3][2]. Not in Quicklisp.
+* [FSet](http://quickdocs.org/fset/) - A functional, set-theoretic collections data structure library. [LLGPL][8].
+* [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
+* [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
+
 
 Foreign Function Interface
 ==========================
@@ -238,7 +247,6 @@ Language extensions
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library. [Expat][14].
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
 * [cl-algebraic-data-type](https://bitbucket.org/tarballs_are_good/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
-* [FSet](http://quickdocs.org/fset/) - A functional, set-theoretic collections data structure library. [LLGPL][8].
 * [iterate](https://common-lisp.net/project/iterate/) - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
 * [for](shinmera.github.io/for/) - A concise, lispy and extensible
   iteration macro. Unlike loop it is extensible and sensible, and
