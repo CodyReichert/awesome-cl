@@ -24,6 +24,9 @@ sellers who aren't evil for physical resources.
 **Table of Contents**
 
 - [Build Systems](#build-systems)
+- [Compilers, code generators](#compilers-code-generators)
+    - [C, C++](#c-c)
+    - [Javascript](#javascript)
 - [Crypto](#crypto)
 - [Cryptocurrencies](#cryptocurrencies)
 - [Database](#database)
@@ -111,6 +114,21 @@ Build Systems
 * [ASDF](https://common-lisp.net/project/asdf/) - Another System Definition Facility; a build system for Common Lisp. [Expat][14].
 * [asdf-linguist](https://github.com/eudoxia0/asdf-linguist) - Extensions for ASDF. [Expat][14].
 * [asdf-viz](https://github.com/guicho271828/asdf-viz) - a tool to visualize the library dependencies of ASDF systems, the call graph of a function and the class inheritances. [LLGPL][8].
+
+Compilers, code generators
+==========================
+
+C, C++
+------
+
+* [cmacro](https://github.com/eudoxia0/cmacro) - Lisp macros for C. [MIT][200].
+* [C-mera](https://github.com/kiselgra/c-mera) - a source-to-source compiler that utilizes Lisp's macro system for meta programming of C-like languages. [GPL3][2].
+* [lispc](https://github.com/eratosthenesia/lispc) - a powerful "lispsy" macrolanguage for C. [MIT][200].
+
+Javascript
+----------
+
+* [cl-javascript](http://marijnhaverbeke.nl/cl-javascript/) a JavaScript to Common Lisp translator, runtime, and standard library, ES3 compatible, with some ES5 extensions. Allows you to add user scripting to your Common Lisp application. [MIT][200].
 
 Crypto
 ======
