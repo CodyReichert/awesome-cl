@@ -35,6 +35,7 @@ sellers who aren't evil for physical resources.
     - [C](#c)
     - [Java](#java)
     - [Miscellaneous](#miscellaneous)
+    - [Objective-C](#objective-c)
     - [Python](#python)
 - [Game Development](#game-development)
 - [Graphics](#graphics)
@@ -196,6 +197,10 @@ Foreign Function Interface
 ## Miscellaneous ##
 
 * [Foil](http://foil.sourceforge.net/) - A foreign object interface; works with the JVM and CLI. Not available on Quicklisp. [CPL 1.0][47].
+
+## Objective-C ##
+
+* [objc-lisp-bridge](https://github.com/fiddlerwoaroof/objc-lisp-bridge) -  A portable reader and bridge for interacting with Objective-C and Cocoa. [MIT][200].
 
 ## Python ##
 
