@@ -181,6 +181,8 @@ Data Structures
 * [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
 * [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
 
+and see more on [Quickdocs](http://quickdocs.org/search?q=data+structure).
+
 
 Foreign Function Interface
 ==========================
