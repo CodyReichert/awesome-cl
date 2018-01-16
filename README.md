@@ -318,8 +318,8 @@ CLOS extensions
 * [defclass-std](https://github.com/EuAndreh/defclass-std) - a shortcut macro to write DEFCLASS forms quickly. [LLGPL][8].
 
 
-Non-deterministic programming
------------------------------
+Non-deterministic, logic programming
+------------------------------------
 
 * [Screamer](https://github.com/nikodemus/screamer) - augment Common
   Lisp with practically all of the functionality of both Prolog and
@@ -328,6 +328,7 @@ Non-deterministic programming
   increasing the expressiveness of
   SCREAMER. [Blog post](https://chriskohlhepp.wordpress.com/reasoning-systems/specification-driven-programming-in-common-lisp/)
   solving Project Euler puzzles.
+* [Temperance](https://sjl.bitbucket.io/temperance/) - logic programming. [MIT][200]. A focus on performance, with General Game Playing in mind.
 
 
 Learning and Tutorials
