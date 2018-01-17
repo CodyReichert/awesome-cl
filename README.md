@@ -81,9 +81,11 @@ sellers who aren't evil for physical resources.
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
     - [Vim](#vim)
-    - [Sublime Text](#sublime-text)
+    - [Lem](#lem)
     - [Atom](#atom)
+    - [Sublime Text](#sublime-text)
     - [Notebooks](#notebooks)
+    - [REPLs](#repls)
 - [Text Processing](#text-processing)
 - [Tools](#tools)
 - [Unit Testing](#unit-testing)
@@ -644,10 +646,10 @@ This contains plugins and other goodies for various text editors.
 * [SLIMV](https://github.com/kovisoft/slimv) - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 * [Vlime](https://github.com/l04m33/vlime) - VLIME: Vim plus Lisp Is Mostly Evil. A Common Lisp dev environment for Vim (and Neovim). [MIT][200].
 
-## Sublime Text ##
+## Lem ##
 
-* [Sublime Text](http://www.sublimetext.com/3) has Common Lisp support
-  with its "SublimeREPL" package. [Proprietary].
+* [Lem](https://github.com/cxxxr/lem) - a ready to use, Emacs-like, Slime-based
+  editor tailored for Common Lisp development. Ncurses and Electron interfaces. [MIT][200].
 
 ## Atom ##
 
@@ -655,11 +657,20 @@ This contains plugins and other goodies for various text editors.
   interactively develop Common Lisp code, helping turn Atom into a
   full-featured Lisp IDE. [MIT][200].
 
+## Sublime Text ##
+
+* [Sublime Text](http://www.sublimetext.com/3) has Common Lisp support
+  with its "SublimeREPL" package. [Proprietary].
+
 ## Notebooks ##
 
 * [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
 * [Darkmatter](https://github.com/tamamu/darkmatter) - A
   notebook-style Common Lisp environment. [MIT][200].
+
+## REPLs ##
+
+* [cl-repl](https://github.com/koji-kojiro/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [MIT][200]. With [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
 
 Text Processing
 ===============
