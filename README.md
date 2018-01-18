@@ -624,11 +624,16 @@ Scripting
 * [cl-ansi-term](https://github.com/mrkkrp/cl-ansi-term) - print
   colorized text, horizontal lines, progress bars, (un)ordered lists
   and tables on ANSI-compliant terminals. [GPL3][2].
+* [cl-charms](https://github.com/HiTECNOLOGYs/cl-charms) - an
+  interface to `libcurses` in Common Lisp. It provides both a raw,
+  low-level interface to libcurses via CFFI, and a more higher-level
+  lispier interface. [MIT][200].
 * [Deploy](https://github.com/Shinmera/deploy) - a system to help you
   easily and quickly deploy standalone common lisp applications as
   binaries. Specifically it is geared towards applications with
   foreign library dependencies that run some kind of
   GUI. [Artistic License 2.0][51].
+
 
 Text Editor Resources
 =====================
