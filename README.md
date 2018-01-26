@@ -597,6 +597,11 @@ Parallelism and Concurrency
   multiple handlers with a complex event filtering
   system. [Artistic License 2.0][51].
 
+Job processing
+--------------
+
+* [psychiq](https://github.com/fukamachi/psychiq) - redis-based background job processing for Common Lisp applications. Inspired by Ruby's Sidekiq and compatible with its web UI. [LLGPL][8].
+
 Regex
 =====
 
