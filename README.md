@@ -620,7 +620,7 @@ Scripting
   functions like a shell command, without the need to write a command
   line arguments parser. And it also can be used as a Make-like
   build-tool. [FreeBSD][39].
-* [cl-readline](https://github.com/mrkkrp/cl-readline) - a set of
+* [cl-readline](https://github.com/vindarel/cl-readline) - a set of
   functions to edit lines as they are typed in, to maintain a list of
   previously-entered command lines, to recall and reedit them and
   perform csh-like history expansion.  Emacs and vi editing
@@ -629,7 +629,7 @@ Scripting
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
   Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
-* [cl-ansi-term](https://github.com/mrkkrp/cl-ansi-term) - print
+* [cl-ansi-term](https://github.com/vindarel/cl-ansi-term) - print
   colorized text, horizontal lines, progress bars, (un)ordered lists
   and tables on ANSI-compliant terminals. [GPL3][2].
 * [cl-charms](https://github.com/HiTECNOLOGYs/cl-charms) - an
@@ -691,7 +691,7 @@ Text Processing
 ===============
 
 * [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
-* [mk-string-metrics](https://github.com/mrkkrp/mk-string-metrics) -
+* [mk-string-metrics](https://github.com/cbaggers/mk-string-metrics) -
   Calculate various string metrics efficiently in Common Lisp
   (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
   etc). [MIT][200].
@@ -830,16 +830,6 @@ Plotting
 * [eazy-gnuplot](https://github.com/guicho271828/eazy-gnuplot) - a
   lispy, structure-less Gnuplot library. With its
   [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
-
-Text Processing
----------------
-
-* [montezuma](https://github.com/sharplispers/montezuma/) -  Full-text indexing and search for Common Lisp. [Expat][14].
-* [mk-string-metrics](https://github.com/mrkkrp/mk-string-metrics) -
-  Calculate various string metrics efficiently in Common Lisp
-  (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
-  etc). [MIT][200].
-* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
 
 
 Other
