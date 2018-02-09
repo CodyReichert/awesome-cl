@@ -410,6 +410,10 @@ Library Manager
 * [Quickutil](https://github.com/tarballs-are-good/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
 * [Qi](https://github.com/CodyReichert/qi) - A package manager with a traditionnal approach. [BSD][15].
 
+might help:
+
+* [print-licenses](https://github.com/vindarel/print-licenses) - print licenses used by a project and its dependencies. Not in Quicklips. [MIT][200].
+
 ### Interfaces to other package managers
 
 * [cl-brewer](https://github.com/can3p/cl-brewer) - Homebrew formula builder for (command line) common lisp applications. Public domain.
