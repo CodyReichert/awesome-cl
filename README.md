@@ -606,6 +606,7 @@ Parallelism and Concurrency
   Event Delivery System. It allows for efficient event delivery to
   multiple handlers with a complex event filtering
   system. [Artistic License 2.0][51].
+* [cl-flow](https://github.com/borodust/cl-flow/) -  Data-flowish computation tree library for non-blocking concurrent Common Lisp. [MIT][200].
 
 Job processing
 --------------
