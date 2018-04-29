@@ -706,6 +706,8 @@ Text Processing
   (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
   etc). [MIT][200].
 * [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
+* [wiki-lang-detect](https://github.com/vseloved/wiki-lang-detect) -
+Text language identification using Wikipedia data. No license specified.
 
 Tools
 =====
