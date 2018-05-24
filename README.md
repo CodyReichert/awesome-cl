@@ -768,7 +768,10 @@ Date and time
 -------------
 
 * [localtime](https://common-lisp.net/project/local-time/) - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
+* [cl-date-time-parser](https://github.com/tkych/cl-date-time-parser) - Parse date-time-string, liberally. Hides the difference between date-time formats, and enables to manage date and time as the one date-time format. [MIT][200].
 * [chronicity](https://github.com/chaitanyagupta/chronicity) - A natural language date and time parse, to parse strings like "3 days from now". [BSD_3Clause][15].
+* [local-time-duration](https://github.com/enaeher/local-time-duration) -
+Duration processing library built on top of local-time. [MIT][200].
 
 Data validation
 ---------------
