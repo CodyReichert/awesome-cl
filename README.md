@@ -329,6 +329,7 @@ CLOS extensions
 Non-deterministic, logic programming
 ------------------------------------
 
+* [cl-prolog2](https://github.com/guicho271828/cl-prolog2) - Common Interface to ISO Prolog implementations from Common Lisp. [MIT][200].
 * [Screamer](https://github.com/nikodemus/screamer) - augment Common
   Lisp with practically all of the functionality of both Prolog and
   constraint logic programming
