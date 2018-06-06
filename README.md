@@ -349,6 +349,7 @@ Beginner
 --------
 
 * [Learn X in Y minutes | Where X = Common Lisp](https://learnxinyminutes.com/docs/common-lisp/) - Small Common Lisp tutorial covering the essentials.
+* [Programming Community Curated Resources For Learning LISP](https://hackr.io/tutorials/learn-lisp)
 * [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
 * [Common LISP: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html) - A nice introduction into the language.
 * [Learn LISP: Simply Easy Learning](http://www.tutorialspoint.com/lisp/index.htm) - A good set of introductory tutorials; includes interactive examples.
