@@ -44,7 +44,7 @@ sellers who aren't evil for physical resources.
 - [JSON](#json)
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
-    - [Non-deterministic programming](#non-deterministic-programming)
+    - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
 - [Learning and Tutorials](#learning-and-tutorials)
     - [Online](#online)
     - [Beginner](#beginner)
@@ -72,10 +72,12 @@ sellers who aren't evil for physical resources.
     - [Javascript](#javascript)
     - [Websockets](#websockets)
     - [Static site generators](#static-site-generators)
+    - [Deployment](#deployment)
     - [Third-party APIs](#third-party-apis)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
+    - [Job processing](#job-processing)
 - [Regex](#regex)
 - [Scripting](#scripting)
 - [Text Editor Resources](#text-editor-resources)
@@ -546,6 +548,13 @@ Static site generators
 * [coleslaw](https://github.com/kingcons/coleslaw) and its
   [coleslaw-cli](https://github.com/40ants/coleslaw-cli) - Flexible
   Lisp Blogware similar to Frog, Jekyll, or Hakyll. [BSD][15].
+
+Deployment
+----------
+
+* [heroku-buildpack-common-lisp](https://gitlab.com/duncan-bayne/heroku-buildpack-common-lisp) - A Heroku buildpack that uses Roswell to compile Common Lisp applications. LGPL3.
+* [cube](https://github.com/xh4/cube) - Kubernetes client library for Common LISP generated from the Swagger specification. No license specified.
+
 
 Third-party APIs
 ----------------
