@@ -473,6 +473,7 @@ HTTP Servers
 * [clack-pretend](https://github.com/BnMcGn/clack-pretend) - a testing
   and debugging tool for clack. [Apache2.0][89].
 * [hermetic](https://github.com/eudoxia0/hermetic) - Security for Clack-based web applications. [Expat][14].
+* [live-reload](https://github.com/knobo/live-reload) - Live reload prototype for clack. [LLGPL][8].
 
 Web frameworks
 --------------
