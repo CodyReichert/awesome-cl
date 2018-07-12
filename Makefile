@@ -5,6 +5,7 @@
 # directly.
 gh-pages:
 	git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+	git fetch
 	git checkout gh-pages
 	git pull --rebase origin gh-pages
 	git show master:README.md > index.md
