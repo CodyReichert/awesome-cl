@@ -244,6 +244,7 @@ These are libraries for working with graphics, rather than making GUIs (i.e. wid
 * [donuts](https://github.com/tkych/donuts) - Graph drawing DSL for Common Lisp. [Expat][14].
 * [dufy](https://github.com/privet-kitty/dufy) - exact color manipulation and conversion in various color models. [MIT][200].
 * [lispbuilder-sdl](https://github.com/lispbuilder/lispbuilder) - A set of bindings for SDL. [Expat][14].
+* [lisp-magick-wand](https://github.com/TBRSS/lisp-magick-wand) - ImageMagick bindings. [BSD][15]. Not in Quicklisp.
 * [l-lisp](http://www.ii.uib.no/~knute/lsystems/llisp.html) - A framework for generating and simulating plants and fractals. [GNU GPL2][208].
 * [okra](https://github.com/aerique/okra) - CFFI bindings to Ogre. Not available on Quicklisp. [3-clause BSD][15].
 * [opticl](https://github.com/slyrus/opticl) - a library for representing and processing images. [BSD_2Clause][17].
@@ -473,6 +474,7 @@ HTTP Servers
 * [clack-pretend](https://github.com/BnMcGn/clack-pretend) - a testing
   and debugging tool for clack. [Apache2.0][89].
 * [hermetic](https://github.com/eudoxia0/hermetic) - Security for Clack-based web applications. [Expat][14].
+* [live-reload](https://github.com/knobo/live-reload) - Live reload prototype for clack. [LLGPL][8].
 
 Web frameworks
 --------------
@@ -663,6 +665,7 @@ Scripting
   binaries. Specifically it is geared towards applications with
   foreign library dependencies that run some kind of
   GUI. [Artistic License 2.0][51].
+* [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
 
 
 Text Editor Resources
@@ -825,7 +828,10 @@ Git
 i18n
 ----
 
+* [cl-i18n](https://bitbucket.org/skypher/cl-i18n/) - an i18n library. Load translations from GNU gettext text or binary files or from its native format. Localisation helpers of plural forms. [LLGPL][8].
 * [cl-locale](https://github.com/fukamachi/cl-locale) - A simple i18n library. [LLGPL][8].
+* [enchant](https://github.com/tlikonen/cl-enchant) - bindings for the Enchant spell-checker library. Public domain.
+* [oxenfurt](https://github.com/Shinmera/oxenfurt) - A  client library for the Oxford dictionary API. [ArtisticLicense2.0][51].
 
 Linting
 -------
