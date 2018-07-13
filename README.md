@@ -511,8 +511,10 @@ See also XML below.
 
 HTML generators and templates
 -----------------------------
-* [cl-who](http://weitz.de/cl-who/) - An HTML generator. [FreeBSD][39].
 * [spinneret](https://github.com/ruricolist/spinneret) - Common Lisp HTML5 generator. [Expat][14].
+* [flute]() - An easily composable HTML5 generation library with the
+  most simplistic syntax. [MIT][200].
+* [cl-who](http://weitz.de/cl-who/) - The venerable HTML generator. [FreeBSD][39].
 * [cl-markup](https://github.com/arielnetworks/cl-markup) - Modern markup generation library. [LLGPL][8].
 * [Djula](https://github.com/mmontone/djula) - A port of Django's template engine to Common Lisp. [Expat][14].
 * [eco](https://github.com/eudoxia0/eco) - Fast, flexible, designer-friendly template engine. [Expat][14].
