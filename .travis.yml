@@ -1,7 +1,14 @@
-language: ruby
-rvm:
-  - 2.2
-before_script:
-  - gem install awesome_bot
+# Deploy to GitHub pages on commites to master
+#  1. Copy README.md to dist/index.md
+#  2. Push dist/ directory to gh-pages branch
 script:
-  - awesome_bot README.md --white-list weblocks,dwim.hu
+  - mkdir -p dist
+  - cp README.md dist/index.md
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  local-dir: dist
+  on:
+    branch: wip-deploy-gh-pages
