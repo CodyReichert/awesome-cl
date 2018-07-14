@@ -416,11 +416,17 @@ Advanced
 Library Manager
 ===============
 
+* [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
+* [Quickfork](https://github.com/svspire/quickfork)- when Quicklisp
+  isn't enough: when you need to update a single library and leave the
+  rest alone, when you need the latest version of a particular library
+  but it hasn't been incorporated into Quicklisp yet, when you need to
+  fix bugs or add features to a particular library and you may or may
+  not want to push those changes to the original author, etc. [BSD_3Clause][15].
 * [Roswell](https://github.com/roswell/roswell) - a Lisp implementation installer, script launcher and more. [MIT][200].
 * [qlot](https://github.com/fukamachi/qlot) - A project-local library installer, similar to Bundler or Carton. [Expat][14].
-* [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
-* [Quickutil](https://github.com/tarballs-are-good/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
 * [Qi](https://github.com/CodyReichert/qi) - A package manager with a traditionnal approach. [BSD][15].
+* [Quickutil](https://github.com/tarballs-are-good/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
 
 might help:
 
