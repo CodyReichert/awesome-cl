@@ -1,4 +1,4 @@
-# Deploy to GitHub pages on commites to master
+# Deploy to GitHub pages on commits to master
 #  1. Copy README.md to dist/index.md
 #  2. Push dist/ directory to gh-pages branch
 script:
@@ -9,7 +9,6 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  verbose: true
   local-dir: dist
   on:
     branch: master

@@ -1,8 +1,8 @@
 
-# Rebuild and push the awesome-cl website First step is needed so that
-# Codeship can fetch the `gh-pages` branch, then the remaining steps
-# commit README.md to the gh-pages branch, which GitHub serves
-# directly.
+# Rebuild and push the awesome-cl website manually.
+# Travis CI is set up to automatically deploy new changes on commits
+# to master, but this can be run directly if the site needs to be
+# deployed for some reason.
 gh-pages:
 	git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 	git fetch
