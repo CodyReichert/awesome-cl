@@ -514,7 +514,7 @@ See also XML below.
 HTML generators and templates
 -----------------------------
 * [spinneret](https://github.com/ruricolist/spinneret) - Common Lisp HTML5 generator. [Expat][14].
-* [flute]() - An easily composable HTML5 generation library with the
+* [flute](https://github.com/ailisp/flute) - An easily composable HTML5 generation library with the
   most simplistic syntax. [MIT][200].
 * [cl-who](http://weitz.de/cl-who/) - The venerable HTML generator. [FreeBSD][39].
 * [cl-markup](https://github.com/arielnetworks/cl-markup) - Modern markup generation library. [LLGPL][8].
