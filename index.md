@@ -520,6 +520,7 @@ HTML generators and templates
 * [cl-markup](https://github.com/arielnetworks/cl-markup) - Modern markup generation library. [LLGPL][8].
 * [Djula](https://github.com/mmontone/djula) - A port of Django's template engine to Common Lisp. [Expat][14].
 * [eco](https://github.com/eudoxia0/eco) - Fast, flexible, designer-friendly template engine. [Expat][14].
+* [cl-closure-template](https://github.com/archimag/cl-closure-template) - Implementation of Google's Closure templates. [LLGPL][8].
 
 URI handling
 ------------
@@ -586,7 +587,6 @@ post to multiple services simultaneously.
 Others
 ------
 
-* [cl-closure-template](https://github.com/archimag/cl-closure-template) - Implementation of Google's Closure templates. [LLGPL][8].
 * [colleen](https://github.com/Shinmera/colleen) - IRC bot with a modular framework. [Artistic License 2.0][51].
 * [css-lite](https://github.com/paddymul/css-lite) - A CSS grammar. [Expat][14].
 * [find-port](https://github.com/eudoxia0/find-port) -  Programmatically find open ports. [MIT][200].
