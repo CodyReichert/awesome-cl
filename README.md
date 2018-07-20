@@ -324,6 +324,7 @@ Language extensions
   where execution is automatically continued, but the information of
   the current stack is still useful to store
   somewhere. [Artistic License 2.0][51].
+* [clamp](https://github.com/malisper/Clamp) - Arc language's brevity and conciseness to Common Lisp. [Artistic License 2.0][51].
 
 
 CLOS extensions
