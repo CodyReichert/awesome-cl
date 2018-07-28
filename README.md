@@ -324,6 +324,8 @@ Language extensions
   where execution is automatically continued, but the information of
   the current stack is still useful to store
   somewhere. [Artistic License 2.0][51].
+* [general-accumulator](https://github.com/tlikonen/cl-general-accumulator) -
+A general-purpose, extensible value accumulator library. Public domain.
 
 
 CLOS extensions
