@@ -269,7 +269,7 @@ GUI
 Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
 windows dynamically using Lisp code and bypass the typical Xcode
 processes. It has
-[good documentation and a tutorial](blob/master/Documentation/UserInterfaceTutorial.pdf).
+[good documentation and a tutorial](https://github.com/plkrueger/CocoaInterface/blob/master/Documentation/UserInterfaceTutorial.pdf).
 * [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 * [cl-webkit](https://github.com/joachifm/cl-webkit) - A binding to WebKitGTK+. Also adds web browsing capabilities to an application, leveraging the full power of the WebKit browsing engine. [MIT][200].
 
@@ -282,7 +282,7 @@ Implementations
 * [CMUCL](//www.cons.org/cmucl/) - An implementation from Carnegie Mellon University. Public domain.
 * [ECL](https://common-lisp.net/project/ecl/) - Embeddable Common Lisp; compiles to C. [GNU LGPL2.1][11].
 * [GCL](https://www.gnu.org/software/gcl/) - Another GNU implementation; not yet fully ANSI-compliant. [GNU LGPL2.1][11].
-* [GNU CLISP](//www.clisp.org/) - A GNU implementation; contains a compiler and an interpreter. [Standard conformance][6]. [GNU GPL3][2].
+* [GNU CLISP](http://www.clisp.org/) - A GNU implementation; contains a compiler and an interpreter. [Standard conformance][6]. [GNU GPL3][2].
 * [SBCL](http://www.sbcl.org/index.html) - A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15].
 
 JSON
@@ -302,7 +302,7 @@ Language extensions
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
 * [cl-algebraic-data-type](https://github.com/tarballs-are-good/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [iterate](https://common-lisp.net/project/iterate/) - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
-* [for](shinmera.github.io/for/) - A concise, lispy and extensible
+* [for](https://shinmera.github.io/for/) - A concise, lispy and extensible
   iteration macro. Unlike loop it is extensible and sensible, and
   unlike iterate it does not require code-walking and is easier to
   extend. [Artistic License 2.0][51].
@@ -577,7 +577,7 @@ Third-party APIs
 * [tooter](https://github.com/Shinmera/tooter) - a client library implementing the full v1 REST API protocol for Mastodon. [ArtisticLicense2.0][51].
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
 * [cl-mediawiki](https://github.com/AccelerationNet/cl-mediawiki) - a wrapper around the MediaWiki api. [MIT][200].
-* [cl-openid](https://common-lisp.net/project/cl-openid/darcs/cl-openid/) - An implementation of OpenID. [LLGPL][8].
+* [cl-openid](https://gitlab.common-lisp.net/cl-openid/cl-openid) - An implementation of OpenID. [LLGPL][8].
 * [cl-pushover](https://github.com/TeMPOraL/cl-pushover) -  Common Lisp bindings to Pushover. [MIT][200].
 * [humbler](https://github.com/Shinmera/humbler) - A Tumblr API interface. [Artistic License 2.0][51].
 
