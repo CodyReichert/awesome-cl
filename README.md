@@ -47,6 +47,7 @@ sellers who aren't evil for physical resources.
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
     - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
+    - [Contract programming](#contract-programming)
 - [Learning and Tutorials](#learning-and-tutorials)
     - [Online](#online)
     - [Beginner](#beginner)
@@ -346,6 +347,13 @@ Non-deterministic, logic programming
   SCREAMER. [Blog post](https://chriskohlhepp.wordpress.com/reasoning-systems/specification-driven-programming-in-common-lisp/)
   solving Project Euler puzzles.
 * [Temperance](https://sjl.bitbucket.io/temperance/) - logic programming. [MIT][200]. A focus on performance, with General Game Playing in mind.
+
+
+Contract programming
+--------------------
+
+* [quid-pro-quo](https://github.com/sellout/quid-pro-quo) - a contract
+  programming library in the style of Eiffel’s Design by Contract ™. Public domain.
 
 
 Learning and Tutorials
