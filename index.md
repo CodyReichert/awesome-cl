@@ -107,7 +107,6 @@ sellers who aren't evil for physical resources.
     - [Logging](#logging)
     - [Markdown](#markdown)
     - [Plotting](#plotting)
-    - [Text Processing](#text-processing)
     - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
