@@ -324,6 +324,7 @@ Language extensions
   where execution is automatically continued, but the information of
   the current stack is still useful to store
   somewhere. [Artistic License 2.0][51].
+* [clamp](https://github.com/malisper/Clamp) - Arc language's brevity and conciseness to Common Lisp. [Artistic License 2.0][51].
 
 
 CLOS extensions
@@ -642,6 +643,7 @@ Job processing
 --------------
 
 * [psychiq](https://github.com/fukamachi/psychiq) - redis-based background job processing for Common Lisp applications. Inspired by Ruby's Sidekiq and compatible with its web UI. [LLGPL][8].
+* [clerk](https://github.com/tsikov/clerk) - a cron-like scheduler with sane DSL. [MIT][200].
 
 Regex
 =====
