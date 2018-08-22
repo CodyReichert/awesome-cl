@@ -47,6 +47,7 @@ sellers who aren't evil for physical resources.
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
     - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
+    - [Reactive programming](#reactive-programming)
     - [Contract programming](#contract-programming)
 - [Learning and Tutorials](#learning-and-tutorials)
     - [Online](#online)
@@ -330,7 +331,6 @@ Language extensions
 CLOS extensions
 ---------------
 
-* [Cells](https://github.com/kennytilton/cells) - "an implementation of the dataflow programming paradigm", or "reactive spreadsheet-like expressiveness for CLOS". Used to build an [algebra learning system](http://tiltontec.com/). With [documentation](https://github.com/stefano/cells-doc/). Lisp LGPL.
 * [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [defclass-std](https://github.com/EuAndreh/defclass-std) - a shortcut macro to write DEFCLASS forms quickly. [LLGPL][8].
 
@@ -348,6 +348,10 @@ Non-deterministic, logic programming
   solving Project Euler puzzles.
 * [Temperance](https://sjl.bitbucket.io/temperance/) - logic programming. [MIT][200]. A focus on performance, with General Game Playing in mind.
 
+Reactive programming
+--------------------
+
+* [Cells](https://github.com/kennytilton/cells) - an implementation of the dataflow programming paradigm, reactive spreadsheet-like expressiveness for CLOS. Used to build an [algebra learning system](http://tiltontec.com/). With [documentation](https://github.com/stefano/cells-doc/). Lisp LGPL.
 
 Contract programming
 --------------------
