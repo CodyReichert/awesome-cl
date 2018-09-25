@@ -582,6 +582,8 @@ Third-party APIs
 ----------------
 
 * [Aws-sign4](https://github.com/rotatef/aws-sign4) - Common Lisp library for Amazon Web Services signing version 4. [GNU GPL3][2].
+* [zs3](https://github.com/xach/zs3) - A library for working with Amazon's Simple Storage
+Service (S3) and CloudFront service. [BSD][15].
 * [cl-ses](https://github.com/CodyReichert/cl-ses/) - Library for AWS SES. [Expat][14].
 * [north](https://shinmera.github.io/north) - The successor to the
   South (Simple OaUTH) library, implementing the full oAuth 1.0a
