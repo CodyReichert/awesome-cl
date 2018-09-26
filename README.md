@@ -932,6 +932,19 @@ Contributing
 Your contributions are always welcome! Please submit a pull request or create
 an issue to add a new framework, library or software to the list.
 
+The rules we (try to) respect are the followings:
+
+- by default, add a library to the end of its section.
+- absolute de-facto libraries, like BordeauxThreads or Quicklisp,
+  should be the first of their section.
+- two libraries very similar in scope should be side by side, or in a
+  section of their own.
+- do some curation based on our experience and the state of the
+  librarie's documentation. We do *not* aim at listing every existing
+  CL library (see Quickdocs or Cliki for that) nor to list every
+  "popular" library (see Quicklisp stats).
+
+
 [2]: http://www.gnu.org/copyleft/gpl.html
 [3]: http://www.gnu.org/software/classpath/license.html
 [4]: https://common-lisp.net/project/armedbear/faq.shtml#qa
