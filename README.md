@@ -692,6 +692,7 @@ Scripting
   foreign library dependencies that run some kind of
   GUI. [Artistic License 2.0][51].
 * [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
+* [cl-progress-bar](https://github.com/sirherrbatka/cl-progress-bar/) - progress bars, just like in Quicklisp ! [MIT][200].
 
 
 Text Editor Resources
