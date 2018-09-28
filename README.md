@@ -940,7 +940,7 @@ The rules we (try to) respect are the followings:
 - two libraries very similar in scope should be side by side, or in a
   section of their own.
 - do some curation based on our experience and the state of the
-  librarie's documentation. We do *not* aim at listing every existing
+  library's documentation. We do *not* aim at listing every existing
   CL library (see Quickdocs or Cliki for that) nor to list every
   "popular" library (see Quicklisp stats).
 
