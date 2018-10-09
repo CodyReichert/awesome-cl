@@ -44,6 +44,7 @@ sellers who aren't evil for physical resources.
 - [GUI](#gui)
 - [Implementations](#implementations)
 - [JSON](#json)
+- [YAML](#yaml)
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
     - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
@@ -295,6 +296,11 @@ JSON
 * [json-mop](https://github.com/gschjetne/json-mop) - A metaclass for bridging CLOS and JSON objects. [MIT][200].
 
 See also this [extensive comparison](https://sites.google.com/site/sabraonthehill/home/json-libraries) of JSON libraries.
+
+YAML
+====
+
+* [cl-yacclyaml](https://github.com/mabragor/cl-yaclyaml) - a yaml processor (loader, but not yet dumper). [GPL3][2].
 
 
 Language extensions
