@@ -300,7 +300,8 @@ See also this [extensive comparison](https://sites.google.com/site/sabraonthehil
 YAML
 ====
 
-* [cl-yacclyaml](https://github.com/mabragor/cl-yaclyaml) - a yaml processor (loader, but not yet dumper). [GPL3][2].
+* [cl-yacclyaml](https://github.com/mabragor/cl-yaclyaml) - a pure lisp YAML processor (loader, but not yet dumper). [GPL3][2].
+* [cl-yaml](https://github.com/eudoxia0/cl-yaml.git) - a YAML parser and emitter built on top of libyaml. [MIT][200].
 
 
 Language extensions
