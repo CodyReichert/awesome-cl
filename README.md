@@ -448,7 +448,7 @@ Library Manager
 
 might help:
 
-* [print-licenses](https://github.com/vindarel/print-licenses) - print licenses used by a project and its dependencies. Not in Quicklips. [MIT][200].
+* [print-licenses](https://github.com/vindarel/print-licenses) - print licenses used by a project and its dependencies. [MIT][200].
 
 ### Interfaces to other package managers
 
