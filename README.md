@@ -437,6 +437,15 @@ Advanced
 * [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
 * [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
 
+Community
+=======================
+
+* [/r/Common_Lisp](https://www.reddit.com/r/Common_Lisp/) - subreddit about Common Lisp
+* [lisp-lang.org](https://lisp-lang.org/)
+* [common-lisp.net](https://common-lisp.net)
+* [Lisp Discord Server](https://discord.gg/T5D2EAJ)
+* [Planet List](http://planet.lisp.org/) - A meta blog that collects the contents of various Lisp-related blogs.
+
 Library Manager
 ===============
 
