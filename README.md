@@ -141,10 +141,6 @@ C, C++
 * [C-mera](https://github.com/kiselgra/c-mera) - a source-to-source compiler that utilizes Lisp's macro system for meta programming of C-like languages. [GPL3][2].
 * [lispc](https://github.com/eratosthenesia/lispc) - a powerful "lispsy" macrolanguage for C. [MIT][200].
 
-Javascript
-----------
-
-* [cl-javascript](http://marijnhaverbeke.nl/cl-javascript/) a JavaScript to Common Lisp translator, runtime, and standard library, ES3 compatible, with some ES5 extensions. Allows you to add user scripting to your Common Lisp application. [MIT][200].
 
 Crypto
 ======
