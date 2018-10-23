@@ -10,11 +10,18 @@ A curated list of _awesome_ Common Lisp libraries.
 
 For awesome *software*, see [lisp-lang.org's success stories](http://lisp-lang.org/success/) and the [awesome-cl-software](https://github.com/azzamsa/awesome-cl-software) list.
 
+All libraries listed here are available from [Quicklisp][16] unless
+stated otherwise. The ones marked with a :star: are so widespread and
+solid that they became community standards. You can't be wrong with
+them. This is the case for Quicklisp, BordeauxThreads and
+such. Libraries denoted with a 👍 are the ones we like and want to
+promote here at the Awesome-cl list. They proved solid, they may solve
+a problem better than a community standard but they aren't as
+widespread, or not considered as stable. For example, we prefer
+Spinneret over Cl-Who.
+
 Add something new! See the [contributing](#contributing) section for adding something to the
 list.
-
-All libraries listed here are available from [Quicklisp][16] unless
-stated otherwise.
 
 This is released under the GNU Free Documentation License - its text
 is provided in the LICENSE file. This repository is also mirrored on
@@ -963,13 +970,16 @@ The rules we (try to) respect are the followings:
 
 - by default, add a library to the end of its section.
 - absolute de-facto libraries, like BordeauxThreads or Quicklisp,
-  should be the first of their section.
+  should be denoted with a :star: (`:star:` in markdown).
 - two libraries very similar in scope should be side by side, or in a
   section of their own.
 - do some curation based on our experience and the state of the
   library's documentation. We do *not* aim at listing every existing
   CL library (see Quickdocs or Cliki for that) nor to list every
   "popular" library (see Quicklisp stats).
+- as such, the libraries we like best are marked with a 👍 (`1F44D`
+  unicode character). See also the signs' explanation in the
+  introduction.
 
 
 [2]: http://www.gnu.org/copyleft/gpl.html
