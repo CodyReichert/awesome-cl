@@ -832,6 +832,7 @@ Data validation
 ---------------
 
 * [ratify](https://github.com/Shinmera/ratify) - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
+* [clavier](https://github.com/mmontone/clavier) - General purpose validation library for Common Lisp. [MIT][200].
 
 Documentation builders
 ----------------------
