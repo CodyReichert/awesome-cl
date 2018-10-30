@@ -35,10 +35,14 @@ sellers who aren't evil for physical resources.
 - [Build Systems](#build-systems)
 - [Compilers, code generators](#compilers-code-generators)
     - [C, C++](#c-c)
-    - [Javascript](#javascript)
 - [Crypto](#crypto)
 - [Cryptocurrencies](#cryptocurrencies)
 - [Database](#database)
+    - [ORMs](#orms)
+    - [Persistent object databases](#persistent-object-databases)
+    - [Wrappers](#wrappers)
+    - [To third parties](#to-third-parties)
+    - [Tools](#tools)
 - [Data Structures](#data-structures)
 - [Foreign Function Interface](#foreign-function-interface)
     - [C](#c)
@@ -161,6 +165,9 @@ Cryptocurrencies
 Database
 ========
 
+ORMs
+----
+
 * :star: [clsql](http://www.cliki.net/CLSQL) - An SQL database with a Common Lisp interface. [LLGPL][8].
 * 👍 [mito](https://github.com/fukamachi/mito) - An ORM for Common Lisp with migrations, relationships and PostgreSQL support [LLGPL][8]. [mitho-auth](https://github.com/fukamachi/mito-auth), a mixin class for use authorization; [mito-attachment](https://github.com/fukamachi/mito-attachment), a mixin class for file management outside of RDBMS.
 * [cl-dbi](https://github.com/fukamachi/cl-dbi) - A database-independent interface for Common Lisp. [LLGPL][8].
@@ -168,13 +175,15 @@ Database
 * [datafly](https://github.com/fukamachi/datafly) - A lightweight database library. [3-clause BSD][15].
 * [sxql](https://github.com/fukamachi/sxql) - A DSL for generating SQL. [3-clause BSD][15].
 
-Persistent object databases:
+Persistent object databases
+---------------------------
 
 * [bknr.datastore](https://github.com/hanshuebner/bknr-datastore) - a CLOS-based lisp-only database in RAM with transaction logging persistence. [licence](http://bknr.net/html/license.html). (see also chap. 21 of "Common Lisp Recipes")
 * [elephant](https://common-lisp.net/project/elephant/) - Elephant is a persistent object database for Common Lisp with full transaction semantics. [LLGPL][8].
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
-Wrappers:
+Wrappers
+--------
 
 * :star: [postmodern](http://marijnhaverbeke.nl/postmodern/) - A library for interacting with PostgreSQL. [zlib][33].
 * [cl-sqlite](https://github.com/dmitryvk/cl-sqlite) - Bindings for SQLite. Public domain.
@@ -185,12 +194,14 @@ Wrappers:
 * [cl-rethinkdb](https://github.com/orthecreedence/cl-rethinkdb) - RethinkDB client. [Expat][14].
 * [clouchdb](https://common-lisp.net/project/clouchdb/) - Library for interacting with CouchDB. [FreeBSD][39].
 
-To third parties:
+To third parties
+----------------
 
 * [dyna](https://github.com/Rudolph-Miller/dyna) - an AWS DynamoDB ORM. [MIT][200].
 * [cl-influxdb](https://github.com/mmaul/cl-influxdb/) - an interface to the Time Series Database InfluxDB. [MIT][200].
 
-Tools:
+Tools
+-----
 
 * [pgloader](https://github.com/dimitri/pgloader) - a data loading tool for PostgreSQL. [PostgreSQL Licence][205].
 
