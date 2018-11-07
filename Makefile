@@ -13,3 +13,7 @@ gh-pages:
 	git commit -m "Rebuild index.md"
 	git push -u origin gh-pages
 	git checkout master
+	
+	# Push new changes to the notabug repo so they stay in sync
+	git remote add notabug git@notabug.org:CodyReichert/awesome-cl.git
+	git push notabug master
