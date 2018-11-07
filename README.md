@@ -528,6 +528,7 @@ HTTP Servers
   and debugging tool for clack. [Apache2.0][89].
 * [hermetic](https://github.com/eudoxia0/hermetic) - Security for Clack-based web applications. [Expat][14].
 * [live-reload](https://github.com/knobo/live-reload) - Live reload prototype for clack. [LLGPL][8].
+* [clack-static-asset-middleware](https://github.com/fisxoj/clack-static-asset-middleware) - a cache-busting static asset middleware for the clack. [MIT][200].
 
 Web frameworks
 --------------
