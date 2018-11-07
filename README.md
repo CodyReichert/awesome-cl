@@ -615,6 +615,10 @@ Deployment
 
 * [heroku-buildpack-common-lisp](https://gitlab.com/duncan-bayne/heroku-buildpack-common-lisp) - A Heroku buildpack that uses Roswell to compile Common Lisp applications. LGPL3.
 * [cube](https://github.com/xh4/cube) - Kubernetes client library for Common LISP generated from the Swagger specification. No license specified.
+* [base-lisp-image](https://github.com/40ants/base-lisp-image) - base
+  Docker image for Common Lisp projects with SBCL or CCL and the latest
+  ASDF, Qlot and Roswell.
+
 
 
 Third-party APIs
