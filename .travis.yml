@@ -9,6 +9,10 @@
 # pushing the new README.
 
 script:
+  # Sync changes with https://notabug.org/CodyReichert/awesome-cl
+  - git remote add notabug git@notabug.org:CodyReichert/awesome-cl.git
+  - git push notabug master
+  # Publish changes to https://awesome-cl.com
   - git clone --branch=gh-pages https://github.com/CodyReichert/awesome-cl dist
   - cp README.md dist/index.md
 deploy:
