@@ -317,6 +317,7 @@ Proprietary:
 
 * [Lispworks](http://www.lispworks.com/) - an integrated cross-platform development tool for Common Lisp.
 * [Allegro CL](https://franz.com/products/allegro-common-lisp/) - provides the full ANSI Common Lisp standard with many extensions.
+* [MOCL](https://wukix.com/mocl) - CL as a library for mobile devices (iOS & Android) and OSX.
 
 JSON
 ====
