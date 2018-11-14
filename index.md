@@ -71,6 +71,7 @@ sellers who aren't evil for physical resources.
     - [Beginner](#beginner)
     - [Intermediate](#intermediate)
     - [Advanced](#advanced)
+    - [Community](#community)
 - [Library Manager](#library-manager)
     - [Interfaces to other package managers](#interfaces-to-other-package-managers)
 - [Machine Learning](#machine-learning)
@@ -464,6 +465,16 @@ Advanced
 * [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
 * [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
 
+Community
+---------
+
+* [/r/Common_Lisp](https://www.reddit.com/r/Common_Lisp/) - subreddit about Common Lisp
+* [common-lisp.net](https://common-lisp.net)
+* [lisp-lang.org](https://lisp-lang.org/)
+* [Lisp Discord Server](https://discord.gg/T5D2EAJ)
+* [#lisp](http://log.irc.tymoon.eu/freenode/lisp) on Freenode - main Common Lisp IRC channel.
+* [Planet List](http://planet.lisp.org/) - A meta blog that collects the contents of various Lisp-related blogs.
+
 Library Manager
 ===============
 
@@ -528,6 +539,7 @@ HTTP Servers
   and debugging tool for clack. [Apache2.0][89].
 * [hermetic](https://github.com/eudoxia0/hermetic) - Security for Clack-based web applications. [Expat][14].
 * [live-reload](https://github.com/knobo/live-reload) - Live reload prototype for clack. [LLGPL][8].
+* [clack-static-asset-middleware](https://github.com/fisxoj/clack-static-asset-middleware) - a cache-busting static asset middleware for the clack. [MIT][200].
 
 Web frameworks
 --------------
