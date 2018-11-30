@@ -214,7 +214,7 @@ Data Structures
 * [bst](https://github.com/glv2/bst) - Binary Search Tree. [GPL3][2]. Not in Quicklisp.
 * [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
 * [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
-* [genhash](https://github.com/pnathan/genhash) – hash table implementation with API from generic methods.
+* [genhash](https://github.com/pnathan/genhash) – hash table implementation with API from generic methods. Public domain.
 
 and see more on [Quickdocs](http://quickdocs.org/search?q=data+structure).
 
