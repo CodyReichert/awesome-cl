@@ -892,6 +892,8 @@ Documentation builders
   documentation pages using an HTML template. Uses the existing
   README, adds docstrings, crossreferences and links to the
   CLHS. [ArtisticLicense2.0][51].
+* [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
+
 
 Files and directories
 ---------------------
