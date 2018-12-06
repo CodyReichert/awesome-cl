@@ -317,6 +317,7 @@ Proprietary:
 
 * [Lispworks](http://www.lispworks.com/) - an integrated cross-platform development tool for Common Lisp.
 * [Allegro CL](https://franz.com/products/allegro-common-lisp/) - provides the full ANSI Common Lisp standard with many extensions.
+* [MOCL](https://wukix.com/mocl) - CL as a library for mobile devices (iOS & Android) and OSX.
 
 JSON
 ====
@@ -892,6 +893,8 @@ Documentation builders
   documentation pages using an HTML template. Uses the existing
   README, adds docstrings, crossreferences and links to the
   CLHS. [ArtisticLicense2.0][51].
+* [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
+
 
 Files and directories
 ---------------------
