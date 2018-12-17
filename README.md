@@ -572,7 +572,7 @@ Assets management
 
 Parsing html
 ------------
-* 👍 [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss](https://github.com/Shinmera/CLSS).
+* 👍 [Plump][71] - A lenient HTML/XML parser, tolerant on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss](https://github.com/Shinmera/CLSS).
 
 Querying HTML/DOM
 -----------------
