@@ -522,6 +522,9 @@ See [Cliki](http://www.cliki.net/Web) for more.
 HTTP clients
 ------------
 * 👍 [Dexador](https://github.com/fukamachi/dexador) - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
+* [fast-http](https://github.com/fukamachi/fast-http) - A fast HTTP
+request/response parser for Common Lisp. [MIT][200].
+
 
 HTTP Servers
 ------------
@@ -569,8 +572,7 @@ Assets management
 
 Parsing html
 ------------
-* 👍 [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss](https://github.com/Shinmera/CLSS).
-* [http-parse](https://github.com/orthecreedence/http-parse) - An HTTP parser in Common Lisp. [Expat][14].
+* 👍 [Plump][71] - A lenient HTML/XML parser, tolerant on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss](https://github.com/Shinmera/CLSS).
 
 Querying HTML/DOM
 -----------------
