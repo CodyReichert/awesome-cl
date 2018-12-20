@@ -715,6 +715,8 @@ Event processing
   multiple handlers with a complex event filtering
   system. [Artistic License 2.0][51].
 * [cl-flow](https://github.com/borodust/cl-flow/) -  Data-flowish computation tree library for non-blocking concurrent Common Lisp. [MIT][200].
+* [event-glue](https://github.com/orthecreedence/event-glue) - simple eventing abstraction. No dependencies. It can be used anywhere you need a generic event handling system. [MIT][200].
+
 
 Job processing
 --------------
