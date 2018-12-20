@@ -100,6 +100,7 @@ sellers who aren't evil for physical resources.
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
     - [Vim](#vim)
+    - [Eclipse](#eclipse)
     - [Lem](#lem)
     - [Atom](#atom)
     - [Sublime Text](#sublime-text)
@@ -344,12 +345,6 @@ Language extensions
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library. [Expat][14].
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
 * [cl-algebraic-data-type](https://github.com/tarballs-are-good/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
-* [iterate](https://common-lisp.net/project/iterate/) - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
-* [for](https://shinmera.github.io/for/) - A concise, lispy and extensible
-  iteration macro. Unlike loop it is extensible and sensible, and
-  unlike iterate it does not require code-walking and is easier to
-  extend. [Artistic License 2.0][51].
-* [series](https://github.com/tokenrove/series/wiki) - Functional style without any runtime penalty at all. [MIT][200].
 * :star: [optima](https://github.com/m2ym/optima) - Optimized pattern-matching library. [LLGPL][8].
 * [str](https://github.com/vindarel/cl-str) - a modern, simple and consistent string manipulation library. [MIT][200].
 * [trivial-types](https://github.com/m2ym/trivial-types) - Trivial type definitions. [LLGPL][8].
@@ -377,6 +372,29 @@ CLOS extensions
 
 * :star: [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [defclass-std](https://github.com/EuAndreh/defclass-std) - a shortcut macro to write DEFCLASS forms quickly. [LLGPL][8].
+
+
+Iteration
+---------
+
+* :star: [iterate](https://common-lisp.net/project/iterate/) - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
+* [for](https://shinmera.github.io/for/) - A concise, lispy and extensible
+  iteration macro. Unlike loop it is extensible and sensible, and
+  unlike iterate it does not require code-walking and is easier to
+  extend. [Artistic License 2.0][51].
+* [series](https://github.com/tokenrove/series/wiki) - Functional style without any runtime penalty at all. [MIT][200].
+
+
+Lambda shorthands
+-----------------
+
+* [fn](https://github.com/cbaggers/fn) - a couple of lambda shorthand macros. `(fn* (+ _ _))  -->  (lambda (_) (+ _ _))`. Public domain.
+* [f-underscore](http://quickdocs.org/f-underscore/api) - a tiny library of functional programming utils. `(f_ (+ _ _)) -> (lambda (_) (+ _ _))`. Public domain.
+* [cl-chump](https://github.com/windymelt/cl-punch/) - Scala-like anonymous lambda literals. `(mapcar ^(* 2 _) '(1 2 3 4 5))`. [MIT][200].
+
+
+See also CL21 and Rutils.
+
 
 
 Non-deterministic, logic programming
@@ -775,6 +793,11 @@ This contains plugins and other goodies for various text editors.
 * [SLIMV](https://github.com/kovisoft/slimv) - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 * [Vlime](https://github.com/l04m33/vlime) - VLIME: Vim plus Lisp Is Mostly Evil. A Common Lisp dev environment for Vim (and Neovim). [MIT][200].
 * [Slimv_box](https://github.com/justin2004/slimv_box) - slimv in a Docker container.
+
+
+## Eclipse ##
+
+* [Dandelion](https://github.com/Ragnaroek/dandelion) - a Common Lisp plugin for the Eclipse IDE.
 
 ## Lem ##
 
