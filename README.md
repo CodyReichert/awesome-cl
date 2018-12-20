@@ -523,6 +523,7 @@ See [Cliki](http://www.cliki.net/Web) for more.
 HTTP clients
 ------------
 * 👍 [Dexador](https://github.com/fukamachi/dexador) - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
+* [Carrier](https://github.com/orthecreedence/carrier) - A lightweight, async HTTP client built on top of cl-async and fast-http. [MIT][200].
 * [fast-http](https://github.com/fukamachi/fast-http) - A fast HTTP
 request/response parser for Common Lisp. [MIT][200].
 
