@@ -94,6 +94,7 @@ sellers who aren't evil for physical resources.
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
+    - [Event processing](#event-processing)
     - [Job processing](#job-processing)
 - [Regex](#regex)
 - [Scripting](#scripting)
@@ -706,6 +707,7 @@ Numerical and Scientific
   functions as well, but those are not the focus. The library is
   heavily optimised, so it is not made of pretty
   code. [Artistic License 2.0][51].
+* [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 
 
 Parallelism and Concurrency
@@ -717,9 +719,12 @@ Parallelism and Concurrency
 * [chanl](https://github.com/zkat/chanl) - Portable, channel-based concurrency. [Expat][14], with parts under [3-clause BSD][15].
 * [cl-async](https://github.com/orthecreedence/cl-async) - A library for general-purpose, non-blocking programming. [Expat][14].
 * [erlangen](https://github.com/eugeneia/erlangen) - Distributed, asynchronous message passing system for Clozure Common Lisp. [GNU GPL3][2]. See also the [Actors](https://github.com/aarvid/Actors) package for LispWorks ([discussion](https://www.reddit.com/r/Common_Lisp/comments/77vsft/david_mcclains_actors_package_for_lispworks/)) [MIT][200].
-* [lesque](https://github.com/fukamachi/lesque) - A clone of Resque. Not available on Quicklisp. [Expat][14].
-* [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 * [Moira](https://github.com/TBRSS/moira) -  Monitor and restart background threads. In-lisp process supervisor. No license specified.
+
+
+Event processing
+----------------
+
 * [simple-tasks](https://github.com/Shinmera/simple-tasks) - A very
   simple task scheduling framework. [Artistic License 2.0][51].
 * [deeds](https://github.com/Shinmera/deeds) - Deeds is an Extensible
@@ -727,6 +732,8 @@ Parallelism and Concurrency
   multiple handlers with a complex event filtering
   system. [Artistic License 2.0][51].
 * [cl-flow](https://github.com/borodust/cl-flow/) -  Data-flowish computation tree library for non-blocking concurrent Common Lisp. [MIT][200].
+* [event-glue](https://github.com/orthecreedence/event-glue) - simple eventing abstraction. No dependencies. It can be used anywhere you need a generic event handling system. [MIT][200].
+
 
 Job processing
 --------------
