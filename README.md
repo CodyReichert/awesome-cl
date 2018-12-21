@@ -58,6 +58,8 @@ sellers who aren't evil for physical resources.
 - [YAML](#yaml)
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
+    - [Iteration](#iteration)
+    - [Lambda shorthands](#lambda-shorthands)
     - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
     - [Reactive programming](#reactive-programming)
     - [Contract programming](#contract-programming)
