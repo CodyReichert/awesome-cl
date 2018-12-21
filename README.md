@@ -99,7 +99,7 @@ sellers who aren't evil for physical resources.
 - [Scripting](#scripting)
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
-    - [Vim](#vim)
+    - [Vim & Neovim](#vim)
     - [Eclipse](#eclipse)
     - [Lem](#lem)
     - [Atom](#atom)
@@ -789,10 +789,11 @@ This contains plugins and other goodies for various text editors.
 * 👍 [Portacle](https://shinmera.github.io/portacle/) - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
 * [cl-devel2](https://hub.docker.com/r/eshamster/cl-devel2/) - a Docker container for Common Lisp development environment. Ships SBCL, CCL, Roswell and Emacs25 with Slime.
 
-## Vim ##
+## Vim & Neovim ##
 
 * [SLIMV](https://github.com/kovisoft/slimv) - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 * [Vlime](https://github.com/l04m33/vlime) - VLIME: Vim plus Lisp Is Mostly Evil. A Common Lisp dev environment for Vim (and Neovim). [MIT][200].
+* [quicklisp.nvim](https://gitlab.com/HiPhish/quicklisp.nvim) - A Quicklisp frontend for Neovim.
 * [Slimv_box](https://github.com/justin2004/slimv_box) - slimv in a Docker container.
 
 
