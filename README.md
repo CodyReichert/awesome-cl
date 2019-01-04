@@ -661,7 +661,7 @@ Deployment
 * [base-lisp-image](https://github.com/40ants/base-lisp-image) - base
   Docker image for Common Lisp projects with SBCL or CCL and the latest
   ASDF, Qlot and Roswell.
-* [s2i-lisp](https://github.com/hjudt/s2i-lisp) - Source-to-Image builder image based on CentOS for building Common LISP images for Openshift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. [AGPL][89]
+* [s2i-lisp](https://github.com/container-lisp/s2i-lisp) - Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. [AGPL][89]
 
 
 
