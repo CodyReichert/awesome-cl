@@ -631,7 +631,7 @@ Querying HTML/DOM
 -----------------
 * 👍 [lquery][72] - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
 
-See also XML below.
+See also the XML section below for xpath libraries and more.
 
 
 HTML generators and templates
@@ -1054,6 +1054,7 @@ XML
 
 * [CXML](https://common-lisp.net/project/cxml/) - XML parser, with a range of extension libraries. [LLGPL][8].
 * [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
+* [xpath](https://github.com/sharplispers/xpath) ([homepage](https://common-lisp.net/project/plexippus-xpath/atdoc/index.html) - Implementation of the XML Path Language (XPath) Version 1.0. [BSD_2Clause][17].
 * [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
 * [xmls](http://quickdocs.org/xmls/) - A small, simple, non-validating XML parser. [3-clause BSD][15].
 * [cl-feedparser](https://github.com/TBRSS/cl-feedparser) - A Common Lisp (RSS, Atom) feed parser. [LLGPL][8]
