@@ -396,6 +396,7 @@ Language extensions
 * [clamp](https://github.com/malisper/Clamp) - Arc language's brevity and conciseness to Common Lisp. [Artistic License 2.0][51].
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
   A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
+* [modf](https://github.com/smithzvk/modf) - a setf-like macro for functional programming.
 
 
 CLOS extensions
