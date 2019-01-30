@@ -93,6 +93,7 @@ sellers who aren't evil for physical resources.
     - [Websockets](#websockets)
     - [Static site generators](#static-site-generators)
     - [Deployment](#deployment)
+    - [Monitoring](#monitoring)
     - [Third-party APIs](#third-party-apis)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
@@ -246,6 +247,8 @@ Data Structures
 * [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
 * [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
 * [genhash](https://github.com/pnathan/genhash) – hash table implementation with API from generic methods. Public domain.
+* [cl-ctrie](https://github.com/danlentz/cl-ctrie) -
+lock-free, concurrent, key/value index with efficient memory-mapped persistence and fast transient storage models. [MIT][200].
 
 and see more on [Quickdocs](http://quickdocs.org/search?q=data+structure).
 
@@ -317,7 +320,7 @@ These are libraries for working with graphics, rather than making GUIs (i.e. wid
 GUI
 ===
 
-* 👍 [Qtools](https://github.com/Shinmera/qtools/) - A Qt toolkit, based on CommonQt. [Artistic License 2.0][51]
+* 👍 [Qtools](https://github.com/Shinmera/qtools/) - A Qt toolkit, based on CommonQt. [Artistic License 2.0][51] Also [Qtools-ui](https://github.com/Shinmera/qtools-ui) (premade UI components), with [videos](https://www.youtube.com/watch?v=KwASFOhYta4&index=7&list=PLkDl6Irujx9Mh3BWdBmt4JtIrwYgihTWp).
 * :star: [CommonQt](https://github.com/commonqt/commonqt) - A Common Lisp binding for Qt4 via QtSmoke. [FreeBSD][39].
 * [cl-cffi-gtk](http://www.crategus.com/books/cl-cffi-gtk/) - Binding for GTK+3. [GNU LGPL2.1][11].
 * [cl-gtk2](https://github.com/dmitryvk/cl-gtk2) - A binding for GTK+2. [LLGPL][8].
@@ -395,6 +398,7 @@ Language extensions
 * [clamp](https://github.com/malisper/Clamp) - Arc language's brevity and conciseness to Common Lisp. [Artistic License 2.0][51].
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
   A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
+* [modf](https://github.com/smithzvk/modf) - a setf-like macro for functional programming.
 
 
 CLOS extensions
@@ -665,6 +669,11 @@ Javascript
 * [SmackJack](https://github.com/aarvid/SmackJack) - An Ajax Common Lisp Library using parenscript to generate javascript and hunchentoot (for now) as the web server. Also allows a server-side lisp function to call a client-side parenscript one. [MIT][200].
 * [Panic](https://github.com/michaeljforster/panic), a Parenscript library for React. Not in Quicklisp. [MIT][200]. Its [TodoMVC example](https://github.com/40ants/todomvc/blob/common-lisp-example/examples/common-lisp-react/src/app.lisp).
 
+See also
+[trident-mode](https://github.com/johnmastro/trident-mode.el), an Emacs
+minor mode for live Parenscript interaction.
+
+
 Websockets
 ----------
 
@@ -690,6 +699,10 @@ Deployment
   ASDF, Qlot and Roswell.
 * [s2i-lisp](https://github.com/container-lisp/s2i-lisp) - Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. [AGPL][89]
 
+Monitoring
+----------
+
+* [prometheus.cl](https://github.com/deadtrickster/prometheus.cl) - Prometheus.io client. Grafana dashboard for SBCL and Hunchentoot metrics (memory, threads, requests per second,…). [MIT][200].
 
 
 Third-party APIs
@@ -813,6 +826,7 @@ Scripting
   GUI. [Artistic License 2.0][51].
 * [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
 * [cl-progress-bar](https://github.com/sirherrbatka/cl-progress-bar/) - progress bars, just like in Quicklisp ! [MIT][200].
+* [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
 
 
 Text Editor Resources
