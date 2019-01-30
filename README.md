@@ -93,6 +93,7 @@ sellers who aren't evil for physical resources.
     - [Websockets](#websockets)
     - [Static site generators](#static-site-generators)
     - [Deployment](#deployment)
+    - [Monitoring](#monitoring)
     - [Third-party APIs](#third-party-apis)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
@@ -695,6 +696,10 @@ Deployment
   ASDF, Qlot and Roswell.
 * [s2i-lisp](https://github.com/container-lisp/s2i-lisp) - Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. [AGPL][89]
 
+Monitoring
+----------
+
+* [prometheus.cl](https://github.com/deadtrickster/prometheus.cl) - Prometheus.io client. Grafana dashboard for SBCL and Hunchentoot metrics (memory, threads, requests per second,…). [MIT][200].
 
 
 Third-party APIs
