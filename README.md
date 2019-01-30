@@ -247,6 +247,8 @@ Data Structures
 * [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
 * [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
 * [genhash](https://github.com/pnathan/genhash) – hash table implementation with API from generic methods. Public domain.
+* [cl-ctrie](https://github.com/danlentz/cl-ctrie) -
+lock-free, concurrent, key/value index with efficient memory-mapped persistence and fast transient storage models. [MIT][200].
 
 and see more on [Quickdocs](http://quickdocs.org/search?q=data+structure).
 
