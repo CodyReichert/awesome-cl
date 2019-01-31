@@ -826,6 +826,17 @@ Scripting
   GUI. [Artistic License 2.0][51].
 * [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
 * [cl-progress-bar](https://github.com/sirherrbatka/cl-progress-bar/) - progress bars, just like in Quicklisp ! [MIT][200].
+* [WCL](https://github.com/wadehennessey/wcl) - allow hundreds of Lisp
+applications to be realistically available at once, while allowing
+several of them to run concurrently.  WCL accomplishes this by
+providing Common Lisp as a Unix shared library that can be linked with
+Lisp and C code to produce efficient applications.  For example, the
+executable for a Lisp version of the canonical `Hello World!`
+program requires only 20k bytes on 32 bit x86 Linux.  WCL also
+supports a full development environment, including dynamic file
+loading and debugging.  A modified version of GDB is used to debug WCL
+programs, providing support for mixed language debugging. With
+[a paper](http://pgc.com/commonlisp/wcl-paper.html).
 * [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
 
 
