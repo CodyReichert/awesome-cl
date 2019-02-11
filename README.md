@@ -322,10 +322,10 @@ GUI
 
 * 👍 [Qtools](https://github.com/Shinmera/qtools/) - A Qt toolkit, based on CommonQt. [Artistic License 2.0][51] Also [Qtools-ui](https://github.com/Shinmera/qtools-ui) (premade UI components), with [videos](https://www.youtube.com/watch?v=KwASFOhYta4&index=7&list=PLkDl6Irujx9Mh3BWdBmt4JtIrwYgihTWp).
 * :star: [CommonQt](https://github.com/commonqt/commonqt) - A Common Lisp binding for Qt4 via QtSmoke. [FreeBSD][39].
+* [ltk](http://www.peter-herth.de/ltk/) - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
+* [nodgui](https://notabug.org/cage/nodgui) - Bindings for the Tk toolkit, based on Ltk, with syntax sugar and additional widgets. [LLGPL][8].
 * [cl-cffi-gtk](http://www.crategus.com/books/cl-cffi-gtk/) - Binding for GTK+3. [GNU LGPL2.1][11].
 * [cl-gtk2](https://github.com/dmitryvk/cl-gtk2) - A binding for GTK+2. [LLGPL][8].
-* [cl-xul](https://github.com/mmontone/cl-xul) - Mozilla XUL bindings. [Expat][14].
-* [ltk](http://www.peter-herth.de/ltk/) - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 * [ceramic](https://ceramic.github.io/) - Desktop web apps with Electron. [Expat][14].
 * [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
 Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
@@ -335,6 +335,7 @@ processes. It has
 * [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 * [cl-webkit](https://github.com/joachifm/cl-webkit) - A binding to WebKitGTK+. Also adds web browsing capabilities to an application, leveraging the full power of the WebKit browsing engine. [MIT][200].
 * [ftw](https://github.com/fjames86/ftw) - A Win32 GUI library. [MIT][200].
+* [cl-xul](https://github.com/mmontone/cl-xul) - Mozilla XUL bindings. [Expat][14].
 
 Implementations
 ===============
