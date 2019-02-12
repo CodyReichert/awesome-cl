@@ -401,6 +401,7 @@ Language extensions
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
   A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
 * [modf](https://github.com/smithzvk/modf) - a setf-like macro for functional programming.
+* [generic-cl](https://github.com/alex-gutev/generic-cl/) - generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200].
 
 
 CLOS extensions
