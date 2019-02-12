@@ -90,6 +90,7 @@ sellers who aren't evil for physical resources.
     - [HTML generators and templates](#html-generators-and-templates)
     - [URI handling](#uri-handling)
     - [Javascript](#javascript)
+    - [Email](#email)
     - [Websockets](#websockets)
     - [Static site generators](#static-site-generators)
     - [Deployment](#deployment)
@@ -673,6 +674,14 @@ Javascript
 See also
 [trident-mode](https://github.com/johnmastro/trident-mode.el), an Emacs
 minor mode for live Parenscript interaction.
+
+
+Email
+-----
+
+* [trivial-imap](https://github.com/40ants/trivial-imap) - tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). [BSD][15].
+* [mailgun](https://github.com/40ants/mailgun) - A thin wrapper to post HTML emails through mailgun.com. No license specified.
+* [mito-email-auth](https://github.com/40ants/mito-email-auth) - Helper to authenticate a website's users by sending them unique code by email.
 
 
 Websockets
