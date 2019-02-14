@@ -1025,6 +1025,9 @@ i18n
 * [cl-locale](https://github.com/fukamachi/cl-locale) - A simple i18n library. [LLGPL][8].
 * [enchant](https://github.com/tlikonen/cl-enchant) - bindings for the Enchant spell-checker library. Public domain.
 * [oxenfurt](https://github.com/Shinmera/oxenfurt) - A  client library for the Oxford dictionary API. [ArtisticLicense2.0][51].
+* [language-codes](https://shinmera.github.io/language-codes) - A database library for ISO language codes. [Artistic License 2.0][51]
+* [system-locale](https://shinmera.github.io/system-locale) - A library to retrieve the user's preferred language, so that your application may choose a sensible default. [Artistic License 2.0][51].
+* [multilang-documentation](https://shinmera.github.io/multilang-documentation) - Allows writing docstrings in multiple languages, for truly internationally documented libraries. [Artistic License 2.0][51].
 
 Linting
 -------
