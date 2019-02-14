@@ -292,6 +292,7 @@ Game Development
   and easy to use mp3 decoding and cross-platform audio
   output. [Artistic License 2.0][47].
 * [trivial-gamekit](https://borodust.org/projects/trivial-gamekit/getting-started/) – with this small framework you would be able to make simple 2D games: draw basic geometric forms, images and text, play sounds and listen to mouse and keyboard input.
+* [cl-gamepad](https://shirakumo.github.io/cl-gamepad) - Access to gamepads and joysticks on Windows, Mac OS, and Linux. [Artistic License 2.0][51].
 
 Graphics
 ========
