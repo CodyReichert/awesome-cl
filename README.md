@@ -1040,6 +1040,7 @@ Logging
 -------
 
 * :star: [log4cl](https://github.com/sharplispers/log4cl/) - Logging framework modelled after Log4J. [Apache2.0][89]. Advanced integration with Slime.
+* [verbose](https://shinmera.github.io/verbose) - A fast and highly configurable logging framework. [Artistic License 2.0][51].
 
 To third parties:
 
