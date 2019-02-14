@@ -847,7 +847,7 @@ loading and debugging.  A modified version of GDB is used to debug WCL
 programs, providing support for mixed language debugging. With
 [a paper](http://pgc.com/commonlisp/wcl-paper.html).
 * [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
-
+* [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [Artistic License 2.0][51].
 
 Text Editor Resources
 =====================
