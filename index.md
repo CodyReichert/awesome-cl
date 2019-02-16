@@ -128,6 +128,7 @@ sellers who aren't evil for physical resources.
     - [Linting](#linting)
     - [Logging](#logging)
     - [Markdown](#markdown)
+    - [PDF](#pdf)
     - [Plotting](#plotting)
     - [Other](#other)
 - [XML](#xml)
@@ -402,7 +403,8 @@ Language extensions
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
   A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
 * [modf](https://github.com/smithzvk/modf) - a setf-like macro for functional programming.
-* [generic-cl](https://github.com/alex-gutev/generic-cl/) - generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200].
+* [generic-cl](https://github.com/alex-gutev/generic-cl/) - Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200].
+* [pythonic-string-reader](https://github.com/smithzvk/pythonic-string-reader) - A simple and unobtrusive read table modification inspired by Python's three quote strings. [BSD_3Clause][15].
 
 
 CLOS extensions
@@ -1051,6 +1053,12 @@ Markdown
 --------
 
 * [3bmd](https://github.com/3b/3bmd) - a markdown -> html converter. [MIT][200].
+
+PDF
+---
+
+* [cl-typesetting](https://github.com/mbattyani/cl-typesetting) and [cl-pdf](https://github.com/mbattyani/cl-pdf) - cross-platform Common Lisp libraries for generating PDF files. [FreeBSD][39].
+* [cl-pslib](http://quickdocs.org/cl-pslib/) - a (thin) wrapper around the [pslib](http://pslib.sourceforge.net/) library for generating PostScript files. Also [cl-pslib-barcode](http://quickdocs.org/cl-pslib-barcode/). [LLGPL][8].
 
 Plotting
 --------
