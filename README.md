@@ -251,6 +251,7 @@ Data Structures
 * [genhash](https://github.com/pnathan/genhash) – hash table implementation with API from generic methods. Public domain.
 * [cl-ctrie](https://github.com/danlentz/cl-ctrie) -
 lock-free, concurrent, key/value index with efficient memory-mapped persistence and fast transient storage models. [MIT][200].
+* [cl-data-structures](https://github.com/sirherrbatka/cl-data-structures) - a portable collection of data structures and algorithms (mainly dicts and sequences, with some statistical functions). [BSD][15].
 
 and see more on [Quickdocs](http://quickdocs.org/search?q=data+structure).
 
