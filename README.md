@@ -741,9 +741,8 @@ Service (S3) and CloudFront service. [BSD][15].
 * [cl-openid](https://github.com/cl-openid/cl-openid) - An implementation of OpenID. [LLGPL][8].
 * [cl-pushover](https://github.com/TeMPOraL/cl-pushover) -  Common Lisp bindings to Pushover. [MIT][200].
 * [humbler](https://github.com/Shinmera/humbler) - A Tumblr API interface. [Artistic License 2.0][51].
-
-See also [multiposter](https://github.com/Shinmera/multiposter) to
-post to multiple services simultaneously.
+*[multiposter](https://github.com/Shinmera/multiposter) - post to multiple services simultaneously.
+* [stripe-client](https://github.com/ruricolist/cl-stripe-client) - a client for the Stripe payment system. [MIT][200].
 
 Others
 ------
