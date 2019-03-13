@@ -789,6 +789,9 @@ Parallelism and Concurrency
 * [cl-async](https://github.com/orthecreedence/cl-async) - A library for general-purpose, non-blocking programming. [Expat][14].
 * [erlangen](https://github.com/eugeneia/erlangen) - Distributed, asynchronous message passing system for Clozure Common Lisp. [GNU GPL3][2]. See also the [Actors](https://github.com/aarvid/Actors) package for LispWorks ([discussion](https://www.reddit.com/r/Common_Lisp/comments/77vsft/david_mcclains_actors_package_for_lispworks/)) [MIT][200].
 * [Moira](https://github.com/TBRSS/moira) -  Monitor and restart background threads. In-lisp process supervisor. No license specified.
+* [trivial-monitored-thread](https://gitlab.com/ediethelm/trivial-monitored-thread) -
+  a Common Lisp library offering a way of spawning threads and being
+  informed when one any of them crash and die. [MIT][200].
 
 
 Event processing
@@ -887,7 +890,7 @@ This contains plugins and other goodies for various text editors.
 ## Lem ##
 
 * [Lem](https://github.com/cxxxr/lem) - a ready to use, Emacs-like, Slime-based
-  editor tailored for Common Lisp development. Ncurses and Electron interfaces. [MIT][200].
+  editor tailored for Common Lisp development. Ncurses and Electron interfaces. [MIT][200]. An [opengl frontend](https://github.com/pupcraft/lem-opengl).
 
 ## Atom ##
 
