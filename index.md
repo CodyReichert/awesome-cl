@@ -777,6 +777,12 @@ Numerical and Scientific
   heavily optimised, so it is not made of pretty
   code. [Artistic License 2.0][51].
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
+* [Petalisp](https://github.com/marcoheisig/Petalisp) - an attempt to
+  generate high performance code for parallel computers by
+  JIT-compiling array definitions. It works on a more
+  fundamental level than NumPy, by providing even more powerful
+  N-dimensional arrays, but just a few building blocks for working on
+  them. [AGPL][89].
 
 
 Parallelism and Concurrency
