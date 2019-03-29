@@ -950,6 +950,7 @@ Unit Testing
 
 * :star: [FiveAM](https://github.com/sionescu/fiveam) - Simple regression testing framework. [FreeBSD][39].
 * [CLUnit](https://github.com/tgutu/clunit) - A unit testing library. [Expat][14].
+* [Rove](https://github.com/fukamachi/rove) - Rove is a unit testing framework for Common Lisp applications. This is intended to be a successor of Prove. [3-clause BSD][15].
 * [Prove](https://github.com/fukamachi/prove) - Yet another unit testing framework [Expat][14].
 * [Parachute](https://github.com/Shinmera/parachute) - An extensible
   and cross-compatible testing framework. With test dependencies,
