@@ -900,9 +900,9 @@ This contains plugins and other goodies for various text editors.
 
 ## Atom ##
 
-* [ATOM-SLIME](https://atom.io/packages/atom-slime) allows you to
-  interactively develop Common Lisp code, helping turn Atom into a
-  full-featured Lisp IDE. [MIT][200].
+* [SLIMA](https://github.com/neil-lindquist/slima) allows you to
+  interactively develop Common Lisp code, turning Atom into a
+  pretty good, and actively developped, Lisp IDE. [MIT][200].
 
 ## Sublime Text ##
 
