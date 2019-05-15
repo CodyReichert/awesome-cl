@@ -179,6 +179,7 @@ C, C++
 * [cmacro](https://github.com/eudoxia0/cmacro) - Lisp macros for C. [MIT][200].
 * [C-mera](https://github.com/kiselgra/c-mera) - a source-to-source compiler that utilizes Lisp's macro system for meta programming of C-like languages. [GPL3][2].
 * [lispc](https://github.com/eratosthenesia/lispc) - a powerful "lispsy" macrolanguage for C. [MIT][200].
+* [ecrepl](https://gitlab.common-lisp.net/ecl/ecrepl) - an interactive REPL for the C language. No license specified.
 
 
 Crypto
