@@ -179,6 +179,7 @@ C, C++
 * [cmacro](https://github.com/eudoxia0/cmacro) - Lisp macros for C. [MIT][200].
 * [C-mera](https://github.com/kiselgra/c-mera) - a source-to-source compiler that utilizes Lisp's macro system for meta programming of C-like languages. [GPL3][2].
 * [lispc](https://github.com/eratosthenesia/lispc) - a powerful "lispsy" macrolanguage for C. [MIT][200].
+* [ecrepl](https://gitlab.common-lisp.net/ecl/ecrepl) - an interactive REPL for the C language. No license specified.
 
 
 Crypto
@@ -802,6 +803,7 @@ Parallelism and Concurrency
 * [trivial-monitored-thread](https://gitlab.com/ediethelm/trivial-monitored-thread) -
   a Common Lisp library offering a way of spawning threads and being
   informed when one any of them crash and die. [MIT][200].
+* [cl-gearman](https://github.com/taksatou/cl-gearman) - a library for the [Gearman](http://gearman.org/) distributed job system. [LLGPL][8].
 
 
 Event processing
