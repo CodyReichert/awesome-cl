@@ -919,6 +919,10 @@ This contains plugins and other goodies for various text editors.
 
 * [Sublime Text](http://www.sublimetext.com/3) has Common Lisp support
   with its "SublimeREPL" package. [Proprietary].
+  
+## VSCode ##
+
+* [VSCode-lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp) extension to support Lisp syntax. It is [on the GitHub](https://github.com/mattn/vscode-lisp).
 
 ## Notebooks ##
 
