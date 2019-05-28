@@ -1034,6 +1034,11 @@ Documentation builders
   README, adds docstrings, crossreferences and links to the
   CLHS. [ArtisticLicense2.0][51].
 * [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
+* [mgl-pax](https://github.com/melisgl/mgl-pax) - Exploratory
+programming environment and documentation generator. one may
+accomplish similar effects as with Literate Programming, but
+documentation is generated from code, not vice versa. Code is first,
+code must look pretty, documentation is code. [MIT][200].
 
 
 Files and directories
