@@ -121,6 +121,7 @@ sellers who aren't evil for physical resources.
     - [CSV](#csv)
     - [Date and time](#date-and-time)
     - [Data validation](#data-validation)
+    - [Developer utilities](#developer-utilities)
     - [Documentation builders](#documentation-builders)
     - [Files and directories](#files-and-directories)
     - [Git](#git)
@@ -394,7 +395,7 @@ Language extensions
 * [cl-algebraic-data-type](https://github.com/tarballs-are-good/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * :star: [optima](https://github.com/m2ym/optima) - Optimized pattern-matching library. [LLGPL][8].
 * [str](https://github.com/vindarel/cl-str) - a modern, simple and consistent string manipulation library. [MIT][200].
-* [trivial-types](https://github.com/m2ym/trivial-types) - Trivial type definitions. [LLGPL][8].
+* 👍 [trivial-types](https://github.com/m2ym/trivial-types) - provides missing but important type definitions such as `proper-list`, `association-list`, `property-list` and `tuple`. [LLGPL][8].
 * [interface](https://bitbucket.org/tarballs_are_good/interface) - A protocol library. [3-clause BSD][15].
 * [cl-syntax](https://github.com/m2ym/cl-syntax) - Reader syntax conventions. [LLGPL][8].
 * [cl-2dsyntax](http://www.cliki.net/cl-2dsyntax) - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
@@ -1021,6 +1022,13 @@ Data validation
 * [ratify](https://github.com/Shinmera/ratify) - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
 * [clavier](https://github.com/mmontone/clavier) - General purpose validation library for Common Lisp. [MIT][200].
 
+Developer utilities
+-------------------
+
+* [repl-utilities](https://github.com/m-n/repl-utilities) - Ease
+common tasks at the REPL (print documentation, print external symbols,
+call hooks when loading a package,…). [BSD_2Clause][17].
+
 Documentation builders
 ----------------------
 
@@ -1034,6 +1042,11 @@ Documentation builders
   README, adds docstrings, crossreferences and links to the
   CLHS. [ArtisticLicense2.0][51].
 * [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
+* [mgl-pax](https://github.com/melisgl/mgl-pax) - Exploratory
+programming environment and documentation generator. one may
+accomplish similar effects as with Literate Programming, but
+documentation is generated from code, not vice versa. Code is first,
+code must look pretty, documentation is code. [MIT][200].
 
 
 Files and directories
