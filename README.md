@@ -29,7 +29,7 @@ is provided in the LICENSE file. This repository is also mirrored on
 alternative to Github.  Preference is given to [free software][13] and
 sellers who aren't evil for physical resources.
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
 - [Audio](#audio)
@@ -48,9 +48,10 @@ sellers who aren't evil for physical resources.
 - [Foreign Function Interface](#foreign-function-interface)
     - [C](#c)
     - [Java](#java)
-    - [Miscellaneous](#miscellaneous)
     - [Objective-C](#objective-c)
     - [Python](#python)
+    - [.Net Core](#net-core)
+    - [Miscellaneous](#miscellaneous)
 - [Game Development](#game-development)
 - [Graphics](#graphics)
 - [GUI](#gui)
@@ -110,6 +111,7 @@ sellers who aren't evil for physical resources.
     - [Lem](#lem)
     - [Atom](#atom)
     - [Sublime Text](#sublime-text)
+    - [VSCode](#vscode)
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
 - [Text Processing](#text-processing)
@@ -270,10 +272,6 @@ Foreign Function Interface
 
 * [cl+j](https://common-lisp.net/project/cl-plus-j/) - A JNI-based interface to a JVM via CFFI. Not available on Quicklisp. Does not reliably work with all implementations. [Expat][14].
 
-## Miscellaneous ##
-
-* [Foil](http://foil.sourceforge.net/) - A foreign object interface; works with the JVM and CLI. Not available on Quicklisp. [CPL 1.0][47].
-
 ## Objective-C ##
 
 * [objc-lisp-bridge](https://github.com/fiddlerwoaroof/objc-lisp-bridge) -  A portable reader and bridge for interacting with Objective-C and Cocoa. [MIT][200].
@@ -286,6 +284,15 @@ Foreign Function Interface
 * [cl-python](https://github.com/metawilm/cl-python) - an implementation of Python in Common Lisp. [LLGPL][8].
 
 See also [async-process](https://github.com/cxxxr/async-process/).
+
+## .Net Core
+
+* [Bike](https://github.com/Lovesan/bike) - a cross-platform .Net Core interface. [MIT][200].
+
+## Miscellaneous ##
+
+* [Foil](http://foil.sourceforge.net/) - A foreign object interface; works with the JVM and CLI. Not available on Quicklisp. [CPL 1.0][47].
+
 
 Game Development
 ================
@@ -920,7 +927,7 @@ This contains plugins and other goodies for various text editors.
 
 * [Sublime Text](http://www.sublimetext.com/3) has Common Lisp support
   with its "SublimeREPL" package. [Proprietary].
-  
+
 ## VSCode ##
 
 * [VSCode-lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp) extension to support Lisp syntax. It is [on the GitHub](https://github.com/mattn/vscode-lisp).
