@@ -414,7 +414,7 @@ Language extensions
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
   A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
 * [modf](https://github.com/smithzvk/modf) - a setf-like macro for functional programming.
-* [generic-cl](https://github.com/alex-gutev/generic-cl/) - Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200].
+* [generic-cl](https://github.com/alex-gutev/generic-cl/) - Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200]. See also the more lightweight [generic-comparability](https://github.com/pnathan/generic-comparability). [LLGPL][8].
 * [pythonic-string-reader](https://github.com/smithzvk/pythonic-string-reader) - A simple and unobtrusive read table modification inspired by Python's three quote strings. [BSD_3Clause][15].
 * 👍 [access](https://github.com/AccelerationNet/access/) - Consistent and nested access to most common data structures. [BSD_3Clause][15].
 
@@ -482,7 +482,7 @@ Beginner
 --------
 
 * [Learn X in Y minutes - Where X = Common Lisp](https://learnxinyminutes.com/docs/common-lisp/) - Small Common Lisp tutorial covering the essentials.
-* [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples. (better read with [a Firefox add-on](https://addons.mozilla.org/de/firefox/addon/beautify-practical-common-lisp/?src=search))
+* [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
 * [Common LISP: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html) - A nice introduction into the language.
 * [Learn LISP: Simply Easy Learning](http://www.tutorialspoint.com/lisp/index.htm) - A good set of introductory tutorials; includes interactive examples.
 * [Successful Lisp](http://successful-lisp.blogspot.com/) - A good book for beginners with some programming background.
@@ -583,7 +583,7 @@ Natural Language Processing
 ===========================
 
 * [cl-nlp](https://github.com/vseloved/cl-nlp) - Natural language processing toolset. [Apache2.0][89].
-* [babel2](http://emergent-languages.org/Babel2/) - A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism [Apache2.0][89].
+* [babel2](https://github.com/lucas8/Babel2/) - A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism [Apache2.0][89].
 * [sparser](https://github.com/ddmcdonald/sparser) - A natural
 language understanding system for English. [Eclipse][209].
 
@@ -875,8 +875,7 @@ executable for a Lisp version of the canonical `Hello World!`
 program requires only 20k bytes on 32 bit x86 Linux.  WCL also
 supports a full development environment, including dynamic file
 loading and debugging.  A modified version of GDB is used to debug WCL
-programs, providing support for mixed language debugging. With
-[a paper](http://pgc.com/commonlisp/wcl-paper.html).
+programs, providing support for mixed language debugging.
 * [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
 * [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [Artistic License 2.0][51].
 
