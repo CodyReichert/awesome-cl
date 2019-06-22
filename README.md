@@ -424,6 +424,7 @@ Language extensions
 * [generic-cl](https://github.com/alex-gutev/generic-cl/) - Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200]. See also the more lightweight [generic-comparability](https://github.com/pnathan/generic-comparability). [LLGPL][8].
 * [pythonic-string-reader](https://github.com/smithzvk/pythonic-string-reader) - A simple and unobtrusive read table modification inspired by Python's three quote strings. [BSD_3Clause][15].
 * 👍 [access](https://github.com/AccelerationNet/access/) - Consistent and nested access to most common data structures. [BSD_3Clause][15].
+* [listopia](https://github.com/Dimercel/listopia) - a list manipulation library inspired by Haskell's Data.List. [LLGPL][8].
 
 
 CLOS extensions
@@ -930,7 +931,7 @@ This contains plugins and other goodies for various text editors.
 
 ## VSCode ##
 
-* [VSCode-lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp) extension to support Lisp syntax. It is [on the GitHub](https://github.com/mattn/vscode-lisp).
+* [VSCode-lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp) - an extension to support Lisp syntax. It is [on GitHub](https://github.com/mattn/vscode-lisp).
 
 ## Notebooks ##
 
