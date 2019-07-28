@@ -825,6 +825,7 @@ Parallelism and Concurrency
   a Common Lisp library offering a way of spawning threads and being
   informed when one any of them crash and die. [MIT][200].
 * [cl-gearman](https://github.com/taksatou/cl-gearman) - a library for the [Gearman](http://gearman.org/) distributed job system. [LLGPL][8].
+* [swank-crew](https://github.com/brown/swank-crew) - distributed computation framework implemented using Swank Client. [BSD_3Clause][15].
 
 
 Event processing
