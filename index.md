@@ -400,7 +400,7 @@ Language extensions
 * :star: [alexandria](https://common-lisp.net/project/alexandria/) - A general-purpose utility library. Public domain.
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library. [Expat][14].
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
-* [cl-algebraic-data-type](https://github.com/tarballs-are-good/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
+* [cl-algebraic-data-type](https://github.com/stylewarning/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * :star: [optima](https://github.com/m2ym/optima) - Optimized pattern-matching library. [LLGPL][8].
 * [str](https://github.com/vindarel/cl-str) - a modern, simple and consistent string manipulation library. [MIT][200].
 * 👍 [trivial-types](https://github.com/m2ym/trivial-types) - provides missing but important type definitions such as `proper-list`, `association-list`, `property-list` and `tuple`. [LLGPL][8].
@@ -825,6 +825,7 @@ Parallelism and Concurrency
   a Common Lisp library offering a way of spawning threads and being
   informed when one any of them crash and die. [MIT][200].
 * [cl-gearman](https://github.com/taksatou/cl-gearman) - a library for the [Gearman](http://gearman.org/) distributed job system. [LLGPL][8].
+* [swank-crew](https://github.com/brown/swank-crew) - distributed computation framework implemented using Swank Client. [BSD_3Clause][15].
 
 
 Event processing
