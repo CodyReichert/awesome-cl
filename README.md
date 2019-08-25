@@ -1018,6 +1018,7 @@ Configuration
 
 * 👍 [py-configparser](https://common-lisp.net/project/py-configparser/) - reads and writes Python's ConfigParser-like configuration files. [MIT][200].
 * [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
+* [chameleon](https://github.com/sheepduke/chameleon/) - a configuration management library shipped with profile support. [MIT][200].
 
 CSV
 ---
