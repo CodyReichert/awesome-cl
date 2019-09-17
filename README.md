@@ -60,6 +60,7 @@ sellers who aren't evil for physical resources.
 - [YAML](#yaml)
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
+    - [Function extensions](#function-extensions)
     - [Iteration](#iteration)
     - [Lambda shorthands](#lambda-shorthands)
     - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
@@ -438,6 +439,12 @@ CLOS extensions
 Bringing the speed of Static Dispatch to CLOS. [LLGPL][8].
 * [static-dispatch](https://github.com/alex-gutev/static-dispatch) - allows standard generic function dispatch to be performed statically (at compile time) rather than dynamically (runtime). This is similar to what is known as "overloading" in languages such as C++ and Java. [MIT][200].
 
+Function extensions
+-------------------
+
+* [cl-hooks](https://github.com/scymtym/architecture.hooks/) - Hooks extension point mechanism (as known, e.g., from GNU Emacs). LGPL.
+* [method-hooks](https://gitlab.com/Gnuxie/method-hooks) - When CLOS method combination allow only one hook per method, this library allows an arbitrary number of them. Mozilla Public Licence.
+* [cl-advice](https://bitbucket.org/budden/budden-tools/src/default/cl-advice/?at=default) - a portability layer advice library for SBCL, CCL, LispWorks and Allegro. Not in Quicklisp.
 
 Iteration
 ---------
