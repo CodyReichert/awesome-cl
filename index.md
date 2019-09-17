@@ -60,11 +60,13 @@ sellers who aren't evil for physical resources.
 - [YAML](#yaml)
 - [Language extensions](#language-extensions)
     - [CLOS extensions](#clos-extensions)
+    - [Function extensions](#function-extensions)
     - [Iteration](#iteration)
     - [Lambda shorthands](#lambda-shorthands)
     - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
     - [Reactive programming](#reactive-programming)
     - [Contract programming](#contract-programming)
+    - [Typing](#typing)
 - [Learning and Tutorials](#learning-and-tutorials)
     - [Online](#online)
     - [Beginner](#beginner)
@@ -401,10 +403,8 @@ Language extensions
 * :star: [alexandria](https://common-lisp.net/project/alexandria/) - A general-purpose utility library. Public domain.
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library. [Expat][14].
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
-* [cl-algebraic-data-type](https://github.com/stylewarning/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * :star: [optima](https://github.com/m2ym/optima) - Optimized pattern-matching library. [LLGPL][8].
 * [str](https://github.com/vindarel/cl-str) - a modern, simple and consistent string manipulation library. [MIT][200].
-* 👍 [trivial-types](https://github.com/m2ym/trivial-types) - provides missing but important type definitions such as `proper-list`, `association-list`, `property-list` and `tuple`. [LLGPL][8].
 * [interface](https://bitbucket.org/tarballs_are_good/interface) - A protocol library. [3-clause BSD][15].
 * [cl-syntax](https://github.com/m2ym/cl-syntax) - Reader syntax conventions. [LLGPL][8].
 * [cl-2dsyntax](http://www.cliki.net/cl-2dsyntax) - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
@@ -439,6 +439,12 @@ CLOS extensions
 Bringing the speed of Static Dispatch to CLOS. [LLGPL][8].
 * [static-dispatch](https://github.com/alex-gutev/static-dispatch) - allows standard generic function dispatch to be performed statically (at compile time) rather than dynamically (runtime). This is similar to what is known as "overloading" in languages such as C++ and Java. [MIT][200].
 
+Function extensions
+-------------------
+
+* [cl-hooks](https://github.com/scymtym/architecture.hooks/) - Hooks extension point mechanism (as known, e.g., from GNU Emacs). LGPL.
+* [method-hooks](https://gitlab.com/Gnuxie/method-hooks) - When CLOS method combination allow only one hook per method, this library allows an arbitrary number of them. Mozilla Public Licence.
+* [cl-advice](https://bitbucket.org/budden/budden-tools/src/default/cl-advice/?at=default) - a portability layer advice library for SBCL, CCL, LispWorks and Allegro. Not in Quicklisp.
 
 Iteration
 ---------
@@ -485,6 +491,12 @@ Contract programming
 
 * [quid-pro-quo](https://github.com/sellout/quid-pro-quo) - a contract
   programming library in the style of Eiffel’s Design by Contract ™. Public domain.
+
+Typing
+------
+
+* [cl-algebraic-data-type](https://github.com/stylewarning/cl-algebraic-data-type) - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
+* 👍 [trivial-types](https://github.com/m2ym/trivial-types) - provides missing but important type definitions such as `proper-list`, `association-list`, `property-list` and `tuple`. [LLGPL][8].
 
 
 Learning and Tutorials
