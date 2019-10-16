@@ -74,9 +74,9 @@ sellers who aren't evil for physical resources.
     - [Advanced](#advanced)
     - [Reference](#reference)
     - [Offline](#offline)
-    - [Beginner](#beginner)
-    - [Intermediate](#intermediate)
-    - [Advanced](#advanced)
+    - [Beginner](#beginner-1)
+    - [Intermediate](#intermediate-1)
+    - [Advanced](#advanced-1)
     - [Community](#community)
 - [Library Manager](#library-manager)
     - [Interfaces to other package managers](#interfaces-to-other-package-managers)
@@ -103,6 +103,7 @@ sellers who aren't evil for physical resources.
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
+    - [Actors pattern](#actors-pattern)
     - [Event processing](#event-processing)
     - [Job processing](#job-processing)
 - [Regex](#regex)
@@ -118,7 +119,7 @@ sellers who aren't evil for physical resources.
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
 - [Text Processing](#text-processing)
-- [Tools](#tools)
+- [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
     - [Caching](#caching)
@@ -631,8 +632,7 @@ HTTP clients
 ------------
 * 👍 [Dexador](https://github.com/fukamachi/dexador) - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
 * [Carrier](https://github.com/orthecreedence/carrier) - A lightweight, async HTTP client built on top of cl-async and fast-http. [MIT][200].
-* [fast-http](https://github.com/fukamachi/fast-http) - A fast HTTP
-request/response parser for Common Lisp. [MIT][200].
+* [fast-http](https://github.com/fukamachi/fast-http) - A fast HTTP request/response parser for Common Lisp. [MIT][200].
 
 
 HTTP Servers
@@ -852,13 +852,22 @@ Parallelism and Concurrency
 * [lfarm](https://github.com/lmj/lfarm) - distributing work across machines (on top of lparallel and usocket). [BSD_3Clause][15]
 * [chanl](https://github.com/zkat/chanl) - Portable, channel-based concurrency. [Expat][14], with parts under [3-clause BSD][15].
 * [cl-async](https://github.com/orthecreedence/cl-async) - A library for general-purpose, non-blocking programming. [Expat][14].
-* [erlangen](https://github.com/eugeneia/erlangen) - Distributed, asynchronous message passing system for Clozure Common Lisp. [GNU GPL3][2]. See also the [Actors](https://github.com/aarvid/Actors) package for LispWorks ([discussion](https://www.reddit.com/r/Common_Lisp/comments/77vsft/david_mcclains_actors_package_for_lispworks/)) [MIT][200].
 * [Moira](https://github.com/TBRSS/moira) -  Monitor and restart background threads. In-lisp process supervisor. No license specified.
 * [trivial-monitored-thread](https://gitlab.com/ediethelm/trivial-monitored-thread) -
   a Common Lisp library offering a way of spawning threads and being
   informed when one any of them crash and die. [MIT][200].
 * [cl-gearman](https://github.com/taksatou/cl-gearman) - a library for the [Gearman](http://gearman.org/) distributed job system. [LLGPL][8].
 * [swank-crew](https://github.com/brown/swank-crew) - distributed computation framework implemented using Swank Client. [BSD_3Clause][15].
+
+Actors pattern
+--------------
+
+* [erlangen](https://github.com/eugeneia/erlangen) - Distributed, asynchronous message passing system for Clozure Common Lisp. [GNU GPL3][2].
+* [Actors](https://github.com/aarvid/Actors) package for LispWorks ([announce](https://www.reddit.com/r/Common_Lisp/comments/77vsft/david_mcclains_actors_package_for_lispworks/)) [MIT][200].
+* [common-lisp-actors](https://github.com/naveensundarg/Common-Lisp-Actors) - a simple and easy to use Actor system. [BSD_2Clause][17].
+* [cl-muproc](https://common-lisp.net/project/cl-muproc/) - Erlang-inspired multiprocessing. [BSD][15].
+* [memento-mori](https://github.com/zkat/memento-mori)-  a library for writing robust, actor-based systems. It draws inspiration from Erlang/OTP, particularly its crash-first approach to high-availability systems, as well as Akka. [MIT][200].
+
 
 
 Event processing
