@@ -439,6 +439,7 @@ CLOS extensions
 * :star: [closer-mop](http://cliki.net/closer-mop) - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [defclass-std](https://github.com/EuAndreh/defclass-std) - a shortcut macro to write DEFCLASS forms quickly. [LLGPL][8].
 * [specialization-store](https://github.com/markcox80/specialization-store/) - generic functions based on types. Simplified BSD License variant.
+* [filtered-functions](https://github.com/pcostanza/filtered-functions) - enable the use of arbitrary predicates for selecting and applying methods. [MIT][200].
 * [inlined-generic-function](https://github.com/guicho271828/inlined-generic-function) -
 Bringing the speed of Static Dispatch to CLOS. [LLGPL][8].
 * [static-dispatch](https://github.com/alex-gutev/static-dispatch) - allows standard generic function dispatch to be performed statically (at compile time) rather than dynamically (runtime). This is similar to what is known as "overloading" in languages such as C++ and Java. [MIT][200].
@@ -576,6 +577,7 @@ Community
 * [lisp-lang.org](https://lisp-lang.org/)
 * [Lisp Discord Server](https://discord.gg/hhk46CE)
 * [#lisp](http://log.irc.tymoon.eu/freenode/lisp) on Freenode - main Common Lisp IRC channel.
+* [chat.lisp.cl](https://chat.lisp.cl/) - a Mattermost chat server, with bridges to IRC and Discord.
 * [Planet List](http://planet.lisp.org/) - A meta blog that collects the contents of various Lisp-related blogs.
 
 Library Manager
