@@ -1093,6 +1093,8 @@ Developer utilities
 * [repl-utilities](https://github.com/m-n/repl-utilities) - Ease
 common tasks at the REPL (print documentation, print external symbols,
 call hooks when loading a package,…). [BSD_2Clause][17].
+* [Linedit](https://common-lisp.net/project/linedit) - Readline-style library
+that provides customizable line-editing features. [MIT-style][210].
 
 Documentation builders
 ----------------------
@@ -1277,7 +1279,8 @@ The rules we (try to) respect are the followings:
 [205]: https://www.postgresql.org/about/licence/
 [206]: http://www.gigamonkeys.com/book/
 [207]: https://opensource.org/licenses/bsd-license.php
-[208]:https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+[208]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [209]: http://www.eclipse.org/legal/epl-v10.html
+[210]: https://common-lisp.net/project/linedit/license.html
 
 [rutils]: https://github.com/vseloved/rutils)
