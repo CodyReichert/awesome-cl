@@ -386,7 +386,8 @@ Proprietary:
 JSON
 ====
 
-* [cl-json](https://github.com/hankhero/cl-json) - A JSON encoder and decoder. [Expat][14].
+* [jonathan](https://github.com/Rudolph-Miller/jonathan) - A JSON encode and decoder. [MIT][200].
+* [cl-json](https://github.com/hankhero/cl-json) - A highly customizable JSON encoder and decoder. [Expat][14].
 * [jsown](https://github.com/madnificent/jsown) - A reader and writer for the JSON format. [Expat][14].
 * [json-mop](https://github.com/gschjetne/json-mop) - A metaclass for bridging CLOS and JSON objects. [MIT][200].
 
