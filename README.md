@@ -1132,6 +1132,8 @@ Files and directories
 * [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
   collection of utilities to help with pathname
   operations. [Artistic License 2.0][51].
+* [ppath](https://github.com/fourier/ppath) - Common Lisp's
+implementation of the Python's os.path module. [BSD][15].
 * [archive](https://github.com/froydnj/archive) - a library for reading and creating archive (tar, cpio) files. [BSD_3Clause][15]. A pure Common Lisp replacement for the 'tar' program.
 * [mmap](https://github.com/Shinmera/mmap) - Portable mmap file memory mapping utility library. [zlib][33].
 
