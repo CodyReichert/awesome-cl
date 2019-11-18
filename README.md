@@ -253,6 +253,7 @@ Data Structures
 ===============
 
 * 👍 [FSet](http://quickdocs.org/fset/) - A functional, set-theoretic collections data structure library. [LLGPL][8].
+* [trivial-extensible-sequences](https://github.com/Shinmera/trivial-extensible-sequences) - Portability library for the extensible sequences protocol ([SBCL documentation](http://www.sbcl.org/manual/#Extensible-Sequences)). [zlib][zlib].
 * [bst](https://github.com/glv2/bst) - Binary Search Tree. [GPL3][2]. Not in Quicklisp.
 * [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
 * [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
@@ -1284,5 +1285,6 @@ The rules we (try to) respect are the followings:
 [208]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [209]: http://www.eclipse.org/legal/epl-v10.html
 [210]: https://common-lisp.net/project/linedit/license.html
+[zlib]: https://zlib.net/zlib_license.html
 
 [rutils]: https://github.com/vseloved/rutils)
