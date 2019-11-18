@@ -253,7 +253,7 @@ Data Structures
 ===============
 
 * 👍 [FSet](http://quickdocs.org/fset/) - A functional, set-theoretic collections data structure library. [LLGPL][8].
-* [trivial-extensible-sequences](https://github.com/Shinmera/trivial-extensible-sequences) - Portability library for the extensible sequences protocol ([SBCL documentation](http://www.sbcl.org/manual/#Extensible-Sequences)). [zlib][zlib].
+* [trivial-extensible-sequences](https://github.com/Shinmera/trivial-extensible-sequences) - Portability library for the extensible sequences protocol ([SBCL documentation](http://www.sbcl.org/manual/#Extensible-Sequences)). [zlib][33].
 * [bst](https://github.com/glv2/bst) - Binary Search Tree. [GPL3][2]. Not in Quicklisp.
 * [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
 * [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
@@ -1131,6 +1131,7 @@ Files and directories
   collection of utilities to help with pathname
   operations. [Artistic License 2.0][51].
 * [archive](https://github.com/froydnj/archive) - a library for reading and creating archive (tar, cpio) files. [BSD_3Clause][15]. A pure Common Lisp replacement for the 'tar' program.
+* [mmap](https://github.com/Shinmera/mmap) - Portable mmap file memory mapping utility library. [zlib][33].
 
 Git
 ---
@@ -1285,6 +1286,5 @@ The rules we (try to) respect are the followings:
 [208]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [209]: http://www.eclipse.org/legal/epl-v10.html
 [210]: https://common-lisp.net/project/linedit/license.html
-[zlib]: https://zlib.net/zlib_license.html
 
 [rutils]: https://github.com/vseloved/rutils)
