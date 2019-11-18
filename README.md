@@ -447,6 +447,10 @@ Changing the syntax
 * [cl-annot](https://github.com/m2ym/cl-annot) - Python-like annotations for Common Lisp. [LLGPL][8].
 * :star: [cl-interpol](http://www.cliki.net/cl-interpol) - A set of reader modifications to allow string interpolation. No license specified.
 * [pythonic-string-reader](https://github.com/smithzvk/pythonic-string-reader) - A simple and unobtrusive read table modification inspired by Python's three quote strings. [BSD_3Clause][15].
+* [cl-reader](https://github.com/digikar99/reader) - A utility library
+intended at providing reader macros for lambdas, mapping, accessors,
+hash-tables and hash-sets. [MIT][200].
+
 
 CLOS extensions
 ---------------
