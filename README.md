@@ -1138,6 +1138,8 @@ Git
 
 * [legit](https://shinmera.github.io/legit/) - an interface to the Git
   binary. [Artistic License 2.0][51].
+* [git-api](https://github.com/fourier/git-api) - Common Lisp library
+to access git repository. It doesn't need git or libgit installed. [BSD][15].
 
 i18n
 ----
