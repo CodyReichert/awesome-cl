@@ -435,7 +435,7 @@ Portability layers
 
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
   A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
-
+* [definitions](https://github.com/Shinmera/definitions) - a general definitions introspection library. It gives you the ability to retrieve definitions or bindings associated with designators such as symbols, packages, and names in general. [Artistic License 2.0][51].
 
 Changing the syntax
 -------------------
