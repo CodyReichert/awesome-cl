@@ -992,7 +992,7 @@ This contains plugins and other goodies for various text editors.
 ## Lem ##
 
 * [Lem](https://github.com/cxxxr/lem) - a ready to use, Emacs-like, Slime-based
-  editor tailored for Common Lisp development. Ncurses and Electron interfaces. [MIT][200]. An [opengl frontend](https://github.com/pupcraft/lem-opengl).
+  editor tailored for Common Lisp development. Ncurses and Electron interfaces. [MIT][200]. An [opengl frontend](https://github.com/pupcraft/lem-opengl). [Lem in Docker](https://github.com/40ants/lem-docker).
 
 ## Atom ##
 
