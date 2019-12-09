@@ -419,7 +419,7 @@ Language extensions
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library. [Expat][14].
 * [rutils](rutils) - radical yet reasonable syntactic utilities for Common Lisp. [MIT][200].
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
-* :star: [optima](https://github.com/m2ym/optima) - Optimized pattern-matching library. [LLGPL][8].
+* :star: [trivia](https://github.com/guicho271828/trivia/) - Optimized pattern-matching library. [LLGPL][8].
 * [interface](https://bitbucket.org/tarballs_are_good/interface) - A protocol library. [3-clause BSD][15].
 * [arrow-macros](https://github.com/hipeta/arrow-macros) - Clojure-like threading macros. [MIT][200].
 * [dissect](https://shinmera.github.io/dissect) - when a lot of
