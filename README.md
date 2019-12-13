@@ -223,7 +223,7 @@ ORMs
 Persistent object databases
 ---------------------------
 
-* [bknr.datastore](https://github.com/hanshuebner/bknr-datastore) - a CLOS-based lisp-only database in RAM with transaction logging persistence. [licence](http://bknr.net/html/license.html). (see also chap. 21 of "Common Lisp Recipes")
+* [bknr.datastore](https://github.com/hanshuebner/bknr-datastore) - a CLOS-based lisp-only database in RAM with transaction logging persistence. [licence][208]. (see also chap. 21 of "Common Lisp Recipes")
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 * [cl-prevalence](https://common-lisp.net/project/cl-prevalence/) - in-memory database system. Implementation of Object Prevalence, in which business objects are kept live in memory and transactions are journaled for system recovery. [github fork](https://github.com/40ants/cl-prevalence). [LLGPL][8]. See also [cl-prevalence-multimaster](https://github.com/40ants/cl-prevalence-multimaster), to syncronize multiple cl-prevalence systems state.
 
@@ -417,7 +417,7 @@ Language extensions
 
 * :star: [alexandria](https://common-lisp.net/project/alexandria/) - A general-purpose utility library. Public domain.
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library. [Expat][14].
-* [rutils](rutils) - radical yet reasonable syntactic utilities for Common Lisp. [MIT][200].
+* [rutils](https://github.com/vseloved/rutils) - radical yet reasonable syntactic utilities for Common Lisp. [MIT][200].
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
 * :star: [trivia](https://github.com/guicho271828/trivia/) - Optimized pattern-matching library. [LLGPL][8].
 * [interface](https://bitbucket.org/tarballs_are_good/interface) - A protocol library. [3-clause BSD][15].
@@ -491,7 +491,7 @@ Lambda shorthands
 * [cl-punch](https://github.com/windymelt/cl-punch/) - Scala-like anonymous lambda literals. `(mapcar ^(* 2 _) '(1 2 3 4 5))`. [MIT][200].
 
 
-See also CL21 and [Rutils][rutils].
+See also CL21 and [Rutils](https://github.com/vseloved/rutils).
 
 
 
@@ -631,7 +631,7 @@ Machine Learning
 ================
 
 * [clml](https://github.com/mmaul/clml) - originally developped by Mathematicl Systems Inc., a Japanese company. With a [tutorial](https://mmaul.github.io/clml.tutorials//2015/08/08/CLML-Time-Series-Part-1.html). [LLGPL][8].
-* [mgl](https://github.com/melisgl/mgl) - used by its [author](http://quotenil.com/) to [win](https://github.com/melisgl/higgsml) the Higgs Boson Machine Learning Challenge. [MIT][200].
+* [mgl](https://github.com/melisgl/mgl) - used by its [author](https://github.com/melisgl) to [win](https://github.com/melisgl/higgsml) the Higgs Boson Machine Learning Challenge. [MIT][200].
 * [antik](https://www.common-lisp.net/project/antik/) -  a foundation for scientific and engineering computation in Common Lisp. GPL. Also [mgl-mat](https://github.com/melisgl/mgl-mat) and [LLA](https://github.com/tpapp/lla).
 
 Credit: [borretti.me' state of CL ecosystem 2015](http://borretti.me/article/common-lisp-sotu-2015#machine-learning).
@@ -1284,21 +1284,21 @@ The rules we (try to) respect are the followings:
 [9]: https://www.gnu.org/licenses/lgpl-3.0.en.html
 [11]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [13]: http://www.sbcl.org/manual/index.html#ANSI-Conformance
-[14]: http://directory.fsf.org/wiki/License:Expat
-[15]: http://directory.fsf.org/wiki/License:BSD_3Clause
+[14]: https://directory.fsf.org/wiki/License:Expat
+[15]: https://directory.fsf.org/wiki/License:BSD_3Clause
 [16]: https://www.quicklisp.org/beta/
 [17]: https://directory.fsf.org/wiki/License:BSD_2Clause
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
 [21]: http://www.goodreads.com/book/show/1175730.Object_Oriented_Programming_in_Common_LISP
-[33]: http://directory.fsf.org/wiki/License:Zlib
-[39]: http://directory.fsf.org/wiki?title=License:FreeBSD
-[47]: http://directory.fsf.org/wiki/License:CPLv1.0
-[51]: http://directory.fsf.org/wiki/License:ArtisticLicense2.0
-[54]: http://directory.fsf.org/wiki/License:Boost1.0
-[59]: http://directory.fsf.org/wiki/License:EPLv1.0
+[33]: https://directory.fsf.org/wiki/License:Zlib
+[39]: https://directory.fsf.org/wiki?title=License:FreeBSD
+[47]: https://directory.fsf.org/wiki/License:CPLv1.0
+[51]: https://directory.fsf.org/wiki/License:ArtisticLicense2.0
+[54]: https://directory.fsf.org/wiki/License:Boost1.0
+[59]: https://directory.fsf.org/wiki/License:EPLv1.0
 [71]: https://github.com/Shinmera/plump
 [72]: https://github.com/Shinmera/lquery
-[89]: http://directory.fsf.org/wiki/License:Apache2.0
+[89]: https://directory.fsf.org/wiki/License:Apache2.0
 [156]: http://letoverlambda.com/
 [157]: http://norvig.com/paip.html
 [176]: https://github.com/gwkkwg/lift/blob/master/COPYING
@@ -1311,5 +1311,3 @@ The rules we (try to) respect are the followings:
 [208]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [209]: http://www.eclipse.org/legal/epl-v10.html
 [210]: https://common-lisp.net/project/linedit/license.html
-
-[rutils]: https://github.com/vseloved/rutils)
