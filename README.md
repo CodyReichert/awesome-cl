@@ -59,6 +59,8 @@ sellers who aren't evil for physical resources.
 - [JSON](#json)
 - [YAML](#yaml)
 - [Language extensions](#language-extensions)
+    - [Portability layers](#portability-layers)
+    - [Changing the syntax](#changing-the-syntax)
     - [CLOS extensions](#clos-extensions)
     - [Function extensions](#function-extensions)
     - [Iteration](#iteration)
