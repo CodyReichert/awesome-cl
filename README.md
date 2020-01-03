@@ -118,6 +118,7 @@ sellers who aren't evil for physical resources.
     - [VSCode](#vscode)
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
+    - [Online editors](#online-editors)
 - [Text Processing](#text-processing)
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
@@ -1025,6 +1026,10 @@ This contains plugins and other goodies for various text editors.
 ## REPLs ##
 
 * [cl-repl](https://github.com/koji-kojiro/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [MIT][200]. With [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
+
+## Online editors ##
+
+* [Judge0 IDE](https://ide.judge0.com/?lUpj) is an online editor which supports Common Lisp (SBCL). [MIT][200].
 
 Text Processing
 ===============
