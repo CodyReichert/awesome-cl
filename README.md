@@ -957,6 +957,9 @@ Scripting
   previously-entered command lines, to recall and reedit them and
   perform csh-like history expansion.  Emacs and vi editing
   modes. [GPL3][2].
+* [Linedit](https://common-lisp.net/project/linedit) - Readline-style
+  library that provides customizable line-editing
+  features. [MIT-style][210].
 * 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
@@ -1140,8 +1143,7 @@ Developer utilities
 * [repl-utilities](https://github.com/m-n/repl-utilities) - Ease
 common tasks at the REPL (print documentation, print external symbols,
 call hooks when loading a package,…). [BSD_2Clause][17].
-* [Linedit](https://common-lisp.net/project/linedit) - Readline-style library
-that provides customizable line-editing features. [MIT-style][210].
+* [tracer](https://github.com/TeMPOraL/tracer) - tracing profiler for Common Lisp, with output suitable for display in Chrome’s/Chromium’s Tracing Viewer. [MIT][200].
 
 Documentation builders
 ----------------------
