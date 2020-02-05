@@ -258,7 +258,6 @@ Tools
 Data Structures
 ===============
 
-
 * 👍 [str](https://github.com/vindarel/cl-str) - a modern, simple and consistent string manipulation library. [MIT][200].
 * 👍 [FSet](http://quickdocs.org/fset/) - A functional, set-theoretic collections data structure library. [LLGPL][8].
 * [trivial-extensible-sequences](https://github.com/Shinmera/trivial-extensible-sequences) - Portability library for the extensible sequences protocol ([SBCL documentation](http://www.sbcl.org/manual/#Extensible-Sequences)). [zlib][33].
@@ -272,6 +271,7 @@ lock-free, concurrent, key/value index with efficient memory-mapped persistence 
 * [listopia](https://github.com/Dimercel/listopia) - a list manipulation library inspired by Haskell's Data.List. [LLGPL][8].
 * [hash-set](https://github.com/samebchase/hash-set/) - a convenience library implementing hash sets on top of CL hash tables [The Unlicense][5]
 * [cl-containers](https://common-lisp.net/project/cl-containers/) - an extensive library of data structures and utilities - queues, trees, heaps, doubly-linked lists, sets, bags,... [MIT][200]
+* [cl-competitive](https://github.com/privet-kitty/cl-competitive) - Common Lisp algorithms collection for competitive programming. Public domain, CCO or MIT.
 
 Accessing data structures:
 
@@ -957,6 +957,9 @@ Scripting
   previously-entered command lines, to recall and reedit them and
   perform csh-like history expansion.  Emacs and vi editing
   modes. [GPL3][2].
+* [Linedit](https://common-lisp.net/project/linedit) - Readline-style
+  library that provides customizable line-editing
+  features. [MIT-style][210].
 * 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
   options parser with a concise declaration of options. [MIT][200].
 * [CLON](https://github.com/didierverna/clon) - Command Line Options
@@ -1066,7 +1069,6 @@ These are applications or bits of code that make development in Common Lisp easi
 * [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
 * [quickapp-cli](https://github.com/triclops200/quickapp-cli) - [quickapp][188] as a command-line utility. [3-clause BSD][15].
 * [quicksearch](https://github.com/tkych/quicksearch) - Look up online libraries from the REPL. [Expat][14].
-* [SWIG](http://www.swig.org/) - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
 * [cl-project](https://github.com/fukamachi/cl-project) - General modern project skeletons. [LLGPL][8].
 * [lake](https://github.com/takagi/lake) - a GNU make like build utility. [MIT][200].
 
@@ -1140,8 +1142,7 @@ Developer utilities
 * [repl-utilities](https://github.com/m-n/repl-utilities) - Ease
 common tasks at the REPL (print documentation, print external symbols,
 call hooks when loading a package,…). [BSD_2Clause][17].
-* [Linedit](https://common-lisp.net/project/linedit) - Readline-style library
-that provides customizable line-editing features. [MIT-style][210].
+* [tracer](https://github.com/TeMPOraL/tracer) - tracing profiler for Common Lisp, with output suitable for display in Chrome’s/Chromium’s Tracing Viewer. [MIT][200].
 
 Documentation builders
 ----------------------
