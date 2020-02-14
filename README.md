@@ -1145,6 +1145,7 @@ Developer utilities
 common tasks at the REPL (print documentation, print external symbols,
 call hooks when loading a package,…). [BSD_2Clause][17].
 * [tracer](https://github.com/TeMPOraL/tracer) - tracing profiler for Common Lisp, with output suitable for display in Chrome’s/Chromium’s Tracing Viewer. [MIT][200].
+* [cl-flamegraph](https://github.com/40ants/cl-flamegraph) - A wrapper around SBCL's statistical profiler, to generate FlameGraph charts for Common Lisp programs. [BSD][15].
 
 Documentation builders
 ----------------------
