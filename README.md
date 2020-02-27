@@ -892,6 +892,7 @@ Numerical and Scientific
 * [avm](https://github.com/takagi/avm) - Efficient and expressive arrayed vector math library with multi-threading and CUDA support. [MIT][200].
 * [array-operations](https://github.com/bendudson/array-operations) - a collection of functions and macros for manipulating Common Lisp arrays and performing numerical calculations with them. [MIT][200].
 * [cl-geometry](https://github.com/Ramarren/cl-geometry/) - a system for two dimensional computational geometry for Common Lisp. [MIT][200].
+* [clem](https://github.com/slyrus/clem) - a matrix library. [BSD_2Clause][17].
 
 
 Parallelism and Concurrency
