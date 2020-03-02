@@ -141,6 +141,7 @@ sellers who aren't evil for physical resources.
     - [Markdown](#markdown)
     - [PDF](#pdf)
     - [Plotting](#plotting)
+    - [Security](#security)
     - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
@@ -1250,6 +1251,11 @@ Plotting
 * [eazy-gnuplot](https://github.com/guicho271828/eazy-gnuplot) - a
   lispy, structure-less Gnuplot library. With its
   [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
+
+Security
+--------
+
+* [cl-isolated](https://github.com/kanru/cl-isolated) - A restricted environment for Common Lisp code evaluation [AGPL-3.0][agpl3].
 
 
 Other
