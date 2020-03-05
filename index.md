@@ -141,6 +141,7 @@ sellers who aren't evil for physical resources.
     - [Markdown](#markdown)
     - [PDF](#pdf)
     - [Plotting](#plotting)
+    - [Security](#security)
     - [Other](#other)
 - [XML](#xml)
 - [Contributing](#contributing)
@@ -379,7 +380,7 @@ GUI
 * :star: [ltk](http://www.peter-herth.de/ltk/) - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 * [IUP](https://github.com/lispnik/iup/) - CFFI bindings to the [IUP](https://www.tecgraf.puc-rio.br/iup/) Portable User Interface library (pre-ALPHA). IUP is cross-platform (Windows, macOS, GNU/Linux, with new Android, iOs, Cocoa and Web Assembly drivers), has many widgets, has a small api and is actively developed.
 * [nodgui](https://notabug.org/cage/nodgui) - Bindings for the Tk toolkit, based on Ltk, with syntax sugar and additional widgets. [LLGPL][8].
-* [cl-cffi-gtk](http://www.crategus.com/index.php/projekte/) - Binding for GTK+3. [GNU LGPL2.1][11].
+* [cl-cffi-gtk](https://github.com/Ferada/cl-cffi-gtk/) - Binding for GTK+3. [GNU LGPL2.1][11].
 * [cl-gtk2](https://github.com/dmitryvk/cl-gtk2) - A binding for GTK+2. [LLGPL][8].
 * [ceramic](https://ceramic.github.io/) - Desktop web apps with Electron. [Expat][14].
 * [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
@@ -814,7 +815,7 @@ Deployment
 
 * [heroku-buildpack-common-lisp](https://gitlab.com/duncan-bayne/heroku-buildpack-common-lisp) - A Heroku buildpack that uses Roswell to compile Common Lisp applications. LGPL3.
 * [cube](https://github.com/xh4/cube) - Kubernetes client library for Common LISP generated from the Swagger specification. No license specified.
-* [s2i-lisp](https://github.com/container-lisp/s2i-lisp) - Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. [AGPL][89]
+* [s2i-lisp](https://github.com/container-lisp/s2i-lisp) - Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. [Apache2][89]
 * [deploy](https://shinmera.github.io/deploy) - A toolkit for binary deployment of Lisp applications, with extra support for foreign shared libraries. [Artistic License 2.0][51].
 * [cl-aws-runtime-test](https://github.com/y2q-actionman/cl-aws-custom-runtime-test) - An example of using Common Lisp (SBCL) as a custom runtime on AWS lambda. WTFPL.
 
@@ -885,13 +886,14 @@ Numerical and Scientific
   JIT-compiling array definitions. It works on a more
   fundamental level than NumPy, by providing even more powerful
   N-dimensional arrays, but just a few building blocks for working on
-  them. [AGPL][89].
+  them. [AGPL-3.0][agpl3].
 * [cmu-infix](https://github.com/rigetti/cmu-infix) - A library for writing infix mathematical notation in Common Lisp. See also [polisher](https://github.com/mrcdr/polisher).
 * [cl-ana](https://github.com/ghollisjr/cl-ana) - Common Lisp data analysis library with emphasis on modularity and conceptual clarity. It aims to be a general purpose framework for analyzing small and large scale datasets, including binned data analysis and visualization. [GNU GPL3][2].
 * [linear-programming](https://neil-lindquist.github.io/linear-programming/) – a library for solving linear programming problems. [MIT][200].
 * [avm](https://github.com/takagi/avm) - Efficient and expressive arrayed vector math library with multi-threading and CUDA support. [MIT][200].
 * [array-operations](https://github.com/bendudson/array-operations) - a collection of functions and macros for manipulating Common Lisp arrays and performing numerical calculations with them. [MIT][200].
 * [cl-geometry](https://github.com/Ramarren/cl-geometry/) - a system for two dimensional computational geometry for Common Lisp. [MIT][200].
+* [clem](https://github.com/slyrus/clem) - a matrix library. [BSD_2Clause][17].
 
 
 Parallelism and Concurrency
@@ -1047,6 +1049,7 @@ This contains plugins and other goodies for various text editors.
 ## REPLs ##
 
 * [cl-repl](https://github.com/koji-kojiro/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [MIT][200]. With [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
+* [magic-ed](https://github.com/sanel/magic-ed) - a tiny editing facility, where you can directly load, edit, manipulate and evaluate file or file content from the REPL, when going to a full IDE is too much. [MIT][200].
 
 ## Online editors ##
 
@@ -1149,6 +1152,9 @@ call hooks when loading a package,…). [BSD_2Clause][17].
 * [flight-recorder](https://github.com/vseloved/flight-recorder) - a robust REPL history facility.
 * [tracer](https://github.com/TeMPOraL/tracer) - tracing profiler for Common Lisp, with output suitable for display in Chrome’s/Chromium’s Tracing Viewer. [MIT][200].
 * [cl-flamegraph](https://github.com/40ants/cl-flamegraph) - A wrapper around SBCL's statistical profiler, to generate FlameGraph charts for Common Lisp programs. [BSD][15].
+* [cl-debug](https://github.com/LowH/cl-debug) - a cross-package debug facility. Provides a unified way to enable or disable debug-specific code. Debugging code can be enabled or disabled relative to program features denoted by either a symbol or a keyword. ISC licence.
+* [supertrace](https://github.com/fukamachi/supertrace) - Superior Common Lisp `trace` functionality for debugging/profiling. Trace many functions at once, use before and after hooks. [BSD_2Clause][17].
+
 
 Documentation builders
 ----------------------
@@ -1247,6 +1253,11 @@ Plotting
   lispy, structure-less Gnuplot library. With its
   [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
 
+Security
+--------
+
+* [cl-isolated](https://github.com/kanru/cl-isolated) - A restricted environment for Common Lisp code evaluation [AGPL-3.0][agpl3].
+
 
 Other
 -----
@@ -1341,3 +1352,4 @@ The rules we (try to) respect are the followings:
 [208]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [209]: http://www.eclipse.org/legal/epl-v10.html
 [210]: https://common-lisp.net/project/linedit/license.html
+[agpl3]: https://directory.fsf.org/wiki/License:AGPL-3.0
