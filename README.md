@@ -454,6 +454,8 @@ Language extensions
 Portability layers
 ------------------
 
+Large list of portability layers [is collected here](https://shinmera.github.io/portability/). Here are some of them:
+
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
   A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
 * [definitions](https://github.com/Shinmera/definitions) - a general definitions introspection library. It gives you the ability to retrieve definitions or bindings associated with designators such as symbols, packages, and names in general. [Artistic License 2.0][51].
