@@ -395,6 +395,8 @@ processes. It has
 * [eql, eql5, eql5-android](https://gitlab.com/eql) - Embedded Qt4 and Qt5 Lisp, embedded in ECL, embeddable in Qt. Port of EQL5 to the Android platform. [MIT][200].
 * [bodge-nuklear](https://github.com/borodust/bodge-nuklear) - Wrapper over the [Nuklear](https://github.com/vurtun/nuklear) immediate mode GUI library. [MIT][200].
 
+See also this [demo to use Java Swing from ABCL](https://github.com/defunkydrummer/abcl-jazz).
+
 
 Implementations
 ===============
