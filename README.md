@@ -123,6 +123,7 @@ sellers who aren't evil for physical resources.
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
     - [Online editors](#online-editors)
+    - [Apps](#apps)
 - [Text Processing](#text-processing)
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
@@ -1064,6 +1065,10 @@ This contains plugins and other goodies for various text editors.
 ## Online editors ##
 
 * [Judge0 IDE](https://ide.judge0.com/?lUpj) is an online editor which supports Common Lisp (SBCL). [MIT][200].
+
+## Apps ##
+
+* [CodePlayground](https://codeplayground.app/) - an iPhone and iPad app with Lisp support via CCL.
 
 Text Processing
 ===============
