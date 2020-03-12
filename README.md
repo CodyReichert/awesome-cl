@@ -48,6 +48,7 @@ sellers who aren't evil for physical resources.
 - [Docker images](#docker-images)
 - [Foreign Function Interface](#foreign-function-interface)
     - [C](#c)
+    - [Erlang](#erlang)
     - [Java](#java)
     - [Objective-C](#objective-c)
     - [Python](#python)
@@ -302,6 +303,10 @@ Foreign Function Interface
 * 👍[cl-autowrap](https://github.com/rpav/cl-autowrap) - Automatically parses header files into CFFI definitions. [FreeBSD][39].
 * [cl-bindgen](https://github.com/sdilts/cl-bindgen) - A command line tool and library for creating Common Lisp language bindings from C header files. [MIT][200].
 * [cl-gobject-introspection](https://github.com/andy128k/cl-gobject-introspection) - [Gobject Introspection](https://gi.readthedocs.io/en/latest/) FFI. Automatic bindings to call into the C library. [BSD][15]. Generate a lisp interface with [gir2cl](https://github.com/kat-co/gir2cl). [LGPL3][9].
+
+## Erlang ##
+
+* [CLERIC](https://github.com/flambard/CLERIC) - a Common Lisp Erlang Interface. An implementation of the Erlang distribution protocol, comparable with erl_interface and jinterface. [MIT][200].
 
 ## Java ##
 
