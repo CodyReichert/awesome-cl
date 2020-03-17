@@ -48,6 +48,7 @@ sellers who aren't evil for physical resources.
 - [Docker images](#docker-images)
 - [Foreign Function Interface](#foreign-function-interface)
     - [C](#c)
+    - [Erlang](#erlang)
     - [Java](#java)
     - [Objective-C](#objective-c)
     - [Python](#python)
@@ -122,6 +123,7 @@ sellers who aren't evil for physical resources.
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
     - [Online editors](#online-editors)
+    - [Apps](#apps)
 - [Text Processing](#text-processing)
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
@@ -302,6 +304,10 @@ Foreign Function Interface
 * 👍[cl-autowrap](https://github.com/rpav/cl-autowrap) - Automatically parses header files into CFFI definitions. [FreeBSD][39].
 * [cl-bindgen](https://github.com/sdilts/cl-bindgen) - A command line tool and library for creating Common Lisp language bindings from C header files. [MIT][200].
 * [cl-gobject-introspection](https://github.com/andy128k/cl-gobject-introspection) - [Gobject Introspection](https://gi.readthedocs.io/en/latest/) FFI. Automatic bindings to call into the C library. [BSD][15]. Generate a lisp interface with [gir2cl](https://github.com/kat-co/gir2cl). [LGPL3][9].
+
+## Erlang ##
+
+* [CLERIC](https://github.com/flambard/CLERIC) - a Common Lisp Erlang Interface. An implementation of the Erlang distribution protocol, comparable with erl_interface and jinterface. [MIT][200].
 
 ## Java ##
 
@@ -1060,6 +1066,10 @@ This contains plugins and other goodies for various text editors.
 
 * [Judge0 IDE](https://ide.judge0.com/?lUpj) is an online editor which supports Common Lisp (SBCL). [MIT][200].
 
+## Apps ##
+
+* [CodePlayground](https://codeplayground.app/) - an iPhone and iPad app with Lisp support via CCL.
+
 Text Processing
 ===============
 
@@ -1159,6 +1169,7 @@ call hooks when loading a package,…). [BSD_2Clause][17].
 * [cl-flamegraph](https://github.com/40ants/cl-flamegraph) - A wrapper around SBCL's statistical profiler, to generate FlameGraph charts for Common Lisp programs. [BSD][15].
 * [cl-debug](https://github.com/LowH/cl-debug) - a cross-package debug facility. Provides a unified way to enable or disable debug-specific code. Debugging code can be enabled or disabled relative to program features denoted by either a symbol or a keyword. ISC licence.
 * [supertrace](https://github.com/fukamachi/supertrace) - Superior Common Lisp `trace` functionality for debugging/profiling. Trace many functions at once, use before and after hooks. [BSD_2Clause][17].
+* [GTFL](http://www.martin-loetzsch.de/gtfl/) - A graphical terminal for Lisp, meant for Lisp programmers who want to debug or visualize their own algorithms. A graphical trace in the browser. BSD-style.
 
 
 Documentation builders
