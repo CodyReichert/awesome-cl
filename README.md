@@ -240,6 +240,8 @@ Graph databases
 
 * [facts](https://github.com/cl-facts/facts) - an in-memory graph database with transactions and rollbacks, logging/replay and dumping/loading to/from disk. No licence specified.
 
+Of course, there is [AllegroGraph](https://allegrograph.com/) (proprietary).
+
 
 Wrappers
 --------
