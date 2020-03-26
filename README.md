@@ -502,6 +502,7 @@ CLOS extensions
 * [inlined-generic-function](https://github.com/guicho271828/inlined-generic-function) -
 Bringing the speed of Static Dispatch to CLOS. [LLGPL][8].
 * [static-dispatch](https://github.com/alex-gutev/static-dispatch) - allows standard generic function dispatch to be performed statically (at compile time) rather than dynamically (runtime). This is similar to what is known as "overloading" in languages such as C++ and Java. [MIT][200].
+* [https://github.com/rpav/dynamic-mixins](dynamic-mixins) - simple, dynamic class combination. [BSD_2Clause][17].
 
 Function extensions
 -------------------
