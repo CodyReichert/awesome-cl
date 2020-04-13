@@ -1162,6 +1162,7 @@ Date and time
 Duration processing library built on top of local-time. [MIT][200].
 * [iso-8601-date](https://gitlab.com/DataLinkDroid/iso-8601-date) - Miscellaneous date routines in Common Lisp, based around the ISO 8601 string representation. [LLGPL][8].
 * [calendar-date](https://github.com/takagi/calendar-date) - a Gregorian calendar date library. [MIT][200].
+* [periods](https://github.com/jwiegley/periods) - manipulating date/time objects at a higher level. With series-compatible data structure. [BSD_3Clause][15].
 
 Data validation
 ---------------
