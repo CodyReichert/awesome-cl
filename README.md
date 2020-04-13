@@ -973,6 +973,9 @@ Regex
 Scripting
 =========
 
+Writing, running scripts
+------------------------
+
 * 👍 [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) -
   a lisp installer and scripting environment (helper, launcher,
   installer) and more. [MIT][200].
@@ -980,6 +983,13 @@ Scripting
   functions like a shell command, without the need to write a command
   line arguments parser. And it also can be used as a Make-like
   build-tool. [FreeBSD][39].
+* [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [Artistic License 2.0][51].
+* [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
+* [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
+
+Readline, ncurses and other graphical helpers
+--------------------------------------------
+
 * [cl-readline](https://github.com/vindarel/cl-readline) - a set of
   functions to edit lines as they are typed in, to maintain a list of
   previously-entered command lines, to recall and reedit them and
@@ -988,19 +998,32 @@ Scripting
 * [Linedit](https://common-lisp.net/project/linedit) - Readline-style
   library that provides customizable line-editing
   features. [MIT-style][210].
-* 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
-  options parser with a concise declaration of options. [MIT][200].
-* [CLON](https://github.com/didierverna/clon) - Command Line Options
-  Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
-* [cl-ansi-term](https://github.com/vindarel/cl-ansi-term) - print
-  colorized text, horizontal lines, progress bars, (un)ordered lists
-  and tables on ANSI-compliant terminals. [GPL3][2].
 * [cl-charms](https://github.com/HiTECNOLOGYs/cl-charms) - an
   interface to `libcurses` in Common Lisp. It provides both a raw,
   low-level interface to libcurses via CFFI, and a more higher-level
   lispier interface. [MIT][200].
-* [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
+* [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
+* [cl-ansi-term](https://github.com/vindarel/cl-ansi-term) - print
+  colorized text, horizontal lines, progress bars, (un)ordered lists
+  and tables on ANSI-compliant terminals. [GPL3][2].
 * [cl-progress-bar](https://github.com/sirherrbatka/cl-progress-bar/) - progress bars, just like in Quicklisp ! [MIT][200].
+
+Command-line options parsers
+----------------------------
+
+* 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
+  options parser with a concise declaration of options. [MIT][200].
+* [CLON](https://github.com/didierverna/clon) - Command Line Options
+  Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
+
+Shells, shells interfaces
+-------------------------
+
+* [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
+
+Other scripting utils
+---------------------
+
 * [WCL](https://github.com/wadehennessey/wcl) - allow hundreds of Lisp
 applications to be realistically available at once, while allowing
 several of them to run concurrently.  WCL accomplishes this by
@@ -1011,10 +1034,6 @@ program requires only 20k bytes on 32 bit x86 Linux.  WCL also
 supports a full development environment, including dynamic file
 loading and debugging.  A modified version of GDB is used to debug WCL
 programs, providing support for mixed language debugging.
-* [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
-* [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [Artistic License 2.0][51].
-* [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
-* [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
 
 
 Text Editor Resources
