@@ -113,6 +113,12 @@ sellers who aren't evil for physical resources.
     - [Job processing](#job-processing)
 - [Regex](#regex)
 - [Scripting](#scripting)
+    - [Writing, running scripts](#writing-running-scripts)
+    - [Command-line options parsers](#command-line-options-parsers)
+    - [Readline, ncurses and other graphical helpers](#readline-ncurses-and-other-graphical-helpers)
+    - [Shells, shells interfaces](#shells-shells-interfaces)
+    - [System administration](#system-administration)
+    - [Other scripting utilities](#other-scripting-utilities)
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
     - [Vim & Neovim](#vim--neovim)
@@ -979,13 +985,17 @@ Writing, running scripts
 * 👍 [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) -
   a lisp installer and scripting environment (helper, launcher,
   installer) and more. [MIT][200].
-* [Shelly](https://github.com/fukamachi/shelly) - execute Common Lisp
-  functions like a shell command, without the need to write a command
-  line arguments parser. And it also can be used as a Make-like
-  build-tool. [FreeBSD][39].
 * [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [Artistic License 2.0][51].
 * [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
 * [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
+
+Command-line options parsers
+----------------------------
+
+* 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
+  options parser with a concise declaration of options. [MIT][200].
+* [CLON](https://github.com/didierverna/clon) - a Command Line Options
+  Nuker, with lots of options. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
 
 Readline, ncurses and other graphical helpers
 --------------------------------------------
@@ -1008,23 +1018,24 @@ Readline, ncurses and other graphical helpers
   and tables on ANSI-compliant terminals. [GPL3][2].
 * [cl-progress-bar](https://github.com/sirherrbatka/cl-progress-bar/) - progress bars, just like in Quicklisp ! [MIT][200].
 
-Command-line options parsers
-----------------------------
-
-* 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
-  options parser with a concise declaration of options. [MIT][200].
-* [CLON](https://github.com/didierverna/clon) - Command Line Options
-  Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
-
 Shells, shells interfaces
 -------------------------
 
 * [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
+* [Shelly](https://github.com/fukamachi/shelly) - execute Common Lisp
+  functions like a shell command, without the need to write a command
+  line arguments parser. And it also can be used as a Make-like
+  build-tool. [FreeBSD][39].
 
-Other scripting utils
+System administration
 ---------------------
 
-* [WCL](https://github.com/wadehennessey/wcl) - allow hundreds of Lisp
+* [Adams](https://github.com/cl-adams/adams) - UNIX system administration in Common Lisp. Not unlike Ansible, Chef or Puppet. [ISC][22].
+
+Other scripting utilities
+-------------------------
+
+* [WCL](https://github.com/wadehennessey/wcl) [staled] - allow hundreds of Lisp
 applications to be realistically available at once, while allowing
 several of them to run concurrently.  WCL accomplishes this by
 providing Common Lisp as a Unix shared library that can be linked with
@@ -1381,6 +1392,7 @@ The rules we (try to) respect are the followings:
 [17]: https://directory.fsf.org/wiki/License:BSD_2Clause
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
 [21]: http://www.goodreads.com/book/show/1175730.Object_Oriented_Programming_in_Common_LISP
+[22]: https://en.wikipedia.org/wiki/ISC_license
 [33]: https://directory.fsf.org/wiki/License:Zlib
 [39]: https://directory.fsf.org/wiki?title=License:FreeBSD
 [47]: https://directory.fsf.org/wiki/License:CPLv1.0
