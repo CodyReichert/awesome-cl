@@ -113,6 +113,12 @@ sellers who aren't evil for physical resources.
     - [Job processing](#job-processing)
 - [Regex](#regex)
 - [Scripting](#scripting)
+    - [Writing, running scripts](#writing-running-scripts)
+    - [Command-line options parsers](#command-line-options-parsers)
+    - [Readline, ncurses and other graphical helpers](#readline-ncurses-and-other-graphical-helpers)
+    - [Shells, shells interfaces](#shells-shells-interfaces)
+    - [System administration](#system-administration)
+    - [Other scripting utilities](#other-scripting-utilities)
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
     - [Vim & Neovim](#vim--neovim)
@@ -774,8 +780,9 @@ HTML generators and templates
   most simplistic syntax. [MIT][200].
 * :star: [cl-who](http://weitz.de/cl-who/) - The venerable HTML generator. [FreeBSD][39].
 * :star: [Djula](https://github.com/mmontone/djula) - A port of Django's template engine to Common Lisp. [Expat][14].
-* [cl-markup](https://github.com/arielnetworks/cl-markup) - Modern markup generation library. [LLGPL][8].
 * [eco](https://github.com/eudoxia0/eco) - Fast, flexible, designer-friendly template engine. [Expat][14].
+* [TEN](https://github.com/mmontone/ten) - the completness of Djula meets the usability of Eco. [MIT][200].
+* [cl-markup](https://github.com/arielnetworks/cl-markup) - Modern markup generation library. [LLGPL][8].
 * [cl-closure-template](https://github.com/archimag/cl-closure-template) - Implementation of Google's Closure templates. [LLGPL][8].
 * [clip](https://shinmera.github.io/clip) - An HTML template processor where the templates are written in HTML. [Artistic License 2.0][51].
 * [lsx](https://github.com/fukamachi/lsx/) - Embeddable HTML templating engine with JSX-like syntax. [BSD_2Clause][17].
@@ -972,13 +979,27 @@ Regex
 Scripting
 =========
 
+Writing, running scripts
+------------------------
+
 * 👍 [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) -
   a lisp installer and scripting environment (helper, launcher,
   installer) and more. [MIT][200].
-* [Shelly](https://github.com/fukamachi/shelly) - execute Common Lisp
-  functions like a shell command, without the need to write a command
-  line arguments parser. And it also can be used as a Make-like
-  build-tool. [FreeBSD][39].
+* [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [Artistic License 2.0][51].
+* [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
+* [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
+
+Command-line options parsers
+----------------------------
+
+* 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
+  options parser with a concise declaration of options. [MIT][200].
+* [CLON](https://github.com/didierverna/clon) - a Command Line Options
+  Nuker, with lots of options. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
+
+Readline, ncurses and other graphical helpers
+--------------------------------------------
+
 * [cl-readline](https://github.com/vindarel/cl-readline) - a set of
   functions to edit lines as they are typed in, to maintain a list of
   previously-entered command lines, to recall and reedit them and
@@ -987,20 +1008,34 @@ Scripting
 * [Linedit](https://common-lisp.net/project/linedit) - Readline-style
   library that provides customizable line-editing
   features. [MIT-style][210].
-* 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
-  options parser with a concise declaration of options. [MIT][200].
-* [CLON](https://github.com/didierverna/clon) - Command Line Options
-  Nuker. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
-* [cl-ansi-term](https://github.com/vindarel/cl-ansi-term) - print
-  colorized text, horizontal lines, progress bars, (un)ordered lists
-  and tables on ANSI-compliant terminals. [GPL3][2].
 * [cl-charms](https://github.com/HiTECNOLOGYs/cl-charms) - an
   interface to `libcurses` in Common Lisp. It provides both a raw,
   low-level interface to libcurses via CFFI, and a more higher-level
   lispier interface. [MIT][200].
-* [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
+* [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
+* [cl-ansi-term](https://github.com/vindarel/cl-ansi-term) - print
+  colorized text, horizontal lines, progress bars, (un)ordered lists
+  and tables on ANSI-compliant terminals. [GPL3][2].
 * [cl-progress-bar](https://github.com/sirherrbatka/cl-progress-bar/) - progress bars, just like in Quicklisp ! [MIT][200].
-* [WCL](https://github.com/wadehennessey/wcl) - allow hundreds of Lisp
+
+Shells, shells interfaces
+-------------------------
+
+* [shcl](https://github.com/bradleyjensen/shcl) - a POSIX-like shell in Common Lisp. [Apache2.0][51].
+* [Shelly](https://github.com/fukamachi/shelly) - execute Common Lisp
+  functions like a shell command, without the need to write a command
+  line arguments parser. And it also can be used as a Make-like
+  build-tool. [FreeBSD][39].
+
+System administration
+---------------------
+
+* [Adams](https://github.com/cl-adams/adams) - UNIX system administration in Common Lisp. Not unlike Ansible, Chef or Puppet. [ISC][22].
+
+Other scripting utilities
+-------------------------
+
+* [WCL](https://github.com/wadehennessey/wcl) [staled] - allow hundreds of Lisp
 applications to be realistically available at once, while allowing
 several of them to run concurrently.  WCL accomplishes this by
 providing Common Lisp as a Unix shared library that can be linked with
@@ -1010,10 +1045,6 @@ program requires only 20k bytes on 32 bit x86 Linux.  WCL also
 supports a full development environment, including dynamic file
 loading and debugging.  A modified version of GDB is used to debug WCL
 programs, providing support for mixed language debugging.
-* [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
-* [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [Artistic License 2.0][51].
-* [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
-* [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
 
 
 Text Editor Resources
@@ -1162,6 +1193,7 @@ Date and time
 Duration processing library built on top of local-time. [MIT][200].
 * [iso-8601-date](https://gitlab.com/DataLinkDroid/iso-8601-date) - Miscellaneous date routines in Common Lisp, based around the ISO 8601 string representation. [LLGPL][8].
 * [calendar-date](https://github.com/takagi/calendar-date) - a Gregorian calendar date library. [MIT][200].
+* [periods](https://github.com/jwiegley/periods) - manipulating date/time objects at a higher level. With series-compatible data structure. [BSD_3Clause][15].
 
 Data validation
 ---------------
@@ -1321,6 +1353,7 @@ XML
 * [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
 * [xmls](http://quickdocs.org/xmls/) - A small, simple, non-validating XML parser. [3-clause BSD][15].
 * [cl-feedparser](https://github.com/TBRSS/cl-feedparser) - A Common Lisp (RSS, Atom) feed parser. [LLGPL][8]
+* [Buildnode](https://github.com/AccelerationNet/buildnode) - A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. [BSD][15].
 
 
 Contributing
@@ -1359,6 +1392,7 @@ The rules we (try to) respect are the followings:
 [17]: https://directory.fsf.org/wiki/License:BSD_2Clause
 [20]: http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html
 [21]: http://www.goodreads.com/book/show/1175730.Object_Oriented_Programming_in_Common_LISP
+[22]: https://en.wikipedia.org/wiki/ISC_license
 [33]: https://directory.fsf.org/wiki/License:Zlib
 [39]: https://directory.fsf.org/wiki?title=License:FreeBSD
 [47]: https://directory.fsf.org/wiki/License:CPLv1.0
