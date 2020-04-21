@@ -968,9 +968,12 @@ Event processing
 Job processing
 --------------
 
+
+* [SBCL's timers](http://www.sbcl.org/manual/#Timers), system-wide event schedulers.
 * [psychiq](https://github.com/fukamachi/psychiq) - redis-based background job processing for Common Lisp applications. Inspired by Ruby's Sidekiq and compatible with its web UI. [LLGPL][8].
 * [cl-cron](http://quickdocs.org/cl-cron/api) - A simple tool that provides cron like facilities. [GPL3][2].
 * [clerk](https://github.com/tsikov/clerk) - a cron-like scheduler with sane DSL. [MIT][200].
+
 
 Regex
 =====
