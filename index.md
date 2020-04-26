@@ -473,6 +473,7 @@ Language extensions
   the current stack is still useful to store
   somewhere. [Artistic License 2.0][51].
 * [generic-cl](https://github.com/alex-gutev/generic-cl/) - Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200]. See also the more lightweight [generic-comparability](https://github.com/pnathan/generic-comparability). [LLGPL][8].
+* [hu.dwim.walker](http://quickdocs.org/hu.dwim.walker/api) - a code walker and unwalker (aka AST parser and unparser). [BSD][15]. See also [this blog post](http://40ants.com/lisp-project-of-the-day/2020/04/0044-hu.dwim.walker.html).
 
 Portability layers
 ------------------
