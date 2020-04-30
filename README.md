@@ -43,6 +43,7 @@ sellers who aren't evil for physical resources.
     - [Persistent object databases](#persistent-object-databases)
     - [Graph databases](#graph-databases)
     - [Wrappers](#wrappers)
+    - [Migration tools](#migration-tools)
     - [To third parties](#to-third-parties)
     - [Tools](#tools)
 - [Data Structures](#data-structures)
@@ -260,6 +261,13 @@ Wrappers
 * [cl-disque](https://github.com/CodyReichert/cl-disque) - Disque client. [3-clause BSD][15].
 * [cl-rethinkdb](https://github.com/orthecreedence/cl-rethinkdb) - RethinkDB client. [Expat][14].
 * [clouchdb](https://common-lisp.net/project/clouchdb/) - Library for interacting with CouchDB. [FreeBSD][39].
+
+Migration tools
+---------------
+
+* [cl-migratum](https://github.com/dnaeon/cl-migratum) - a system which provides facilities for performing database schema migrations, designed to work with various databases. [BSD_3Clause][15].
+* [postmodern-passenger-pigeon](https://github.com/fisxoj/postmodern-passenger-pigeon/) - a migration manager for postmodern. No licence specified.
+
 
 To third parties
 ----------------
