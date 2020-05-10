@@ -593,11 +593,10 @@ Beginner
 --------
 
 * [Learn X in Y minutes - Where X = Common Lisp](https://learnxinyminutes.com/docs/common-lisp/) - Small Common Lisp tutorial covering the essentials.
+* [Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 * [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples. Better read with [a Firefox add-on](https://github.com/vale981/practical-cl-beautified).
 * [Common LISP: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html) - A nice introduction into the language.
-* [Learn LISP: Simply Easy Learning](http://www.tutorialspoint.com/lisp/index.htm) - A good set of introductory tutorials; includes interactive examples.
 * [Successful Lisp](http://successful-lisp.blogspot.com/) - A good book for beginners with some programming background.
-* [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 * [Lisp Quickstart](https://cs.gmu.edu/~sean/lisp/LispTutorial.html) - A good tutorial to get up and code Common Lisp quickly.
 * [Casting SPELs in LISP](http://www.lisperati.com/casting.html) - A fun way to learn LISP while reading a comic book.
 
@@ -606,8 +605,6 @@ Intermediate
 
 * [The Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
 * [Common Lisp tips](http://lisptips.com/) - A blog with useful tips and tricks. Continued by the community on [Lisp Tips](https://github.com/lisp-tips/lisp-tips/issues/).
-* [CommonQt tutorial](https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/) - A nice introduction to CommonQt.
-* [A tutorial for creating and publishing open-source Common Lisp software](https://arxiv.org/abs/1209.5626) - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.
 
 Advanced
 --------
