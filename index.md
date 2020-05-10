@@ -637,7 +637,6 @@ Beginner
 
 * [Land of Lisp](http://landoflisp.com/) - A fun, game-oriented introduction to Common Lisp.
 * [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
-* [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
