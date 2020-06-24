@@ -605,6 +605,7 @@ Intermediate
 
 * [The Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
 * [Common Lisp tips](http://lisptips.com/) - A blog with useful tips and tricks. Continued by the community on [Lisp Tips](https://github.com/lisp-tips/lisp-tips/issues/).
+* [Lisp for the Web](https://leanpub.com/lispweb) - A book about making a web application with Lisp.
 
 Advanced
 --------
