@@ -128,6 +128,7 @@ sellers who aren't evil for physical resources.
     - [Atom](#atom)
     - [Sublime Text](#sublime-text)
     - [VSCode](#vscode)
+    - [Geany](#geany)
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
     - [Online editors](#online-editors)
@@ -1111,6 +1112,10 @@ This contains plugins and other goodies for various text editors.
 ## VSCode ##
 
 * [VSCode-lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp) - an extension to support Lisp syntax. It is [on GitHub](https://github.com/mattn/vscode-lisp).
+
+## Geany (experimental) ##
+
+* [Geany-lisp](https://github.com/jasom/geany-lisp) is an experimental lisp mode for the [Geany](https://geany.org/) editor.
 
 ## Notebooks ##
 
