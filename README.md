@@ -249,7 +249,9 @@ Persistent object databases
 Graph databases
 ---------------
 
+* [vivace-graph](https://github.com/kraison/vivace-graph-v3) - graph database & Prolog implementation. Takes design inspiration from CouchDB, neo4j and AllegroGraph. It implements an ACID-compliant object graph model with user-defined indexes and map-reduce views. It also implements a master / slave replication scheme for redundancy and horizontal read scaling. Querying the graph is accomplished via a number of Lisp methods or via a Prolog-like query language. [MIT][200].
 * [facts](https://github.com/cl-facts/facts) - an in-memory graph database with transactions and rollbacks, logging/replay and dumping/loading to/from disk. No licence specified.
+* [cl-neo4j](https://github.com/kraison/cl-neo4j) - neo4j RESTFUL client interface.
 
 Of course, there is [AllegroGraph](https://allegrograph.com/) (proprietary).
 
