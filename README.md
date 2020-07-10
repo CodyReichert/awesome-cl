@@ -78,6 +78,7 @@ sellers who aren't evil for physical resources.
     - [Beginner](#beginner)
     - [Intermediate](#intermediate)
     - [Advanced](#advanced)
+    - [Web Development](#web-development)
     - [Reference](#reference)
     - [Offline](#offline)
     - [Beginner](#beginner-1)
@@ -128,6 +129,7 @@ sellers who aren't evil for physical resources.
     - [Atom](#atom)
     - [Sublime Text](#sublime-text)
     - [VSCode](#vscode)
+    - [Geany](#geany)
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
     - [Online editors](#online-editors)
@@ -176,6 +178,7 @@ ancient version of Common Music (version 2.12.0), the presumably last
 version which ran on Common Lisp dating from around 2007-09, before
 work on Common Music shifted to (scheme-based) cm3.
 * [Slippery Chicken](https://github.com/mdedwards/slippery-chicken/) - Algorithmic composition library which outputs Midi, Common Music Notation, pdf-score via Lilypond and sound via Common Lisp Music. [GPL3][2].
+* [Common Music Notation](https://ccrma.stanford.edu/software/cmn/) - Common Music Notation (CMN) provides a package of functions to hierarchically describe a musical score. Public domain. 
 * [cm-incudine](https://github.com/ormf/cm-incudine) - extends Common Music 2 with realtime capabilities. GPL2.
 * [Mégra](https://github.com/the-drunk-coder/megra) - A mini-language to make music with variable-order markov chains and some other stochastic shenanigans. [GPL3][2].
 * [Music](https://github.com/MegaLoler/Music) - A framework for musical expression in Lisp with a focus on music theory (built from scratch, unrelated to Common Music).
@@ -247,7 +250,9 @@ Persistent object databases
 Graph databases
 ---------------
 
+* [vivace-graph](https://github.com/kraison/vivace-graph-v3) - graph database & Prolog implementation. Takes design inspiration from CouchDB, neo4j and AllegroGraph. It implements an ACID-compliant object graph model with user-defined indexes and map-reduce views. It also implements a master / slave replication scheme for redundancy and horizontal read scaling. Querying the graph is accomplished via a number of Lisp methods or via a Prolog-like query language. [MIT][200].
 * [facts](https://github.com/cl-facts/facts) - an in-memory graph database with transactions and rollbacks, logging/replay and dumping/loading to/from disk. No licence specified.
+* [cl-neo4j](https://github.com/kraison/cl-neo4j) - neo4j RESTFUL client interface.
 
 Of course, there is [AllegroGraph](https://allegrograph.com/) (proprietary).
 
@@ -519,7 +524,7 @@ CLOS extensions
 * [inlined-generic-function](https://github.com/guicho271828/inlined-generic-function) -
 Bringing the speed of Static Dispatch to CLOS. [LLGPL][8].
 * [static-dispatch](https://github.com/alex-gutev/static-dispatch) - allows standard generic function dispatch to be performed statically (at compile time) rather than dynamically (runtime). This is similar to what is known as "overloading" in languages such as C++ and Java. [MIT][200].
-* [https://github.com/rpav/dynamic-mixins](dynamic-mixins) - simple, dynamic class combination. [BSD_2Clause][17].
+* [dynamic-mixins](https://github.com/rpav/dynamic-mixins) - simple, dynamic class combination. [BSD_2Clause][17].
 * [fast-generic-functions](https://github.com/marcoheisig/fast-generic-functions) - Seal your generic functions for an extra boost in performance. [MIT][200].
 
 Function extensions
@@ -594,11 +599,10 @@ Beginner
 --------
 
 * [Learn X in Y minutes - Where X = Common Lisp](https://learnxinyminutes.com/docs/common-lisp/) - Small Common Lisp tutorial covering the essentials.
+* [Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 * [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples. Better read with [a Firefox add-on](https://github.com/vale981/practical-cl-beautified).
 * [Common LISP: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html) - A nice introduction into the language.
-* [Learn LISP: Simply Easy Learning](http://www.tutorialspoint.com/lisp/index.htm) - A good set of introductory tutorials; includes interactive examples.
 * [Successful Lisp](http://successful-lisp.blogspot.com/) - A good book for beginners with some programming background.
-* [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 * [Lisp Quickstart](https://cs.gmu.edu/~sean/lisp/LispTutorial.html) - A good tutorial to get up and code Common Lisp quickly.
 * [Casting SPELs in LISP](http://www.lisperati.com/casting.html) - A fun way to learn LISP while reading a comic book.
 
@@ -606,9 +610,8 @@ Intermediate
 ------------
 
 * [The Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
-* [Common Lisp tips](http://lisptips.com/) - A blog with useful tips and tricks. Continued by the community on [Lisp Tips](https://github.com/lisp-tips/lisp-tips/issues/).
-* [CommonQt tutorial](https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/) - A nice introduction to CommonQt.
-* [A tutorial for creating and publishing open-source Common Lisp software](https://arxiv.org/abs/1209.5626) - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.
+* [Lisp Tips](https://github.com/lisp-tips/lisp-tips/issues/) - A blog with useful tips and tricks. A continuation of [Common Lisp tips](http://lisptips.com/).
+* [Lisp project of the day](http://40ants.com/lisp-project-of-the-day/) - A blog showcasing many Lisp libraries.
 
 Advanced
 --------
@@ -616,6 +619,13 @@ Advanced
 * [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
 * [On Lisp](http://www.paulgraham.com/onlisp.html) - Paul Graham's amazing book on Lisp macros (and other interesting things).
 * [Programming Algorithms](https://leanpub.com/progalgs) - A comprehensive guide to writing efficient programs with examples in Lisp.
+
+Web Development
+--------
+
+* [Lisp for the Web](https://leanpub.com/lispweb) - A book that walks you through building a voting web application in three tiers. 
+* [Lisp Web Tales](https://leanpub.com/lispwebtales) - Simple tutorials using [hunchentoot](http://edicl.github.io/hunchentoot/), [cl-redis](https://github.com/vseloved/cl-redis), [restas](https://github.com/archimag/restas), [SEXML](https://github.com/madnificent/SEXML), [Postmodern](https://github.com/marijnh/Postmodern), and more.
+* [Section on Web Development in The Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/web.html) - An introductory tutorial covering web server setup, routing, weblocks, templating, error handling, packaging, hot reloading, database connection, and deployment, amongst other topics in the current lisp web development ecosystem. 
 
 Reference
 ---------
@@ -638,7 +648,6 @@ Beginner
 
 * [Land of Lisp](http://landoflisp.com/) - A fun, game-oriented introduction to Common Lisp.
 * [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
-* [Common Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
 
 Intermediate
 ------------
@@ -1115,6 +1124,10 @@ This contains plugins and other goodies for various text editors.
 
 * [VSCode-lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp) - an extension to support Lisp syntax. It is [on GitHub](https://github.com/mattn/vscode-lisp).
 
+## Geany (experimental) ##
+
+* [Geany-lisp](https://github.com/jasom/geany-lisp) is an experimental lisp mode for the [Geany](https://geany.org/) editor.
+
 ## Notebooks ##
 
 * [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
@@ -1336,6 +1349,8 @@ Plotting
 * [eazy-gnuplot](https://github.com/guicho271828/eazy-gnuplot) - a
   lispy, structure-less Gnuplot library. With its
   [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
+* [kai](https://github.com/komi1230/kai) - A high-level plotter library for Common Lisp. A wrapper around the [Plotly](https://plotly.com/javascript/) JS library. [MIT][200].
+* [cl-spark](https://github.com/tkych/cl-spark) - sparkline strings for the console: `(spark '(1 1 2 3 5 8))` => "▁▁▂▃▅▇". [MIT][200].
 
 Security
 --------
