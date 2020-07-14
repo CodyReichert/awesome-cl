@@ -1320,6 +1320,7 @@ Logging
 -------
 
 * :star: [log4cl](https://github.com/sharplispers/log4cl/) - Logging framework modelled after Log4J. [Apache2.0][89]. Advanced integration with Slime.
+  * [log4cl-json](https://github.com/40ants/log4cl-json) - JSON appender extension. [BSD][15].
 * [verbose](https://shinmera.github.io/verbose) - A fast and highly configurable logging framework. [Artistic License 2.0][51].
 * [a-cl-logger](https://github.com/AccelerationNet/a-cl-logger) - Logging library providing context sensitive logging of more than just strings to more than just local files or output streams. Features logstash support, json support, logger hierarchies, context sensitive logging, objects printed as an inspectable presentation,…
 
