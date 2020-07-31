@@ -666,7 +666,7 @@ Community
 ---------
 
 * [/r/Common_Lisp](https://www.reddit.com/r/Common_Lisp/) - subreddit about Common Lisp
-* [/r/CLSchool](https://www.reddit.com/r/CLSchool/) - a subreddit to ask questions related to the basics of Common Lisp.
+* [/r/learnlisp](https://www.reddit.com/r/learnlisp/) - a subreddit to ask questions and get help about Lisp
 * [common-lisp.net](https://common-lisp.net)
 * [lisp-lang.org](https://lisp-lang.org/)
 * [Lisp Discord Server](https://discord.gg/hhk46CE)
