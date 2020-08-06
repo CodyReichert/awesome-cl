@@ -1121,8 +1121,12 @@ This contains plugins and other goodies for various text editors.
 
 ## Sublime Text ##
 
-* [Sublime Text](http://www.sublimetext.com/3) has Common Lisp support
-  with its "SublimeREPL" package. [Proprietary].
+* [Sublime Text](http://www.sublimetext.com/3) (proprietary) has
+  Common Lisp support with its SublimeREPL and
+  [Slyblime](https://github.com/s-clerc/slyblime) packages. Slyblime
+  is an implementation of SLY and it uses the same backend (SLYNK). It
+  ships advanced features including a debugger with stack frame
+  inspection.
 
 ## VSCode ##
 
