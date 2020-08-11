@@ -912,7 +912,7 @@ Service (S3) and CloudFront service. [BSD][15].
 * [cl-pushover](https://github.com/TeMPOraL/cl-pushover) -  Common Lisp bindings to Pushover. [MIT][200].
 * [humbler](https://github.com/Shinmera/humbler) - A Tumblr API interface. [Artistic License 2.0][51].
 *[multiposter](https://github.com/Shinmera/multiposter) - post to multiple services simultaneously.
-* [stripe-client](https://github.com/ruricolist/cl-stripe-client) - a client for the Stripe payment system. [MIT][200].
+* [stripe](https://github.com/mfiano/stripe) - a client for the Stripe payment system. [MIT][200].
 
 Others
 ------
