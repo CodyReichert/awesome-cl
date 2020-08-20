@@ -458,6 +458,7 @@ JSON
 * [cl-json](https://github.com/hankhero/cl-json) - A highly customizable JSON encoder and decoder. [Expat][14].
 * [jsown](https://github.com/madnificent/jsown) - A reader and writer for the JSON format. [Expat][14].
 * [json-mop](https://github.com/gschjetne/json-mop) - A metaclass for bridging CLOS and JSON objects. [MIT][200].
+* [cl-json-pointer](https://github.com/y2q-actionman/cl-json-pointer) - A JSON Pointer implementation. [MIT][200].
 
 See also this [extensive comparison](https://sites.google.com/site/sabraonthehill/home/json-libraries) of JSON libraries.
 
