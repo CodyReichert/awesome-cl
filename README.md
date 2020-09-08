@@ -1391,7 +1391,7 @@ This contains anything which doesn't fit into another category.
 * [Salza2](http://www.xach.com/lisp/salza2/) - A library for creating compressed data. [FreeBSD][39].
 * [simple-currency](https://github.com/a0-prw/simple-currency) - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
 * [template](https://bitbucket.org/tarballs_are_good/template) - A library for templates and functions, similar to C++. [3-clause BSD][15].
-* [texp](http://mr.gy/software/texp/) - A DSL to generate TeX. No license specified.
+* [texp](https://github.com/eugeneia/texp/) - A DSL to generate TeX. [AGPL-3.0][agpl3].
 * [trivial-benchmark](https://github.com/Shinmera/trivial-benchmark) - Tiny benchmarking library. [Artistic Licence 2.0][51].
 * [trivial-garbage](https://github.com/trivial-garbage/trivial-garbage) - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-utf8](https://common-lisp.net/project/trivial-utf-8/) - A small library for doing UTF-8-based I/O. BSD.
