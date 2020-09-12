@@ -1302,6 +1302,11 @@ implementation of the Python's os.path module. [BSD][15].
 * [archive](https://github.com/froydnj/archive) - a library for reading and creating archive (tar, cpio) files. [BSD_3Clause][15]. A pure Common Lisp replacement for the 'tar' program.
 * [mmap](https://github.com/Shinmera/mmap) - Portable mmap file memory mapping utility library. [zlib][33].
 
+File watching libraries:
+
+* [cl-inotify](https://github.com/Ferada/cl-inotify) - interface to the Linux inotify API. Simplified BSD License.
+* [cl-fswatch](https://github.com/muyinliu/cl-fswatch) - an CFFI wrapper of [fswatch](https://github.com/emcrisostomo/fswatch), a cross-platform file change monitor. [ISC][22].
+
 Git
 ---
 
