@@ -1073,6 +1073,7 @@ Shells, shells interfaces
   functions like a shell command, without the need to write a command
   line arguments parser. And it also can be used as a Make-like
   build-tool. [FreeBSD][39].
+* [Clesh](https://github.com/Neronus/Clesh) - extends Common Lisp to embed shell code in a manner similar to perl's backtick. [FreeBSD][39].
 
 System administration
 ---------------------
