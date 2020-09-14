@@ -130,7 +130,7 @@ sellers who aren't evil for physical resources.
     - [Atom](#atom)
     - [Sublime Text](#sublime-text)
     - [VSCode](#vscode)
-    - [Geany](#geany)
+    - [Geany (experimental)](#geany-experimental)
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
     - [Online editors](#online-editors)
