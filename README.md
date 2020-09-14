@@ -35,6 +35,7 @@ sellers who aren't evil for physical resources.
 - [Audio](#audio)
 - [Build Systems](#build-systems)
 - [Compilers, code generators](#compilers-code-generators)
+    - [APL](#apl)
     - [C, C++](#c-c)
 - [Crypto](#crypto)
 - [Cryptocurrencies](#cryptocurrencies)
@@ -198,6 +199,12 @@ Build Systems
 
 Compilers, code generators
 ==========================
+
+APL
+---
+
+* [April](https://github.com/phantomics/april) - The APL programming language (a subset thereof) compiling to Common Lisp. Replace hundreds of lines of number-crunching code with a single line of APL. [Apache2][89].
+
 
 C, C++
 ------
