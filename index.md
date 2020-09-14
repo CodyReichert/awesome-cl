@@ -35,6 +35,7 @@ sellers who aren't evil for physical resources.
 - [Audio](#audio)
 - [Build Systems](#build-systems)
 - [Compilers, code generators](#compilers-code-generators)
+    - [APL](#apl)
     - [C, C++](#c-c)
 - [Crypto](#crypto)
 - [Cryptocurrencies](#cryptocurrencies)
@@ -129,11 +130,12 @@ sellers who aren't evil for physical resources.
     - [Atom](#atom)
     - [Sublime Text](#sublime-text)
     - [VSCode](#vscode)
-    - [Geany](#geany)
+    - [Geany (experimental)](#geany-experimental)
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
     - [Online editors](#online-editors)
     - [Apps](#apps)
+- [Text Parsers](#text-parsers)
 - [Text Processing](#text-processing)
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
@@ -198,6 +200,12 @@ Build Systems
 
 Compilers, code generators
 ==========================
+
+APL
+---
+
+* [April](https://github.com/phantomics/april) - The APL programming language (a subset thereof) compiling to Common Lisp. Replace hundreds of lines of number-crunching code with a single line of APL. [Apache2][89].
+
 
 C, C++
 ------
@@ -431,7 +439,6 @@ processes. It has
 * [McCLIM](https://common-lisp.net/project/mcclim/) - An implementation of the Common Lisp Interface Manager, version II. [GNU LGPL2.1][11].
 * [cl-webkit](https://github.com/joachifm/cl-webkit) - A binding to WebKitGTK+. Also adds web browsing capabilities to an application, leveraging the full power of the WebKit browsing engine. [MIT][200].
 * [ftw](https://github.com/fjames86/ftw) - A Win32 GUI library. [MIT][200].
-* [cl-xul](https://github.com/mmontone/cl-xul) - Mozilla XUL bindings. [Expat][14].
 * [eql, eql5, eql5-android](https://gitlab.com/eql) - Embedded Qt4 and Qt5 Lisp, embedded in ECL, embeddable in Qt. Port of EQL5 to the Android platform. [MIT][200].
 * [bodge-nuklear](https://github.com/borodust/bodge-nuklear) - Wrapper over the [Nuklear](https://github.com/vurtun/nuklear) immediate mode GUI library. [MIT][200].
 
@@ -550,6 +557,7 @@ Iteration
 * [series](https://github.com/tokenrove/series/wiki) - Functional style without any runtime penalty at all. [MIT][200].
 * [gmap](https://github.com/slburson/misc-extensions/blob/master/src/gmap.lisp) - A concise and extensible iteration facility that has the advantage of integrating well with FSet (see the Data Structures section), as it was written by the same author. In Quicklisp as part of `misc-extensions`. Public domain.
 * [doplus](https://bitbucket.org/alessiostalla/doplus/wiki/Home) – another extensible iteration library, similar to :for.
+* [snakes](https://github.com/BnMcGn/snakes) - Python style generators for Common Lisp. Includes a port of itertools. [Apache2][89].
 
 
 Lambda shorthands
@@ -722,8 +730,7 @@ Natural Language Processing
 
 * [cl-nlp](https://github.com/vseloved/cl-nlp) - Natural language processing toolset. [Apache2.0][89].
 * [babel2](https://github.com/lucas8/Babel2/) - A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism [Apache2.0][89].
-* [sparser](https://github.com/ddmcdonald/sparser) - A natural
-language understanding system for English. [Eclipse][209].
+* [sparser](https://github.com/ddmcdonald/sparser) - A natural language understanding system for English. [Eclipse][209].
 
 
 
@@ -1014,6 +1021,7 @@ Regex
 =====
 
 * :star: [cl-ppcre](http://weitz.de/cl-ppcre/) - Portable, Perl-compatible regular expressions. [FreeBSD][39].
+* [one-more-re-nightmare](https://github.com/no-defun-allowed/one-more-re-nightmare) - a fast-ish regular expression compiler in Common Lisp. [BSD_2Clause][17].
 
 
 Scripting
@@ -1066,6 +1074,7 @@ Shells, shells interfaces
   functions like a shell command, without the need to write a command
   line arguments parser. And it also can be used as a Make-like
   build-tool. [FreeBSD][39].
+* [Clesh](https://github.com/Neronus/Clesh) - extends Common Lisp to embed shell code in a manner similar to perl's backtick. [FreeBSD][39].
 
 System administration
 ---------------------
@@ -1161,6 +1170,14 @@ This contains plugins and other goodies for various text editors.
 
 * [CodePlayground](https://codeplayground.app/) - an iPhone and iPad app with Lisp support via CCL.
 
+Text Parsers
+============
+
+* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
+* [cl-shlex](https://github.com/ruricolist/cl-shlex/) - simple lexical analyzer for shell-like syntaxes. [MIT][200].
+* [smug](https://github.com/drewc/smug) - parser combinators for Common Lisp. SMUG makes it simple to create quick extensible recursive descent parsers without funky syntax or impenetrable macrology. [MIT][200].
+
+
 Text Processing
 ===============
 
@@ -1169,10 +1186,8 @@ Text Processing
   Calculate various string metrics efficiently in Common Lisp
   (Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
   etc). [MIT][200].
-* [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
 * [wiki-lang-detect](https://github.com/vseloved/wiki-lang-detect) -
 Text language identification using Wikipedia data. No license specified.
-* [cl-shlex](https://github.com/ruricolist/cl-shlex/) - simple lexical analyzer for shell-like syntaxes. [MIT][200].
 
 Tools
 =====
@@ -1320,6 +1335,7 @@ i18n
 ----
 
 * [cl-i18n](https://notabug.org/cage/cl-i18n) - an i18n library. Load translations from GNU gettext text or binary files or from its native format. Localisation helpers of plural forms. [LLGPL][8].
+* [gettext](https://github.com/rotatef/gettext) -  a port of the gettext runtime to Common Lisp. [GPL3][2].
 * [cl-locale](https://github.com/fukamachi/cl-locale) - A simple i18n library. [LLGPL][8].
 * [enchant](https://github.com/tlikonen/cl-enchant) - bindings for the Enchant spell-checker library. Public domain.
 * [oxenfurt](https://github.com/Shinmera/oxenfurt) - A  client library for the Oxford dictionary API. [ArtisticLicense2.0][51].
