@@ -1363,7 +1363,7 @@ To third parties:
 
 * [cl-fluent-logger](https://github.com/fukamachi/cl-fluent-logger) - A Common Lisp structured logger for [Fluentd](https://www.fluentd.org/).
 
-See also: [extensive comparison of logging libraries](https://sites.google.com/site/sabraonthehill/comparison-of-lisp-logging-libraries).
+See also: [extensive comparison of logging libraries](https://sabracrolleton.github.io/logging-comparison).
 
 
 Markdown
