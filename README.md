@@ -823,16 +823,14 @@ See also the XML section below for xpath libraries and more.
 HTML generators and templates
 -----------------------------
 * 👍 [spinneret](https://github.com/ruricolist/spinneret) - Common Lisp HTML5 generator. [Expat][14].
-* [flute](https://github.com/ailisp/flute) - An easily composable HTML5 generation library with the
-  most simplistic syntax. [MIT][200].
 * :star: [cl-who](http://weitz.de/cl-who/) - The venerable HTML generator. [FreeBSD][39].
 * :star: [Djula](https://github.com/mmontone/djula) - A port of Django's template engine to Common Lisp. [Expat][14].
 * [eco](https://github.com/eudoxia0/eco) - Fast, flexible, designer-friendly template engine. [Expat][14].
 * [TEN](https://github.com/mmontone/ten) - the completness of Djula meets the usability of Eco. [MIT][200].
-* [cl-markup](https://github.com/arielnetworks/cl-markup) - Modern markup generation library. [LLGPL][8].
 * [cl-closure-template](https://github.com/archimag/cl-closure-template) - Implementation of Google's Closure templates. [LLGPL][8].
+* [flute](https://github.com/ailisp/flute) - An easily composable HTML5 generation library with the most simplistic syntax. [MIT][200].
 * [clip](https://shinmera.github.io/clip) - An HTML template processor where the templates are written in HTML. [Artistic License 2.0][51].
-* [lsx](https://github.com/fukamachi/lsx/) - Embeddable HTML templating engine with JSX-like syntax. [BSD_2Clause][17].
+* [lsx](https://github.com/fukamachi/lsx/) and [markup](https://github.com/moderninterpreters/markup) - Two JSX-like templating engines, where HTML tags are Common Lisp code. `markup` comes with an Emacs package.
 
 URI handling
 ------------
