@@ -49,8 +49,9 @@ sellers who aren't evil for physical resources.
     - [Tools](#tools)
 - [Data Structures](#data-structures)
 - [Docker images](#docker-images)
-- [Foreign Function Interface](#foreign-function-interface)
+- [Foreign Function Interface, languages interop](#foreign-function-interface-languages-interop)
     - [C](#c)
+    - [Clojure](#clojure)
     - [Erlang](#erlang)
     - [Java](#java)
     - [Objective-C](#objective-c)
@@ -339,8 +340,8 @@ Docker images
 * [lisp-devel-docker](https://github.com/daewok/lisp-devel-docker) - Docker images for Lisp development. [MIT][200].
 
 
-Foreign Function Interface
-==========================
+Foreign Function Interface, languages interop
+=============================================
 
 ## C ##
 
@@ -348,6 +349,10 @@ Foreign Function Interface
 * 👍[cl-autowrap](https://github.com/rpav/cl-autowrap) - Automatically parses header files into CFFI definitions. [FreeBSD][39].
 * [cl-bindgen](https://github.com/sdilts/cl-bindgen) - A command line tool and library for creating Common Lisp language bindings from C header files. [MIT][200].
 * [cl-gobject-introspection](https://github.com/andy128k/cl-gobject-introspection) - [Gobject Introspection](https://gi.readthedocs.io/en/latest/) FFI. Automatic bindings to call into the C library. [BSD][15]. Generate a lisp interface with [gir2cl](https://github.com/kat-co/gir2cl). [LGPL3][9].
+
+## Clojure
+
+* [ABCLJ](https://github.com/lsevero/abclj) - dead easy  Clojure to Common lisp interop. EPL-2.0.
 
 ## Erlang ##
 
