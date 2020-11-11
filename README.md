@@ -327,7 +327,9 @@ Accessing data structures:
 * 👍 [access](https://github.com/AccelerationNet/access/) - Consistent and nested access to most common data structures. [BSD_3Clause][15].
 * [modf](https://github.com/smithzvk/modf) - a setf-like macro for functional programming.
 
+Other data structures:
 
+* [bitfield](https://github.com/marcoheisig/bitfield) - Efficiently represent several finite sets or small integers as a single non-negative integer. [MIT][200].
 
 
 Docker images
