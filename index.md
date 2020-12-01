@@ -1312,6 +1312,10 @@ call hooks when loading a package,…). [BSD_2Clause][17].
 * [trivial-with-current-source-from](https://github.com/scymtym/trivial-with-current-source-form/) - Helps macro writers produce better errors for macro users. [GPL3][2].
 * [trivial-benchmark](https://github.com/Shinmera/trivial-benchmark) - Tiny benchmarking library. [Artistic Licence 2.0][51].
 * [glyphs](https://github.com/ahungry/glyphs/) - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
+* [Lisp REPL core dumper](https://gitlab.com/ambrevar/lisp-repl-core-dumper/) -
+A portable wrapper to generate Lisp cores on demand to start REPL blazing fast.
+It can preload provided systems to help build a collection of specialized
+Lisp cores.
 
 
 Documentation builders
