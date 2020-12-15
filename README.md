@@ -1164,10 +1164,8 @@ This contains plugins and other goodies for various text editors.
 
 ## VSCode ##
 
-* [VSCode-lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp) - an extension to support Lisp syntax. It is [on GitHub](https://github.com/mattn/vscode-lisp).
 * [commonlisp-vscode](https://marketplace.visualstudio.com/items?itemName=ailisp.commonlisp-vscode) - an extension to support syntax highlight, auto completion, documentation on hover, go to definition, compile & load file, REPL. It is [On GitHub](https://github.com/ailisp/commonlisp-vscode/).
 * [strict-paredit-vscode](https://marketplace.visualstudio.com/items?itemName=ailisp.strict-paredit) - structural editing and navigation like Emacs.
-
 
 ## Geany (experimental) ##
 
