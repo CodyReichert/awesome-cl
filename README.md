@@ -86,6 +86,7 @@ sellers who aren't evil for physical resources.
     - [Beginner](#beginner-1)
     - [Intermediate](#intermediate-1)
     - [Advanced](#advanced-1)
+    - [Other books](#other-books)
     - [Community](#community)
 - [Library Manager](#library-manager)
     - [Interfaces to other package managers](#interfaces-to-other-package-managers)
@@ -111,6 +112,10 @@ sellers who aren't evil for physical resources.
     - [Third-party APIs](#third-party-apis)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
+    - [Matrix libraries](#matrix-libraries)
+    - [Statistics](#statistics)
+    - [Units](#units)
+    - [Utils](#utils)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
     - [Actors pattern](#actors-pattern)
     - [Event processing](#event-processing)
@@ -961,18 +966,8 @@ Numerical and Scientific
 ========================
 
 * [numcl](https://github.com/numcl/numcl) - Numpy clone in Common Lisp. [LGPL3][9].
-* [magicl](https://github.com/rigetticomputing/magicl) - Matrix Algebra proGrams In Common Lisp based on BLAS/LAPACK and Expokit, by Rigetti Computing. [BSD_3Clause][15].
-* [cl-spark](https://github.com/tkych/cl-spark) - Generates sparkline strings for lists of numbers. [Expat][14].
 * [GSLL](https://common-lisp.net/project/gsll/) - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
-* [common-lisp-stat](https://github.com/blindglobe/common-lisp-stat/) - Common Lisp statistics library. [FreeBSD][39].
 * [maxima](http://maxima.sourceforge.net/) - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
-* [lisp-matrix](https://github.com/blindglobe/lisp-matrix) - A matrix package. [FreeBSD][39].
-* [3-matrices](https://shinmera.github.io/3d-matrices) - A library implementing
-  common matrix calculations, with an emphasis on 2x2,3x3, and 4x4
-  matrices as commonly used in graphics. It provides some numerical
-  functions as well, but those are not the focus. The library is
-  heavily optimised, so it is not made of pretty
-  code. [Artistic License 2.0][51].
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 * [Petalisp](https://github.com/marcoheisig/Petalisp) - an attempt to
   generate high performance code for parallel computers by
@@ -980,14 +975,40 @@ Numerical and Scientific
   fundamental level than NumPy, by providing even more powerful
   N-dimensional arrays, but just a few building blocks for working on
   them. [AGPL-3.0][agpl3].
-* [cmu-infix](https://github.com/rigetti/cmu-infix) - A library for writing infix mathematical notation in Common Lisp. See also [polisher](https://github.com/mrcdr/polisher).
 * [cl-ana](https://github.com/ghollisjr/cl-ana) - Common Lisp data analysis library with emphasis on modularity and conceptual clarity. It aims to be a general purpose framework for analyzing small and large scale datasets, including binned data analysis and visualization. [GNU GPL3][2].
 * [linear-programming](https://neil-lindquist.github.io/linear-programming/) – a library for solving linear programming problems. [MIT][200].
 * [avm](https://github.com/takagi/avm) - Efficient and expressive arrayed vector math library with multi-threading and CUDA support. [MIT][200].
 * [array-operations](https://github.com/bendudson/array-operations) - a collection of functions and macros for manipulating Common Lisp arrays and performing numerical calculations with them. [MIT][200].
 * [cl-geometry](https://github.com/Ramarren/cl-geometry/) - a system for two dimensional computational geometry for Common Lisp. [MIT][200].
+
+Matrix libraries
+----------------
+
+* [magicl](https://github.com/rigetticomputing/magicl) - Matrix Algebra proGrams In Common Lisp based on BLAS/LAPACK and Expokit, by Rigetti Computing. [BSD_3Clause][15].
+* [lisp-matrix](https://github.com/blindglobe/lisp-matrix) - A matrix package. [FreeBSD][39].
+* [3-matrices](https://shinmera.github.io/3d-matrices) - A library implementing
+  common matrix calculations, with an emphasis on 2x2,3x3, and 4x4
+  matrices as commonly used in graphics. It provides some numerical
+  functions as well, but those are not the focus. The library is
+  heavily optimised, so it is not made of pretty
+  code. [Artistic License 2.0][51].
 * [clem](https://github.com/slyrus/clem) - a matrix library. [BSD_2Clause][17].
+
+Statistics
+---------
+
+* [common-lisp-stat](https://github.com/blindglobe/common-lisp-stat/) - Common Lisp statistics library. [FreeBSD][39].
+
+Units
+-----
+
 * [physical-quantities](https://github.com/mrossini-ethz/physical-quantities) - a library that provides a numeric type with optional unit and/or uncertainty for computations with automatic error propagation. GPL2
+
+Utils
+-----
+
+* [cmu-infix](https://github.com/rigetti/cmu-infix) - A library for writing infix mathematical notation in Common Lisp. See also [polisher](https://github.com/mrcdr/polisher).
+
 
 Parallelism and Concurrency
 ===========================
