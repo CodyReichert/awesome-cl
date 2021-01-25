@@ -340,11 +340,10 @@ Other data structures:
 Docker images
 =============
 
-* [docker-sbcl](https://github.com/daewok/docker-sbcl/) - SBCL Docker images for Alpine, Debian, Ubuntu (amd64, arm64, arm/v7) and Windows. [BSD_2Clause][17].
+* [cl-docker-images](https://common-lisp.net/project/cl-docker-images/) - Docker images for ABCL, CCL, ECL, and SBCL on Windows (amd64) and Alpine and Debian (amd64, arm64, arm/v7) [BSD_2Clause][17].
 * [base-lisp-image](https://github.com/40ants/base-lisp-image) - base
   Docker image for Common Lisp projects with SBCL or CCL and the latest
   ASDF, Qlot and Roswell.
-* [lisp-devel-docker](https://github.com/daewok/lisp-devel-docker) - Docker images for Lisp development. [MIT][200].
 
 
 Foreign Function Interface, languages interop
@@ -1320,6 +1319,8 @@ Duration processing library built on top of local-time. [MIT][200].
 * [iso-8601-date](https://gitlab.com/DataLinkDroid/iso-8601-date) - Miscellaneous date routines in Common Lisp, based around the ISO 8601 string representation. [LLGPL][8].
 * [calendar-date](https://github.com/takagi/calendar-date) - a Gregorian calendar date library. [MIT][200].
 * [periods](https://github.com/jwiegley/periods) - manipulating date/time objects at a higher level. With series-compatible data structure. [BSD_3Clause][15].
+
+See also the book [Calendrical calculations](https://www.cambridge.org/us/academic/subjects/computer-science/computing-general-interest/calendrical-calculations-ultimate-edition-4th-edition?format=HB#resources), by Edward M. Reingold, Nachum Dershowitz, Cambridge Press. It provides Lisp sources.
 
 Data validation
 ---------------
