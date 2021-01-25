@@ -340,7 +340,7 @@ Other data structures:
 Docker images
 =============
 
-* [cl-docker-images](https://common-lisp.net/project/cl-docker-images/) - Docker images of various Lisp implementations for Alpine, Debian, Ubuntu (amd64, arm64, arm/v7) and Windows. [BSD_2Clause][17].
+* [cl-docker-images](https://common-lisp.net/project/cl-docker-images/) - Docker images for ABCL, CCL, ECL, and SBCL on Windows (amd64) and Alpine and Debian (amd64, arm64, arm/v7) [BSD_2Clause][17].
 * [base-lisp-image](https://github.com/40ants/base-lisp-image) - base
   Docker image for Common Lisp projects with SBCL or CCL and the latest
   ASDF, Qlot and Roswell.
