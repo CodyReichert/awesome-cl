@@ -98,6 +98,7 @@ sellers who aren't evil for physical resources.
         - [Hunchentoot plugins](#hunchentoot-plugins)
         - [Clack plugins](#clack-plugins)
     - [Web frameworks](#web-frameworks)
+    - [Isomorphic web frameworks](#isomorphic-web-frameworks)
     - [Assets management](#assets-management)
     - [Parsing html](#parsing-html)
     - [Querying HTML/DOM](#querying-htmldom)
@@ -814,7 +815,6 @@ Web frameworks
 * [radiance](https://github.com/Shirakumo/radiance) - A web application environment and framework . [Artistic License 2.0][51].
 * [Lucerne](https://github.com/eudoxia0/lucerne) - A minimal web framework built on Clack, inspired by Flask. [MIT][200].
 * [Snooze](https://github.com/joaotavora/snooze) - A RESTful web framework, built on Clack, where routes are just functions and HTTP conditions are just Lisp conditions. [LLGPL][8].
-* [Weblocks](https://github.com/40ants/weblocks) - A widgets-based framework with a built-in ajax update mechanism that "solves the JavaScript problem". [LLGPL][8].
 
 REST-focused frameworks:
 
@@ -823,6 +823,15 @@ REST-focused frameworks:
 
 
 There are more projects, more or less discontinued but interesting. See the other ressources.
+
+Isomorphic web frameworks
+-------------------------
+
+* [CLOG](https://github.com/rabbibotton/clog) - The Common Lisp Omnificent GUI. Uses web technology to produce graphical user interfaces for applications locally or remotely. [BSD_3Clause][15].
+  - CLOG is based on the ideas of GNOGA, a framework the author wrote for Ada and used in commercial production code since 2013.
+* [Interactive SSR](https://github.com/interactive-ssr/client/blob/master/main.org/) - ISSR allows you to make interactive web pages without writing client scripting. No knowledge about Javascript or DOM is necessary.
+  - it is not unlike Phoenix LiveView or Hotwire.
+* [Weblocks](https://github.com/40ants/weblocks) - A widgets-based framework with a built-in ajax update mechanism that "solves the JavaScript problem". [LLGPL][8].
 
 
 Assets management
