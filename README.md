@@ -1136,6 +1136,7 @@ Shells, shells interfaces
 System administration
 ---------------------
 
+* [Consfigurator](https://github.com/spwhitton/consfigurator) - Lisp declarative configuration management system.  You can use it to configure hosts as root, deploy services as unprivileged users, build and deploy containers, and produce disc images. [GPL3][2].
 * [Adams](https://github.com/cl-adams/adams) - UNIX system administration in Common Lisp. Not unlike Ansible, Chef or Puppet. [ISC][22].
 
 Other scripting utilities
