@@ -1282,6 +1282,7 @@ Unit Testing
   stubbing and mocking library for Common Lisp. Can also check wether
   a stubbed function was called, how many times and with which
   arguments. [MIT][200].
+* [cl-mock](https://github.com/Ferada/cl-mock) - Another mocking library. It has more features than Mockingbird, like pattern matching on the mocked call, etc.
 * [Check-it](https://github.com/DalekBaldwin/check-it) - A QuickCheck-style randomized property-based testing. [LLGPL][8].
 * [cl-coveralls](https://github.com/fukamachi/cl-coveralls) - a helper
   library to post test coverage to Coveralls. See
