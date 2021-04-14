@@ -507,14 +507,7 @@ Language extensions
 * [anaphora](https://common-lisp.net/project/anaphora/) - A collection of anaphoric macros. Public domain.
 * :star: [trivia](https://github.com/guicho271828/trivia/) - Optimized pattern-matching library. [LLGPL][8].
 * [arrow-macros](https://github.com/hipeta/arrow-macros) - Clojure-like threading macros. [MIT][200].
-* [dissect](https://shinmera.github.io/dissect) - when a lot of
-  projects use the “trivial-backtrace” system that just gives them a
-  string with a backtrace, Dissect allows you to capture, step, and
-  completely inspect the stack trace on a variety of Lisp
-  implementations. Also very useful for logging and other situations
-  where execution is automatically continued, but the information of
-  the current stack is still useful to store
-  somewhere. [Artistic License 2.0][51].
+* [dissect](https://shinmera.github.io/dissect) - when a lot of projects use the “trivial-backtrace” system that just gives them a string with a backtrace, Dissect allows you to capture, step, and completely inspect the stack trace on a variety of Lisp implementations. Also very useful for logging and other situations where execution is automatically continued, but the information of the current stack is still useful to store somewhere. [Artistic License 2.0][51].
 * [generic-cl](https://github.com/alex-gutev/generic-cl/) - Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200]. See also the more lightweight [generic-comparability](https://github.com/pnathan/generic-comparability). [LLGPL][8].
 * [hu.dwim.walker](https://quickref.common-lisp.net/hu.dwim.walker.html) - a code walker and unwalker (aka AST parser and unparser). [BSD][15]. See also [this blog post](http://40ants.com/lisp-project-of-the-day/2020/04/0044-hu.dwim.walker.html).
 
@@ -523,8 +516,7 @@ Portability layers
 
 A large list of portability layers [is collected here](https://shinmera.github.io/portability/). Here are some of them:
 
-* [trivial-arguments](https://github.com/Shinmera/trivial-arguments) -
-  A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
+* [trivial-arguments](https://github.com/Shinmera/trivial-arguments) - A portable library to retrieve the arguments list of a function. [Artistic License 2.0][51].
 * [definitions](https://github.com/Shinmera/definitions) - a general definitions introspection library. It gives you the ability to retrieve definitions or bindings associated with designators such as symbols, packages, and names in general. [Artistic License 2.0][51].
 
 Changing the syntax
@@ -568,10 +560,7 @@ Iteration
 ---------
 
 * :star: [iterate](https://common-lisp.net/project/iterate/) - An iteration construct for Common Lisp which is extensible and Lispier. [MIT][200].
-* [for](https://shinmera.github.io/for/) - A concise, lispy and extensible
-  iteration macro. Unlike loop it is extensible and sensible, and
-  unlike iterate it does not require code-walking and is easier to
-  extend. [Artistic License 2.0][51].
+* [for](https://shinmera.github.io/for/) - A concise, lispy and extensible iteration macro. Unlike loop it is extensible and sensible, and unlike iterate it does not require code-walking and is easier to extend. [Artistic License 2.0][51].
 * [series](https://github.com/tokenrove/series/wiki) - Functional style without any runtime penalty at all. [MIT][200].
 * [gmap](https://github.com/slburson/misc-extensions/blob/master/src/gmap.lisp) - A concise and extensible iteration facility that has the advantage of integrating well with FSet (see the Data Structures section), as it was written by the same author. In Quicklisp as part of `misc-extensions`. Public domain.
 * [trivial-do](https://github.com/yitzchak/trivial-do/) -  Additional dolist style macros for Common Lisp. [MIT][200].
@@ -941,10 +930,7 @@ Third-party APIs
 * [zs3](https://github.com/xach/zs3) - A library for working with Amazon's Simple Storage
 Service (S3) and CloudFront service. [BSD][15].
 * [cl-ses](https://github.com/CodyReichert/cl-ses/) - Library for AWS SES. [Expat][14].
-* [north](https://shinmera.github.io/north) - The successor to the
-  South (Simple OaUTH) library, implementing the full oAuth 1.0a
-  protocol, both client and server sides. Using North you can easily
-  become an oAuth provider or consumer. [Artistic License 2.0][51].
+* [north](https://shinmera.github.io/north) - The successor to the South (Simple OaUTH) library, implementing the full oAuth 1.0a protocol, both client and server sides. Using North you can easily become an oAuth provider or consumer. [Artistic License 2.0][51].
 * [avatar-api](https://github.com/eudoxia0/avatar-api) - Get avatars from Google+, Gravatar and others. [Expat][14].
 * [chirp](https://github.com/Shinmera/chirp) - A Twitter client library. [Artistic License 2.0][51].
 * [tooter](https://github.com/Shinmera/tooter) - a client library implementing the full v1 REST API protocol for Mastodon. [ArtisticLicense2.0][51].
@@ -953,7 +939,7 @@ Service (S3) and CloudFront service. [BSD][15].
 * [cl-openid](https://github.com/cl-openid/cl-openid) - An implementation of OpenID. [LLGPL][8].
 * [cl-pushover](https://github.com/TeMPOraL/cl-pushover) -  Common Lisp bindings to Pushover. [MIT][200].
 * [humbler](https://github.com/Shinmera/humbler) - A Tumblr API interface. [Artistic License 2.0][51].
-*[multiposter](https://github.com/Shinmera/multiposter) - post to multiple services simultaneously.
+* [multiposter](https://github.com/Shinmera/multiposter) - post to multiple services simultaneously.
 * [stripe](https://github.com/mfiano/stripe) - a client for the Stripe payment system. [MIT][200].
 
 Others
@@ -992,12 +978,7 @@ Matrix libraries
 
 * [magicl](https://github.com/rigetticomputing/magicl) - Matrix Algebra proGrams In Common Lisp based on BLAS/LAPACK and Expokit, by Rigetti Computing. [BSD_3Clause][15].
 * [lisp-matrix](https://github.com/blindglobe/lisp-matrix) - A matrix package. [FreeBSD][39].
-* [3-matrices](https://shinmera.github.io/3d-matrices) - A library implementing
-  common matrix calculations, with an emphasis on 2x2,3x3, and 4x4
-  matrices as commonly used in graphics. It provides some numerical
-  functions as well, but those are not the focus. The library is
-  heavily optimised, so it is not made of pretty
-  code. [Artistic License 2.0][51].
+* [3-matrices](https://shinmera.github.io/3d-matrices) - A library implementing common matrix calculations, with an emphasis on 2x2,3x3, and 4x4 matrices as commonly used in graphics. It provides some numerical functions as well, but those are not the focus. The library is heavily optimised, so it is not made of pretty code. [Artistic License 2.0][51].
 * [clem](https://github.com/slyrus/clem) - a matrix library. [BSD_2Clause][17].
 
 Statistics
@@ -1051,12 +1032,8 @@ Actors pattern
 Event processing
 ----------------
 
-* [simple-tasks](https://github.com/Shinmera/simple-tasks) - A very
-  simple task scheduling framework. [Artistic License 2.0][51].
-* [deeds](https://github.com/Shinmera/deeds) - Deeds is an Extensible
-  Event Delivery System. It allows for efficient event delivery to
-  multiple handlers with a complex event filtering
-  system. [Artistic License 2.0][51].
+* [simple-tasks](https://github.com/Shinmera/simple-tasks) - A very simple task scheduling framework. [Artistic License 2.0][51].
+* [deeds](https://github.com/Shinmera/deeds) - Deeds is an Extensible Event Delivery System. It allows for efficient event delivery to multiple handlers with a complex event filtering system. [Artistic License 2.0][51].
 * [cl-flow](https://github.com/borodust/cl-flow/) -  Data-flowish computation tree library for non-blocking concurrent Common Lisp. [MIT][200].
 * [event-glue](https://github.com/orthecreedence/event-glue) - simple eventing abstraction. No dependencies. It can be used anywhere you need a generic event handling system. [MIT][200].
 
@@ -1273,9 +1250,7 @@ Unit Testing
 * :star: [FiveAM](https://github.com/sionescu/fiveam) - Simple regression testing framework. [FreeBSD][39].
 * [CLUnit](https://github.com/tgutu/clunit) - A unit testing library. [Expat][14].
 * [Rove](https://github.com/fukamachi/rove) - Rove is a unit testing framework for Common Lisp applications. It is intended to be a successor of [Prove](https://github.com/fukamachi/prove). [3-clause BSD][15].
-* [Parachute](https://github.com/Shinmera/parachute) - An extensible
-  and cross-compatible testing framework. With test dependencies,
-  conditions, fixtures and restarts. [Artistic License 2.0][51].
+* [Parachute](https://github.com/Shinmera/parachute) - An extensible and cross-compatible testing framework. With test dependencies, conditions, fixtures and restarts. [Artistic License 2.0][51].
 * [Mockingbird](https://github.com/Chream/mockingbird) - A small
   stubbing and mocking library for Common Lisp. Can also check wether
   a stubbed function was called, how many times and with which
@@ -1372,10 +1347,7 @@ Documentation builders
   the same ease as sphinx would a Python project. [GPL3][2]
 * [Codex](https://github.com/CommonDoc/codex) - A beautiful
   documentation system for Common Lisp. [MIT][200].
-* [Staple](https://github.com/Shinmera/staple) - a tool to generate
-  documentation pages using an HTML template. Uses the existing
-  README, adds docstrings, crossreferences and links to the
-  CLHS. [ArtisticLicense2.0][51].
+* [Staple](https://github.com/Shinmera/staple) - a tool to generate documentation pages using an HTML template. Uses the existing README, adds docstrings, crossreferences and links to the CLHS. [ArtisticLicense2.0][51].
 * [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
 * [mgl-pax](https://github.com/melisgl/mgl-pax) - Exploratory
 programming environment and documentation generator. one may
@@ -1392,9 +1364,7 @@ Files and directories
   (replaces [cl-fad](http://weitz.de/cl-fad/)). uiop is part of ASDF3
   and as thus is shipped in many implementations. [MIT][200].
 * [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
-* [pathname-utils](https://github.com/Shinmera/pathname-utils) - A
-  collection of utilities to help with pathname
-  operations. [Artistic License 2.0][51].
+* [pathname-utils](https://github.com/Shinmera/pathname-utils) - A collection of utilities to help with pathname operations. [Artistic License 2.0][51].
 * [ppath](https://github.com/fourier/ppath) - Common Lisp's
 implementation of the Python's os.path module. [BSD][15].
 * [archive](https://github.com/froydnj/archive) - a library for reading and creating archive (tar, cpio) files. [BSD_3Clause][15]. A pure Common Lisp replacement for the 'tar' program.
@@ -1409,8 +1379,7 @@ File watching libraries:
 Git
 ---
 
-* [legit](https://shinmera.github.io/legit/) - an interface to the Git
-  binary. [Artistic License 2.0][51].
+* [legit](https://shinmera.github.io/legit/) - an interface to the Git binary. [Artistic License 2.0][51].
 * [git-api](https://github.com/fourier/git-api) - Common Lisp library
 to access git repository. It doesn't need git or libgit installed. [BSD][15].
 
