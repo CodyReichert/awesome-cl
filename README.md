@@ -933,7 +933,7 @@ Service (S3) and CloudFront service. [BSD][15].
 * [north](https://shinmera.github.io/north) - The successor to the South (Simple OaUTH) library, implementing the full oAuth 1.0a protocol, both client and server sides. Using North you can easily become an oAuth provider or consumer. [Artistic License 2.0][51].
 * [avatar-api](https://github.com/eudoxia0/avatar-api) - Get avatars from Google+, Gravatar and others. [Expat][14].
 * [chirp](https://github.com/Shinmera/chirp) - A Twitter client library. [Artistic License 2.0][51].
-* [tooter](https://github.com/Shinmera/tooter) - a client library implementing the full v1 REST API protocol for Mastodon. [ArtisticLicense2.0][51].
+* [tooter](https://github.com/Shinmera/tooter) - a client library implementing the full v1 REST API protocol for Mastodon. [Artistic License 2.0][51].
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
 * [cl-mediawiki](https://github.com/AccelerationNet/cl-mediawiki) - a wrapper around the MediaWiki api. [MIT][200].
 * [cl-openid](https://github.com/cl-openid/cl-openid) - An implementation of OpenID. [LLGPL][8].
@@ -1347,7 +1347,7 @@ Documentation builders
   the same ease as sphinx would a Python project. [GPL3][2]
 * [Codex](https://github.com/CommonDoc/codex) - A beautiful
   documentation system for Common Lisp. [MIT][200].
-* [Staple](https://github.com/Shinmera/staple) - a tool to generate documentation pages using an HTML template. Uses the existing README, adds docstrings, crossreferences and links to the CLHS. [ArtisticLicense2.0][51].
+* [Staple](https://github.com/Shinmera/staple) - a tool to generate documentation pages using an HTML template. Uses the existing README, adds docstrings, crossreferences and links to the CLHS. [Artistic License 2.0][51].
 * [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
 * [mgl-pax](https://github.com/melisgl/mgl-pax) - Exploratory
 programming environment and documentation generator. one may
@@ -1390,7 +1390,7 @@ i18n
 * [gettext](https://github.com/rotatef/gettext) -  a port of the gettext runtime to Common Lisp. [GPL3][2].
 * [cl-locale](https://github.com/fukamachi/cl-locale) - A simple i18n library. [LLGPL][8].
 * [enchant](https://github.com/tlikonen/cl-enchant) - bindings for the Enchant spell-checker library. Public domain.
-* [oxenfurt](https://github.com/Shinmera/oxenfurt) - A  client library for the Oxford dictionary API. [ArtisticLicense2.0][51].
+* [oxenfurt](https://github.com/Shinmera/oxenfurt) - A  client library for the Oxford dictionary API. [Artistic License 2.0][51].
 * [language-codes](https://shinmera.github.io/language-codes) - A database library for ISO language codes. [Artistic License 2.0][51]
 * [system-locale](https://shinmera.github.io/system-locale) - A library to retrieve the user's preferred language, so that your application may choose a sensible default. [Artistic License 2.0][51].
 * [multilang-documentation](https://shinmera.github.io/multilang-documentation) - Allows writing docstrings in multiple languages, for truly internationally documented libraries. [Artistic License 2.0][51].
