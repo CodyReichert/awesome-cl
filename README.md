@@ -891,6 +891,7 @@ Websockets
 
 * 👍 [usocket](https://github.com/usocket/usocket) - A portable TCP and UDP socket interface. [Expat][14].
 * [websocket-driver](https://github.com/fukamachi/websocket-driver) - a WebSocket server/client implementation, backend agnostic (Clack). [3-clause BSD][15].
+* [Portal](https://github.com/charJe/portal) - Portable websockets for Common Lisp using usocket. [LLGPL][8].
 
 See more [on cliki](http://www.cliki.net/site/search?query=websockets).
 
