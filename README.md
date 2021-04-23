@@ -547,6 +547,10 @@ Bringing the speed of Static Dispatch to CLOS. [LLGPL][8].
 * [dynamic-mixins](https://github.com/rpav/dynamic-mixins) - simple, dynamic class combination. [BSD_2Clause][17].
 * [fast-generic-functions](https://github.com/marcoheisig/fast-generic-functions) - Seal your generic functions for an extra boost in performance. [MIT][200].
 
+And also:
+
+* [slot-extra-options](https://github.com/some-mthfka/slot-extra-options) - lets you build a metaclass which in turn lets you specify extra slot options in its classes. [LGPL3][9].
+
 Function extensions
 -------------------
 
