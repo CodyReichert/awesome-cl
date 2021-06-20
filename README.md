@@ -705,7 +705,7 @@ Community
 * [common-lisp.net](https://common-lisp.net)
 * [lisp-lang.org](https://lisp-lang.org/)
 * [Lisp Discord Server](https://discord.gg/hhk46CE)
-* [#lisp](http://log.irc.tymoon.eu/freenode/lisp) on Freenode - main Common Lisp IRC channel.
+* [#commonlisp](https://irclog.tymoon.eu/libera/%23commonlisp) on Libera Chat - main Common Lisp IRC channel.
 * [Planet Lisp](http://planet.lisp.org/) - A meta blog that collects the contents of various Lisp-related blogs.
 * [Common Lisp chat](https://chat.hexstreamsoft.com/) - Keybase team with well-defined rules and retention policies.
 
