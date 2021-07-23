@@ -163,6 +163,7 @@ sellers who aren't evil for physical resources.
     - [Markdown](#markdown)
     - [PDF](#pdf)
     - [Plotting](#plotting)
+    - [Project skeletons](#project-skeletons)
     - [Security](#security)
     - [Other](#other)
 - [XML](#xml)
@@ -1251,10 +1252,7 @@ Tools
 
 These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
 
-* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
-* [quickapp-cli](https://github.com/triclops200/quickapp-cli) - [quickapp][188] as a command-line utility. [3-clause BSD][15].
 * [quicksearch](https://github.com/tkych/quicksearch) - Look up online libraries from the REPL. [Expat][14].
-* [cl-project](https://github.com/fukamachi/cl-project) - General modern project skeletons. [LLGPL][8].
 * [lake](https://github.com/takagi/lake) - a GNU make like build utility. [MIT][200].
 
 
@@ -1460,6 +1458,13 @@ Plotting
 * [cl-spark](https://github.com/tkych/cl-spark) - sparkline strings for the console: `(spark '(1 1 2 3 5 8))` => "▁▁▂▃▅▇". [MIT][200].
 
 See also the chart facilities of IUP and ltk-plotchart (GUI section).
+
+Project skeletons
+-----------------
+
+* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
+* [quickapp-cli](https://github.com/triclops200/quickapp-cli) - [quickapp][188] as a command-line utility. [3-clause BSD][15].
+* [cl-project](https://github.com/fukamachi/cl-project) - General modern project skeletons. [LLGPL][8].
 
 Security
 --------
