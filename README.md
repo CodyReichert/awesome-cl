@@ -1087,8 +1087,7 @@ Command-line options parsers
 
 * 👍 [Unix-opts](https://github.com/mrkkrp/unix-opts) - a command line
   options parser with a concise declaration of options. [MIT][200].
-* [CLON](https://github.com/didierverna/clon) - a Command Line Options
-  Nuker, with lots of options. [ISC](https://github.com/didierverna/clon/blob/master/LICENSE).
+* [Adopt](https://github.com/sjl/adopt/) - A Damn OPTion parsing library. [MIT][200].
 
 Readline, ncurses and other graphical helpers
 --------------------------------------------
