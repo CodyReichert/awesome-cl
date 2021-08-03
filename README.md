@@ -1080,6 +1080,7 @@ Writing, running scripts
 * [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [zlib][33].
 * [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
 * [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
+  * similar and maybe simpler: [lserver](https://notabug.org/quasus/lserver/)
 
 Command-line options parsers
 ----------------------------
