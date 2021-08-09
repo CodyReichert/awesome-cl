@@ -728,6 +728,7 @@ Library Manager
 
 might help:
 
+* [quick-patch](https://github.com/tdrhq/quick-patch/) -  easily override quicklisp projects without using git submodules. MPL-2.0.
 * [print-licenses](https://github.com/vindarel/print-licenses) - print licenses used by a project and its dependencies. [MIT][200].
 
 ### Interfaces to other package managers
