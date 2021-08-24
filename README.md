@@ -112,7 +112,6 @@ sellers who aren't evil for physical resources.
     - [Monitoring](#monitoring)
     - [Third-party APIs](#third-party-apis)
     - [Web project skeletons and generators](#web-project-skeletons-and-generators)
-    - [Web applications examples](#web-applications-examples)
     - [Others](#others)
 - [Numerical and Scientific](#numerical-and-scientific)
     - [Matrix libraries](#matrix-libraries)
@@ -270,8 +269,9 @@ ORMs
 Persistent object databases
 ---------------------------
 
-* [bknr.datastore](https://github.com/hanshuebner/bknr-datastore) - a CLOS-based lisp-only database in RAM with transaction logging persistence. [Manual](https://www.common-lisp.net/project/bknr/html/documentation.html). [licence][208]. 
+* [bknr.datastore](https://github.com/hanshuebner/bknr-datastore) - a CLOS-based lisp-only database in RAM with transaction logging persistence. [Manual](https://www.common-lisp.net/project/bknr/html/documentation.html). [licence][208].
   * see also this [good introductory blog post](https://ashok-khanna.medium.com/persistent-in-memory-data-storage-in-common-lisp-b-k-n-r-37f8ae76042f)
+  * an example web application using bknr.datastore: [screenshotbot-oss](https://github.com/screenshotbot/screenshotbot-oss).
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [zlib][33].
 * [cl-prevalence](https://common-lisp.net/project/cl-prevalence/) - in-memory database system. Implementation of Object Prevalence, in which business objects are kept live in memory and transactions are journaled for system recovery. [github fork](https://github.com/40ants/cl-prevalence). [LLGPL][8]. See also [cl-prevalence-multimaster](https://github.com/40ants/cl-prevalence-multimaster), to syncronize multiple cl-prevalence systems state.
 
@@ -969,23 +969,6 @@ Web project skeletons and generators
 * [make-like](https://github.com/container-lisp/make-like) - an application template builder for LIKE (Lisp In Kubernetes + Emacs) applications. [Apache2.0][51].
   * Makefile, podman support, GitHub Actions, Prometheus metrics support, TOML-style config.ini, easy-route preconfigured with health-check and more.
 * [cl-webapp-seed](https://github.com/rajasegar/cl-webapp-seed) - a simple web application boilerplate. Uses Hunchentoot, cl-who, deploys easily to Heroku. [MIT][200].
-
-Web applications examples
--------------------------
-
-These examples should stand out for something and have a unique
-feature hardly created with web project generators or existing
-libraries.
-
-* [screenshotbot-oss](https://github.com/screenshotbot/screenshotbot-oss) - a Screenshot Testing service. This code powers https://screenshotbot.io.
-  * uses Bknr.datastore as the datastore. Heavy use of their [markup](https://github.com/moderninterpreters/markup) library (JSX-like).
-  * Closures as URLs ([nibble](https://github.com/screenshotbot/screenshotbot-oss/blob/main/src/nibble/nibble.asd), not yet a standalone library). "Essentially, it allows me to create "anonymous" HTTP endpoints that evaluate a lambda. We integrate it with markup to make it pleasant to write multi-page web forms and flows. e.g. [Here's a flow](https://github.com/screenshotbot/screenshotbot-oss/blob/main/src/screenshotbot/dashboard/api-keys.lisp#L84) that lets you delete an API key, but before deleting it it asks you for a confirmation."
-  * user auth and sessions.
-
-Smaller demos:
-
-* [cl-trello-clone](https://github.com/rajasegar/cl-trello-clone) - a Trello clone demo app in Common Lisp. Built with HTMX and HyperScript. Caveman and Djula templates.
-  * by the same author, see also [cl-warehouse](https://github.com/rajasegar/cl-warehouse) and many more small demos.
 
 
 Others
