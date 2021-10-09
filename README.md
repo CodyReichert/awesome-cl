@@ -1445,6 +1445,8 @@ Linting, code formatting
 * [sblint](https://github.com/fukamachi/sblint) - a linter for Common Lisp source code using SBCL, suited for Reviewdog ([slides](http://www.slideshare.net/fukamachi/sblint)). [BSD_2Clause][17].
 * [trivial-formatter](https://github.com/hyotang666/trivial-formatter) - code formatter for Common Lisp. [MIT][200].
 
+and also: [lisp-format](https://github.com/eschulte/lisp-format) and [cl-indentify](https://github.com/yitzchak/cl-indentify).
+
 
 Logging
 -------
