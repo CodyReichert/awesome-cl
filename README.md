@@ -1224,6 +1224,8 @@ This contains plugins and other goodies for various text editors.
 ## VSCode ##
 
 * [commonlisp-vscode](https://marketplace.visualstudio.com/items?itemName=ailisp.commonlisp-vscode) - an extension to support syntax highlight, auto completion, documentation on hover, go to definition, compile & load file, REPL. It is [On GitHub](https://github.com/ailisp/commonlisp-vscode/).
+* [alive](https://github.com/nobody-famous/alive) -  Common Lisp Extension for VSCode. Public domain.
+  * see the Cookbook: [using VSCode with Alive](https://lispcookbook.github.io/cl-cookbook/vscode-alive.html)
 * [strict-paredit-vscode](https://marketplace.visualstudio.com/items?itemName=ailisp.strict-paredit) - structural editing and navigation like Emacs.
 
 ## Geany (experimental) ##
