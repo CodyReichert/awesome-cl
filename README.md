@@ -657,7 +657,8 @@ Advanced
 
 * [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
 * [On Lisp](http://www.paulgraham.com/onlisp.html) - Paul Graham's amazing book on Lisp macros (and other interesting things).
-* [Programming Algorithms](https://leanpub.com/progalgs) - A comprehensive guide to writing efficient programs with examples in Lisp.
+* [Programming Algorithms](https://leanpub.com/progalgs) (outdated, see "Programming Algorithms in Lisp") - A comprehensive guide to writing efficient programs with examples in Lisp.
+* [Programming Algorithms in Lisp](https://link.springer.com/book/10.1007/978-1-4842-6428-7) - Updated version of "Programming Algorithms".
 
 Web Development
 --------
