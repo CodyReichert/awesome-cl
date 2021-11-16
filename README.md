@@ -198,7 +198,7 @@ work on Common Music shifted to (scheme-based) cm3.
 * [scheduler](https://github.com/byulparan/scheduler) - The time based musical event scheduler for Common Lisp. [Apache2.0][89].
 * [mixalot](https://github.com/ahefner/mixalot) - Loosely-coupled collection of audio libraries for mp3, ogg vorbis, flac. Used for the [Shuffletron music player](https://github.com/ahefner/shuffletron).
 * [osc](https://github.com/zzkt/osc) - an implementation of the Open Sound Protocol. [LGPL2.1][11].
-* [Harmony](https://shirakumo.github.io/harmony) - A real-time sound processing and playback system. [Artistic License 2.0][51].
+* [Harmony](https://shirakumo.github.io/harmony) - A real-time sound processing and playback system. [zlib][33].
 * [mixalot](https://github.com/ahefner/mixalot) - A loosely-coupled collection of audio libraries. [MIT][200].
 
 
@@ -822,7 +822,7 @@ Web frameworks
   Example projects: [Quickdocs](https://github.com/quickdocs)
 * [hh-web](https://github.com/hargettp/hh-web) - Framework for building modern web apps. [Expat][14].
 * [ningle](https://github.com/fukamachi/ningle) - A super-micro web framework. [LLGPL][8]. [ninglex](https://github.com/defunkydrummer/ninglex), an extended and noob-friendly ningle (mostly easier handling of query parameters). [MIT][200].
-* [radiance](https://github.com/Shirakumo/radiance) - A web application environment and framework . [Artistic License 2.0][51].
+* [radiance](https://github.com/Shirakumo/radiance) - A web application environment and framework . [zlib][33].
 * [Lucerne](https://github.com/eudoxia0/lucerne) - A minimal web framework built on Clack, inspired by Flask. [MIT][200].
 * [Snooze](https://github.com/joaotavora/snooze) - A RESTful web framework. Web server agnostic. Currently has support for Hunchentoot and Clack. Routes are just functions and HTTP conditions are just Lisp conditions. [LLGPL][8].
 
@@ -858,7 +858,7 @@ Parsing html
 
 Querying HTML/DOM
 -----------------
-* 👍 [lquery][72] - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
+* 👍 [lquery][72] - A jQuery-like HTML/DOM manipulation library. [zlib][33].
 
 See also the XML section below for xpath libraries and more.
 
@@ -982,7 +982,7 @@ Others
 ------
 
 * 👍 [cl-forms](https://github.com/mmontone/cl-forms) -  Web forms handling library for Common lisp. [MIT][200].
-* [maiden](https://shirakumo.github.io/maiden) - A bot and chat system framework with support for IRC and more. [Artistic License 2.0][51].
+* [maiden](https://shirakumo.github.io/maiden) - A bot and chat system framework with support for IRC and more. [zlib][33].
 * [css-lite](https://github.com/paddymul/css-lite) - A CSS grammar. [Expat][14].
 * [find-port](https://github.com/eudoxia0/find-port) -  Programmatically find open ports. [MIT][200].
 * [Postmaster](https://github.com/eudoxia0/postmaster) - A simple, easy-to-use SMTP/IMAP library. [Expat][14].
@@ -1530,7 +1530,7 @@ XML
 
 * [CXML](https://common-lisp.net/project/cxml/) - XML parser and serializer, with a range of extension libraries. [LLGPL][8].
   - 👍 has an incremental parser, allowing to parse big files.
-* [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
+* [Plump][71] - A lenient XML parser. [zlib][33].
 * [xpath](https://github.com/sharplispers/xpath) ([homepage](https://common-lisp.net/project/plexippus-xpath/atdoc/index.html) - Implementation of the XML Path Language (XPath) Version 1.0. [BSD_2Clause][17].
 * [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
 * [xmls](https://github.com/rpgoldman/xmls) - A small, simple, non-validating XML parser. [3-clause BSD][15].
