@@ -649,6 +649,7 @@ Beginner
 * [Successful Lisp](http://successful-lisp.blogspot.com/) - A good book for beginners with some programming background.
 * [Lisp Quickstart](https://cs.gmu.edu/~sean/lisp/LispTutorial.html) - A good tutorial to get up and code Common Lisp quickly.
 * [Casting SPELs in LISP](http://www.lisperati.com/casting.html) - A fun way to learn LISP while reading a comic book.
+* [Lists And Lists](https://www.eblong.com/zarf/zweb/lists/) - An interactive fiction game which involves Lisp.
 
 Intermediate
 ------------
