@@ -1306,6 +1306,7 @@ Unit Testing
 * [Check-it](https://github.com/DalekBaldwin/check-it) - A QuickCheck-style randomized property-based testing. [LLGPL][8].
 * [cl-coveralls](https://github.com/fukamachi/cl-coveralls) - a helper
   library to post test coverage to Coveralls. See [SBCL's code coverage tool](http://www.sbcl.org/manual/index.html#sb_002dcover). [FreeBSD][39].
+* [prove](https://github.com/fukamachi/prove) - Yet another unit testing framework for Common Lisp
 
 Editor utilities:
 
