@@ -61,6 +61,7 @@ sellers who aren't evil for physical resources.
 - [Game Development](#game-development)
 - [Graphics](#graphics)
 - [GUI](#gui)
+    - [Mobile](#mobile)
 - [Implementations](#implementations)
 - [JSON](#json)
 - [YAML](#yaml)
@@ -474,6 +475,14 @@ processes. It has
 * [Allegro's Common Graphics](https://franz.com/products/allegro-common-lisp/acl_gui_tools.lhtml)- a library of functions for writing windowized GUIs for Windows, Mac and Linux. Proprietary.
 
 See also this [demo to use Java Swing from ABCL](https://github.com/defunkydrummer/abcl-jazz).
+
+Mobile
+------
+
+* [LispWork's mobile runtime](http://www.lispworks.com/products/lw4mr.html) - Android and iOs.  Proprietary.
+* [LQML](https://gitlab.com/eql/lqml) - a lightweight ECL binding to QML (both Qt5 and Qt6) derived from EQL5. LGPL and public domain.
+
+See also MOCL below, CL as a library for mobile devices (iOS, Android and OSX).
 
 
 Implementations
