@@ -847,8 +847,8 @@ REST-focused frameworks:
 
 Authentication plugins (in addition to the Clack plugins above):
 
-* [cl-cas](https://github.com/fferrere/cl-cas) - A library to help [CAS authenticaton](https://apereo.github.io/cas/6.0.x/protocol/CAS-Protocol.html) to Common Lisp web applications.
-* [cas-middleware](https://github.com/fferrere/cas-middleware) - CAS authenticaton middleware for Caveman.
+* [cl-cas](https://github.com/fferrere/cl-cas) - A library to help [CAS authenticaton](https://apereo.github.io/cas/6.0.x/protocol/CAS-Protocol.html) to Common Lisp web applications. Not in Quicklisp.
+  * [cas-middleware](https://github.com/fferrere/cas-middleware) - CAS authenticaton middleware for Caveman.
   * [cas-demo](https://github.com/fferrere/cas-demo) - a demo project.
 
 There are more projects, more or less discontinued but interesting. See the other resources.
