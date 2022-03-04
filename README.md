@@ -512,7 +512,7 @@ JSON
 * [json-mop](https://github.com/gschjetne/json-mop) - A metaclass for bridging CLOS and JSON objects. [MIT][200].
 * [cl-json-pointer](https://github.com/y2q-actionman/cl-json-pointer) - A JSON Pointer implementation. [MIT][200].
 
-See also this [extensive comparison](https://sites.google.com/site/sabraonthehill/home/json-libraries) of JSON libraries.
+See also this [extensive comparison](https://sabracrolleton.github.io/json-review) of JSON libraries.
 
 YAML
 ====
