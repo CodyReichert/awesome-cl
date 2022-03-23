@@ -1464,7 +1464,7 @@ i18n
 
 * [cl-i18n](https://notabug.org/cage/cl-i18n) - an i18n library. Load translations from GNU gettext text or binary files or from its native format. Localisation helpers of plural forms. [LLGPL][8].
 * [gettext](https://github.com/rotatef/gettext) -  a port of the gettext runtime to Common Lisp. [GPL3][2].
-* [cl-locale](https://github.com/fukamachi/cl-locale) - A simple i18n library. [LLGPL][8].
+* [translate](https://github.com/dkochmanski/translate) - seamless language localization. LLGPL.
 * [enchant](https://github.com/tlikonen/cl-enchant) - bindings for the Enchant spell-checker library. Public domain.
 * [oxenfurt](https://github.com/Shinmera/oxenfurt) - A  client library for the Oxford dictionary API. [zlib][33].
 * [language-codes](https://shinmera.github.io/language-codes) - A database library for ISO language codes. [zlib][33]
