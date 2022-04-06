@@ -167,8 +167,8 @@ sellers who aren't evil for physical resources.
     - [Plotting](#plotting)
     - [Project skeletons](#project-skeletons)
     - [Security](#security)
+    - [XML](#xml)
     - [Other](#other)
-- [XML](#xml)
 - [Contributing](#contributing)
 
 <!-- markdown-toc end -->
@@ -1534,6 +1534,18 @@ Security
 
 * [cl-isolated](https://github.com/kanru/cl-isolated) - A restricted environment for Common Lisp code evaluation [AGPL-3.0][agpl3].
 
+XML
+---
+
+* [CXML](https://common-lisp.net/project/cxml/) - XML parser and serializer, with a range of extension libraries. [LLGPL][8].
+  - 👍 has an incremental parser, allowing to parse big files.
+* [Plump][71] - A lenient XML parser. [zlib][33].
+* [xpath](https://github.com/sharplispers/xpath) ([homepage](https://common-lisp.net/project/plexippus-xpath/atdoc/index.html) - Implementation of the XML Path Language (XPath) Version 1.0. [BSD_2Clause][17].
+* [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
+* [xmls](https://github.com/rpgoldman/xmls) - A small, simple, non-validating XML parser. [3-clause BSD][15].
+* [cl-feedparser](https://github.com/TBRSS/cl-feedparser) - A Common Lisp (RSS, Atom) feed parser. [LLGPL][8]
+* [Buildnode](https://github.com/AccelerationNet/buildnode) - A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. [BSD][15].
+
 
 Other
 -----
@@ -1548,19 +1560,6 @@ This contains anything which doesn't fit into another category.
 * [simple-currency](https://github.com/a0-prw/simple-currency) - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
 * [trivial-garbage](https://github.com/trivial-garbage/trivial-garbage) - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-utf8](https://common-lisp.net/project/trivial-utf-8/) - A small library for doing UTF-8-based I/O. BSD.
-
-
-XML
-===
-
-* [CXML](https://common-lisp.net/project/cxml/) - XML parser and serializer, with a range of extension libraries. [LLGPL][8].
-  - 👍 has an incremental parser, allowing to parse big files.
-* [Plump][71] - A lenient XML parser. [zlib][33].
-* [xpath](https://github.com/sharplispers/xpath) ([homepage](https://common-lisp.net/project/plexippus-xpath/atdoc/index.html) - Implementation of the XML Path Language (XPath) Version 1.0. [BSD_2Clause][17].
-* [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
-* [xmls](https://github.com/rpgoldman/xmls) - A small, simple, non-validating XML parser. [3-clause BSD][15].
-* [cl-feedparser](https://github.com/TBRSS/cl-feedparser) - A Common Lisp (RSS, Atom) feed parser. [LLGPL][8]
-* [Buildnode](https://github.com/AccelerationNet/buildnode) - A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. [BSD][15].
 
 
 Contributing
