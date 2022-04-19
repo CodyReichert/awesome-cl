@@ -1217,8 +1217,13 @@ This contains plugins and other goodies for various text editors.
 * 👍 [Portacle](https://shinmera.github.io/portacle/) - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
 * [cl-devel2](https://hub.docker.com/r/eshamster/cl-devel2/) - a Docker container for Common Lisp development environment. Ships SBCL, CCL, Roswell and Emacs25 with Slime.
 * [Emacs4CL](https://github.com/susam/emacs4cl) - A tiny Emacs initialization file to quickly set up vanilla Emacs for Common Lisp programming. Comes with a line-by-line explanation of every line of code in the initialization file.
-* [quicklisp-systems](https://github.com/mmontone/quicklisp-systems) -  Search, browse and load Quicklisp systems from Emacs.
-*[slime-doc-contribs](https://github.com/mmontone/slime-doc-contribs) - enhance the default help buffer.
+* [slime-star](https://github.com/mmontone/slime-star) - a SLIME configuration with extensions pre-installed, with also some custom utilities and menus:
+  - the Lisp system browser
+  - [SLIME doc contrib](https://github.com/mmontone/slime-doc-contribs) - enhance the default help buffer.
+  - [Quicklisp systems](https://github.com/mmontone/quicklisp-systems) - Search, browse and load Quicklisp systems from Emacs.
+  - [Quicksearch](https://github.com/tkych/quicksearch)
+  - [Slime breakpoints](https://github.com/mmontone/slime-breakpoints)
+  - [Slite](https://github.com/tdrhq/slite/) - a test runner for FiveAM.
 
 ## Vim & Neovim ##
 
