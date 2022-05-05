@@ -963,8 +963,8 @@ Deployment
 
 See also:
 
+- [Platform.sh](https://platform.sh/blog/2019/lisp/) has Common Lisp support, so has [OVH](https://docs.ovh.com/ie/en/web-paas/languages-lisp/) through their Web PaaS partnership.
 - [Heliohost](https://www.heliohost.org/) for a free hosting solution.
-- [Platform.sh](https://platform.sh/blog/2019/lisp/) has Common Lisp support.
 
 Monitoring
 ----------
