@@ -1552,6 +1552,7 @@ XML
 
 * [CXML](https://common-lisp.net/project/cxml/) - XML parser and serializer, with a range of extension libraries. [LLGPL][8].
   - 👍 has an incremental parser, allowing to parse big files.
+  - see the [FXML](https://github.com/ruricolist/FXML) fork, with fixes and new features. You should use it if your are parsing potentially ill-formed or malicious XML, or if you need to use Klacks with namespaces.
 * [Plump][71] - A lenient XML parser. [zlib][33].
 * [xpath](https://github.com/sharplispers/xpath) ([homepage](https://common-lisp.net/project/plexippus-xpath/atdoc/index.html) - Implementation of the XML Path Language (XPath) Version 1.0. [BSD_2Clause][17].
 * [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
