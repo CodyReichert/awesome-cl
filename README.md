@@ -276,6 +276,9 @@ Persistent object databases
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [zlib][33].
 * [cl-prevalence](https://common-lisp.net/project/cl-prevalence/) - in-memory database system. Implementation of Object Prevalence, in which business objects are kept live in memory and transactions are journaled for system recovery. [github fork](https://github.com/40ants/cl-prevalence). [LLGPL][8]. See also [cl-prevalence-multimaster](https://github.com/40ants/cl-prevalence-multimaster), to syncronize multiple cl-prevalence systems state.
 
+See also [Clache](#caching), that can save any object on disk.
+
+
 Graph databases
 ---------------
 
@@ -1365,7 +1368,7 @@ Utilities
 Caching
 -------
 
-* [clache](https://github.com/html/clache) - General caching facility. [LLGPL][8].
+* [clache](https://github.com/html/clache) - General caching facility. Cache any Lisp object on disk or in memory. A cache can be persistent or have an expiration time. [LLGPL][8].
 
 
 Compression / decompression
