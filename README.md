@@ -1442,20 +1442,21 @@ Lisp cores.
 Documentation builders
 ----------------------
 
-* [sphinxcontrib-cldomain](https://github.com/russell/sphinxcontrib-cldomain) -
-  Extending Sphinx to cover Common Lisp. To build documentation with
-  the same ease as sphinx would a Python project. [GPL3][2]
-* [Codex](https://github.com/CommonDoc/codex) - A beautiful
-  documentation system for Common Lisp. [MIT][200].
 * [Staple](https://github.com/Shinmera/staple) - a tool to generate documentation pages using an HTML template. Uses the existing README, adds docstrings, crossreferences and links to the CLHS. [zlib][33].
-* [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
 * [mgl-pax](https://github.com/melisgl/mgl-pax) - Exploratory
 programming environment and documentation generator. one may
 accomplish similar effects as with Literate Programming, but
 documentation is generated from code, not vice versa. Code is first,
 code must look pretty, documentation is code. [MIT][200].
   - see this [40ants fork](https://github.com/40ants/doc)
+* [declt](https://github.com/didierverna/declt) - Reference manual generator for Common Lisp libraries. Builds a texinfo document that can be further processed into various formats, such as HTML or PDF. BSD.
+* [Codex](https://github.com/CommonDoc/codex) - A beautiful
+  documentation system for Common Lisp. [MIT][200].
 * [erudite](https://github.com/mmontone/erudite) - Literate Programming System built with interactive development in mind. [MIT][200].
+* [sphinxcontrib-cldomain](https://github.com/russell/sphinxcontrib-cldomain) -
+  Extending Sphinx to cover Common Lisp. To build documentation with
+  the same ease as sphinx would a Python project. [GPL3][2]
+* [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
 
 
 Files and directories
