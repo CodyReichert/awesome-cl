@@ -1458,6 +1458,13 @@ code must look pretty, documentation is code. [MIT][200].
   the same ease as sphinx would a Python project. [GPL3][2]
 * [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
 
+See also:
+
+* [docbrowser](https://github.com/lokedhs/docbrowser) - a server that generates documentation for the loaded systems on the fly.
+  - Its main page presents a list of all loaded systems in your Lisp image. Click on one system, and you get a page with three panes: functions, classes and variables. Click on a function to see its source, in context, with line numbers. Click on classes to see their slots and specializing functions.
+
+An overview blog post with even more documentation generators: https://lisp-journey.gitlab.io/blog/overview-of-documentation-generators/
+
 
 Files and directories
 ---------------------
