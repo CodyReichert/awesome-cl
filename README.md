@@ -161,6 +161,7 @@ sellers who aren't evil for physical resources.
     - [Git](#git)
     - [i18n](#i18n)
     - [Linting, code formatting](#linting-code-formatting)
+    - [Literate programming](#literate-programming)
     - [Logging](#logging)
     - [Markdown](#markdown)
     - [PDF](#pdf)
@@ -1467,6 +1468,8 @@ See also:
 
 An overview blog post with even more documentation generators: https://lisp-journey.gitlab.io/blog/overview-of-documentation-generators/
 
+You might also like: [literate programming systems](#literate-programming).
+
 
 Files and directories
 ---------------------
@@ -1514,6 +1517,12 @@ Linting, code formatting
 * [trivial-formatter](https://github.com/hyotang666/trivial-formatter) - code formatter for Common Lisp. [MIT][200].
 
 and also: [lisp-format](https://github.com/eschulte/lisp-format) and [cl-indentify](https://github.com/yitzchak/cl-indentify).
+
+Literate programming
+--------------------
+
+* [literate-lisp](https://github.com/jingtaozf/literate-lisp) -  Load Common Lisp code blocks from Emacs' Org files. [MIT][200].
+* [erudite](https://github.com/mmontone/erudite) - Literate Programming System built with interactive development in mind. [MIT][200].
 
 
 Logging
