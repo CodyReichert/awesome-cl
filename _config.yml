@@ -1,0 +1,8 @@
+title: (awesome-cl)
+description: A curated list of awesome Common Lisp frameworks, libraries and other shiny stuff.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
