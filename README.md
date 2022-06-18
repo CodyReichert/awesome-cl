@@ -837,6 +837,7 @@ HTTP Servers
 
 ### Clack plugins
 
+* [tiny-routes](https://github.com/jeko2000/tiny-routes) -  A tiny routing library for Common Lisp targeting Clack. [BSD_3Clause][15].
 * [clack-errors](https://github.com/eudoxia0/clack-errors) - Error page middleware for Clack. [LLGPL][8].
 * [clath](https://github.com/BnMcGn/clath) - a single sign-on
   middleware for Clack. It allows basic login with OAuth1.0a, OAuth2
@@ -847,6 +848,8 @@ HTTP Servers
 * [hermetic](https://github.com/eudoxia0/hermetic) - Security for Clack-based web applications. [Expat][14].
 * [live-reload](https://github.com/knobo/live-reload) - Live reload prototype for clack. [LLGPL][8].
 * [clack-static-asset-middleware](https://github.com/fisxoj/clack-static-asset-middleware) - a cache-busting static asset middleware for the clack. [MIT][200].
+
+For routing, we can also use Snooze (see below).
 
 Web frameworks
 --------------
