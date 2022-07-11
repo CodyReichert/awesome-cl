@@ -841,6 +841,10 @@ HTTP Servers
 * [hunchentoot-auth](https://github.com/slyrus/hunchentoot-auth) - implementing user authentication with passwords. [BSD][207].
 * [hunchentoot-errors](https://github.com/mmontone/hunchentoot-errors) - Augments Hunchentoot error pages and logs with request and session information. [MIT][200].
 
+See also:
+
+* [cl-tbnl-gserver-tmgr](https://github.com/mdbergmann/cl-tbnl-gserver-tmgr) -  Hunchentoot Gserver-based taskmanager. cl-gserver is an actor-like message-passing library (see below in "Actors pattern"). Experimental.
+
 ### Clack plugins
 
 * [tiny-routes](https://github.com/jeko2000/tiny-routes) -  A tiny routing library for Common Lisp targeting Clack. [BSD_3Clause][15].
