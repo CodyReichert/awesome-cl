@@ -99,21 +99,24 @@ sellers who aren't evil for physical resources.
         - [Hunchentoot plugins](#hunchentoot-plugins)
         - [Clack plugins](#clack-plugins)
     - [Web frameworks](#web-frameworks)
-    - [Isomorphic web frameworks](#isomorphic-web-frameworks)
-    - [Assets management](#assets-management)
+        - [Isomorphic web frameworks](#isomorphic-web-frameworks)
     - [Parsing html](#parsing-html)
     - [Querying HTML/DOM](#querying-htmldom)
     - [HTML generators and templates](#html-generators-and-templates)
     - [URI handling](#uri-handling)
     - [Javascript](#javascript)
-    - [Email](#email)
-    - [Websockets](#websockets)
-    - [Static site generators](#static-site-generators)
     - [Deployment](#deployment)
     - [Monitoring](#monitoring)
-    - [Third-party APIs](#third-party-apis)
-    - [Web project skeletons and generators](#web-project-skeletons-and-generators)
+    - [Websockets](#websockets)
+    - [Web development utilities](#web-development-utilities)
+        - [Assets management](#assets-management)
+        - [Browser tests](#browser-tests)
+        - [Form handling](#form-handling)
+        - [Web project skeletons and generators](#web-project-skeletons-and-generators)
     - [Others](#others)
+        - [Email](#email)
+        - [Static site generators](#static-site-generators)
+        - [Third-party APIs](#third-party-apis)
 - [Numerical and Scientific](#numerical-and-scientific)
     - [Matrix libraries](#matrix-libraries)
     - [Statistics](#statistics)
@@ -886,22 +889,13 @@ Authentication plugins (in addition to the Clack plugins above):
 
 There are more projects, more or less discontinued but interesting. See the other resources.
 
-Isomorphic web frameworks
--------------------------
+### Isomorphic web frameworks
 
 * [CLOG](https://github.com/rabbibotton/clog) - The Common Lisp Omnificent GUI. Uses web technology to produce graphical user interfaces for applications locally or remotely. [BSD_3Clause][15].
   - CLOG is based on the ideas of GNOGA, a framework the author wrote for Ada and used in commercial production code since 2013.
 * [Interactive SSR](https://github.com/interactive-ssr/client/blob/master/main.org/) - ISSR allows you to make interactive web pages without writing client scripting. No knowledge about Javascript or DOM is necessary.
   - it is not unlike Phoenix LiveView or Hotwire.
 * [Weblocks](https://github.com/40ants/reblocks) - A widgets-based framework with a built-in ajax update mechanism that "solves the JavaScript problem". [LLGPL][8].
-
-
-Assets management
------------------
-
-* [Rock](https://github.com/eudoxia0/rock) - an asset manager for
-  Common Lisp. It's basically a combination of Bower and
-  webassets. [MIT][200].
 
 
 Parsing html
@@ -963,31 +957,6 @@ See also:
 minor mode for live Parenscript interaction.
 
 
-Email
------
-
-* [trivial-imap](https://github.com/40ants/trivial-imap) - tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). [BSD][15].
-* [mailgun](https://github.com/40ants/mailgun) - A thin wrapper to post HTML emails through mailgun.com. [unlicence][5].
-* [mito-email-auth](https://github.com/40ants/mito-email-auth) - Helper to authenticate a website's users by sending them unique code by email.
-* [cl-smtp](https://gitlab.common-lisp.net/cl-smtp/cl-smtp) - CL-SMTP is a simple lisp smtp client. 
-
-
-Websockets
-----------
-
-* 👍 [usocket](https://github.com/usocket/usocket) - A portable TCP and UDP socket interface. [Expat][14].
-* [Hunchensocket](https://github.com/joaotavora/hunchensocket) -  RFC6455 compliant WebSockets for Common Lisp. [MIT][200].
-* [websocket-driver](https://github.com/fukamachi/websocket-driver) - a WebSocket server/client implementation, backend agnostic (Clack). [3-clause BSD][15].
-* [Portal](https://github.com/charJe/portal) - Portable websockets for Common Lisp using usocket. [LLGPL][8].
-
-See more [on cliki](http://www.cliki.net/site/search?query=websockets).
-
-Static site generators
-----------------------
-
-* [coleslaw](https://github.com/kingcons/coleslaw) and its
-  [coleslaw-cli](https://github.com/40ants/coleslaw-cli) - Flexible
-  Lisp Blogware similar to Frog, Jekyll, or Hakyll. [BSD][15].
 
 Deployment
 ----------
@@ -1011,8 +980,65 @@ Monitoring
 * [rollbar.lisp](https://github.com/adventuring/rollbar.lisp) - interface to [Rollbar.com](https://rollbar.com/), an error tracking software.
 
 
-Third-party APIs
-----------------
+Websockets
+----------
+
+* 👍 [usocket](https://github.com/usocket/usocket) - A portable TCP and UDP socket interface. [Expat][14].
+* [Hunchensocket](https://github.com/joaotavora/hunchensocket) -  RFC6455 compliant WebSockets for Common Lisp. [MIT][200].
+* [websocket-driver](https://github.com/fukamachi/websocket-driver) - a WebSocket server/client implementation, backend agnostic (Clack). [3-clause BSD][15].
+* [Portal](https://github.com/charJe/portal) - Portable websockets for Common Lisp using usocket. [LLGPL][8].
+
+See more [on cliki](http://www.cliki.net/site/search?query=websockets).
+
+Web development utilities
+-------------------------
+
+### Assets management
+
+* [Rock](https://github.com/eudoxia0/rock) - an asset manager for
+  Common Lisp. It's basically a combination of Bower and
+  webassets. [MIT][200].
+
+### Browser tests
+
+* [cl-webdriver-client](https://github.com/copyleft/cl-webdriver-client/) - a binding library to WebDriver (supports Selenium 4.0).
+
+### Form handling
+
+* 👍 [cl-forms](https://github.com/mmontone/cl-forms) -  Web forms handling library for Common lisp. [MIT][200].
+
+### Web project skeletons and generators
+
+* [cl-cookieweb](https://github.com/vindarel/cl-cookieweb) - a  Cookiecutter template to start a web project. [BSD_3Clause][15]. Not in Quicklisp.
+  * Provides a working toy web app with the Hunchentoot web server, easy-routes, Djula templates, styled with Bulma, based on SQLite, with migrations, an example table definition and a test suite using FiveAM.
+* [make-like](https://github.com/container-lisp/make-like) - an application template builder for LIKE (Lisp In Kubernetes + Emacs) applications. [Apache2.0][51].
+  * Makefile, podman support, GitHub Actions, Prometheus metrics support, TOML-style config.ini, easy-route preconfigured with health-check and more.
+* [cl-webapp-seed](https://github.com/rajasegar/cl-webapp-seed) - a simple web application boilerplate. Uses Hunchentoot, cl-who, deploys easily to Heroku. [MIT][200].
+
+Others
+------
+
+* [maiden](https://shirakumo.github.io/maiden) - A bot and chat system framework with support for IRC and more. [zlib][33].
+* [css-lite](https://github.com/paddymul/css-lite) - A CSS grammar. [Expat][14].
+* [find-port](https://github.com/eudoxia0/find-port) -  Programmatically find open ports. [MIT][200].
+* [Postmaster](https://github.com/eudoxia0/postmaster) - A simple, easy-to-use SMTP/IMAP library. [Expat][14].
+* [cl-wget](https://github.com/cl-wget/cl-wget) - Makes retrieving large files or mirroring entire websites easy. [AGPL-3.0][51].
+* [trivial-download](https://github.com/eudoxia0/trivial-download) - Download files. [MIT][200].
+
+### Email
+
+* [trivial-imap](https://github.com/40ants/trivial-imap) - tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). [BSD][15].
+* [mailgun](https://github.com/40ants/mailgun) - A thin wrapper to post HTML emails through mailgun.com. [unlicence][5].
+* [mito-email-auth](https://github.com/40ants/mito-email-auth) - Helper to authenticate a website's users by sending them unique code by email.
+* [cl-smtp](https://gitlab.common-lisp.net/cl-smtp/cl-smtp) - CL-SMTP is a simple lisp smtp client.
+
+### Static site generators
+
+* [coleslaw](https://github.com/kingcons/coleslaw) and its
+  [coleslaw-cli](https://github.com/40ants/coleslaw-cli) - Flexible
+  Lisp Blogware similar to Frog, Jekyll, or Hakyll. [BSD][15].
+
+### Third-party APIs
 
 * [Aws-sign4](https://github.com/rotatef/aws-sign4) - Common Lisp library for Amazon Web Services signing version 4. [GNU GPL3][2].
 * [zs3](https://github.com/xach/zs3) - A library for working with Amazon's Simple Storage
@@ -1030,27 +1056,6 @@ Service (S3) and CloudFront service. [BSD][15].
 * [multiposter](https://github.com/Shinmera/multiposter) - post to multiple services simultaneously. [zlib][33].
 * [stripe](https://git.mfiano.net/mfiano/stripe) - a client for the Stripe payment system. [MIT][200].
 
-Web project skeletons and generators
-------------------------------------
-
-* [cl-cookieweb](https://github.com/vindarel/cl-cookieweb) - a  Cookiecutter template to start a web project. [BSD_3Clause][15]. Not in Quicklisp.
-  * Provides a working toy web app with the Hunchentoot web server, easy-routes, Djula templates, styled with Bulma, based on SQLite, with migrations, an example table definition and a test suite using FiveAM.
-* [make-like](https://github.com/container-lisp/make-like) - an application template builder for LIKE (Lisp In Kubernetes + Emacs) applications. [Apache2.0][51].
-  * Makefile, podman support, GitHub Actions, Prometheus metrics support, TOML-style config.ini, easy-route preconfigured with health-check and more.
-* [cl-webapp-seed](https://github.com/rajasegar/cl-webapp-seed) - a simple web application boilerplate. Uses Hunchentoot, cl-who, deploys easily to Heroku. [MIT][200].
-
-
-Others
-------
-
-* 👍 [cl-forms](https://github.com/mmontone/cl-forms) -  Web forms handling library for Common lisp. [MIT][200].
-* [maiden](https://shirakumo.github.io/maiden) - A bot and chat system framework with support for IRC and more. [zlib][33].
-* [css-lite](https://github.com/paddymul/css-lite) - A CSS grammar. [Expat][14].
-* [find-port](https://github.com/eudoxia0/find-port) -  Programmatically find open ports. [MIT][200].
-* [Postmaster](https://github.com/eudoxia0/postmaster) - A simple, easy-to-use SMTP/IMAP library. [Expat][14].
-* [cl-webdriver-client](https://github.com/copyleft/cl-webdriver-client/) - a binding library to WebDriver (supports Selenium 4.0).
-* [cl-wget](https://github.com/cl-wget/cl-wget) - Makes retrieving large files or mirroring entire websites easy. [AGPL-3.0][51].
-* [trivial-download](https://github.com/eudoxia0/trivial-download) - Download files. [MIT][200].
 
 Numerical and Scientific
 ========================
