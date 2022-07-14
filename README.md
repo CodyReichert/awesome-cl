@@ -112,6 +112,7 @@ sellers who aren't evil for physical resources.
         - [Assets management](#assets-management)
         - [Browser tests](#browser-tests)
         - [Form handling](#form-handling)
+        - [User login and password management](#user-login-and-password-management)
         - [Web project skeletons and generators](#web-project-skeletons-and-generators)
     - [Others](#others)
         - [Email](#email)
@@ -1006,6 +1007,13 @@ Web development utilities
 ### Form handling
 
 * 👍 [cl-forms](https://github.com/mmontone/cl-forms) -  Web forms handling library for Common lisp. [MIT][200].
+
+### User login and password management
+
+* [cl-authentic](https://github.com/charJe/cl-authentic) -  Password management for Common Lisp (web) applications. [LLGPL][8].
+  - safe password storage: cleartext-free, using your choice of hash algorithm through ironclad, storage in an SQL database,
+  - password reset mechanism with one-time tokens (suitable for mailing to users for confirmation),
+  - user creation optionally with confirmation tokens (suitable for mailing to users),
 
 ### Web project skeletons and generators
 
