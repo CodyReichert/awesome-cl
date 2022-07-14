@@ -37,7 +37,7 @@ sellers who aren't evil for physical resources.
 - [Compilers, code generators](#compilers-code-generators)
     - [APL](#apl)
     - [C, C++](#c-c)
-- [Crypto](#crypto)
+- [Cryptography](#cryptography)
 - [Cryptocurrencies](#cryptocurrencies)
 - [Database](#database)
     - [ORMs](#orms)
