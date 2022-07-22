@@ -987,13 +987,13 @@ Websockets
 ----------
 
 * 👍 [usocket](https://github.com/usocket/usocket) - A portable TCP and UDP socket interface. [Expat][14].
-* [Hunchensocket](https://github.com/joaotavora/hunchensocket) -  RFC6455 compliant WebSockets for Common Lisp, as an extension to Hunchentoot. [MIT][200].
 * [Portal](https://github.com/charJe/portal) - Portable websockets for Common Lisp, using usocket. [LLGPL][8].
+* [clws](https://github.com/3b/clws) -  websockets server in CL, built on IOlib and libfixposix. No licence specified.
+* [Hunchensocket](https://github.com/joaotavora/hunchensocket) -  RFC6455 compliant WebSockets for Common Lisp, as an extension to Hunchentoot. [MIT][200].
+* [websocket-driver](https://github.com/fukamachi/websocket-driver) - based on Clack.
 
-And also [websocket-driver](https://github.com/fukamachi/websocket-driver), based on Clack, although we've seen bugs.
+*Editor's note: at the time of writing, it seems we don't have a full-featured websocket implementation for Common Lisp. We can however recommend Portal, and we invite you to double-check the current issues of Hunchensocket and websocket-driver.*
 
-
-See more [on cliki](http://www.cliki.net/site/search?query=websockets).
 
 Web development utilities
 -------------------------
