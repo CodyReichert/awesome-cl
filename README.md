@@ -353,6 +353,7 @@ lock-free, concurrent, key/value index with efficient memory-mapped persistence 
 * [hash-set](https://github.com/samebchase/hash-set/) - a convenience library implementing hash sets on top of CL hash tables [The Unlicense][5]
 * [cl-containers](https://common-lisp.net/project/cl-containers/) - an extensive library of data structures and utilities - queues, trees, heaps, doubly-linked lists, sets, bags,... [MIT][200]
 * [cl-competitive](https://github.com/privet-kitty/cl-competitive) - Common Lisp algorithms collection for competitive programming. Public domain, CCO or MIT.
+* [cl-replica](https://github.com/IgSokolov/cl-replica) - a library for hash-table replication via an epidemic algorithm. BSD-2-Clause license.
 
 Accessing data structures:
 
