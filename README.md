@@ -81,6 +81,7 @@ sellers who aren't evil for physical resources.
     - [Beginner](#beginner)
     - [Intermediate](#intermediate)
     - [Advanced](#advanced)
+    - [Coding platforms](#coding-platforms)
     - [Web Development](#web-development)
     - [Reference](#reference)
     - [Offline](#offline)
@@ -707,6 +708,11 @@ Advanced
 * [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
 * [On Lisp](http://www.paulgraham.com/onlisp.html) - Paul Graham's amazing book on Lisp macros (and other interesting things).
 * [Programming Algorithms in Lisp](https://link.springer.com/book/10.1007/978-1-4842-6428-7) - Updated version of "[Programming Algorithms](https://leanpub.com/progalgs)"; A comprehensive guide to writing efficient programs with data structures and algorithms in Lisp.
+
+Coding platforms
+----------------
+
+* [Codewars](https://docs.codewars.com/languages/commonlisp/) - a code training platform, with Common Lisp support (SBCL).
 
 Web Development
 --------
