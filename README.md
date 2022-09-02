@@ -479,6 +479,7 @@ For an overview and a tutorial on GUI toolkits, see [the Cookbook/GUI](https://l
 * [ceramic](https://ceramic.github.io/) - Desktop web apps with Electron. [Expat][14].
   * [Electron-lisp-boilerplate](https://github.com/mikelevins/electron-lisp-boilerplate) - A rudimentary boilerplate for building Electron apps with embedded Lisp helper processes.
   * Electron app skeleton: [electron-sbcl-sqlite](https://github.com/mikelevins/electron-sbcl-sqlite/)
+  * NOTE: the main idea in embedding a lisp web app in Electron is to start the lisp webserver as an async process and to point the Electron window to the localhost URL. That's it.
 
 But that's not all:
 
