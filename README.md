@@ -1542,8 +1542,7 @@ implementation of the Python's os.path module. [BSD][15].
 
 File watching libraries:
 
-* [cl-inotify](https://github.com/Ferada/cl-inotify) - interface to the Linux inotify API. Simplified BSD License.
-* [cl-fswatch](https://github.com/muyinliu/cl-fswatch) - an CFFI wrapper of [fswatch](https://github.com/emcrisostomo/fswatch), a cross-platform file change monitor. [ISC][22].
+* [file-notify](https://github.com/shinmera/file-notify) - a cross-platform library for file change detection. [zlib][33].
 
 Git
 ---
