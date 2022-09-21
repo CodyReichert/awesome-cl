@@ -1079,6 +1079,7 @@ Service (S3) and CloudFront service. [BSD][15].
 * [humbler](https://github.com/Shinmera/humbler) - A Tumblr API interface. [zlib][33].
 * [multiposter](https://github.com/Shinmera/multiposter) - post to multiple services simultaneously. [zlib][33].
 * [stripe](https://git.mfiano.net/mfiano/stripe) - a client for the Stripe payment system. [MIT][200].
+* [lisp-pay](https://github.com/K1D77A/lisp-pay) - wrappers around various payment processors: Paypal, Stripe, Coinpayment. [MIT][200].
 
 
 Numerical and Scientific
