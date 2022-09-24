@@ -890,6 +890,8 @@ REST-focused frameworks:
 
 * 👍 [Snooze](https://github.com/joaotavora/snooze) - A RESTful web framework. Web server agnostic. Currently has support for Hunchentoot and Clack. Routes are just functions and HTTP conditions are just Lisp conditions. [LLGPL][8].
 * [cl-rest-server](https://github.com/mmontone/cl-rest-server) - a library for writing REST web APIs. Features validation with schemas, annotations for logging, caching, permissions or authentication, documentation via Swagger, etc. [MIT][200].
+* [apispec](https://github.com/cxxxr/apispec) -  A Common Lisp library for handling Web API requests and responses. [BSD_3Clause][15].
+  - takes an OpenAPI3 yaml specification and allows to validate and parse HTTP request headers, parameters and bodies.
 * [cl-odata-client](https://github.com/copyleft/cl-odata-client) - Common Lisp client library for accessing [OData services](https://www.odata.org). [MIT][200].
 
 Authentication plugins (in addition to the Clack plugins above):
