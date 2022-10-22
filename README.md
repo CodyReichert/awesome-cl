@@ -244,6 +244,7 @@ Cryptography
 * [cl-ssh-keys](https://github.com/dnaeon/cl-ssh-keys) - Common Lisp system for generating and parsing of OpenSSH keys. [BSD_3Clause][15].
 * [cl-bcrypt](https://github.com/dnaeon/cl-bcrypt) - Common Lisp system for parsing and generating bcrypt password hashes. [BSD_3Clause][15].
   * see also [cl-pass](https://github.com/eudoxia0/cl-pass), using pbkdf2.
+* [cl-megolm](https://github.com/K1D77A/cl-megolm) - Usable bindings over the top of the Olm/Megolm library used for encryption on the matrix protocol. [MIT][200].
 
 Cryptocurrencies
 ================
@@ -1081,7 +1082,9 @@ Service (S3) and CloudFront service. [BSD][15].
 * [humbler](https://github.com/Shinmera/humbler) - A Tumblr API interface. [zlib][33].
 * [multiposter](https://github.com/Shinmera/multiposter) - post to multiple services simultaneously. [zlib][33].
 * [stripe](https://git.mfiano.net/mfiano/stripe) - a client for the Stripe payment system. [MIT][200].
-* [lisp-pay](https://github.com/K1D77A/lisp-pay) - wrappers around various payment processors: Paypal, Stripe, Coinpayment. [MIT][200].
+* [lisp-pay](https://github.com/K1D77A/lisp-pay) - wrappers around various payment processors: BTCPay, Paypal, Stripe, Coinpayments. [MIT][200].
+* [lunamech-matrix-api](https://github.com/K1D77A/lunamech-matrix-api) - Complete wrapper around the Matrix Client->Server protocol. [MIT][200].
+
 
 
 Numerical and Scientific
