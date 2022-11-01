@@ -318,6 +318,7 @@ Wrappers
 * [cl-mango](https://github.com/cmoore/cl-mango/) -  A minimalist CouchDB 2.x database client. BSD_3Clause.
   * See also [clouchdb](https://common-lisp.net/project/clouchdb/) - Library for interacting with CouchDB. [FreeBSD][39].
 * [lmdb](https://github.com/antimer/lmdb) - Bindings to [LMDB](http://www.lmdb.tech/doc/), the Lightning Memory-mapped Database, an ACID key-value database with MultiVersion Concurrency Control.
+* [cl-ndbapi](https://github.com/datagraph/cl-ndbapi) - bindings to the C++ NDB API of [RonDB](https://www.rondb.com/), "the world's fastest key value store", by [Dydra](https://dydra.com/home). GPLv2.
 
 Migration tools
 ---------------
@@ -1562,8 +1563,7 @@ Git
 
 * [cl-git](https://github.com/russell/cl-git) - a CFFI interface to the libgit2 library. [LGPL3][9].
 * [legit](https://shinmera.github.io/legit/) - an interface to the Git binary. [zlib][33].
-* [git-api](https://github.com/fourier/git-api) - Common Lisp library
-to access a git repository. It doesn't need git or libgit installed. [BSD][15].
+* [git-api](https://github.com/fourier/git-api) - Common Lisp library to access a git repository. It doesn't need git or libgit installed. [BSD][15].
 
 i18n
 ----
