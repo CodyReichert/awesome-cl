@@ -694,6 +694,10 @@ Typing
 * 👍 [trivial-types](https://github.com/m2ym/trivial-types) - provides missing but important type definitions such as `proper-list`, `association-list`, `property-list` and `tuple`. [LLGPL][8].
 * [defstar](https://bitbucket.org/eeeickythump/defstar/src/master/) - a collection of macros for easy inclusion of type declarations for arguments in lambda lists. [GNU GPL3][2]
 
+See also:
+
+* [typo](https://github.com/marcoheisig/Typo/) -  A portable type inference library for Common Lisp. [MIT][200].
+
 
 Learning and Tutorials
 =====================
