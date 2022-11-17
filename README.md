@@ -116,7 +116,9 @@ sellers who aren't evil for physical resources.
         - [User login and password management](#user-login-and-password-management)
         - [Web project skeletons and generators](#web-project-skeletons-and-generators)
     - [Others](#others)
+        - [Authentication](#authentication)
         - [Email](#email)
+        - [OpenAPI, OData, OpenRPC](#openapi-odata-openrpc)
         - [Static site generators](#static-site-generators)
         - [Third-party APIs](#third-party-apis)
 - [Numerical and Scientific](#numerical-and-scientific)
@@ -910,17 +912,8 @@ REST-focused frameworks:
 
 * 👍 [Snooze](https://github.com/joaotavora/snooze) - A RESTful web framework. Web server agnostic. Currently has support for Hunchentoot and Clack. Routes are just functions and HTTP conditions are just Lisp conditions. [LLGPL][8].
 * [cl-rest-server](https://github.com/mmontone/cl-rest-server) - a library for writing REST web APIs. Features validation with schemas, annotations for logging, caching, permissions or authentication, documentation via Swagger, etc. [MIT][200].
-* [apispec](https://github.com/cxxxr/apispec) -  A Common Lisp library for handling Web API requests and responses. [BSD_3Clause][15].
-  - takes an OpenAPI3 yaml specification and allows to validate and parse HTTP request headers, parameters and bodies.
-* [cl-odata-client](https://github.com/copyleft/cl-odata-client) - Common Lisp client library for accessing [OData services](https://www.odata.org). [MIT][200].
 
-Authentication plugins (in addition to the Clack plugins above):
-
-* [cl-cas](https://github.com/fferrere/cl-cas) - A library to help [CAS authenticaton](https://apereo.github.io/cas/6.0.x/protocol/CAS-Protocol.html) to Common Lisp web applications. Not in Quicklisp.
-  * [cas-middleware](https://github.com/fferrere/cas-middleware) - CAS authenticaton middleware for Caveman.
-  * [cas-demo](https://github.com/fferrere/cas-demo) - a demo project.
-
-There are more projects, more or less discontinued but interesting. See the other resources.
+See OpenAPI, OData and other libraries below.
 
 ### Isomorphic web frameworks
 
@@ -1072,11 +1065,33 @@ Others
 * [cl-wget](https://github.com/cl-wget/cl-wget) - Makes retrieving large files or mirroring entire websites easy. [AGPL-3.0][51].
 * [trivial-download](https://github.com/eudoxia0/trivial-download) - Download files. [MIT][200].
 
+### Authentication
+
+(in addition to the Hunchentoot and Clack plugins above)
+
+* [cl-cas](https://github.com/fferrere/cl-cas) - A library to help [CAS authenticaton](https://apereo.github.io/cas/6.0.x/protocol/CAS-Protocol.html) to Common Lisp web applications. Not in Quicklisp.
+  * [cas-middleware](https://github.com/fferrere/cas-middleware) - CAS authenticaton middleware for Caveman.
+  * [cas-demo](https://github.com/fferrere/cas-demo) - a demo project.
+
+There are more projects, more or less discontinued but interesting. See the other resources.
+
+
 ### Email
 
 * [trivial-imap](https://github.com/40ants/trivial-imap) - tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). [BSD][15].
 * [mailgun](https://github.com/40ants/mailgun) - A thin wrapper to post HTML emails through mailgun.com. [unlicence][5].
 * [cl-smtp](https://gitlab.common-lisp.net/cl-smtp/cl-smtp) - CL-SMTP is a simple lisp smtp client.
+
+### OpenAPI, OData, OpenRPC
+
+* [apispec](https://github.com/cxxxr/apispec) -  A Common Lisp library for handling Web API requests and responses. [BSD_3Clause][15].
+  - takes an OpenAPI3 yaml specification and allows to validate and parse HTTP request headers, parameters and bodies.
+* [cl-odata-client](https://github.com/copyleft/cl-odata-client) - Common Lisp client library for accessing [OData services](https://www.odata.org). [MIT][200].
+* [OpenRPC](https://github.com/40ants/openrpc) - OpenRPC implementation for Common Lisp. [BSD][15].
+  - Automatic OpenRPC spec generation
+  - Automatic JSON-RPC client building by OpenRPC spec. This includes creation of Common Lisp classes and methods for making RPC requests and returning native CL objects.
+  - all JSON marshalling is done under the hood.
+
 
 ### Static site generators
 
