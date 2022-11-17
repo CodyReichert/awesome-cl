@@ -168,6 +168,7 @@ sellers who aren't evil for physical resources.
     - [Linting, code formatting](#linting-code-formatting)
     - [Literate programming](#literate-programming)
     - [Logging](#logging)
+    - [Macro helpers](#macro-helpers)
     - [Markdown](#markdown)
     - [PDF](#pdf)
     - [Plotting](#plotting)
@@ -1497,7 +1498,6 @@ call hooks when loading a package,…). [BSD_2Clause][17].
 and also:
 
 * [GTFL](http://www.martin-loetzsch.de/gtfl/) - A graphical terminal for Lisp, meant for Lisp programmers who want to debug or visualize their own algorithms. A graphical trace in the browser. BSD-style.
-* [trivial-with-current-source-from](https://github.com/scymtym/trivial-with-current-source-form/) - Helps macro writers produce better errors for macro users. [GPL3][2].
 * [trivial-benchmark](https://github.com/Shinmera/trivial-benchmark) - Tiny benchmarking library. [zlib][33].
 * [glyphs](https://github.com/ahungry/glyphs/) - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
 * [Lisp REPL core dumper](https://gitlab.com/ambrevar/lisp-repl-core-dumper/) -
@@ -1605,6 +1605,11 @@ To third parties:
 
 See also: [extensive comparison of logging libraries](https://sabracrolleton.github.io/logging-comparison).
 
+Macro helpers
+-------------
+
+* [easy-macros](https://github.com/tdrhq/easy-macros/) -  an easy way to write 90% of your macros. [Apache2.0][89].
+* [trivial-with-current-source-from](https://github.com/scymtym/trivial-with-current-source-form/) - Helps macro writers produce better errors for macro users. [GPL3][2].
 
 Markdown
 --------
