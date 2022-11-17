@@ -1421,6 +1421,7 @@ Unit Testing
 ============
 
 * ⭐ [FiveAM](https://github.com/sionescu/fiveam) - Simple regression testing framework. [FreeBSD][39].
+  * [fiveam-matchers](https://github.com/tdrhq/fiveam-matchers/) -  an extensible, composable matchers library for fiveam. [Apache2.0][89].
 * [CLUnit2](https://notabug.org/cage/clunit2/) - A unit testing library. [MIT][200].
 * [Parachute](https://github.com/Shinmera/parachute) - An extensible and cross-compatible testing framework. With test dependencies, conditions, fixtures and restarts. [zlib][33].
 * [Mockingbird](https://github.com/Chream/mockingbird) - A small
@@ -1431,6 +1432,10 @@ Unit Testing
 * [Check-it](https://github.com/DalekBaldwin/check-it) - A QuickCheck-style randomized property-based testing. [LLGPL][8].
 * [cl-coveralls](https://github.com/fukamachi/cl-coveralls) - a helper
   library to post test coverage to Coveralls. See [SBCL's code coverage tool](http://www.sbcl.org/manual/index.html#sb_002dcover). [FreeBSD][39].
+
+See also:
+
+* [testieren](https://cicadas.surf/cgit/colin/testiere.git/about/) - a testing utility where tests are included at the top of a `defun/t` form. They are run when you recompile your functions interactively. With mocking and stubbing support. [GPL3][2].
 
 Editor utilities:
 
