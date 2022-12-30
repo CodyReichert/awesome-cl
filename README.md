@@ -1407,6 +1407,7 @@ This contains plugins and other goodies for various text editors.
 ## Online editors ##
 
 * [Judge0 IDE](https://ide.judge0.com/?lUpj) is an online editor which supports Common Lisp (SBCL). [MIT][200].
+* [Riju](https://riju.codes/commonlisp), a "fast online playground for every programming language", supports Common Lisp (SBCL).
 
 ## Apps ##
 
