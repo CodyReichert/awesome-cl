@@ -1325,6 +1325,7 @@ program requires only 20k bytes on 32 bit x86 Linux.  WCL also
 supports a full development environment, including dynamic file
 loading and debugging.  A modified version of GDB is used to debug WCL
 programs, providing support for mixed language debugging.
+    - a [paper](https://dl.acm.org/doi/abs/10.1145/141478.141560): "Delivering efficient Common Lisp applications under Unix".
 
 
 Text Editor Resources
