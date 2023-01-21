@@ -1633,7 +1633,7 @@ File watching libraries:
 Git
 ---
 
-* [cl-git](https://github.com/russell/cl-git) - a CFFI interface to the libgit2 library. [LGPL3][9].
+* [cl-git](https://cl-git.russellsim.org/) - a CFFI interface to the libgit2 library. [LGPL3][9].
 * [legit](https://shinmera.github.io/legit/) - an interface to the Git binary. [zlib][33].
 * [git-api](https://github.com/fourier/git-api) - Common Lisp library to access a git repository. It doesn't need git or libgit installed. [BSD][15].
 
