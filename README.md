@@ -1147,7 +1147,9 @@ Numerical and Scientific
 * [numcl](https://github.com/numcl/numcl) - Numpy clone in Common Lisp. [LGPL3][9].
 * [GSLL](https://common-lisp.net/project/gsll/) - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [maxima](http://maxima.sourceforge.net/) - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
-  * also [Maxima on Android](https://play.google.com/store/apps/details?id=jp.yhonda), built with ECL.
+  * [wxMaxima](https://wxmaxima-developers.github.io/wxmaxima/): a graphical frontend.
+  * [Maxima on Android](https://play.google.com/store/apps/details?id=jp.yhonda), built with ECL.
+  * [Maxima on Jupyter](https://github.com/robert-dodier/maxima-jupyter)
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 * [Petalisp](https://github.com/marcoheisig/Petalisp) - an attempt to
   generate high performance code for parallel computers by
