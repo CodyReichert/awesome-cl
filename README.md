@@ -1150,7 +1150,7 @@ Numerical and Scientific
   * [wxMaxima](https://wxmaxima-developers.github.io/wxmaxima/): a graphical frontend.
   * [Maxima on Android](https://play.google.com/store/apps/details?id=jp.yhonda), built with ECL.
   * [Maxima on Jupyter](https://github.com/robert-dodier/maxima-jupyter)
-  * it can be used via [SageMath](https://www.sagemath.org/) and [KDE Cantor](https://apps.kde.org/cantor/).
+  * it can be used via [SageMath](https://www.sagemath.org/) and [KDE Cantor](https://apps.kde.org/cantor/). Of course, with Emacs: [maxima-mode](https://gitlab.com/sasanidas/maxima) ([screenshot](https://community.linuxmint.com/img/screenshots/maxima-emacs.png)).
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 * [Petalisp](https://github.com/marcoheisig/Petalisp) - an attempt to
   generate high performance code for parallel computers by
