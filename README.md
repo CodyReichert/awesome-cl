@@ -574,6 +574,11 @@ See also:
 JSON
 ====
 
+* 👍 [jzon](https://github.com/Zulu-Inuoe/jzon/) - a correct, safe and fast JSON parser. [MIT][200].
+  * jzon is the only CL JSON library which correctly declines all invalid inputs per the official JSON test suite and accepts all valid inputs per that suite.
+  * it doesn't crash on invalid input (jsown), doesn't choke on large datasets (Jonathan), and more.
+  * v1.0 released in the Quicklisp dist of February, 2023.
+  * "I believe jzon to be the superior choice and hope for it to become the new, true de-facto library in the world of JSON-in-CL once and for all."
 * [jonathan](https://github.com/Rudolph-Miller/jonathan) - A JSON encoder and decoder. [MIT][200].
 * [cl-json](https://github.com/sharplispers/cl-json) - A highly customizable JSON encoder and decoder. [MIT][14].
 * [jsown](https://github.com/madnificent/jsown) - A reader and writer for the JSON format. [Expat][14].
