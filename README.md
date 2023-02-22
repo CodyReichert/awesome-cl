@@ -565,7 +565,7 @@ Proprietary:
   * reputed features include: the CAPI cross-platform and native GUI toolkit, the LispWorks IDE, the mobile platforme runtime (iOs, Android), its Java interface, the tree shaker to build lighter binaries, its KnowledgeWorks system for "rule-based, object-oriented, logical, functional and database programming", and more.
   * has a free edition, with limitations (heap size limit, time limit).
 * [Allegro CL](https://franz.com/products/allegro-common-lisp/) - provides the full ANSI Common Lisp standard with many extensions.
-  * reputed features include: its AllegroCache object persistence database system, the KnowledgeGraph system, its web-based IDE, and more.
+  * reputed features include: the AllegroCache object persistence database system, the KnowledgeGraph system, its concurrent garbage collector, its web-based IDE, and more.
   * has a free edition. It includes AllegroCache, with a size limit.
 * [MOCL](https://wukix.com/mocl) - CL as a library for mobile devices (iOS & Android) and OSX.
 
