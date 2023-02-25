@@ -551,7 +551,7 @@ See also MOCL below, CL as a library for mobile devices (iOS, Android and OSX).
 Implementations
 ===============
 
-* ⭐ [SBCL](http://www.sbcl.org/index.html) - Steel Bank Common Lisp. A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15].
+* ⭐ [SBCL](http://www.sbcl.org/index.html) - Steel Bank Common Lisp. A fork of CMUCL; compiles to efficient machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15].
   * see also: [sbcl-librarian](https://github.com/quil-lang/sbcl-librarian) -  Dynamic library delivery tools for SBCL. Create shared libraries that can be called from C or Python. MIT. [Blog post](https://mstmetent.blogspot.com/2022/04/using-lisp-libraries-from-other.html). [Full example](https://github.com/quil-lang/sbcl-librarian/tree/main/example).
   * [SBCL-GOODIES](https://github.com/sionescu/sbcl-goodies) - Distributing binaries with Common Lisp and foreign libraries: libssl, libcrypto and libfixposix are statically baked in. [MIT][200].
 * ⭐ [CCL](//ccl.clozure.com/) - Clozure Common Lisp; compiler-only implementation, generates native code.  [LLGPL][8].
@@ -569,11 +569,15 @@ Proprietary:
   * has a free edition. It includes AllegroCache, with a size limit.
 * [MOCL](https://wukix.com/mocl) - CL as a library for mobile devices (iOS & Android) and OSX.
 
-See also:
+Other implementations, mainly for historical purposes:
 
 * [CMUCL](//www.cons.org/cmucl/) - An implementation from Carnegie Mellon University. Public domain. SBCL is a fork of CMUCL.
-* [GNU CLISP](http://www.clisp.org/) - A GNU implementation; contains a compiler and an interpreter. [Standard conformance][6]. [GNU GPL3][2]. They develop [https://gitlab.com/gnu-clisp/clisp](on Gitlab).
+* [GNU CLISP](http://www.clisp.org/) - A GNU implementation; contains a compiler and an interpreter. [Standard conformance][6]. [GNU GPL3][2]. They develop [on Gitlab](https://gitlab.com/gnu-clisp/clisp).
+  * compiles to bytecode, its default REPL is more user friendly than SBCL's (with symbol completion and readline integration).
+  * however, it is not actively developed, it doesn't comply entirely to the ANSI standard, it is less performant than SBCL and it is lacking compatibility features.
 * [Corman Lisp](https://github.com/sharplispers/cormanlisp) - a Common Lisp development environment for Microsoft Windows running on Intel platforms. [MIT][200].
+
+You can check the implementations' compatibility to common extensions here: [portability.cl](https://portability.cl).
 
 JSON
 ====
@@ -615,7 +619,7 @@ Language extensions
 Portability layers
 ------------------
 
-A large list of portability layers [is collected here](https://shinmera.github.io/portability/). Here are some of them:
+A large list of portability layers is collected here: [portability.cl/](https://portability.cl/). Here are some of them:
 
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) - A portable library to retrieve the arguments list of a function. [zlib][33].
 * [definitions](https://github.com/Shinmera/definitions) - a general definitions introspection library. It gives you the ability to retrieve definitions or bindings associated with designators such as symbols, packages, and names in general. [zlib][33].
