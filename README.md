@@ -1495,7 +1495,7 @@ Text Processing
 Text language identification using Wikipedia data. No license specified.
 * [cl-phonetic](https://github.com/bgutter/cl-phonetic) - Phonetic pattern matching library for Common Lisp (intended to replace the Sylvia library for Python). [MIT][200].
 * [cl-string-generator](https://github.com/pokepay/cl-string-generator) -  Generate string from regular expression. [MIT][200].
-* [trivial-sanitize](https://notabug.org/cage/trivial-sanitize) -  clean html strings: "<a>foo</a>" → "foo". [LLGPL][8].
+* [trivial-sanitize](https://notabug.org/cage/trivial-sanitize) -  clean html strings: `"<a>foo</a>"` → `"foo"`. [LLGPL][8].
 
 See also:
 
