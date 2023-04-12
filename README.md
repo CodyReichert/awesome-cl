@@ -1133,6 +1133,12 @@ Others
 
 ### OpenAPI, OData, OpenRPC
 
+* [openapi-generator](https://codeberg.org/kilianmh/openapi-generator) - OpenAPI client code generator. [AGPL-3.0][51].
+  * Generation of OpenAPI ASDF/Quicklisp-loadable projects within one command,
+  * Support for path, (arbitrary) query, (arbitrary) header, (json) content parameters,
+  * Conversion of an OpenAPI spec into CLOS object -> explore API within inspector,
+  * Conversion of OpenAPI-2.0 or YAML files to OpenAPI-3.0 JSON with swagger converter (network connection required),
+  * etc.
 * [apispec](https://github.com/cxxxr/apispec) -  A Common Lisp library for handling Web API requests and responses. [BSD_3Clause][15].
   - takes an OpenAPI3 yaml specification and allows to validate and parse HTTP request headers, parameters and bodies.
 * [cl-odata-client](https://github.com/copyleft/cl-odata-client) - Common Lisp client library for accessing [OData services](https://www.odata.org). [MIT][200].
