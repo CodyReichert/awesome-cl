@@ -547,7 +547,7 @@ Mobile
 * [LispWork's mobile runtime](http://www.lispworks.com/products/lw4mr.html) - Android and iOs.  Proprietary.
 * [LQML](https://gitlab.com/eql/lqml) - a lightweight ECL binding to QML (both Qt5 and Qt6) derived from EQL5. LGPL and public domain.
 
-See also MOCL below, CL as a library for mobile devices (iOS, Android and OSX).
+See also MOCL below, CL as a library for mobile devices (iOS, Android and OSX) and [hello-allien](https://github.com/Gleefre/hello-alien/), SBCL built for an Android application (very new, 2023).
 
 
 Implementations
