@@ -1333,7 +1333,6 @@ Command-line options parsers
 * 👍 [Clingon](https://github.com/dnaeon/clingon) - a rich command-line options parser system.
   * it may have the richest feature set: subcommands, generation of bash completion, support for various kinds of options (integers, booleans, counter, enums…), extensible…
 * [Adopt](https://github.com/sjl/adopt/) - A Damn OPTion parsing library. [MIT][200].
-* [Unix-opts](https://github.com/libre-man/unix-opts) - a command line options parser with a concise declaration of options. [MIT][200].
 
 
 Readline, ncurses and other graphical helpers
