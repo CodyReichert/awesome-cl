@@ -922,6 +922,7 @@ HTTP clients
 * 👍 [Dexador](https://github.com/fukamachi/dexador) - An HTTP client, that aims at replacing Drakma. [MIT][200].
 * [Carrier](https://github.com/orthecreedence/carrier) - A lightweight, async HTTP client built on top of cl-async and fast-http. [MIT][200].
 * [fast-http](https://github.com/fukamachi/fast-http) - A fast HTTP request/response parser for Common Lisp. [MIT][200].
+* [http2](https://github.com/zellerin/http2/) -  HTTP/2 implementation in Common Lisp. [MIT][200].
 
 
 HTTP Servers
