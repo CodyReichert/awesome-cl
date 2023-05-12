@@ -1199,11 +1199,12 @@ Service (S3) and CloudFront service. [BSD][15].
 Numerical and Scientific
 ========================
 
-* [maxima](http://maxima.sourceforge.net/) - Computer Algebra System. Not available on Quicklisp. [GNU GPL3][2].
+* ⭐ [maxima](http://maxima.sourceforge.net/) - Computer Algebra System. [GNU GPL3][2].
   * [wxMaxima](https://wxmaxima-developers.github.io/wxmaxima/): a graphical frontend.
   * [Maxima on Android](https://play.google.com/store/apps/details?id=jp.yhonda), built with ECL.
   * [Maxima on Jupyter](https://github.com/robert-dodier/maxima-jupyter)
   * it can be used via [SageMath](https://www.sagemath.org/) and [KDE Cantor](https://apps.kde.org/cantor/). Of course, with Emacs: [maxima-mode](https://gitlab.com/sasanidas/maxima) ([screenshot](https://community.linuxmint.com/img/screenshots/maxima-emacs.png)) and [maxima-interface](https://github.com/jmbr/maxima-interface) to ease the interface between Maxima and Common Lisp.
+  * it can be used [from a Lisp REPL](https://mahmoodsheikh36.github.io/post/20230510181916-maxima_in_lisp/).
 * [numcl](https://github.com/numcl/numcl) - Numpy clone in Common Lisp. [LGPL3][9].
 * [GSLL](https://common-lisp.net/project/gsll/) - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
