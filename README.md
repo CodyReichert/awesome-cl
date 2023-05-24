@@ -871,6 +871,10 @@ Library Manager
 * [Quicksys](https://lisp.com.br/quicksys/) - install systems from multiple Quicklisp distributions. [MIT][200].
 * [Quickutil](https://github.com/stylewarning/quickutil) - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
 
+see also:
+
+* (NEW! as of May, 2023) [ocicl](https://github.com/ocicl/ocicl) - a new and experimental alternative to Quicklisp, built on tools from the world of containers. [MIT][200].
+
 might help:
 
 * [redist](https://github.com/shirakumo/redist) - facilities to produce Quicklisp distributions.
