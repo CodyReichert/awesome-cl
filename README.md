@@ -1448,10 +1448,10 @@ This contains plugins and other goodies for various text editors.
   * [Lem 2.0](https://github.com/lem-project/lem/releases/tag/v2.0.0), released on May, 2023, added the SDL2 frontend, thus mouse support, graphic capabilities and Windows support, among other new features.
   * see also: an [opengl frontend](https://github.com/pupcraft/lem-opengl), [Lem in Docker](https://github.com/40ants/lem-docker), [lem-pareto](https://github.com/40ants/lem-pareto).
 
-## Atom ##
+## Atom, Pulsar ##
 
 * [SLIMA](https://github.com/neil-lindquist/slima) allows you to
-  interactively develop Common Lisp code, turning Atom into a
+  interactively develop Common Lisp code, turning Atom (or now Pulsar) into a
   pretty good, and actively developped, Lisp IDE. [MIT][200].
 
 ## Sublime Text ##
