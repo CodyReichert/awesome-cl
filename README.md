@@ -403,6 +403,8 @@ Foreign Function Interface, languages interop
 ## C ##
 
 * ⭐ [CFFI](https://github.com/cffi/cffi) - Portable, easy-to-use C foreign function interface. [Expat][14].
+  * [cffi-ops](https://github.com/bohonghuang/cffi-ops) - helps write concise CFFI-related code.
+  * [cffi-objects](https://github.com/bohonghuang/cffi-object) - enables fast and convenient interoperation with foreign objects.
 * 👍[cl-autowrap](https://github.com/rpav/cl-autowrap) - Automatically parses header files into CFFI definitions. [FreeBSD][39].
 * [cl-bindgen](https://github.com/sdilts/cl-bindgen) - A command line tool and library for creating Common Lisp language bindings from C header files. [MIT][200].
 * [cl-gobject-introspection](https://github.com/andy128k/cl-gobject-introspection) - [Gobject Introspection](https://gi.readthedocs.io/en/latest/) FFI. Automatic bindings to call into the C library. [BSD][15]. Generate a lisp interface with [gir2cl](https://github.com/kat-co/gir2cl). [LGPL3][9].
