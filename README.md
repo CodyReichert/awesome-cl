@@ -1451,6 +1451,7 @@ This contains plugins and other goodies for various text editors.
   - [Slime breakpoints](https://github.com/mmontone/slime-breakpoints)
   - [Slite](https://github.com/tdrhq/slite/) - a test runner for FiveAM.
   - [Quicklisp-apropos](https://github.com/mmontone/quicklisp-apropos) - Perform `apropos` queries across libraries in Quicklisp (full-text search on symbol names, classes, documentation…).
+  - [slime-critic](https://github.com/mmontone/slime-critic) - the lisp critic gently critiques your code for bad patterns.
 
 ## Vim & Neovim ##
 
