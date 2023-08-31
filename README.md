@@ -618,6 +618,7 @@ See this [extensive comparison](https://sabracrolleton.github.io/json-review) of
 
 JSON tools:
 
+* [NJSON](https://github.com/atlas-engineer/njson) - Parser-agnostic JSON indexing (with JSON Pointer support), destructuring, and validation framework. [BSD][15].
 * [json-mop](https://github.com/gschjetne/json-mop) - A metaclass for bridging CLOS and JSON objects. [MIT][200].
 * [cl-json-pointer](https://github.com/y2q-actionman/cl-json-pointer) - A JSON Pointer implementation. [MIT][200].
 * [cl-jwk](https://github.com/dnaeon/cl-jwk) -  Common Lisp system for decoding public JSON Web Keys (JWK). BSD License.
