@@ -557,6 +557,7 @@ processes. It has
 Other utilities:
 
 * [file-select](https://github.com/Shinmera/file-select) -  A library to invoke the native system file dialog to select or create files. Zlib.
+* [nkeymaps](https://github.com/atlas-engineer/nkeymaps) - Customizable keymap creation, lookup, and validation. Has support for Emacs key syntax, nested keymaps, and global keyschemes like CUA, Emacs, and VI. [BSD][15].
 
 See also this [demo to use Java Swing from ABCL](https://github.com/defunkydrummer/abcl-jazz).
 
