@@ -1833,6 +1833,8 @@ Project skeletons
 * [cl-project-with-docs](https://github.com/40ants/cl-project-with-docs) - uses Sphinx and reStructured text to render nice and readable HTML documentation. [BSD][15].
 * [cl-cookieproject](https://github.com/vindarel/cl-cookieproject) -  Generate a ready-to-use Common Lisp project. Not in Quicklisp. [BSD_3Clause][15].
   * test definitions, entry point to run from sources, build a binary, Roswell integration…
+* [ntemplate](https://github.com/atlas-engineer/ntemplate) Quickproject-based template with tests, license, Guix definition, and README skeletons included. [BSD][15].
+  * Includes NASDF, ASDF-native extension for configurable submodule fetching, file installation/bundling, and comprehensive benchmarking/testing.
 
 Security
 --------
