@@ -1695,6 +1695,7 @@ and also:
 
 * [GTFL](http://www.martin-loetzsch.de/gtfl/) - A graphical terminal for Lisp, meant for Lisp programmers who want to debug or visualize their own algorithms. A graphical trace in the browser. BSD-style.
 * [trivial-benchmark](https://github.com/Shinmera/trivial-benchmark) - Tiny benchmarking library. [zlib][33].
+  * [Graven Image's `benchmark*` macro](https://github.com/aartaka/graven-image#benchmark-macro) - A macro modeled after `trivial-benchmark`, but with additional support for CCL, ECL, ABCL, CLISP, and Allegro. [BSD][15].
 * [glyphs](https://github.com/ahungry/glyphs/) - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
 * [Lisp REPL core dumper](https://gitlab.com/ambrevar/lisp-repl-core-dumper/) -
 A portable wrapper to generate Lisp cores on demand to start REPL blazing fast.
