@@ -795,7 +795,9 @@ Beginner
 
 * [Learn X in Y minutes - Where X = Common Lisp](https://learnxinyminutes.com/docs/common-lisp/) - Small Common Lisp tutorial covering the essentials.
 * [Lisp Koans][201] - The project guides the learner progressively through many Common Lisp language features.
-* [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples. Better read with [a Firefox add-on](https://github.com/vale981/practical-cl-beautified).
+* [Practical Common Lisp][206] - A good introductory text to Common Lisp, with practical examples.
+  * better read with [a Firefox add-on: Practical-cl beautified](https://github.com/vale981/practical-cl-beautified).
+  * translated in [Chinese simplified](https://binghe.github.io/pcl-cn/)
 * [Common LISP: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html) - A nice introduction into the language.
 * [Successful Lisp](http://successful-lisp.blogspot.com/) - A good book for beginners with some programming background.
 * [Lisp Quickstart](https://cs.gmu.edu/~sean/lisp/LispTutorial.html) - A good tutorial to get up and code Common Lisp quickly.
