@@ -1112,7 +1112,7 @@ See also:
 
 - [Platform.sh](https://platform.sh/blog/2019/lisp/) has Common Lisp support, so has [OVH](https://docs.ovh.com/ie/en/web-paas/languages-lisp/) through their Web PaaS partnership.
 - [Heliohost](https://www.heliohost.org/) for a free hosting solution.
-- [Cloud Init file for SBCL](https://gist.github.com/marcuskammer/366964f7d569317429773b82a4dafbf9) - example init file for providers supporting the cloudinit format (DigitalOcean etc).
+- [Cloud Init file for SBCL](https://git.sr.ht/%7Emarcuskammer/cloudinit/tree/main/item/sbcl-nginx.yml) - an init file for providers supporting the cloudinit format (DigitalOcean etc).
 
 Monitoring
 ----------
