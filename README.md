@@ -152,7 +152,7 @@ sellers who aren't evil for physical resources.
     - [REPLs](#repls)
     - [Online editors](#online-editors)
     - [Apps](#apps)
-- [Text Parsers](#text-parsers)
+- [Text and File Parsers](#text-and-file-parsers)
 - [Text Processing](#text-processing)
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
@@ -1553,7 +1553,7 @@ This contains plugins and other goodies for various text editors.
 
 * [CodePlayground](https://codeplayground.app/) - an iPhone and iPad app with Lisp support via CCL.
 
-Text Parsers
+Text and File Parsers
 ============
 
 * ⭐ [esrap](https://github.com/scymtym/esrap) - Packrat parser. [Expat][14].
