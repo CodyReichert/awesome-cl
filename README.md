@@ -1553,8 +1553,8 @@ This contains plugins and other goodies for various text editors.
 
 * [CodePlayground](https://codeplayground.app/) - an iPhone and iPad app with Lisp support via CCL.
 
-Text and File Parsers
-============
+Text and binary parsers
+============================
 
 * ⭐ [esrap](https://github.com/scymtym/esrap) - Packrat parser. [Expat][14].
 * [cl-yacc](https://github.com/jech/cl-yacc) - a LALR(1) parser generator. [MIT][200].
