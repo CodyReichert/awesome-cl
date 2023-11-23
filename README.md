@@ -143,7 +143,7 @@ sellers who aren't evil for physical resources.
     - [Vim & Neovim](#vim--neovim)
     - [Eclipse](#eclipse)
     - [Lem](#lem)
-    - [Atom](#atom)
+    - [Atom, Pulsar](#atom-pulsar)
     - [Sublime Text](#sublime-text)
     - [VSCode](#vscode)
     - [JetBrains](#jetbrains)
@@ -152,7 +152,7 @@ sellers who aren't evil for physical resources.
     - [REPLs](#repls)
     - [Online editors](#online-editors)
     - [Apps](#apps)
-- [Text and File Parsers](#text-and-file-parsers)
+- [Text and binary parsers](#text-and-binary-parsers)
 - [Text Processing](#text-processing)
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
@@ -177,6 +177,7 @@ sellers who aren't evil for physical resources.
     - [Plotting](#plotting)
     - [Project skeletons](#project-skeletons)
     - [Security](#security)
+    - [System interface](#system-interface)
     - [XML](#xml)
     - [Other](#other)
 - [Contributing](#contributing)
@@ -1196,7 +1197,7 @@ Others
 
 ### OpenAPI, OData, OpenRPC
 
-* [openapi-generator](https://codeberg.org/kilianmh/openapi-generator) - OpenAPI client code generator. [AGPL-3.0][51].
+* NEW! [openapi-generator](https://codeberg.org/kilianmh/openapi-generator) - OpenAPI client code generator. [AGPL-3.0][51].
   * Generation of OpenAPI ASDF/Quicklisp-loadable projects within one command,
   * Support for path, (arbitrary) query, (arbitrary) header, (json) content parameters,
   * Conversion of an OpenAPI spec into CLOS object -> explore API within inspector,
@@ -1852,6 +1853,11 @@ Security
 --------
 
 * [cl-isolated](https://github.com/kanru/cl-isolated) - A restricted environment for Common Lisp code evaluation [AGPL-3.0][agpl3].
+
+System interface
+--------------------
+
+* [machine-state](https://github.com/Shinmera/machine-state/) -  Retrieve machine state information about CPU time, memory usage, thread processing time, etc.
 
 XML
 ---
