@@ -630,6 +630,8 @@ JSON tools:
 * [cl-json-pointer](https://github.com/y2q-actionman/cl-json-pointer) - A JSON Pointer implementation. [MIT][200].
 * [cl-jwk](https://github.com/dnaeon/cl-jwk) -  Common Lisp system for decoding public JSON Web Keys (JWK). BSD License.
 
+and search for JSON RPC below.
+
 
 YAML
 ====
@@ -1211,6 +1213,7 @@ Others
   - Automatic OpenRPC spec generation
   - Automatic JSON-RPC client building by OpenRPC spec. This includes creation of Common Lisp classes and methods for making RPC requests and returning native CL objects.
   - all JSON marshalling is done under the hood.
+- [jsonrpc](https://github.com/cxxxr/jsonrpc) -  JSON-RPC 2.0 server/client for Common Lisp. [BSD][15].
 
 
 ### Static site generators
