@@ -1477,10 +1477,13 @@ This contains plugins and other goodies for various text editors.
 ## Emacs ##
 
 * ⭐ [Slime](https://github.com/slime/slime) - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
-* 👍 [Sly](https://github.com/joaotavora/sly) - SLY is a fork of SLIME and contains multiple improvements upon it.
+* 👍 [Sly](https://github.com/joaotavora/sly) - SLY is a fork of SLIME and contains multiple improvements upon it, such as Sly stickers.
 * 👍 [Portacle](https://shinmera.github.io/portacle/) - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
 * [cl-devel2](https://hub.docker.com/r/eshamster/cl-devel2/) - a Docker container for Common Lisp development environment. Ships SBCL, CCL, Roswell and Emacs25 with Slime.
 * [Emacs4CL](https://github.com/susam/emacs4cl) - A tiny Emacs initialization file to quickly set up vanilla Emacs for Common Lisp programming. Comes with a line-by-line explanation of every line of code in the initialization file.
+
+Slime extensions:
+
 * [slime-star](https://github.com/mmontone/slime-star) - a SLIME configuration with extensions pre-installed, with also some custom utilities and menus:
   - the Lisp system browser
   - [SLIME doc contrib](https://github.com/mmontone/slime-doc-contribs) - enhance the default help buffer.
@@ -1490,6 +1493,10 @@ This contains plugins and other goodies for various text editors.
   - [Slite](https://github.com/tdrhq/slite/) - a test runner for FiveAM.
   - [Quicklisp-apropos](https://github.com/mmontone/quicklisp-apropos) - Perform `apropos` queries across libraries in Quicklisp (full-text search on symbol names, classes, documentation…).
   - [slime-critic](https://github.com/mmontone/slime-critic) - the lisp critic gently critiques your code for bad patterns.
+
+Sly extensions:
+
+* [sly-overlay](https://git.sr.ht/~fosskers/sly-overlay) - an extension for Sly that enables the overlay of Common Lisp evaluation results directly into the buffer in the spirit of CIDER (Clojure), Eros (Emacs Lisp) and the Lem editor.
 
 ## Vim & Neovim ##
 
