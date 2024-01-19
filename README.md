@@ -577,7 +577,7 @@ Mobile
 * [LispWork's mobile runtime](http://www.lispworks.com/products/lw4mr.html) - Android and iOs.  Proprietary.
 * [LQML](https://gitlab.com/eql/lqml) - a lightweight ECL binding to QML (both Qt5 and Qt6) derived from EQL5. LGPL and public domain.
 
-See also MOCL below, CL as a library for mobile devices (iOS, Android and OSX) and [hello-allien](https://github.com/Gleefre/hello-alien/), SBCL built for an Android application (very new, 2023).
+[hello-allien](https://github.com/Gleefre/hello-alien/), SBCL built for an Android application (very new, 2023).
 
 
 Implementations
@@ -599,7 +599,6 @@ Proprietary:
 * [Allegro CL](https://franz.com/products/allegro-common-lisp/) - provides the full ANSI Common Lisp standard with many extensions.
   * reputed features include: the AllegroCache object persistence database system, the KnowledgeGraph system, its concurrent garbage collector, its web-based IDE, and more.
   * has a free edition. It includes AllegroCache, with a size limit.
-* [MOCL](https://wukix.com/mocl) - CL as a library for mobile devices (iOS & Android) and OSX.
 
 Other implementations, mainly for historical purposes:
 
