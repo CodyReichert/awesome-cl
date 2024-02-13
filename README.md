@@ -781,6 +781,7 @@ Typing
 * 👍 [Coalton](https://github.com/coalton-lang/coalton/) - an efficient, statically typed functional programming language that supercharges Common Lisp. [MIT][200].
 * 👍 [trivial-types](https://github.com/m2ym/trivial-types) - provides missing but important type definitions such as `proper-list`, `association-list`, `property-list` and `tuple`. [LLGPL][8].
 * [defstar](https://bitbucket.org/eeeickythump/defstar/src/master/) - a collection of macros for easy inclusion of type declarations for arguments in lambda lists. [GNU GPL3][2]
+* [algebraic-data-types](https://github.com/stylewarning/cl-algebraic-data-type) - defining algebraic data types in a similar spirit to Haskell or Standard ML, as well as for operating on them. [BSD_3Clause][15].
 
 See also:
 
