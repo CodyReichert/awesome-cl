@@ -1908,6 +1908,11 @@ XML
 * [cl-feedparser](https://github.com/TBRSS/cl-feedparser) - A Common Lisp (RSS, Atom) feed parser. [LLGPL][8]
 * [Buildnode](https://github.com/AccelerationNet/buildnode) - A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. [BSD][15].
 
+To read Excel files:
+
+* [lisp-xl](https://github.com/defunkydrummer/lisp-xl) -  Common Lisp Microsoft XLSX (Microsoft Excel) loader for arbitrarily-sized / big-size files. MIT.
+* [xlsx](https://gitlab.common-lisp.net/cungil/xlsx) - a basic reader for Excel files.
+
 
 Other
 -----
