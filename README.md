@@ -457,8 +457,9 @@ See also those libraries:
 * [burgled-batteries](https://github.com/pinterface/burgled-batteries) - A bridge between Python and Common Lisp. The goal is that Lisp programs can use Python libraries. Not available on Quicklisp. [MIT][200].
 * [cl4py](https://github.com/marcoheisig/cl4py) - The library cl4py (pronounce as clappy) allows Python programs to call Common Lisp libraries. [MIT][200].
 * [py4cl](https://github.com/bendudson/py4cl) - A library that allows Common Lisp code to access Python libraries. It is basically the inverse of cl4py. [MIT][200].
-* [py4cl2-cffi](https://github.com/digikar99/py4cl2-cffi) - CFFI based alternative to py4cl2.
-  * "When capable, the CFFI approach can be a 50 times faster than py4cl2."
+  * its fork [py4cl2](https://github.com/digikar99/py4cl2), at first less stable, now more developped and faster.
+  * [py4cl2-cffi](https://github.com/digikar99/py4cl2-cffi) - CFFI based alternative to py4cl2.
+    * "When capable, the CFFI approach can be a 50 times faster than py4cl2."
 
 See also [async-process](https://github.com/cxxxr/async-process/).
 
@@ -1760,8 +1761,7 @@ documentation is generated from code, not vice versa. Code is first,
 code must look pretty, documentation is code. [MIT][200].
   - see this [40ants fork](https://github.com/40ants/doc) for: a lighter core system, a JavaScript search index, multiple format output, HTML themes, RSS and Atom feed for the Changelog and more.
 * [Declt](https://github.com/didierverna/declt) - Reference manual generator for Common Lisp libraries. Builds a texinfo document that can be further processed into various formats, such as HTML or PDF. BSD.
-* [Codex](https://github.com/CommonDoc/codex) - A beautiful
-  documentation system for Common Lisp. [MIT][200].
+* [Codex](https://github.com/CommonDoc/codex) - A beautiful documentation system for Common Lisp. [MIT][200].
 * [QBook](https://github.com/mmontone/qbook) - generates HTML (or LaTeX) formatted code listings of Common Lisp source files. [BSD_3Clause][15].
   - all comments started with 4 `;` (";;;;") are interpreted as documentation. Enhance the documentation with headings and directives.
   - QBook acts as "a lightweight literate programming system, where Lisp code is not rendered inline, but in separate sections, and that makes the document more pleasant to navigate." @mmontone
