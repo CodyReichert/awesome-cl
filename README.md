@@ -1060,12 +1060,15 @@ See OpenAPI, OData and other libraries below.
 
 
 Parsing html
-------------
+---------------
 * 👍 [Plump][71] - A lenient HTML/XML parser, tolerant on malformed markup. [zlib][33]. Best used with [lquery][72] and [clss](https://github.com/Shinmera/CLSS).
 
-Querying HTML/DOM
------------------
+Querying HTML/DOM, web scraping
+---------------------------------------
+
 * 👍 [lquery][72] - A jQuery-like HTML/DOM manipulation library. [zlib][33].
+* [scrapycl](https://40ants.com/scrapycl/) - web scraping framework for writing crawlers in Common Lisp. Unlicense.
+  * relying on lquery.
 
 See also the XML section below for xpath libraries and more.
 
