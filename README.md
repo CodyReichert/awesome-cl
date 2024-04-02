@@ -387,6 +387,7 @@ lock-free, concurrent, key/value index with efficient memory-mapped persistence 
 * [bit-smasher](https://github.com/thephoeron/bit-smasher) -  Common Lisp library for handling bit vectors, bit vector arithmetic, and type conversions. [MIT][200].
 * [cl-containers](https://common-lisp.net/project/cl-containers/) - an extensive library of data structures and utilities - queues, trees, heaps, doubly-linked lists, sets, bags,... [MIT][200]
 * [cl-competitive](https://github.com/privet-kitty/cl-competitive) - Common Lisp algorithms collection for competitive programming. Public domain, CCO or MIT.
+* [cl-replica](https://github.com/IgSokolov/cl-replica) - a library for hash-table replication via an epidemic algorithm. BSD-2-Clause license.
 
 Accessing data structures:
 
