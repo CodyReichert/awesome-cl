@@ -103,7 +103,7 @@ sellers who aren't evil for physical resources.
     - [Web frameworks](#web-frameworks)
         - [Isomorphic web frameworks](#isomorphic-web-frameworks)
     - [Parsing html](#parsing-html)
-    - [Querying HTML/DOM](#querying-htmldom)
+    - [Querying HTML/DOM, web scraping](#querying-htmldom-web-scraping)
     - [HTML generators and templates](#html-generators-and-templates)
     - [URI handling](#uri-handling)
     - [Javascript](#javascript)
