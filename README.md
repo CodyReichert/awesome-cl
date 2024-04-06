@@ -212,6 +212,7 @@ work on Common Music shifted to (scheme-based) cm3.
 * [mixalot](https://github.com/ahefner/mixalot) - Loosely-coupled collection of audio libraries for mp3, ogg vorbis, flac. Used for the [Shuffletron music player](https://github.com/ahefner/shuffletron). [MIT][200].
 * [osc](https://github.com/zzkt/osc) - an implementation of the Open Sound Protocol. [LGPL2.1][11].
 * [Harmony](https://shirakumo.github.io/harmony) - A real-time sound processing and playback system. [zlib][33].
+* [easy-audio](https://github.com/shamazmazum/easy-audio) - a collection of audio decodesr and metadata readers.
 
 
 Build Systems
