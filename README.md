@@ -32,6 +32,7 @@ sellers who aren't evil for physical resources.
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
+- [Artificial Intelligence (AI, LLMs)](#artificial-intelligence-ai-llms)
 - [Audio](#audio)
 - [Build Systems](#build-systems)
 - [Compilers, code generators](#compilers-code-generators)
@@ -184,6 +185,24 @@ sellers who aren't evil for physical resources.
 - [Contributing](#contributing)
 
 <!-- markdown-toc end -->
+
+Artificial Intelligence (AI, LLMs)
+==========================================
+
+Around the OpenAI API:
+
+* [cl-completions](https://github.com/atgreen/cl-completions) - LLM completions.
+  * makes it easy to create GPT functions in Common Lisp.
+  * Ollama support.
+* [cl-embeddings](https://github.com/atgreen/cl-embeddings) - LLM embeddings.
+* [cl-chroma](https://github.com/atgreen/cl-chroma) - the vecor DB interface.
+
+demos: [cl-rag-example](https://github.com/atgreen/cl-rag-example) and [cl-chat](https://github.com/atgreen/cl-chat), a LLM chat library and web UI.
+
+Educational:
+
+* [PAIP-lisp](https://github.com/norvig/paip-lisp) - Lisp code for the textbook ["Paradigms of Artificial Intelligence Programming"](https://norvig.github.io/paip-lisp/#/).
+* [AIMA-lisp](https://github.com/aimacode/aima-lisp) -  Common Lisp implementation of algorithms from Russell and Norvig's "Artificial Intelligence - A Modern Approach".
 
 
 Audio
@@ -931,6 +950,7 @@ Advanced
 * [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
 * [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
   * with a web version: [https://norvig.github.io/paip-lisp/](https://norvig.github.io/paip-lisp/#/)
+  * [PAIP-lisp](https://github.com/norvig/paip-lisp) -  Lisp code for the textbook "Paradigms of Artificial Intelligence Programming".
 
 Other books
 -----------
