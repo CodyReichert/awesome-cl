@@ -303,7 +303,7 @@ Persistent object databases
 * [bknr.datastore](https://github.com/hanshuebner/bknr-datastore) - a CLOS-based lisp-only database in RAM with transaction logging persistence. [Manual](https://www.common-lisp.net/project/bknr/html/documentation.html). [licence][208].
   * see also this [good introductory blog post](https://ashok-khanna.medium.com/persistent-in-memory-data-storage-in-common-lisp-b-k-n-r-37f8ae76042f)
   * an example web application using bknr.datastore: [screenshotbot-oss](https://github.com/screenshotbot/screenshotbot-oss).
-  * See also [bknr.cluster](https://github.com/tdrhq/bknr.cluster), if you want a highly-available replicated version of bknr.datastore. 
+  * See also [bknr.cluster](https://github.com/tdrhq/bknr.cluster), if you want a highly-available replicated version of bknr.datastore.
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [zlib][33].
 * [cl-prevalence](https://common-lisp.net/project/cl-prevalence/) - in-memory database system. Implementation of Object Prevalence, in which business objects are kept live in memory and transactions are journaled for system recovery. [github fork](https://github.com/40ants/cl-prevalence). [LLGPL][8].
   * See also [cl-prevalence-multimaster](https://github.com/40ants/cl-prevalence-multimaster), to syncronize multiple cl-prevalence systems state.
@@ -595,6 +595,7 @@ Implementations
 * ⭐ [SBCL](http://www.sbcl.org/index.html) - Steel Bank Common Lisp. A fork of CMUCL; compiles to efficient machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15].
   * see also: [sbcl-librarian](https://github.com/quil-lang/sbcl-librarian) -  Dynamic library delivery tools for SBCL. Create shared libraries that can be called from C or Python. MIT. [Blog post](https://mstmetent.blogspot.com/2022/04/using-lisp-libraries-from-other.html). [Full example](https://github.com/quil-lang/sbcl-librarian/tree/main/example).
   * [SBCL-GOODIES](https://github.com/sionescu/sbcl-goodies) - Distributing binaries with Common Lisp and foreign libraries: libssl, libcrypto and libfixposix are statically baked in. [MIT][200].
+  * [Nightly Windows builds of SBCL](https://github.com/olnw/sbcl-builds) -  Nightly builds of SBCL using MSYS2 UCRT64. See also [Roswell's SBCL MSI builds](https://github.com/roswell/sbcl_bin/releases/).
   * [sbcl-wiki](https://github.com/guicho271828/sbcl-wiki/wiki) - an open wiki to document SBCL's internals.
 * ⭐ [CCL](//ccl.clozure.com/) - Clozure Common Lisp; compiler-only implementation, generates native code.  [LLGPL][8].
 * [ECL](https://common-lisp.net/project/ecl/) - Embeddable Common Lisp; compiles to C. [GNU LGPL2.1][11].
@@ -674,7 +675,7 @@ A large list of portability layers is collected here: [portability.cl/](https://
 * [trivial-arguments](https://github.com/Shinmera/trivial-arguments) - A portable library to retrieve the arguments list of a function. [zlib][33].
 * [definitions](https://github.com/Shinmera/definitions) - a general definitions introspection library. It gives you the ability to retrieve definitions or bindings associated with designators such as symbols, packages, and names in general. [zlib][33].
 * [dissect](https://shinmera.github.io/dissect) - when a lot of projects use the “trivial-backtrace” system that just gives them a string with a backtrace, Dissect allows you to capture, step, and completely inspect the stack trace on a variety of Lisp implementations. Also very useful for logging and other situations where execution is automatically continued, but the information of the current stack is still useful to store somewhere. [zlib][33].
-  * [ndebug](https://github.com/atlas-engineer/ndebug) - Framework for portable GUI (or any non-standard) debuggers, based on [dissect](https://shinmera.github.io/dissect) and [trivial-custom-debugger](https://github.com/phoe/trivial-custom-debugger). [BSD][15]. 
+  * [ndebug](https://github.com/atlas-engineer/ndebug) - Framework for portable GUI (or any non-standard) debuggers, based on [dissect](https://shinmera.github.io/dissect) and [trivial-custom-debugger](https://github.com/phoe/trivial-custom-debugger). [BSD][15].
 
 Changing the syntax
 -------------------
