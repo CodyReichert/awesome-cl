@@ -1140,6 +1140,8 @@ Deployment
 * [cube](https://github.com/xh4/cube) - Kubernetes client library for Common LISP generated from the Swagger specification. [MIT][200].
 * [s2i-lisp](https://github.com/container-lisp/s2i-lisp) - Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. [Apache2][89]
 * [cl-aws-runtime-test](https://github.com/y2q-actionman/cl-aws-custom-runtime-test) - An example of using Common Lisp (SBCL) as a custom runtime on AWS lambda. WTFPL.
+* [40ants/ci](https://github.com/40ants/ci/) -  Highly opionated Github Actions workflow builder for Common Lisp projects.
+  * with: a linter, lisp critic, tests runner, test matrix, doc building, caching…
 
 See also:
 
