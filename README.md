@@ -1894,6 +1894,10 @@ Plotting
   [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
 * [kai](https://github.com/komi1230/kai) - A high-level plotter library for Common Lisp. A wrapper around the [Plotly](https://plotly.com/javascript/) JS library. [MIT][200].
 * [ADW-Charting](https://common-lisp.net/project/adw-charting/) - A simple chart drawing library written completely in Common Lisp. Also includes a backend to Google's chart service. BSD-like.
+
+Plotting with text:
+
+* [cl-text-plot](https://github.com/moneylobster/cl-text-plot/) -  Plot with text in Common Lisp. No licence specified.
 * [cl-spark](https://github.com/tkych/cl-spark) - sparkline strings for the console: `(spark '(1 1 2 3 5 8))` => "▁▁▂▃▅▇". [MIT][200].
 
 See also the chart facilities of IUP and ltk-plotchart (GUI section).
