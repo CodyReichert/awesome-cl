@@ -212,7 +212,7 @@ work on Common Music shifted to (scheme-based) cm3.
 * [mixalot](https://github.com/ahefner/mixalot) - Loosely-coupled collection of audio libraries for mp3, ogg vorbis, flac. Used for the [Shuffletron music player](https://github.com/ahefner/shuffletron). [MIT][200].
 * [osc](https://github.com/zzkt/osc) - an implementation of the Open Sound Protocol. [LGPL2.1][11].
 * [Harmony](https://shirakumo.github.io/harmony) - A real-time sound processing and playback system. [zlib][33].
-* [easy-audio](https://github.com/shamazmazum/easy-audio) - a collection of audio decodesr and metadata readers.
+* [easy-audio](https://github.com/shamazmazum/easy-audio) - a collection of audio decoders and metadata readers.
 
 
 Build Systems
@@ -1612,6 +1612,10 @@ Text and binary parsers
 * [smug](https://github.com/drewc/smug) - parser combinators for Common Lisp. SMUG makes it simple to create quick extensible recursive descent parsers without funky syntax or impenetrable macrology. [MIT][200].
 * [parseq](https://github.com/mrossini-ethz/parseq) - a library for parsing sequences such as strings and lists using parsing expression grammars. Inspired by Esrap. GPL2.
 * [lisp-binary](https://github.com/j3pic/lisp-binary) - A library to easily read and write complex binary formats. [GPL3][2].
+* [uclp](https://github.com/ravi-delia/uclp) -  An experimental implementation of parsing expression grammars (PEGs, a la Janet) in Common Lisp. MIT.
+
+see also:
+
 * [texp](https://github.com/eugeneia/texp/) - A DSL to generate TeX. [AGPL-3.0][agpl3].
 
 Text Processing
