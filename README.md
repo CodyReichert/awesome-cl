@@ -209,6 +209,8 @@ Music composition:
 Decoders, sound processing:
 
 * [Harmony](https://shirakumo.github.io/harmony) - A real-time sound processing and playback system. [zlib][33].
+  * "provides you with audio processing tools as well as an audio server to play back music, sfx, and so forth."
+  * using [cl-mixed](https://github.com/Shirakumo/cl-mixed) for the mixing and sound processing library.
 * [easy-audio](https://github.com/shamazmazum/easy-audio) - a collection of audio decoders and metadata readers.
 
 others:
@@ -219,6 +221,7 @@ others:
 
 bindings and clients to other software and libraries:
 
+* [cl-mpg123](https://github.com/Shirakumo/cl-mpg123), [cl-opus](https://github.com/Shirakumo/cl-opus) (OGG/Opus), [cl-vorbis](https://github.com/Shirakumo/cl-vorbis) (OGG/Vorbis), [cl-SoLoud](https://github.com/Shirakumo/cl-soloud), [cl-out123](https://github.com/Shirakumo/cl-out123) (libout123), [cl-flac](https://github.com/Shirakumo/cl-flac)
 * [csound](https://github.com/csound/csound) - A sound and music computing system. Includes CFFI and FFI interfaces for Common Lisp.
 * [cl-collider](https://github.com/byulparan/cl-collider) - A [SuperCollider](http://supercollider.github.io/) client for CommonLisp. With a [tutorial](https://github.com/defaultxr/cl-collider-tutorial) and [live coding demos](https://www.youtube.com/watch?v=xzTH_ZqaFKI). Public domain.
 * [cl-openal](https://github.com/zkat/cl-openal) - bindings for the OpenAL audio library. Public domain.
