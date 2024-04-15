@@ -1806,6 +1806,7 @@ code must look pretty, documentation is code. [MIT][200].
 * [sphinxcontrib-cldomain](https://sphinxcontrib-cldomain.russellsim.org/) -
   Extending Sphinx to cover Common Lisp. To build documentation with
   the same ease as sphinx would a Python project. [GPL3][2]
+  - crossreferences, links to the CLHS, symbol index, search, and all Sphinx features.
 * [Codex](https://github.com/CommonDoc/codex) - A beautiful documentation system for Common Lisp. [MIT][200].
 * [QBook](https://github.com/mmontone/qbook) - generates HTML (or LaTeX) formatted code listings of Common Lisp source files. [BSD_3Clause][15].
   - all comments started with 4 `;` (";;;;") are interpreted as documentation. Enhance the documentation with headings and directives.
@@ -1819,7 +1820,7 @@ See also:
   - Its main page presents a list of all loaded systems in your Lisp image. Click on one system, and you get a page with three panes: functions, classes and variables. Click on a function to see its source, in context, with line numbers. Click on classes to see their slots and specializing functions.
 * [cl-livedocs](https://github.com/mmontone/cl-livedocs) - similar and newer, based on Webinfo, with full text search enabled by default.
 
-An overview blog post with even more documentation generators: https://lisp-journey.gitlab.io/blog/overview-of-documentation-generators/
+An overview blog post with even more documentation generators: https://lisp-journey.gitlab.io/blog/overview-of-documentation-generators/ and a dedicated site with reviews and demos: https://cl-doc-systems.github.io/
 
 You might also like: [literate programming systems](#literate-programming).
 
