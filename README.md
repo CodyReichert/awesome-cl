@@ -226,7 +226,7 @@ bindings and clients to other software and libraries:
 * [cl-collider](https://github.com/byulparan/cl-collider) - A [SuperCollider](http://supercollider.github.io/) client for CommonLisp. With a [tutorial](https://github.com/defaultxr/cl-collider-tutorial) and [live coding demos](https://www.youtube.com/watch?v=xzTH_ZqaFKI). Public domain.
 * [cl-openal](https://github.com/zkat/cl-openal) - bindings for the OpenAL audio library. Public domain.
 
-and more audio software targetting musicians on [awesome-cl-software#audio](https://github.com/dlang-community/awesome-d#audio) (Opus Modus, OpenMusic…).
+and more audio software targetting musicians on [awesome-cl-software#audio](https://github.com/CodyReichert/awesome-cl#audio) (Opus Modus, OpenMusic…).
 
 
 
