@@ -1569,6 +1569,11 @@ Sly extensions:
   * [Lem 2.0](https://github.com/lem-project/lem/releases/tag/v2.0.0), released on May, 2023, added the SDL2 frontend, thus mouse support, graphic capabilities and Windows support, among other new features.
   * see also: an [opengl frontend](https://github.com/pupcraft/lem-opengl), [Lem in Docker](https://github.com/40ants/lem-docker), [lem-pareto](https://github.com/40ants/lem-pareto).
 
+* 🚀 [Lem on the cloud](https://www.youtube.com/watch?v=IMN7feOQOak) (video presentation)
+  * "Rooms is a product that runs Lem, a text editor created in Common Lisp, in the Cloud and can be used by multiple users."
+  * NEW as of April, 2024.
+
+
 ## Atom, Pulsar ##
 
 * [SLIMA](https://github.com/neil-lindquist/slima) allows you to
