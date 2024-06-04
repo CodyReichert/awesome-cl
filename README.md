@@ -456,6 +456,8 @@ See also those libraries:
 * [cl-oju](https://github.com/eigenhombre/cl-oju/) - a few idioms, mostly relating to sequences, that I miss when writing Common Lisp. [MIT][200].
 * [clj-con](https://github.com/dtenny/clj-con) - Clojure-style concurrency operations in Common Lisp. [MIT][200].
 * [clj-re](https://github.com/dtenny/clj-re/) - Clojure-style regular expression functions.
+* [clj-arrows](https://github.com/dtenny/clj-arrows) -  Clojure-compatible threading/transformation/arrow macros for Common Lisp.
+* [with-redefs](https://github.com/dtenny/with-redefs) - enables rebinding of global functions, inspired by Clojure's with-redefs.
 
 ## Erlang ##
 
