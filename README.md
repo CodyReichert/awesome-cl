@@ -406,6 +406,7 @@ lock-free, concurrent, key/value index with efficient memory-mapped persistence 
 * [cl-containers](https://common-lisp.net/project/cl-containers/) - an extensive library of data structures and utilities - queues, trees, heaps, doubly-linked lists, sets, bags,... [MIT][200]
 * [cl-competitive](https://github.com/privet-kitty/cl-competitive) - Common Lisp algorithms collection for competitive programming. Public domain, CCO or MIT.
 * [nonempty](https://github.com/fosskers/cl-nonempty) -  Non-empty collections for Common Lisp.  [LGPL3][9].
+* [cl-hash-util](https://github.com/orthecreedence/cl-hash-util) - Hash-table creation, access, and manipulation utilities. [MIT][200].
 
 Accessing data structures:
 
