@@ -131,7 +131,7 @@ sellers who aren't evil for physical resources.
     - [Actors pattern](#actors-pattern)
     - [Event processing](#event-processing)
     - [Job processing](#job-processing)
-- [Regex](#regex)
+- [Regular expressions and string parsing](#regular-expressions-and-string-parsing)
 - [Scripting](#scripting)
     - [Writing, running scripts](#writing-running-scripts)
     - [Command-line options parsers](#command-line-options-parsers)
@@ -1433,11 +1433,15 @@ Job processing
 * [clerk](https://github.com/tsikov/clerk) - a cron-like scheduler with sane DSL. [MIT][200].
 
 
-Regex
-=====
+Regular expressions and string parsing
+===============================================
 
 * ⭐ [cl-ppcre](http://weitz.de/cl-ppcre/) - Portable, Perl-compatible regular expressions. [FreeBSD][39].
 * [one-more-re-nightmare](https://github.com/no-defun-allowed/one-more-re-nightmare) - a fast-ish regular expression compiler in Common Lisp. [BSD_2Clause][17].
+
+See also:
+
+* [rexxparse](https://github.com/dtenny/rexxparse) -  A string parsing tool inspired by the REXX PARSE construct. MIT.
 
 See also clj-re above.
 
