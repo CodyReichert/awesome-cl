@@ -190,6 +190,8 @@ Artificial Intelligence (AI, LLMs)
 
 Around the OpenAI API:
 
+* [openai-openapi-client](https://codeberg.org/kilianmh/openai-openapi-client) - semi-automatically generated Openapi client updated frequently from the [official Openapi specification](https://github.com/openai/openai-openapi/blob/master/openapi.yaml). AGPL-3.
+  * available on Ultralisp.
 * [cl-completions](https://github.com/atgreen/cl-completions) - LLM completions.
   * makes it easy to create GPT functions in Common Lisp.
   * Ollama support.
