@@ -379,7 +379,6 @@ Wrappers
 * ⭐ [postmodern](http://marijnhaverbeke.nl/postmodern/) - A library for interacting with PostgreSQL. [zlib][33].
 * [cl-sqlite](https://github.com/dmitryvk/cl-sqlite) - Bindings for SQLite. Public domain.
 * [cl-memcached](https://github.com/quasi/cl-memcached) - Fast, thread-safe interface to the Memcached object caching system. [Expat][14].
-* [cl-mongo](https://github.com/fons/cl-mongo) - MongoDB client. [Expat][14].
 * [cl-redis](https://github.com/vseloved/cl-redis) - Redis client. [Expat][14].
 * [cl-disque](https://github.com/CodyReichert/cl-disque) - Disque client. [3-clause BSD][15].
 * [cl-rethinkdb](https://github.com/orthecreedence/cl-rethinkdb) - RethinkDB client. [Expat][14].
