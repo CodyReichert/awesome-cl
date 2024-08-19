@@ -1130,7 +1130,7 @@ See also:
 
 * [cl-html5-parser](https://github.com/rotatef/cl-html5-parser) -  HTML5 parser for Common Lisp. GPL3.0.
   * a port of the Python library html5lib.
-  * compared to Plump: Plump is a mix of an XML and an HTML parser and breaks on some HTML rules ([example](https://github.com/Shinmera/plump/issues/50]), while cl-html5-parser is a fully compliant HTML parser.
+  * compared to Plump: Plump is a mix of an XML and an HTML parser and breaks on some HTML rules ([example](https://github.com/Shinmera/plump/issues/50), while cl-html5-parser is a fully compliant HTML parser.
 
 Querying HTML/DOM, web scraping
 ---------------------------------------
