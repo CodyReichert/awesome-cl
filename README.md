@@ -428,6 +428,7 @@ lock-free, concurrent, key/value index with efficient memory-mapped persistence 
 * [cl-competitive](https://github.com/privet-kitty/cl-competitive) - Common Lisp algorithms collection for competitive programming. Public domain, CCO or MIT.
 * [nonempty](https://github.com/fosskers/cl-nonempty) -  Non-empty collections for Common Lisp.  [LGPL3][9].
 * [cl-hash-util](https://github.com/orthecreedence/cl-hash-util) - Hash-table creation, access, and manipulation utilities. [MIT][200].
+* [cl-permutation](https://github.com/stylewarning/cl-permutation) -  Permutations and permutation groups in Common Lisp. [BSD_3Clause][15].
 
 Accessing data structures:
 
@@ -1366,6 +1367,7 @@ Numerical and Scientific
 * [cl-geometry](https://github.com/Ramarren/cl-geometry/) - a system for two dimensional computational geometry for Common Lisp. [MIT][200].
 * [Vellum](https://github.com/sirherrbatka/vellum) - Data Frames for Common Lisp. BSD_2Clause.
 * [rtg-math](https://github.com/cbaggers/rtg-math/) - a selection of the math routines most commonly needed for making realtime graphics in lisp (2, 3 and 4 component vectors, 3x3 and 4x4 matrices, quaternions, spherical and polar coordinates). BSD_2Clause.
+
 
 Planning solvers:
 
