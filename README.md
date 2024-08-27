@@ -551,6 +551,10 @@ These are libraries for working with graphics, rather than making GUIs (i.e. wid
 * [Vecto](http://www.xach.com/lisp/vecto/) - Simple vector drawing library. [FreeBSD][39].
 * [zpng](http://www.xach.com/lisp/zpng/) - A library for creating PNG files. [FreeBSD][39].
 * [pngload-fast](https://github.com/lisp-mirror/pngload) - A PNG (Portable Network Graphics) image format decoder in portable Common Lisp with an emphasis on speed. [MIT][200].
+* [imago](https://github.com/tokenrove/imago) -  image manipulation library for Common Lisp.
+  * supports images in png, pcx, portable bitmap (.pnm), Truevision TGA (.tga) and jpeg formats
+  * allows for: resizing, rotation, emboss effect, inverting colors, adjusting contrast, manipulating color elements, composing pictures, drawing simple primitives…
+  * is integrated with common-lisp-jupyter.
 
 Those are bindings:
 
