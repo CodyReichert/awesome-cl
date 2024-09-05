@@ -197,7 +197,7 @@ Around the OpenAI API:
   * makes it easy to create GPT functions in Common Lisp.
   * Ollama support.
 * [cl-embeddings](https://github.com/atgreen/cl-embeddings) - LLM embeddings.
-* [cl-chroma](https://github.com/atgreen/cl-chroma) - the vecor DB interface.
+* [cl-chroma](https://github.com/atgreen/cl-chroma) - the vector DB interface.
 
 demos: [cl-rag-example](https://github.com/atgreen/cl-rag-example) and [cl-chat](https://github.com/atgreen/cl-chat), a LLM chat library and web UI.
 
@@ -667,6 +667,11 @@ Other implementations, mainly for historical purposes:
 * [Corman Lisp](https://github.com/sharplispers/cormanlisp) - a Common Lisp development environment for Microsoft Windows running on Intel platforms. [MIT][200].
 
 You can check the implementations' compatibility to common extensions here: [portability.cl](https://portability.cl).
+
+See also:
+
+* [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [zlib][33].
+
 
 JSON
 ====
@@ -1490,16 +1495,23 @@ See also clj-re above.
 Scripting
 =========
 
-Writing, running scripts
-------------------------
+Running scripts
+---------------
 
-* 👍 [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) -
-  a lisp installer and scripting environment (helper, launcher,
-  installer) and more. [MIT][200].
-* [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [zlib][33].
-* [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
+*Implementations can run files with `--load`, SBCL has `--script`,
+but there is a start-up time specially when loading libraries. Can we
+do better? We can always build a binary.*
+
+* 👍 [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) - a script installer and launcher, that makes it easy to distribute Lisp scripts and programs. [MIT][200].
+  * *compiles a binary under the hood*
 * [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
   * similar and maybe simpler: [lserver](https://notabug.org/quasus/lserver/)
+* [CIEL](https://github.com/ciel-lang/CIEL/) - CIEL Is an Extended Lisp is a collection of dozens of libraries useful for mundane tasks (HTTP, JSON, regexps…). [unclear licence]
+  * It also comes as a binary that is able to run scripts from sources. Scripts that use the built-in libraries start fast without a compilation step.
+  * *in beta as of 2024*
+* NEW in 2024 [kiln](https://github.com/ruricolist/kiln) - an infrastructure (managing a hidden multicall binary) to make Lisp scripting efficient and ergonomic. [MIT][200].
+  * Kiln makes it practical to write very small scripts. Kiln scripts are fast and cheap to the point where it makes sense to expose even small pieces of Lisp functionality to the shell.
+
 
 Command-line options parsers
 ----------------------------
@@ -1558,6 +1570,11 @@ System administration
 
 Other scripting utilities
 -------------------------
+
+* [clawk](https://github.com/sharplispers/clawk) - an AWK implementation embedded into Common Lisp, to search files for lines and perform specified actions on its fields. BSD-style.
+* [lqn](https://github.com/inconvergent/lqn) -  query language and terminal utility for querying and transforming Lisp, JSON and other text files. written in Common Lisp. [MIT][200].
+
+And also, stalled projects:
 
 * [WCL](https://github.com/wadehennessey/wcl) [stalled] - allow hundreds of Lisp
 applications to be realistically available at once, while allowing
