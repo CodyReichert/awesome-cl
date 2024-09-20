@@ -1855,6 +1855,9 @@ Data validation
 Developer utilities
 -------------------
 
+Common Lisp implementations have plenty of debugging tools. See: [Cookbook / debugging](https://lispcookbook.github.io/cl-cookbook/debugging.html). Those are additional utilities.
+
+
 * [repl-utilities](https://github.com/m-n/repl-utilities) - Ease
 common tasks at the REPL (print documentation, print external symbols,
 call hooks when loading a package,…). [BSD_2Clause][17].
@@ -1864,6 +1867,7 @@ call hooks when loading a package,…). [BSD_2Clause][17].
 * [supertrace](https://github.com/fukamachi/supertrace) - Superior Common Lisp `trace` functionality for debugging/profiling. Trace many functions at once, use before and after hooks. [BSD_2Clause][17].
 * [printv](https://github.com/danlentz/printv) -  A batteries-included tracing and debug-logging macro. [Apache2][89].
 * [journal](https://github.com/melisgl/journal) - a library for logging, tracing, record-and-replay testing and persistence. MIT.
+* [brake](https://github.com/varjagg/brake) -  An extended breakpoint facility for Common Lisp. [MIT][200].
 
 and also:
 
