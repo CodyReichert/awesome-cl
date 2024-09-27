@@ -774,7 +774,7 @@ Bringing the speed of Static Dispatch to CLOS. [LLGPL][8].
 
 Writing terser defclass forms:
 
-* [defclass-std](https://github.com/EuAndreh/defclass-std) - a shortcut macro to write DEFCLASS forms quickly. [LLGPL][8].
+* [defclass-std](https://github.com/lisp-maintainers/defclass-std) - a shortcut macro to write DEFCLASS and PRINT-OBJECT forms quickly. [LLGPL][8].
 * [nclasses](https://github.com/atlas-engineer/nclasses) - Syntactic sugar for class and generic function declarations. Fork of [hu.dwim.defclass-star](https://github.com/hu-dwim/hu.dwim.defclass-star). Features type inference, automatic accessors, inline initform syntax, automatic exports, and other conveniences. [BSD][15].
 
 And also:
