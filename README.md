@@ -107,7 +107,7 @@ sellers who aren't evil for physical resources.
     - [Parsing html](#parsing-html)
     - [Querying HTML/DOM, web scraping](#querying-htmldom-web-scraping)
     - [HTML generators and templates](#html-generators-and-templates)
-    - [URI handling](#uri-handling)
+    - [URI and IP handling](#uri-and-ip-handling)
     - [Javascript](#javascript)
     - [Deployment](#deployment)
     - [Monitoring](#monitoring)
@@ -134,7 +134,7 @@ sellers who aren't evil for physical resources.
     - [Job processing](#job-processing)
 - [Regular expressions and string parsing](#regular-expressions-and-string-parsing)
 - [Scripting](#scripting)
-    - [Writing, running scripts](#writing-running-scripts)
+    - [Running scripts](#running-scripts)
     - [Command-line options parsers](#command-line-options-parsers)
     - [Readline, ncurses and other graphical helpers](#readline-ncurses-and-other-graphical-helpers)
     - [Shells, shells interfaces](#shells-shells-interfaces)
@@ -1174,13 +1174,15 @@ HTML generators and templates
 * [clip](https://shinmera.github.io/clip) - An HTML template processor where the templates are written in HTML. [zlib][33].
 * [lsx](https://github.com/fukamachi/lsx/) and [markup](https://github.com/moderninterpreters/markup) - Two JSX-like templating engines, where HTML tags are Common Lisp code. `markup` comes with an Emacs package.
 
-URI handling
-------------
+URI and IP handling
+-------------------
 
 * [quri](https://github.com/fukamachi/quri) - Another URI library for
   Common Lisp. Supports userinfo, IPv6 hostname, encoding/decoding
   utilities,… [BSD_3Clause][15].
 * [cl-slug](https://github.com/EuAndreh/cl-slug) - a small library to make slugs, mainly for URIs, transform in CamelCase, remove accentuation and punctuation, for english and beyound. [LLGPL][8].
+* [netaddr](https://github.com/ynadji/netaddr) -  A network address manipulation library for Common Lisp. MIT.
+  * for manipulating IP addresses, subnets, ranges, and sets. It is inspired by its namesake library in Python, netaddr.
 
 Javascript
 ----------
