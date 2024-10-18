@@ -189,6 +189,8 @@ sellers who aren't evil for physical resources.
 Artificial Intelligence (AI, LLMs)
 ==========================================
 
+* [llama.cl](https://github.com/snunez1/llama.cl) - a Common Lisp port of Karpathy's llama2.c to idiomatic Common Lisp. MIT.
+
 Around the OpenAI API:
 
 * [openai-openapi-client](https://codeberg.org/kilianmh/openai-openapi-client) - semi-automatically generated Openapi client updated frequently from the [official Openapi specification](https://github.com/openai/openai-openapi/blob/master/openapi.yaml). AGPL-3.
