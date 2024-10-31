@@ -1318,6 +1318,8 @@ Others
 * [trivial-download](https://github.com/eudoxia0/trivial-download) - Download files. [MIT][200].
 * [cl-cookie](https://github.com/fukamachi/cl-cookie) HTTP Cookie (jar) manager: parse and write (set-)cookie headers, compare cookies, optional cookie attribute sanity check. [MIT][200]
 * [dns-client](https://github.com/Shinmera/dns-client) - DNS record client. See [documentation](https://shinmera.github.io/dns-client/). [zlib][33].
+* [mobiledetect](https://github.com/Junker/mobiledetect) - System for detecting mobile devices (including tablets) in User-Agent strings. MIT.
+* [random-ua](https://github.com/Junker/random-ua) - Random User-Agent generator for Common Lisp. BSD_2Clause.
 
 
 ### Email
