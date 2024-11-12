@@ -1127,8 +1127,9 @@ See also:
 * [clack-static-asset-middleware](https://github.com/fisxoj/clack-static-asset-middleware) - a cache-busting static asset middleware for the clack. [MIT][200].
 * [lack-expression-cache](https://github.com/daninus14/lack-compression-cache) -  lack middleware for compressing and caching static resources. MIT.
 * [lack-rerouter](https://github.com/daninus14/lack-rerouter) -  lack middleware to reroute URIs of requests. MIT.
+* [clack-cors](https://40ants.com/clack-cors/) - A Clack middleware to set CORS related HTTP headers. — Unlicense.
+* [clack-promotheus](https://40ants.com/clack-prometheus/) - Clack middleware to serve stats in Prometheus format. Unlicense.
 
-For routing, we can also use Snooze (see below).
 
 Web frameworks
 --------------
