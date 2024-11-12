@@ -1383,6 +1383,8 @@ Service (S3) and CloudFront service. [BSD][15].
 * [lisp-pay](https://github.com/K1D77A/lisp-pay) - Wrappers around various payment processors: Paypal, Stripe, Coinpayments and BTCPayServer. [MIT][200].
 * [lunamech-matrix-api](https://github.com/K1D77A/lunamech-matrix-api) - A complete wrapper over the Client -> Server Matrix API. [MIT][200].
 * [cl-telegram-bot](https://40ants.com/cl-telegram-bot/) - Telegram bot API. [MIT][200].
+  * includes example bots such as a calculator, payment with invoices, an actor-based bot…
+  * automatic API spec parser
   * [cl-telegram-bot-auto-api](https://github.com/aartaka/cl-telegram-bot-auto-api) - Alternative Telegram Bot API bindings, auto-generated from Telegram website. [3-clause BSD][15].
 
 
