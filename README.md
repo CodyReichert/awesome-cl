@@ -1158,6 +1158,11 @@ See OpenAPI, OData and other libraries below.
 * [Interactive SSR](https://github.com/interactive-ssr/client/blob/master/main.org/) - ISSR allows you to make interactive web pages without writing client scripting. No knowledge about Javascript or DOM is necessary.
   - it is not unlike Phoenix LiveView or Hotwire.
 
+CLOG-based frameworks:
+
+- [mold-desktop](https://codeberg.org/mmontone/mold-desktop) - a programmable desktop.
+- [WIP] [clog-moldable-inspector](https://codeberg.org/khinsen/clog-moldable-inspector) - A moldable Common Lisp object inspector based on CLOG. The inspector is thus shown in a Web browser.
+
 
 Parsing html
 ---------------
