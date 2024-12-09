@@ -203,6 +203,10 @@ Around the OpenAI API:
 
 demos: [cl-rag-example](https://github.com/atgreen/cl-rag-example) and [cl-chat](https://github.com/atgreen/cl-chat), a LLM chat library and web UI.
 
+Work In Progress:
+
+* [Caten](https://github.com/hikettei/Caten) -  Deep Learning Compiler based on Polyhedral Compiler and Light-weight IRs, and Optimizing Pattern Matcher, written in Common Lisp
+
 Educational:
 
 * [PAIP-lisp](https://github.com/norvig/paip-lisp) - Lisp code for the textbook ["Paradigms of Artificial Intelligence Programming"](https://norvig.github.io/paip-lisp/#/).
