@@ -1409,6 +1409,9 @@ Numerical and Scientific
   * it can be used via [SageMath](https://www.sagemath.org/) and [KDE Cantor](https://apps.kde.org/cantor/). Of course, with Emacs: [maxima-mode](https://gitlab.com/sasanidas/maxima) ([screenshot](https://community.linuxmint.com/img/screenshots/maxima-emacs.png)) and [maxima-interface](https://github.com/jmbr/maxima-interface) to ease the interface between Maxima and Common Lisp.
   * it can be used [from a Lisp REPL](https://mahmoodsheikh36.github.io/post/20230510181916-maxima_in_lisp/).
 * [numcl](https://github.com/numcl/numcl) - Numpy clone in Common Lisp. [LGPL3][9].
+* [numericals](https://github.com/digikar99/numericals) -  SIMD powered simple-math numerical operations on arrays for Common Lisp through CFFI [still experimental]. MIT.
+  * documentation: https://digikar99.github.io/numericals/
+* [dense-arrays](https://github.com/digikar99/dense-arrays) -  Numpy like array object for common lisp. MIT.
 * [GSLL](https://common-lisp.net/project/gsll/) - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [Xecto](https://github.com/pkhuong/Xecto) - A library for regular array parallelism. [3-clause BSD][15].
 * [Petalisp](https://github.com/marcoheisig/Petalisp) - an attempt to
