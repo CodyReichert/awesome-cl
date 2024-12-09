@@ -1005,7 +1005,6 @@ Community
 * [/r/learnlisp](https://www.reddit.com/r/learnlisp/) - a subreddit to ask questions and get help about Lisp
 * [common-lisp.net](https://common-lisp.net)
 * [lisp-lang.org](https://lisp-lang.org/)
-* [Lisp Jabber/XMPP channel](https://xmpp.link/#lisp@conference.a3.pm?join)
 * [Lisp Discord Server](https://discord.gg/hhk46CE)
 * [#commonlisp](https://irclog.tymoon.eu/libera/%23commonlisp) on Libera Chat - main Common Lisp IRC channel.
 * [#lisp](https://irclog.tymoon.eu/libera/%23lisp) on Libera Chat - IRC channel for all Lisp dialects.
@@ -1013,6 +1012,7 @@ Community
 * #lispcafe on Libera Chat - IRC channel for off-topic discussions.
 * [Planet Lisp](http://planet.lisp.org/) - A meta blog that collects the contents of various Lisp-related blogs.
 * [Common Lisp chat](https://chat.hexstreamsoft.com/) - Keybase team with well-defined rules and retention policies.
+* [Lisp Jabber/XMPP channel](https://xmpp.link/#lisp@conference.a3.pm?join)
 
 Library Manager
 ===============
