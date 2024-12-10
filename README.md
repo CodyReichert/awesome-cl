@@ -452,6 +452,7 @@ Accessing data structures:
 Other data structures:
 
 * [bitfield](https://github.com/marcoheisig/bitfield) - Efficiently represent several finite sets or small integers as a single non-negative integer. [MIT][200].
+* [rope](https://github.com/garlic0x1/rope) -  Immutable Ropes for Common Lisp. MIT.
 
 See also:
 
