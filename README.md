@@ -1965,13 +1965,14 @@ Files and directories
 * ⭐ [uiop](https://common-lisp.net/project/asdf/uiop.html) and its `pathname` package
   (replaces [cl-fad](http://weitz.de/cl-fad/)). uiop is part of ASDF3
   and as thus is shipped in many implementations. [MIT][200].
-* [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) [Expat][14].
 * [pathname-utils](https://github.com/Shinmera/pathname-utils) - A collection of utilities to help with pathname operations. [zlib][33].
   * [filesystem-utils](https://github.com/Shinmera/filesystem-utils) - deal with common problems with filesystems, such as listing files, probing file types, determining default directories, etc.
   * no dependencies, doesn't access the filesystem.
   * [file-attributes](https://github.com/Shinmera/file-attributes) -  access to common file attributes (uid, gid, permissions, ctime, mtime, atime).
 * [filepaths](https://github.com/fosskers/filepaths) -  Modern and consistent filepath manipulation for Common Lisp. [LGPL3][9].
   * no dependencies, doesn't access the filesystem.
+* [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems, including Windows (directory iteration and deletion, file permissions, file-type identification, etc) [Expat][14].
+  * note: Osicat isn't a pure Lisp library, it relies on compiling C code and this might make your deployment harder.
 * [ppath](https://codeberg.org/fourier/ppath) - Common Lisp's implementation of the Python's os.path module. [BSD][15].
 * [mmap](https://github.com/Shinmera/mmap) - Portable mmap file memory mapping utility library. [zlib][33].
 * [fof](https://gitlab.com/ambrevar/fof) - File-object finder Common Lisp library. Enable rapid file search, inspection and manipulation. [GPL3][2].
