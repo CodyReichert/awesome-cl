@@ -159,7 +159,8 @@ sellers who aren't evil for physical resources.
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
-    - [Caching](#caching)
+    - [Caching (serialization)](#caching-serialization)
+    - [Caching (memoization)](#caching-memoization)
     - [Compression / decompression](#compression--decompression)
     - [Configuration](#configuration)
     - [CSV](#csv)
@@ -354,12 +355,8 @@ Persistent object databases
 * [ubiquitous](https://github.com/Shinmera/ubiquitous) - A library providing easy-to-use persistent configuration storage. [zlib][33].
 * [cl-prevalence](https://common-lisp.net/project/cl-prevalence/) - in-memory database system. Implementation of Object Prevalence, in which business objects are kept live in memory and transactions are journaled for system recovery. [github fork](https://github.com/40ants/cl-prevalence). [LLGPL][8].
   * See also [cl-prevalence-multimaster](https://github.com/40ants/cl-prevalence-multimaster), to syncronize multiple cl-prevalence systems state.
-* [cl-naive-store](https://gitlab.com/Harag/cl-naive-store) - a naive persisted, in memory (lazy loading), indexed, document store for Common Lisp. [MIT][200].
-  - see [the introductory blog post](https://zaries.wordpress.com/2022/05/31/cl-naive-store/)
-  - dare we add: used in production by the author's company (ASTN Group, see awesome-lisp-companies)
 
-See also [Clache](https://github.com/html/clache), that can save any object on disk.
-
+See also the [Caching (serialization)](#caching-serialization) section.
 
 Graph databases
 ---------------
@@ -1837,10 +1834,26 @@ For more: [Sabra Crolleton's extensive test frameworks comparison](https://sabra
 Utilities
 =========
 
-Caching
--------
+Caching (serialization)
+-----------------------
 
-* [clache](https://github.com/html/clache) - General caching facility. Cache any Lisp object on disk or in memory. A cache can be persistent or have an expiration time. [LLGPL][8].
+* [cl-store](https://github.com/skypher/cl-store) - a portable serialization package which gives you the ability to store all common-lisp data types into streams. MIT.
+  * Call `store object "file.bin")` to store a (possibly compound) lisp object to disk, and `restore` to get it back.
+* [clache](https://github.com/html/clache) - General caching facility. Cache any Lisp object on disk or in memory.  [LLGPL][8].
+  * built on cl-store
+  * a cache can be persistent or have an expiration time.
+  * exposes the store locations too.
+* [conspack](https://github.com/conspack/cl-conspack) - binary serialization.
+* [cl-naive-store](https://gitlab.com/Harag/cl-naive-store) - a naive persisted, in memory (lazy loading), indexed, document store for Common Lisp. [MIT][200].
+  - see [the introductory blog post](https://zaries.wordpress.com/2022/05/31/cl-naive-store/)
+  - dare we add: used in production by the author's company (ASTN Group, see awesome-lisp-companies)
+
+See also the [Persistent object databases](#persistent-object-databases) section.
+
+
+Caching (memoization)
+-----------------------
+
 * [function-cache](https://github.com/AccelerationNet/function-cache) -  A Common Lisp function caching / memoization library. [BSD][15].
 
 
