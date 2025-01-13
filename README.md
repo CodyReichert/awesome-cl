@@ -1847,6 +1847,8 @@ Caching (serialization)
 * [cl-naive-store](https://gitlab.com/Harag/cl-naive-store) - a naive persisted, in memory (lazy loading), indexed, document store for Common Lisp. [MIT][200].
   - see [the introductory blog post](https://zaries.wordpress.com/2022/05/31/cl-naive-store/)
   - dare we add: used in production by the author's company (ASTN Group, see awesome-lisp-companies)
+* 🚀 [cl-binary-store](https://github.com/ajberkley/cl-binary-store) -  A fast Common Lisp binary serializer/deserializer. BSD_3Clause. See [reddit announce](https://www.reddit.com/r/Common_Lisp/comments/1hz5879/new_binary_serializationdeserialization_library/) (2025).
+  * "A super fast and customizable serializer/deserializer of Common Lisp objects to/from a very compact binary format. Equality of objects, circular references, and the full Common Lisp type system are supported. Specialized arrays (on SBCL) are stored/restore at lightning speed."
 
 See also the [Persistent object databases](#persistent-object-databases) section.
 
