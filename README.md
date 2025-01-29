@@ -44,7 +44,7 @@ sellers who aren't evil for physical resources.
     - [ORMs](#orms)
     - [Persistent object databases](#persistent-object-databases)
     - [Graph databases](#graph-databases)
-    - [Wrappers](#wrappers)
+    - [Other DB wrappers](#other-db-wrappers)
     - [Migration tools](#migration-tools)
     - [To third parties](#to-third-parties)
     - [Tools](#tools)
@@ -145,6 +145,7 @@ sellers who aren't evil for physical resources.
     - [Vim & Neovim](#vim--neovim)
     - [Eclipse](#eclipse)
     - [Lem](#lem)
+    - [LispWorks](#lispworks)
     - [Atom, Pulsar](#atom-pulsar)
     - [Sublime Text](#sublime-text)
     - [VSCode](#vscode)
@@ -1701,6 +1702,11 @@ Sly extensions:
 * 🚀 [Lem on the cloud](https://www.youtube.com/watch?v=IMN7feOQOak) (video presentation)
   * "Rooms is a product that runs Lem, a text editor created in Common Lisp, in the Cloud and can be used by multiple users."
   * NEW as of April, 2024.
+
+## LispWorks
+
+* [lw-plugins](https://github.com/apr3vau/lw-plugins) -  LispWorks Plugins by April & May. OBSD.
+  * terminal integration, code folding, side tree, markdown highlighting, Nerd Fonts, fuzzy-matching, enhanced directory mode, expand region, pair editing, SVG rendering…
 
 
 ## Atom, Pulsar ##
