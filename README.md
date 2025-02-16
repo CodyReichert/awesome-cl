@@ -831,7 +831,7 @@ Iteration
 * [series](https://series.sourceforge.net/) - Functional style without any runtime penalty at all. [MIT][200].
 * [trivial-do](https://github.com/yitzchak/trivial-do/) -  Additional dolist style macros for Common Lisp. [MIT][200].
 * [doplus](https://github.com/alessiostalla/doplus) – another extensible iteration library, similar to :for.
-* [cl-transducers](https://codeberg.org/fosskers/cl-transducers) - Ergonomic, efficient data processing. [LGPL3][9]. ([GitHub mirror](https://github.com/fosskers/cl-transducers))
+* [cl-transducers](https://github.com/fosskers/cl-transducers/) - Ergonomic, efficient data processing. [LGPL3][9].
   * "Transducers are an ergonomic and extremely memory-efficient way to process a data source. Here “data source” means simple collections like Lists or Vectors, but also potentially large files or generators of infinite data."
   * "It is, in general, the most complete implementation of the Transducer pattern."
   * a "modern" API with `map`, `filter`, `take`, `repeat`, `cycle`, `fold`…
