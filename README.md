@@ -1345,6 +1345,7 @@ See also mito-auth and the Hunchentoot and Clack plugins above.
 Others
 ------
 
+* [LASS](https://github.com/Shinmera/LASS) -  Lisp Augmented Style Sheets. Largely inspired by SASS. Zlib.
 * [css-lite](https://github.com/paddymul/css-lite) - A CSS grammar. [Expat][14].
 * [find-port](https://github.com/eudoxia0/find-port) -  Programmatically find open ports. [MIT][200].
 * [cl-wget](https://github.com/cl-wget/cl-wget) - Makes retrieving large files or mirroring entire websites easy. [AGPL-3.0][51].
