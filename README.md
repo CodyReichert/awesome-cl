@@ -902,6 +902,8 @@ Typing
 ------
 
 * 👍 [Coalton](https://github.com/coalton-lang/coalton/) - an efficient, statically typed functional programming language that supercharges Common Lisp. [MIT][200].
+  * focuses on high-performance, built-in advanced mathematics, a numerical tower more powerful and extensible than Lisp's:
+    * arbitrary precision floats, exact computable real arithmetic, transfinite numbers, [dual numbers](https://coalton-lang.github.io/reference/#coalton-library/math/dual-package) and [hyperdual numbers](https://coalton-lang.github.io/reference/#coalton-library/math/hyperdual-package),
   * [flime](https://github.com/fukamachi/flime) - Real-time, project-wide Coalton compilation with isolated processes for LSP integration. [MIT][200].
   * [tokyo-tojo-json](https://github.com/tojoqk/tokyo.tojo.json) - a JSON parser implemented in Coalton.
   * [coalton-threads](https://github.com/garlic0x1/coalton-threads) - primitive thread and concurrency operations for Coalton.
