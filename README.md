@@ -64,7 +64,8 @@ sellers who aren't evil for physical resources.
 - [Game Development](#game-development)
 - [Graphics](#graphics)
 - [GUI](#gui)
-  - [Mobile](#mobile)
+    - [Web views](#web-views)
+    - [Mobile](#mobile)
 - [Implementations](#implementations)
 - [JSON](#json)
 - [YAML](#yaml)
@@ -656,10 +657,7 @@ For an overview and a tutorial on GUI toolkits, see [the Cookbook/GUI](https://l
 
 But that's not all.
 
-* for Electron, see:
-  * [Electron-lisp-boilerplate](https://github.com/mikelevins/electron-lisp-boilerplate) - a rudimentary boilerplate for building Electron apps that start a Lisp process.
-  * [ceramic](https://ceramic.github.io/) - a wrapper around simpler tools to create and build an Electron app for Common Lisp. It is currently broken and unmaintained, but some tools are workth having a look at.
-  * NOTE: the main idea in embedding a lisp web app in Electron is to start the lisp webserver as an async process from Electron's `main.js` file, and to point the Electron window to the localhost URL. That's it.
+
 * [CocoaInterface](https://github.com/plkrueger/CocoaInterface/) -
 Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
 windows dynamically using Lisp code and bypass the typical Xcode
@@ -680,6 +678,24 @@ Other utilities:
 * [file-select](https://github.com/Shinmera/file-select) -  A library to invoke the native system file dialog to select or create files. Zlib.
 
 See also this [demo to use Java Swing from ABCL](https://github.com/defunkydrummer/abcl-jazz).
+
+Web views
+-----------
+
+For Electron, see:
+
+* [Electron-lisp-boilerplate](https://github.com/mikelevins/electron-lisp-boilerplate) - a rudimentary boilerplate for building Electron apps that start a Lisp process.
+* [ceramic](https://ceramic.github.io/) - a wrapper around simpler tools to create and build an Electron app for Common Lisp. It is currently broken and unmaintained, but some tools are workth having a look at.
+* NOTE: the main idea in embedding a lisp web app in Electron is to start the lisp webserver as an async process from Electron's `main.js` file, and to point the Electron window to the localhost URL. That's it.
+
+Read: [Three web views for Common Lisp](https://lisp-journey.gitlab.io/blog/three-web-views-for-common-lisp--cross-platform-guis/).
+
+For other web views, see:
+
+* [cl-webui](https://github.com/garlic0x1/cl-webui/) - bindings for [webui](https://webui.me/), that allows to use any web browser or WebView as GUI.
+* [clogframe](https://github.com/rabbibotton/clog/tree/main/clogframe) - an executable wrapper for webview.h, allowing to display any web application served by a Common Lisp server.
+  * clogframe does *not* induce the use of the whole CLOG framework.
+
 
 Mobile
 ------
