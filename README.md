@@ -650,6 +650,9 @@ For an overview and a tutorial on GUI toolkits, see [the Cookbook/GUI](https://l
 * [cl-cffi-gtk](https://github.com/crategus/cl-cffi-gtk) - Binding for GTK+3. [GNU LGPL2.1][11].
   - a tutorial: [Learn Common Lisp by Example: GTK GUI with SBCL](https://dev.to/goober99/learn-common-lisp-by-example-gtk-gui-with-sbcl-5e5c)
 * [cl-gtk2](https://github.com/dmitryvk/cl-gtk2) - A binding for GTK+2. [LLGPL][8].
+* [Barium](https://tomscii.sig7.se/barium/) - an X widget toolkit, directly accessing the X client library and other platform libraries (OpenGL, Cairo). [MIT][200].
+  * not a wrapper of another toolkit. Allows incremental GUI development.
+  * new as of April, 2025.
 
 But that's not all.
 
