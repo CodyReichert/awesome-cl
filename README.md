@@ -764,6 +764,7 @@ JSON
   - " Shasht is one of the two new libraries that I particularly like and is already in quicklisp. It is fast, it handles null correctly, it encodes CLOS objects, structures and hash-tables. It can also do incremental encoding." Sabra Crolleton.
 * [cl-json](https://github.com/sharplispers/cl-json) - A highly customizable JSON encoder and decoder. [MIT][14].
   * "cl-json and yason are still the work horses if you need fine control, but speed is not their forte." @sabracrolleton
+* [parcom/json](https://github.com/fosskers/parcom) - An extension to `parcom` for simple, no-dependency JSON parsing.
 
 See this [extensive comparison](https://sabracrolleton.github.io/json-review) of many more JSON libraries.
 
@@ -1828,9 +1829,9 @@ Text and binary parsers
 * [MaxPC](https://github.com/eugeneia/maxpc) - a simple and pragmatic library for writing parsers and lexers based on combinatory parsing.
   * MaxPC is capable of parsing deterministic, context-free languages, provides powerful tools for parse tree transformation and error handling, and can operate on sequences and streams.
   * excellent documentation.
-* [parcom](https://github.com/fosskers/parcom) -  Simple parser combinators for Common Lisp, in the style of Haskell’s `parsec` and Rust’s `nom`. [MPL-2.0][211].
+* [parcom](https://github.com/fosskers/parcom) - Simple parser combinators for Common Lisp, in the style of Haskell’s `parsec` and Rust’s `nom`. [MPL-2.0][211].
 
-see also:
+See also:
 
 * [lisp-binary](https://github.com/j3pic/lisp-binary) - A library to easily read and write complex binary formats. [GPL3][2].
 * [texp](https://github.com/eugeneia/texp/) - A DSL to generate TeX. [AGPL-3.0][agpl3].
