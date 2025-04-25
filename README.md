@@ -2118,6 +2118,13 @@ Markdown
 
 * [3bmd](https://github.com/3b/3bmd) - a markdown -> html converter. [MIT][200].
 
+Package declarations
+-------------------------
+
+* [cl-reexport](https://github.com/takagi/cl-reexport) - when you want to import and re-export many symbols at once and `:include` or `:exclude` some.
+
+See also [uiop:define-package](https://common-lisp.net/project/asdf/uiop.html#UIOP_002fPACKAGE) and its `:reexport` clause (without include/exclude), `:recycle`, `mix`…
+
 PDF
 ---
 
