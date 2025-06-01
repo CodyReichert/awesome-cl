@@ -33,159 +33,161 @@ sellers who aren't evil for physical resources.
 **Table of Contents**
 
 - [Artificial Intelligence (AI, LLMs)](#artificial-intelligence-ai-llms)
-    - [Machine Learning](#machine-learning)
-    - [Natural Language Processing](#natural-language-processing)
+  - [Machine Learning](#machine-learning)
+  - [Natural Language Processing](#natural-language-processing)
 - [Audio](#audio)
 - [Build Systems](#build-systems)
 - [Compilers, code generators](#compilers-code-generators)
-    - [APL](#apl)
-    - [C, C++](#c-c)
+  - [APL](#apl)
+  - [C, C++](#c-c)
 - [Cryptography](#cryptography)
 - [Cryptocurrencies](#cryptocurrencies)
 - [Database](#database)
-    - [ORMs](#orms)
-    - [Persistent object databases](#persistent-object-databases)
-    - [Graph databases](#graph-databases)
-    - [Other DB wrappers](#other-db-wrappers)
-    - [Migration tools](#migration-tools)
-    - [To third parties](#to-third-parties)
-    - [Tools](#tools)
+  - [ORMs](#orms)
+  - [Persistent object databases](#persistent-object-databases)
+  - [Graph databases](#graph-databases)
+  - [Other DB wrappers](#other-db-wrappers)
+  - [Migration tools](#migration-tools)
+  - [To third parties](#to-third-parties)
+  - [Tools](#tools)
+- [Data Formats](#data-formats)
+  - [JSON](#json)
+  - [TOML](#toml)
+  - [XML](#xml)
+  - [YAML](#yaml)
 - [Data Structures](#data-structures)
 - [Docker images](#docker-images)
 - [Foreign Function Interface, languages interop](#foreign-function-interface-languages-interop)
-    - [C](#c)
-    - [Clojure](#clojure)
-    - [Erlang](#erlang)
-    - [Java](#java)
-    - [Objective-C](#objective-c)
-    - [Python](#python)
-    - [.Net Core](#net-core)
-    - [Miscellaneous](#miscellaneous)
+  - [C](#c)
+  - [Clojure](#clojure)
+  - [Erlang](#erlang)
+  - [Java](#java)
+  - [Objective-C](#objective-c)
+  - [Python](#python)
+  - [.Net Core](#net-core)
+  - [Miscellaneous](#miscellaneous)
 - [Game Development](#game-development)
 - [Graphics](#graphics)
 - [GUI](#gui)
-    - [Web views](#web-views)
-    - [Mobile](#mobile)
+  - [Web views](#web-views)
+  - [Mobile](#mobile)
 - [Implementations](#implementations)
-- [JSON](#json)
-- [YAML](#yaml)
 - [Language extensions](#language-extensions)
-    - [Pattern matching](#pattern-matching)
-    - [Portability layers](#portability-layers)
-    - [Changing the syntax](#changing-the-syntax)
-    - [CLOS extensions](#clos-extensions)
-    - [Function extensions](#function-extensions)
-    - [Iteration](#iteration)
-    - [Lambda shorthands](#lambda-shorthands)
-    - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
-    - [Reactive programming](#reactive-programming)
-    - [Contract programming](#contract-programming)
-    - [Typing](#typing)
-    - [Theorem provers](#theorem-provers)
+  - [Pattern matching](#pattern-matching)
+  - [Portability layers](#portability-layers)
+  - [Changing the syntax](#changing-the-syntax)
+  - [CLOS extensions](#clos-extensions)
+  - [Function extensions](#function-extensions)
+  - [Iteration](#iteration)
+  - [Lambda shorthands](#lambda-shorthands)
+  - [Non-deterministic, logic programming](#non-deterministic-logic-programming)
+  - [Reactive programming](#reactive-programming)
+  - [Contract programming](#contract-programming)
+  - [Typing](#typing)
+  - [Theorem provers](#theorem-provers)
 - [Learning and Tutorials](#learning-and-tutorials)
-    - [Online](#online)
-    - [Beginner](#beginner)
-    - [Intermediate](#intermediate)
-    - [Advanced](#advanced)
-    - [Coding platforms](#coding-platforms)
-    - [Web Development](#web-development)
-    - [Reference](#reference)
-    - [Offline](#offline)
-    - [Beginner](#beginner-1)
-    - [Intermediate](#intermediate-1)
-    - [Advanced](#advanced-1)
-    - [Other books](#other-books)
-    - [Community](#community)
+  - [Online](#online)
+  - [Beginner](#beginner)
+  - [Intermediate](#intermediate)
+  - [Advanced](#advanced)
+  - [Coding platforms](#coding-platforms)
+  - [Web Development](#web-development)
+  - [Reference](#reference)
+  - [Offline](#offline)
+  - [Beginner](#beginner-1)
+  - [Intermediate](#intermediate-1)
+  - [Advanced](#advanced-1)
+  - [Other books](#other-books)
+  - [Community](#community)
 - [Library Manager](#library-manager)
-    - [Interfaces to other package managers](#interfaces-to-other-package-managers)
+  - [Interfaces to other package managers](#interfaces-to-other-package-managers)
 - [Network and Internet](#network-and-internet)
-    - [HTTP clients](#http-clients)
-    - [HTTP Servers](#http-servers)
-        - [Hunchentoot plugins](#hunchentoot-plugins)
-        - [Clack plugins](#clack-plugins)
-    - [Web frameworks](#web-frameworks)
-        - [Isomorphic web frameworks](#isomorphic-web-frameworks)
-    - [Parsing html](#parsing-html)
-    - [Querying HTML/DOM, web scraping](#querying-htmldom-web-scraping)
-    - [HTML generators and templates](#html-generators-and-templates)
-    - [URI and IP handling](#uri-and-ip-handling)
-    - [Javascript](#javascript)
-    - [Deployment](#deployment)
-    - [Monitoring](#monitoring)
-    - [Websockets](#websockets)
-    - [Web development utilities](#web-development-utilities)
-        - [Assets management](#assets-management)
-        - [Browser tests](#browser-tests)
-        - [Form handling](#form-handling)
-        - [User login and password management](#user-login-and-password-management)
-        - [Web project skeletons and generators](#web-project-skeletons-and-generators)
-    - [Others](#others)
-        - [Email](#email)
-        - [OpenAPI, OData, OpenRPC](#openapi-odata-openrpc)
-        - [Static site generators](#static-site-generators)
-        - [Third-party APIs](#third-party-apis)
+  - [HTTP clients](#http-clients)
+  - [HTTP Servers](#http-servers)
+    - [Hunchentoot plugins](#hunchentoot-plugins)
+    - [Clack plugins](#clack-plugins)
+  - [Web frameworks](#web-frameworks)
+    - [Isomorphic web frameworks](#isomorphic-web-frameworks)
+  - [Parsing html](#parsing-html)
+  - [Querying HTML/DOM, web scraping](#querying-htmldom-web-scraping)
+  - [HTML generators and templates](#html-generators-and-templates)
+  - [URI and IP handling](#uri-and-ip-handling)
+  - [Javascript](#javascript)
+  - [Deployment](#deployment)
+  - [Monitoring](#monitoring)
+  - [Websockets](#websockets)
+  - [Web development utilities](#web-development-utilities)
+    - [Assets management](#assets-management)
+    - [Browser tests](#browser-tests)
+    - [Form handling](#form-handling)
+    - [User login and password management](#user-login-and-password-management)
+    - [Web project skeletons and generators](#web-project-skeletons-and-generators)
+  - [Others](#others)
+    - [Email](#email)
+    - [OpenAPI, OData, OpenRPC](#openapi-odata-openrpc)
+    - [Static site generators](#static-site-generators)
+    - [Third-party APIs](#third-party-apis)
 - [Numerical and Scientific](#numerical-and-scientific)
-    - [Matrix libraries](#matrix-libraries)
-    - [Statistics](#statistics)
-    - [Units](#units)
-    - [Utils](#utils)
+  - [Matrix libraries](#matrix-libraries)
+  - [Statistics](#statistics)
+  - [Units](#units)
+  - [Utils](#utils)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
-    - [Actors pattern](#actors-pattern)
-    - [Event processing](#event-processing)
-    - [Job processing](#job-processing)
+  - [Actors pattern](#actors-pattern)
+  - [Event processing](#event-processing)
+  - [Job processing](#job-processing)
 - [Regular expressions and string parsing](#regular-expressions-and-string-parsing)
 - [Scripting](#scripting)
-    - [Running scripts](#running-scripts)
-    - [Command-line options parsers](#command-line-options-parsers)
-    - [Readline, ncurses and other graphical helpers](#readline-ncurses-and-other-graphical-helpers)
-    - [Shells, shells interfaces](#shells-shells-interfaces)
-    - [System administration](#system-administration)
-    - [Other scripting utilities](#other-scripting-utilities)
+  - [Running scripts](#running-scripts)
+  - [Command-line options parsers](#command-line-options-parsers)
+  - [Readline, ncurses and other graphical helpers](#readline-ncurses-and-other-graphical-helpers)
+  - [Shells, shells interfaces](#shells-shells-interfaces)
+  - [System administration](#system-administration)
+  - [Other scripting utilities](#other-scripting-utilities)
 - [Text Editor Resources](#text-editor-resources)
-    - [Emacs](#emacs)
-    - [Vim & Neovim](#vim--neovim)
-    - [Eclipse](#eclipse)
-    - [Lem](#lem)
-    - [LispWorks](#lispworks)
-    - [Atom, Pulsar](#atom-pulsar)
-    - [Sublime Text](#sublime-text)
-    - [VSCode](#vscode)
-    - [JetBrains](#jetbrains)
-    - [Geany (experimental)](#geany-experimental)
-    - [Notebooks](#notebooks)
-    - [REPLs](#repls)
-    - [Online editors](#online-editors)
-    - [Apps](#apps)
+  - [Emacs](#emacs)
+  - [Vim & Neovim](#vim--neovim)
+  - [Eclipse](#eclipse)
+  - [Lem](#lem)
+  - [LispWorks](#lispworks)
+  - [Atom, Pulsar](#atom-pulsar)
+  - [Sublime Text](#sublime-text)
+  - [VSCode](#vscode)
+  - [JetBrains](#jetbrains)
+  - [Geany (experimental)](#geany-experimental)
+  - [Notebooks](#notebooks)
+  - [REPLs](#repls)
+  - [Online editors](#online-editors)
+  - [Apps](#apps)
 - [Text and binary parsers](#text-and-binary-parsers)
 - [Text Processing](#text-processing)
 - [Tools](#tools-1)
 - [Unit Testing](#unit-testing)
 - [Utilities](#utilities)
-    - [Caching (serialization)](#caching-serialization)
-    - [Caching (memoization)](#caching-memoization)
-    - [Compression / decompression](#compression--decompression)
-    - [Configuration](#configuration)
-    - [CSV](#csv)
-    - [Date and time](#date-and-time)
-    - [Data validation](#data-validation)
-    - [Developer utilities](#developer-utilities)
-    - [Documentation builders](#documentation-builders)
-    - [Files and directories](#files-and-directories)
-    - [Git](#git)
-    - [i18n](#i18n)
-    - [Linting, code formatting](#linting-code-formatting)
-    - [Literate programming](#literate-programming)
-    - [Logging](#logging)
-    - [Macro helpers](#macro-helpers)
-    - [Markdown](#markdown)
-    - [Package declarations](#package-declarations)
-    - [PDF](#pdf)
-    - [Plotting](#plotting)
-    - [Project skeletons](#project-skeletons)
-    - [Security](#security)
-    - [System interface](#system-interface)
-    - [XML](#xml)
-    - [Other](#other)
+  - [Caching (serialization)](#caching-serialization)
+  - [Caching (memoization)](#caching-memoization)
+  - [Compression / decompression](#compression--decompression)
+  - [Configuration](#configuration)
+  - [CSV](#csv)
+  - [Date and time](#date-and-time)
+  - [Data validation](#data-validation)
+  - [Developer utilities](#developer-utilities)
+  - [Documentation builders](#documentation-builders)
+  - [Files and directories](#files-and-directories)
+  - [Git](#git)
+  - [i18n](#i18n)
+  - [Linting, code formatting](#linting-code-formatting)
+  - [Literate programming](#literate-programming)
+  - [Logging](#logging)
+  - [Macro helpers](#macro-helpers)
+  - [Markdown](#markdown)
+  - [Package declarations](#package-declarations)
+  - [PDF](#pdf)
+  - [Plotting](#plotting)
+  - [Project skeletons](#project-skeletons)
+  - [Security](#security)
+  - [System interface](#system-interface)
+  - [Other](#other)
 - [Contributing](#contributing)
 
 <!-- markdown-toc end -->
@@ -438,6 +440,68 @@ Tools
 * ⭐ [pgloader](https://github.com/dimitri/pgloader) - a data loading tool for PostgreSQL. [PostgreSQL Licence][205].
   * obligatory blog post: [Why is pgloader so much faster?](https://tapoueh.org/blog/2014/05/why-is-pgloader-so-much-faster/) (hint: it was re-written from Python to Common Lisp)
 
+Data Formats
+============
+
+JSON
+----
+
+* 👍 [jzon](https://github.com/Zulu-Inuoe/jzon/) - a correct, safe and fast JSON parser. [MIT][200].
+  * jzon is the only CL JSON library which correctly declines all invalid inputs per the official JSON test suite and accepts all valid inputs per that suite.
+  * it doesn't crash on invalid input (jsown), doesn't choke on large datasets (Jonathan), and more.
+  * v1.0 released in the Quicklisp dist of February, 2023.
+  * "I believe jzon to be the superior choice and hope for it to become the new, true de-facto library in the world of JSON-in-CL once and for all."
+* [shasht](https://github.com/yitzchak/shasht) -  Common Lisp JSON reading and writing for the Kzinti. [MIT][14].
+  - "Shasht is one of the two new libraries that I particularly like and is already in quicklisp. It is fast, it handles null correctly, it encodes CLOS objects, structures and hash-tables. It can also do incremental encoding." Sabra Crolleton.
+* [cl-json](https://github.com/sharplispers/cl-json) - A highly customizable JSON encoder and decoder. [MIT][14].
+  * "cl-json and yason are still the work horses if you need fine control, but speed is not their forte." @sabracrolleton
+* [parcom/json](https://github.com/fosskers/parcom) - An extension to `parcom` for simple, fast, no-dependency JSON parsing.
+
+See this [extensive comparison](https://sabracrolleton.github.io/json-review) of many more JSON libraries.
+
+JSON tools:
+
+* [NJSON](https://github.com/atlas-engineer/njson) - Parser-agnostic JSON indexing (with JSON Pointer support), destructuring, and validation framework. [BSD][15].
+* [json-mop](https://github.com/gschjetne/json-mop) - A metaclass for bridging CLOS and JSON objects. [MIT][200].
+  * depends on YASON
+  * for JSON libraries that don't do it natively (jzon, shasht and cl-json are able to *encode* CLOS objects to JSON out of the box, and cl-json has the ability to *decode* JSON objects into a "fluid-class" CLOS object.)
+* [cl-json-pointer](https://github.com/y2q-actionman/cl-json-pointer) - A JSON Pointer implementation. [MIT][200].
+* [cl-jwk](https://github.com/dnaeon/cl-jwk) -  Common Lisp system for decoding public JSON Web Keys (JWK). BSD License.
+* [JOSE](https://github.com/fukamachi/jose) - A JSON Object Signing and Encryption (JOSE) implementation for Common Lisp. BSD_2Clause.
+
+and search for JSON RPC below.
+
+TOML
+----
+* [parcom/toml](https://github.com/fosskers/parcom) - An extension to `parcom` for simple, no-dependency TOML parsing.
+* [clop](https://github.com/sheepduke/clop) - A 1.0-compliant TOML parser.
+
+XML
+---
+
+* [CXML](https://common-lisp.net/project/cxml/) - XML parser and serializer, with a range of extension libraries. [LLGPL][8].
+  - 👍 has an incremental parser, allowing to parse big files.
+  - see the [FXML](https://github.com/ruricolist/FXML) fork, with fixes and new features. You should use it if your are parsing potentially ill-formed or malicious XML, or if you need to use Klacks with namespaces.
+* [Plump][71] - A lenient XML parser. [zlib][33].
+* [parcom/xml](https://github.com/fosskers/parcom) - An extension to `parcom` for simple, fast XML parsing.
+* [xpath](https://github.com/sharplispers/xpath) ([homepage](https://common-lisp.net/project/plexippus-xpath/atdoc/index.html) - Implementation of the XML Path Language (XPath) Version 1.0. [BSD_2Clause][17].
+* [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
+* [xmls](https://github.com/rpgoldman/xmls) - A small, simple, non-validating XML parser. [3-clause BSD][15].
+* [cl-feedparser](https://github.com/TBRSS/cl-feedparser) - A Common Lisp (RSS, Atom) feed parser. [LLGPL][8]
+* [Buildnode](https://github.com/AccelerationNet/buildnode) - A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. [BSD][15].
+
+To read Excel files:
+
+* [lisp-xl](https://github.com/defunkydrummer/lisp-xl) -  Common Lisp Microsoft XLSX (Microsoft Excel) loader for arbitrarily-sized / big-size files. MIT.
+* [xlsx](https://gitlab.common-lisp.net/cungil/xlsx) - a basic reader for Excel files.
+
+YAML
+----
+
+* 👍 [cl-yaml](https://github.com/eudoxia0/cl-yaml.git) - a YAML parser and emitter built on top of libyaml. [MIT][200].
+  * an active fork: [cl-RemiYaml](https://nanako.mooo.com/fossil/cl-remiyaml/index) with a few fixes. Not a drop-in replacement.
+* [nyaml](https://github.com/jasom/nyaml) - A lisp native YAML parser. MIT.
+* [cl-yacclyaml](https://github.com/mabragor/cl-yaclyaml) - a pure lisp YAML processor (loader, but not yet dumper). [GPL3][2].
 
 Data Structures
 ===============
@@ -750,45 +814,6 @@ You can check the implementations' compatibility to common extensions here: [por
 See also:
 
 * [cl-all](https://github.com/shinmera/cl-all) - A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. [zlib][33].
-
-
-JSON
-====
-
-* 👍 [jzon](https://github.com/Zulu-Inuoe/jzon/) - a correct, safe and fast JSON parser. [MIT][200].
-  * jzon is the only CL JSON library which correctly declines all invalid inputs per the official JSON test suite and accepts all valid inputs per that suite.
-  * it doesn't crash on invalid input (jsown), doesn't choke on large datasets (Jonathan), and more.
-  * v1.0 released in the Quicklisp dist of February, 2023.
-  * "I believe jzon to be the superior choice and hope for it to become the new, true de-facto library in the world of JSON-in-CL once and for all."
-* [shasht](https://github.com/yitzchak/shasht) -  Common Lisp JSON reading and writing for the Kzinti. [MIT][14].
-  - " Shasht is one of the two new libraries that I particularly like and is already in quicklisp. It is fast, it handles null correctly, it encodes CLOS objects, structures and hash-tables. It can also do incremental encoding." Sabra Crolleton.
-* [cl-json](https://github.com/sharplispers/cl-json) - A highly customizable JSON encoder and decoder. [MIT][14].
-  * "cl-json and yason are still the work horses if you need fine control, but speed is not their forte." @sabracrolleton
-* [parcom/json](https://github.com/fosskers/parcom) - An extension to `parcom` for simple, no-dependency JSON parsing.
-
-See this [extensive comparison](https://sabracrolleton.github.io/json-review) of many more JSON libraries.
-
-JSON tools:
-
-* [NJSON](https://github.com/atlas-engineer/njson) - Parser-agnostic JSON indexing (with JSON Pointer support), destructuring, and validation framework. [BSD][15].
-* [json-mop](https://github.com/gschjetne/json-mop) - A metaclass for bridging CLOS and JSON objects. [MIT][200].
-  * depends on YASON
-  * for JSON libraries that don't do it natively (jzon, shasht and cl-json are able to *encode* CLOS objects to JSON out of the box, and cl-json has the ability to *decode* JSON objects into a "fluid-class" CLOS object.)
-* [cl-json-pointer](https://github.com/y2q-actionman/cl-json-pointer) - A JSON Pointer implementation. [MIT][200].
-* [cl-jwk](https://github.com/dnaeon/cl-jwk) -  Common Lisp system for decoding public JSON Web Keys (JWK). BSD License.
-* [JOSE](https://github.com/fukamachi/jose) - A JSON Object Signing and Encryption (JOSE) implementation for Common Lisp. BSD_2Clause.
-
-and search for JSON RPC below.
-
-
-YAML
-====
-
-* 👍 [cl-yaml](https://github.com/eudoxia0/cl-yaml.git) - a YAML parser and emitter built on top of libyaml. [MIT][200].
-  * an active fork: [cl-RemiYaml](https://nanako.mooo.com/fossil/cl-remiyaml/index) with a few fixes. Not a drop-in replacement.
-* [nyaml](https://github.com/jasom/nyaml) - A lisp native YAML parser. MIT.
-* [cl-yacclyaml](https://github.com/mabragor/cl-yaclyaml) - a pure lisp YAML processor (loader, but not yet dumper). [GPL3][2].
-
 
 Language extensions
 ===================
@@ -2198,25 +2223,6 @@ System interface
 
 * [machine-state](https://github.com/Shinmera/machine-state/) -  Retrieve machine state information about CPU time, memory usage, thread processing time, etc.
 
-XML
----
-
-* [CXML](https://common-lisp.net/project/cxml/) - XML parser and serializer, with a range of extension libraries. [LLGPL][8].
-  - 👍 has an incremental parser, allowing to parse big files.
-  - see the [FXML](https://github.com/ruricolist/FXML) fork, with fixes and new features. You should use it if your are parsing potentially ill-formed or malicious XML, or if you need to use Klacks with namespaces.
-* [Plump][71] - A lenient XML parser. [zlib][33].
-* [xpath](https://github.com/sharplispers/xpath) ([homepage](https://common-lisp.net/project/plexippus-xpath/atdoc/index.html) - Implementation of the XML Path Language (XPath) Version 1.0. [BSD_2Clause][17].
-* [s-xml](http://cliki.net/S-XML) - A basic parser. [LLGPL][8].
-* [xmls](https://github.com/rpgoldman/xmls) - A small, simple, non-validating XML parser. [3-clause BSD][15].
-* [cl-feedparser](https://github.com/TBRSS/cl-feedparser) - A Common Lisp (RSS, Atom) feed parser. [LLGPL][8]
-* [Buildnode](https://github.com/AccelerationNet/buildnode) - A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. [BSD][15].
-
-To read Excel files:
-
-* [lisp-xl](https://github.com/defunkydrummer/lisp-xl) -  Common Lisp Microsoft XLSX (Microsoft Excel) loader for arbitrarily-sized / big-size files. MIT.
-* [xlsx](https://gitlab.common-lisp.net/cungil/xlsx) - a basic reader for Excel files.
-
-
 Other
 -----
 
@@ -2229,7 +2235,6 @@ This contains anything which doesn't fit into another category.
 * [simple-currency](https://github.com/a0-prw/simple-currency) - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
 * [trivial-garbage](https://github.com/trivial-garbage/trivial-garbage) - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-utf8](https://common-lisp.net/project/trivial-utf-8/) - A small library for doing UTF-8-based I/O. BSD.
-
 
 Contributing
 ============
