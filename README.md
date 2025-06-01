@@ -457,7 +457,7 @@ JSON
   * "cl-json and yason are still the work horses if you need fine control, but speed is not their forte." @sabracrolleton
 * [parcom/json](https://github.com/fosskers/parcom) - An extension to `parcom` for simple, fast, no-dependency JSON parsing.
 
-See this [extensive comparison](https://sabracrolleton.github.io/json-review) of many more JSON libraries.
+See this [extensive comparison](https://sabracrolleton.github.io/json-review) of many more JSON libraries, as well as [these benchmarks](https://github.com/fosskers/parcom?tab=readme-ov-file#json-benchmarks).
 
 JSON tools:
 
