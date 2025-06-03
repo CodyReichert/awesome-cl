@@ -51,6 +51,7 @@ sellers who aren't evil for physical resources.
   - [To third parties](#to-third-parties)
   - [Tools](#tools)
 - [Data Formats](#data-formats)
+  - [CSV](#csv)
   - [JSON](#json)
   - [TOML](#toml)
   - [XML](#xml)
@@ -168,7 +169,6 @@ sellers who aren't evil for physical resources.
   - [Caching (memoization)](#caching-memoization)
   - [Compression / decompression](#compression--decompression)
   - [Configuration](#configuration)
-  - [CSV](#csv)
   - [Date and time](#date-and-time)
   - [Data validation](#data-validation)
   - [Developer utilities](#developer-utilities)
@@ -442,6 +442,18 @@ Tools
 
 Data Formats
 ============
+
+CSV
+---
+
+* ⭐ [cl-csv](https://github.com/AccelerationNet/cl-csv) - A library for parsing CSV files. [3-clause BSD][15].
+  * [documentation](https://github.com/AccelerationNet/cl-csv/blob/master/DOCUMENTATION.md)
+  * [example blog post](https://dev.to/vindarel/read-csv-files-in-common-lisp-cl-csv-data-table-3c9n).
+* [cl-decimals](https://github.com/tlikonen/cl-decimals) - Decimal number parser and formatter. Public domain.
+* [auto-text](https://github.com/defunkydrummer/auto-text) - automatic (encoding, end of line, column width, csv delimiter etc) detection for text files. [MIT][200]. See also [inquisitor](https://github.com/t-sin/inquisitor) for detection of asian and far eastern languages.
+* [csv-validator](https://github.com/KoenvdBerg/csv-validator) - Validates tabular CSV data using predefined validations, inspired from its Python homologue "Great Expectations". [BSD_3Clause][15].
+
+See also: cl-duckdb for fast parsing, [lisp-stat's data-frames `read-csv`](https://lisp-stat.dev/docs/manuals/data-frame/), [vellum-csv](https://github.com/sirherrbatka/vellum-csv/) (data frames library), vellum-duckdb.
 
 JSON
 ----
@@ -1966,19 +1978,6 @@ Configuration
 * 👍 [py-configparser](https://common-lisp.net/project/py-configparser/) - reads and writes Python's ConfigParser-like configuration files. [MIT][200].
 * [envy](https://github.com/fukamachi/envy) - Configuration switcher. [FreeBSD][39].
 * [chameleon](https://github.com/sheepduke/chameleon/) - a configuration management library shipped with profile support. [MIT][200].
-
-CSV
----
-
-* ⭐ [cl-csv](https://github.com/AccelerationNet/cl-csv) - A library for parsing CSV files. [3-clause BSD][15].
-  * [documentation](https://github.com/AccelerationNet/cl-csv/blob/master/DOCUMENTATION.md)
-  * [example blog post](https://dev.to/vindarel/read-csv-files-in-common-lisp-cl-csv-data-table-3c9n).
-* [cl-decimals](https://github.com/tlikonen/cl-decimals) - Decimal number parser and formatter. Public domain.
-* [auto-text](https://github.com/defunkydrummer/auto-text) - automatic (encoding, end of line, column width, csv delimiter etc) detection for text files. [MIT][200]. See also [inquisitor](https://github.com/t-sin/inquisitor) for detection of asian and far eastern languages.
-* [csv-validator](https://github.com/KoenvdBerg/csv-validator) - Validates tabular CSV data using predefined validations, inspired from its Python homologue "Great Expectations". [BSD_3Clause][15].
-
-see also: cl-duckdb for fast parsing, [lisp-stat's data-frames `read-csv`](https://lisp-stat.dev/docs/manuals/data-frame/), [vellum-csv](https://github.com/sirherrbatka/vellum-csv/) (data frames library), vellum-duckdb.
-
 
 Date and time
 -------------
