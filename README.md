@@ -319,6 +319,11 @@ C, C++
 * [Software-Evolution-Library](https://github.com/GrammaTech/sel) - The SEL enables the programmatic modification and evaluation of software (C/C++ support using Clang, compiled assembler, and linked ELF binaries). [GPL3][2].
 * [vacietis](https://github.com/vsedach/Vacietis) -  C to Common Lisp compiler. [LGPL3][9].
 
+Lisp -> Languages
+-------------
+
+* [type-transpiler](https://github.com/cl-sdk/type-transpiler/) - A DSL to describe types and generate in your target language. [Unlicense][5]
+
 Cryptography
 ============
 
@@ -972,6 +977,7 @@ Typing
 * 👍 [trivial-types](https://github.com/m2ym/trivial-types) - provides missing but important type definitions such as `proper-list`, `association-list`, `property-list` and `tuple`. [LLGPL][8].
 * [defstar](https://bitbucket.org/eeeickythump/defstar/src/master/) - a collection of macros for easy inclusion of type declarations for arguments in lambda lists. [GNU GPL3][2]
 * [algebraic-data-types](https://github.com/stylewarning/cl-algebraic-data-type) - defining algebraic data types in a similar spirit to Haskell or Standard ML, as well as for operating on them. [BSD_3Clause][15].
+* [meta](https://github.com/cl-sdk/meta) - Meta is a library to create infinite types and derivations. [Unlicense][5].
 
 See also:
 
@@ -1385,6 +1391,10 @@ Web development utilities
 
 * 👍 [cl-forms](https://github.com/mmontone/cl-forms) -  Web forms handling library for Common lisp. [MIT][200].
 
+### Routing
+
+* [wst](https://github.com/cl-sdk/wst) - Tools to help you build a web application in Common Lisp. (mostly routing and request/response primitives) [Unlicense][5]
+
 ### User login and password management
 
 * [cl-authentic](https://github.com/charJe/cl-authentic) -  Password management for Common Lisp (web) applications. [LLGPL][8].
@@ -1398,6 +1408,10 @@ Web development utilities
   * [cas-demo](https://github.com/fferrere/cas-demo) - a demo project.
 
 See also mito-auth and the Hunchentoot and Clack plugins above.
+
+### Utilities
+
+* [cl-html5-query-selector](https://github.com/cl-sdk/cl-html5-query-selector) -  A basic HTML5 query selector utility. [Unlicense][5]
 
 ### Web project skeletons and generators
 
