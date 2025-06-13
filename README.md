@@ -2202,6 +2202,7 @@ Project skeletons
 * [cl-cookieproject](https://github.com/vindarel/cl-cookieproject) -  Generate a ready-to-use Common Lisp project. Not in Quicklisp. [BSD_3Clause][15].
   * test definitions, entry point to run from sources, build a binary, Roswell integration…
 * [cookiecutter-lisp-game](https://github.com/lockie/cookiecutter-lisp-game) - An opinionated cookiecutter template for Common Lisp videogame projects. Allows to choose [backend middleware library](#graphics) between liballegro, raylib and SDL2. Contains CI scripts using [docker-lisp-gamedev](#docker-images) to automatically build binaries for Windows, MacOS and Linux.
+* [cl-skel](https://github.com/eldriv/cl-skel) - Sets up a clean, generalized and organized project templates—making it well-suited for rapid prototyping. It uses Marie for simplified dependency management. [BSD_3Clause][15].
 
 Security
 --------
