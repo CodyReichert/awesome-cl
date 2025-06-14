@@ -1120,7 +1120,7 @@ Library Manager
 * ⭐ [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
   * [ql-https](https://github.com/rudolfochrist/ql-https) - shell out to cURL and use HTTPS by default.
   * [Quicklisp bundles](https://quicklisp.org/beta/bundles.html) -  self-contained sets of systems that are exported from Quicklisp and loadable without involving Quicklisp.
-* [ocicl](https://github.com/ocicl/ocicl) - a new and experimental alternative to Quicklisp, built on tools from the world of containers. [MIT][200].
+* [ocicl](https://github.com/ocicl/ocicl) - A modern dependency management tool with novel features. [MIT][200].
 * [Ultralisp](http://ultralisp.org/) - A Quicklisp distribution which updates every 5 minutes and to which one can add his project in one click. [BSD][15].
 * [Roswell](https://github.com/roswell/roswell) - a Lisp implementation installer, script launcher and more. [MIT][200].
 * [Qlot](https://github.com/fukamachi/qlot) - A project-local library installer, similar to Bundler or Virtualenv. [Expat][14].
