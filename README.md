@@ -2046,6 +2046,7 @@ programming environment and documentation generator. one may
 accomplish similar effects as with Literate Programming, but
 documentation is generated from code, not vice versa. Code is first,
 code must look pretty, documentation is code. [MIT][200].
+  - also PDF export
   - see this [40ants/doc](https://github.com/40ants/doc) fork: a lighter core system, a JavaScript search index, multiple format output, HTML themes, RSS and Atom feed for the Changelog and more.
 * [sphinxcontrib-cldomain](https://sphinxcontrib-cldomain.russellsim.org/) -
   Extending Sphinx to cover Common Lisp. To build documentation with
