@@ -567,6 +567,11 @@ heaps:
 
 * [pileup](http://nikodemus.github.io/pileup/) - a portable, performant, and thread-safe binary heap for Common Lisp. [MIT][200].
 
+queues:
+
+* [cl-freelock](https://github.com/ItsMeForLua/cl-freelock) - thread-safe, lock-free queues optimized for different use cases and hardware. The library offers three queue types, each designed for specific concurrency patterns and performance requirements.
+  * On systems with many cores, cl-freelock demonstrates up to 3.2x performance improvements over competing libraries.
+
 
 bigger collection libraries:
 
