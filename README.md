@@ -1812,6 +1812,7 @@ Slime extensions:
 Sly extensions:
 
 * [sly-overlay](https://git.sr.ht/~fosskers/sly-overlay) - an extension for Sly that enables the overlay of Common Lisp evaluation results directly into the buffer in the spirit of CIDER (Clojure), Eros (Emacs Lisp) and the Lem editor.
+* [sly-mrepl-db](https://gitlab.com/akashadutchie/sly-mrepl-db) - from the debugger, evaluate expressions in a REPL with frame context (and not only in the minibuffer).
 
 ## Vim & Neovim ##
 
