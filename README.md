@@ -324,6 +324,8 @@ C, C++
 * [ecrepl](https://gitlab.common-lisp.net/ecl/ecrepl) - an interactive REPL for the C language. [BSD_2Clause][17].
 * [Software-Evolution-Library](https://github.com/GrammaTech/sel) - The SEL enables the programmatic modification and evaluation of software (C/C++ support using Clang, compiled assembler, and linked ELF binaries). [GPL3][2].
 * [vacietis](https://github.com/vsedach/Vacietis) -  C to Common Lisp compiler. [LGPL3][9].
+* NEW as of 2025 [Cicili](https://github.com/saman-pasha/cicili/) - C generator macro-driven language. GPL3.0.
+  * "can use lisp libraries to produce compile time content like html, json, sql, ... for inside C generated code".
 
 Cryptography
 ============
