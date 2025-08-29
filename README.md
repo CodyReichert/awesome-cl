@@ -529,6 +529,7 @@ Data Structures
 strings:
 
 * 👍 [str](https://github.com/vindarel/cl-str) - a modern, simple and consistent string manipulation library. [MIT][200].
+* [rope](https://github.com/garlic0x1/rope) -  Immutable Ropes for Common Lisp. MIT.
 
 lists and sequences:
 
@@ -545,7 +546,6 @@ lists and sequences:
 * [sycamore](https://github.com/ndantam/sycamore) -  a fast, purely functional data structure library. [BSD_3Clause][15].
   - comparison: [FSet vs. Sycamore](https://scottlburson2.blogspot.com/2024/10/comparison-fset-vs-sycamore.html)
 * [modf](https://github.com/smithzvk/modf) - a setf-like macro for functional programming.
-* [rope](https://github.com/garlic0x1/rope) -  Immutable Ropes for Common Lisp. MIT.
 * also cl-containers, cl-data-structures
 
 hash-tables:
