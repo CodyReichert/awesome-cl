@@ -1716,6 +1716,8 @@ Readline, ncurses and other graphical helpers
   interface to `libcurses` in Common Lisp. It provides both a raw,
   low-level interface to libcurses via CFFI, and a more higher-level
   lispier interface. [MIT][200].
+* [cl-termbox2](https://github.com/garlic0x1/cl-termbox2) - [Termbox2](https://github.com/termbox/termbox2) bindings.
+  * "termbox2 is a terminal I/O library for creating TUIs. It is a slim alternative to the ubiquitous ncurses library. Unlike ncurses, it has a tighter API, and comes with built-in support for popular terminals if a terminfo db is not present on the system."
 * [replic](https://github.com/vindarel/replic/) - helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. [MIT][200].
 * [cl-ansi-term](https://github.com/vindarel/cl-ansi-term) - print
   colorized text, horizontal lines, progress bars, (un)ordered lists
