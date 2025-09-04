@@ -1475,11 +1475,21 @@ Others
 ### Email
 
 * [trivial-imap](https://github.com/40ants/trivial-imap) - tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). [BSD][15].
-* [Postmaster](https://github.com/eudoxia0/postmaster) - A simple, easy-to-use SMTP/IMAP library. [Expat][14].
 * [cl-smtp](https://gitlab.common-lisp.net/cl-smtp/cl-smtp) - CL-SMTP is a simple lisp smtp client.
+* [Postmaster](https://github.com/eudoxia0/postmaster) - A simple, easy-to-use SMTP/IMAP library, based on cl-smtp. [Expat][14].
+
+Sending emails with a third-party provider:
+
 * [sendgrid](https://github.com/vindarel/cl-sendgrid) - send emails with Sendgrid's API. [MIT][200].
 * [mailgun](https://github.com/40ants/mailgun) - A thin wrapper to post HTML emails through mailgun.com. [unlicence][5].
-* [cl-ses](https://github.com/CodyReichert/cl-ses/) - Library for AWS SES. [Expat][14].
+
+Parsing email addresses:
+
+* [darts.lib.email.address](https://github.com/deterministic-arts/DartsCLEmailAddress) for RFC 5322 parsing
+  * *last commit 9 years ago*
+* try [email-parse](https://github.com/pyramidi0n/email-parse) or [email-validator](https://github.com/mtha790/email-validator) for RFC 5321.
+  * *new as of 2025*
+
 
 ### OpenAPI, OData, OpenRPC
 
