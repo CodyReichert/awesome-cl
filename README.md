@@ -919,6 +919,10 @@ For strings:
 * [pythonic-string-reader](https://github.com/smithzvk/pythonic-string-reader) - A simple and unobtrusive read table modification inspired by Python's three quote strings. [BSD_3Clause][15].
 * [cl-heredoc](https://github.com/outergod/cl-heredoc) - a ["heredocs"](https://github.com/outergod/cl-heredoc) dispatcher. [GPL3][2]. Allows to write: `#>eof>Write whatever (you) "want", no matter what characters, until the magic end sequence has been reached.eof`
 
+Experimental:
+
+* [Moonly](https://gitlab.com/digikar/moonli) - Algol-style syntax that transpiles to Common Lisp.
+  * not even experimental but *pre-experimental*. New as of 2025.
 
 CLOS extensions
 ---------------
@@ -1488,7 +1492,7 @@ Parsing email addresses:
 * [darts.lib.email.address](https://github.com/deterministic-arts/DartsCLEmailAddress) for RFC 5322 parsing
   * *last commit 9 years ago*
 * try [email-parse](https://github.com/pyramidi0n/email-parse) or [email-validator](https://github.com/mtha790/email-validator) for RFC 5321.
-  * *new as of 2025*
+  * *NEW As of 2025*
 
 
 ### OpenAPI, OData, OpenRPC
@@ -1704,7 +1708,7 @@ do better? We can always build a binary.*
 * [CIEL](https://github.com/ciel-lang/CIEL/) - CIEL Is an Extended Lisp is a collection of dozens of libraries useful for mundane tasks (HTTP, JSON, regexps…). [unclear licence]
   * It also comes as a binary that is able to run scripts from sources. Scripts that use the built-in libraries start fast without a compilation step.
   * *in beta as of 2024*
-* NEW in 2024 [kiln](https://github.com/ruricolist/kiln) - an infrastructure (managing a hidden multicall binary) to make Lisp scripting efficient and ergonomic. [MIT][200].
+* [kiln](https://github.com/ruricolist/kiln) - an infrastructure (managing a hidden multicall binary) to make Lisp scripting efficient and ergonomic. [MIT][200].
   * Kiln makes it practical to write very small scripts. Kiln scripts are fast and cheap to the point where it makes sense to expose even small pieces of Lisp functionality to the shell.
 
 
