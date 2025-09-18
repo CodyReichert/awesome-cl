@@ -491,6 +491,10 @@ JSON tools:
 * [cl-jwk](https://github.com/dnaeon/cl-jwk) -  Common Lisp system for decoding public JSON Web Keys (JWK). BSD License.
 * [JOSE](https://github.com/fukamachi/jose) - A JSON Object Signing and Encryption (JOSE) implementation for Common Lisp. BSD_2Clause.
 
+JSON online services:
+
+* [pantry](https://github.com/dotemacs/pantry) - client library for the [Pantry JSON storage service](https://getpantry.cloud/). BSD.
+
 and search for JSON RPC below.
 
 TOML
