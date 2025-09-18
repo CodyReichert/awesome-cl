@@ -34,6 +34,7 @@ sellers who aren't evil for physical resources.
 
 - [Artificial Intelligence (AI, LLMs)](#artificial-intelligence-ai-llms)
   - [Machine Learning](#machine-learning)
+  - [MCP servers](#mcp-servers)
   - [Natural Language Processing](#natural-language-processing)
 - [Audio](#audio)
 - [Build Systems](#build-systems)
@@ -115,6 +116,7 @@ sellers who aren't evil for physical resources.
   - [URI and IP handling](#uri-and-ip-handling)
   - [Javascript](#javascript)
   - [Deployment](#deployment)
+    - [Hosting platforms](#hosting-platforms)
   - [Monitoring](#monitoring)
   - [Websockets](#websockets)
   - [Web development utilities](#web-development-utilities)
@@ -1395,9 +1397,18 @@ Deployment
 
 See also:
 
-- [Platform.sh](https://platform.sh/blog/2019/lisp/) has Common Lisp support, so has [OVH](https://docs.ovh.com/ie/en/web-paas/languages-lisp/) through their Web PaaS partnership.
-- [Heliohost](https://www.heliohost.org/) for a free hosting solution.
 - [Cloud Init file for SBCL](https://git.sr.ht/%7Emarcuskammer/cloudinit/tree/main/item/sbcl-nginx.yml) - an init file for providers supporting the cloudinit format (DigitalOcean etc).
+
+### Hosting platforms
+
+We can host Common Lisp services on any server. These services offer
+out of the box availability for CL:
+
+- [Heliohost](https://www.heliohost.org/) for a free hosting solution.
+- [Nearly Free Speech](https://www.nearlyfreespeech.net/) - 25+ programming languages, pay for what you use.
+  - SBCL and GNU CLISP
+- [Platform.sh](https://platform.sh/blog/2019/lisp/) has Common Lisp support, so has [OVH](https://docs.ovh.com/ie/en/web-paas/languages-lisp/) through their Web PaaS partnership.
+
 
 Monitoring
 ----------
