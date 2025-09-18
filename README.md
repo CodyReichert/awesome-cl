@@ -1508,9 +1508,7 @@ Sending emails with a third-party provider:
 
 Parsing email addresses:
 
-* [darts.lib.email.address](https://github.com/deterministic-arts/DartsCLEmailAddress) for RFC 5322 parsing
-  * *last commit 9 years ago*
-* try [email-parse](https://github.com/pyramidi0n/email-parse) or [email-validator](https://github.com/mtha790/email-validator) for RFC 5321.
+* [parcom/email](https://github.com/fosskers/parcom/?tab=readme-ov-file#email-addresses) - types and parsers for RFC5322 email addresses. The implementation is RFC-compliant and particularly memory-efficient for well-behaved addresses.
   * *NEW As of 2025*
 
 
