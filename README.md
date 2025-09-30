@@ -1245,10 +1245,22 @@ HTTP Servers
 
 * ⭐ [Hunchentoot](http://weitz.de/hunchentoot/) - A web server. [2-clause BSD][207]
 * 👍[Clack](https://github.com/fukamachi/clack) - A web application environment inspired by Rack and WSGI. [LLGPL][8].  Provides a unified interface to a webserver of choice (default is Hunchentoot). With more [getting started guide](https://jasom.github.io/clack-tutorial/posts/getting-started-with-clack/).
-* [zaserve](https://github.com/gendl/aserve) - A portable fork of AllegroServe, by Franz Inc.  [LLGPL][8].
 * [wookie](https://github.com/orthecreedence/wookie) - Asynchronous HTTP server. [Expat][14].
 * [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of libev. [MIT][200].
-* [cl-http2-protocol](https://github.com/akamai/cl-http2-protocol) - a pure Common Lisp transport agnostic implementation of the HTTP/2 protocol at draft-14. [MIT][200].
+
+See also:
+
+* [portableaserve](https://github.com/sharplispers/portableaserve) - an attempt to provide the functionality of Franz.com's AllegroServe web server to other lisp implementations.
+  * the system named `aserve` on Quicklisp.
+  * AllegroServe is open-source: LGPL2.1.
+  * it provides:
+    * HTTP/1.1 compliant web server capable of serving static and dynamic pages.
+    * SSL for client an server, web proxy, CGI, chunking, compress and inflate files on the fly,
+    * A publish function that builds a page from static and dynamic data and handles caching of the result, with access rights.
+  * Allegro's [Aserve documentation](https://github.com/franzinc/aserve/blob/master/doc/aserve.md)
+  * ! not all AllegroServe tests pass on portableaserve.
+  * [zaserve](https://github.com/gendl/aserve) - a portable fork of AllegroServe [LLGPL][8].
+* [cl-http2-protocol](https://github.com/akamai/cl-http2-protocol) (*archived*) - a pure Common Lisp transport agnostic implementation of the HTTP/2 protocol at draft-14. [MIT][200].
 
 ### Hunchentoot plugins
 
