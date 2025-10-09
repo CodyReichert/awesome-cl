@@ -1118,7 +1118,6 @@ Reference
   * with an interactive search, syntax highlighting! And open-source.
 * NEW! [novaspec](https://novaspec.org/) - a modern rendition of the CL ANSI draft.
   * not open-source?
-
 * [Common Lisp Quick Reference](http://clqr.boundp.org/index.html) - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
 * [CLHS](http://www.lispworks.com/documentation/lw50/CLHS/Front/index.htm) - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
 * [CLOS MOP specification](https://clos-mop.hexstreamsoft.com/) - A modern public domain online version of chapters 5 and 6 of The Art of the Metaobject Protocol
@@ -1737,8 +1736,6 @@ Running scripts
 but there is a start-up time specially when loading libraries. Can we
 do better? We can always build a binary.*
 
-* 👍 [Roswell](https://github.com/roswell/roswell#scripting-with-roswell) - a script installer and launcher, that makes it easy to distribute Lisp scripts and programs. [MIT][200].
-  * *compiles a binary under the hood*
 * [ScriptL](https://github.com/rpav/ScriptL) - Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. [LLGPL][8].
   * similar and maybe simpler: [lserver](https://notabug.org/quasus/lserver/)
 * [CIEL](https://github.com/ciel-lang/CIEL/) - CIEL Is an Extended Lisp is a collection of dozens of libraries useful for mundane tasks (HTTP, JSON, regexps…). [unclear licence]
