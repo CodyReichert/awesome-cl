@@ -1927,7 +1927,7 @@ Tools:
 ## JetBrains
 
 * [SLT](https://github.com/Enerccio/SLT) -  an IDE Plugin for Itellij/Jetbrains IDE lineup implementing support for Common Lisp via SBCL and Slime/Swank.
-  - 🎉 NEW! Released in Jan, 2023.
+  - released in Jan, 2023.
 
 ## Geany (experimental) ##
 
@@ -2113,8 +2113,8 @@ See also the book [Calendrical calculations](https://www.cambridge.org/us/academ
 Data validation
 ---------------
 
-* [ratify](https://github.com/Shinmera/ratify) - A collection of utilities to ratify, validate and parse inputs. [zlib][33].
 * [clavier](https://github.com/mmontone/clavier) - General purpose validation library for Common Lisp. [MIT][200].
+* [ratify](https://github.com/Shinmera/ratify) - A collection of utilities to ratify, validate and parse inputs. [zlib][33].
 * [json-schema](https://github.com/fisxoj/json-schema) - A library for validating data against schemas of drafts 4, 6, 7, and 2019-09 of the [JSON Schema](https://json-schema.org/) standard. [LLGPL][8].
 * [sanity-clause](https://github.com/fisxoj/sanity-clause) - a data serialization/contract library for Common Lisp. Schemas can be property lists or class-based, allowing to check slots' types during `make-instance`. [LLGPL][8].
 * [cl-semver](https://github.com/cldm/cl-semver) - Implementation of the [Semantic Versioning](https://semver.org) Specification. [MIT][200]
