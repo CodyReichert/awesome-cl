@@ -2195,11 +2195,11 @@ Files and directories
   * [file-attributes](https://github.com/Shinmera/file-attributes) -  access to common file attributes (uid, gid, permissions, ctime, mtime, atime).
 * [filepaths](https://github.com/fosskers/filepaths) -  Modern and consistent filepath manipulation for Common Lisp. [LGPL3][9].
   * no dependencies, doesn't access the filesystem.
+* [file-finder](https://github.com/lisp-maintainers/file-finder/) - File-object finder Common Lisp library. Enable rapid file search, inspection and manipulation. [GPL3][2].
 * [osicat](https://common-lisp.net/project/osicat/) - A lightweight operating system interface on POSIX-like systems, including Windows (directory iteration and deletion, file permissions, file-type identification, etc) [Expat][14].
   * note: Osicat isn't a pure Lisp library, it relies on compiling C code and this might make your deployment harder.
 * [ppath](https://codeberg.org/fourier/ppath) - Common Lisp's implementation of the Python's os.path module. [BSD][15].
 * [mmap](https://github.com/Shinmera/mmap) - Portable mmap file memory mapping utility library. [zlib][33].
-* [fof](https://gitlab.com/ambrevar/fof) - File-object finder Common Lisp library. Enable rapid file search, inspection and manipulation. [GPL3][2].
 * [nfiles](https://github.com/atlas-engineer/nfiles) - File persistence, watching, data synchronization, (per user profile) path resolution, and structured data retrieval. Has pre-defined classes for configuration files, remote fetched files, data files, Lisp-readable files and many others. [BSD][15].
 
 File watching libraries:
