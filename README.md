@@ -134,6 +134,7 @@ sellers who aren't evil for physical resources.
   - [Matrix libraries](#matrix-libraries)
   - [Statistics](#statistics)
   - [Units](#units)
+  - [Plotting](#plotting)
   - [Utils](#utils)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
   - [Actors pattern](#actors-pattern)
@@ -185,7 +186,6 @@ sellers who aren't evil for physical resources.
   - [Markdown](#markdown)
   - [Package declarations](#package-declarations)
   - [PDF](#pdf)
-  - [Plotting](#plotting)
   - [Project skeletons](#project-skeletons)
   - [Security](#security)
   - [System interface](#system-interface)
@@ -1647,6 +1647,32 @@ Units
 
 * [physical-quantities](https://github.com/mrossini-ethz/physical-quantities) - a library that provides a numeric type with optional unit and/or uncertainty for computations with automatic error propagation. GPL2
 
+Plotting
+--------
+
+* lisp-stat's [plot (vega-lite)](https://github.com/Lisp-Stat/plot) - a Vega-lite DSL. MS-PL.
+  * includes functions for text-based plotting that work in the REPL, and JavaScript visualisations that are rendered in a browser.
+  * [emacs-vega-view](https://github.com/applied-science/emacs-vega-view?tab=readme-ov-file#common-lisp) - an Emacs plugin that allows to display a Vega plot from a lisp-stat expression in a buffer.
+* [vgplot](https://github.com/volkers/vgplot) - an interface to the
+  gnuplot plotting utility with the intention to resemble some of
+  the plot commands of octave or matlab. [GPL3][2].
+* [eazy-gnuplot](https://github.com/guicho271828/eazy-gnuplot) - a
+  lispy, structure-less Gnuplot library. With its
+  [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
+* [kai](https://github.com/komi1230/kai) - A high-level plotter library for Common Lisp. A wrapper around the [Plotly](https://plotly.com/javascript/) JS library. [MIT][200].
+* [ADW-Charting](https://common-lisp.net/project/adw-charting/) - A simple chart drawing library written completely in Common Lisp. Also includes a backend to Google's chart service. BSD-like.
+
+cool but WIP:
+
+* [plotly-user](https://github.com/ajberkley/plotly-user) -  Use plotly in your browser to explore data from a Common Lisp REPL. [BSD_3Clause][15].
+
+Plotting with text:
+
+* [cl-text-plot](https://github.com/moneylobster/cl-text-plot/) -  Plot with text in Common Lisp. No licence specified.
+* [cl-spark](https://github.com/tkych/cl-spark) - sparkline strings for the console: `(spark '(1 1 2 3 5 8))` => "▁▁▂▃▅▇". [MIT][200].
+
+See also the chart facilities of IUP and ltk-plotchart (GUI section).
+
 Utils
 -----
 
@@ -2284,32 +2310,6 @@ PDF
 
 * [cl-typesetting](https://github.com/mbattyani/cl-typesetting) and [cl-pdf](https://github.com/mbattyani/cl-pdf) - cross-platform Common Lisp libraries for generating PDF files. [FreeBSD][39].
 * [cl-pslib](https://notabug.org/cage/cl-pslib) - a (thin) wrapper around the [pslib](http://pslib.sourceforge.net/) library for generating PostScript files. Also [cl-pslib-barcode](https://notabug.org/cage/cl-pslib-barcode). [LLGPL][8].
-
-Plotting
---------
-
-* lisp-stat's [plot (vega-lite)](https://github.com/Lisp-Stat/plot) - a Vega-lite DSL. MS-PL.
-  * includes functions for text-based plotting that work in the REPL, and JavaScript visualisations that are rendered in a browser.
-  * [emacs-vega-view](https://github.com/applied-science/emacs-vega-view?tab=readme-ov-file#common-lisp) - an Emacs plugin that allows to display a Vega plot from a lisp-stat expression in a buffer.
-* [vgplot](https://github.com/volkers/vgplot) - an interface to the
-  gnuplot plotting utility with the intention to resemble some of
-  the plot commands of octave or matlab. [GPL3][2].
-* [eazy-gnuplot](https://github.com/guicho271828/eazy-gnuplot) - a
-  lispy, structure-less Gnuplot library. With its
-  [cookbook](http://guicho271828.github.io/eazy-gnuplot/). [LLGPL][8]
-* [kai](https://github.com/komi1230/kai) - A high-level plotter library for Common Lisp. A wrapper around the [Plotly](https://plotly.com/javascript/) JS library. [MIT][200].
-* [ADW-Charting](https://common-lisp.net/project/adw-charting/) - A simple chart drawing library written completely in Common Lisp. Also includes a backend to Google's chart service. BSD-like.
-
-cool but WIP:
-
-* [plotly-user](https://github.com/ajberkley/plotly-user) -  Use plotly in your browser to explore data from a Common Lisp REPL. [BSD_3Clause][15].
-
-Plotting with text:
-
-* [cl-text-plot](https://github.com/moneylobster/cl-text-plot/) -  Plot with text in Common Lisp. No licence specified.
-* [cl-spark](https://github.com/tkych/cl-spark) - sparkline strings for the console: `(spark '(1 1 2 3 5 8))` => "▁▁▂▃▅▇". [MIT][200].
-
-See also the chart facilities of IUP and ltk-plotchart (GUI section).
 
 Project skeletons
 -----------------
