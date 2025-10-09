@@ -1389,6 +1389,10 @@ In development:
 
 * [Valtan](https://github.com/cxxxr/valtan) -  Common Lisp to JavaScript compiler.
 * [JACL](https://tailrecursion.com/JACL/) - an experimental Lisp system for the Web browser platform to explore new techniques for developing large Single Page Applications with Lisp.
+* [SLip](https://lisperator.net/slip/) - an aspiring Common Lisp environment in the browser.
+  * Self-hosting compiler, TCO, CLOS, structures, conditions, loop and format, JavaScript "FFI", green threads…
+  * in-browser development environment inspired by Emacs and Slime based on [Ymacs](https://lisperator.net/ymacs/).
+  * [Live demo](https://lisperator.net/s/slip/)!
 
 
 Utilities for **React**:
