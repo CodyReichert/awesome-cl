@@ -144,7 +144,7 @@ sellers who aren't evil for physical resources.
 - [Scripting](#scripting)
   - [Running scripts](#running-scripts)
   - [Command-line options parsers](#command-line-options-parsers)
-  - [Readline, ncurses and other graphical helpers](#readline-ncurses-and-other-graphical-helpers)
+  - [Readline, ncurses and other graphical TUI helpers](#readline-ncurses-and-other-graphical-tui-helpers)
   - [Shells, shells interfaces](#shells-shells-interfaces)
   - [System administration](#system-administration)
   - [Other scripting utilities](#other-scripting-utilities)
@@ -1786,9 +1786,11 @@ Command-line options parsers
 * [Adopt](https://github.com/sjl/adopt/) - A Damn OPTion parsing library. [MIT][200].
 
 
-Readline, ncurses and other graphical helpers
---------------------------------------------
+Readline, ncurses and other graphical TUI helpers
+-------------------------------------------------
 
+* 🔥 [cl-tuition](https://github.com/atgreen/cl-tuition) -  A Common Lisp library for building rich, responsive TUIs. MIT.
+  * model-view-update Elm architecture, reusable widgets (text input, spinner, progress bar…), mouse support, layout helpers…
 * [cl-readline](https://github.com/vindarel/cl-readline) - a set of
   functions to edit lines as they are typed in, to maintain a list of
   previously-entered command lines, to recall and reedit them and
