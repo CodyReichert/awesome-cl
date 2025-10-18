@@ -2207,6 +2207,7 @@ code must look pretty, documentation is code. [MIT][200].
 * [Declt](https://github.com/didierverna/declt) - Reference manual generator for Common Lisp libraries. Builds a texinfo document that can be further processed into various formats, such as HTML or PDF. BSD.
 * [cl-bibtex](https://github.com/mkoeppe/cl-bibtex) - A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. [GNU LGPL2.1][11].
 * [adp](https://github.com/HectareaGalbis/adp) -  Common Lisp documentation generator using Scribble files. [MIT][200].
+* 🟢 [NEW in 2025] [HyperDoc](https://hyperdoc.khinsen.net/) - scientific publications that combine code, data, and computed results with explanatory text, and software documentation that is an integral part of a software system, rather than a pile of documents remaining outside of it.
 
 See also:
 
