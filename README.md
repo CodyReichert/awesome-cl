@@ -1935,6 +1935,7 @@ Tools:
 
 * [lw-plugins](https://github.com/apr3vau/lw-plugins) -  LispWorks Plugins by April & May. OBSD.
   * terminal integration, code folding, side tree, markdown highlighting, Nerd Fonts, fuzzy-matching, enhanced directory mode, expand region, pair editing, SVG rendering…
+* [lw-rich-text](https://codeberg.org/fourier/lw-rich-text/) - LispWorks panes with support for HTML-like markup.
 
 
 ## Atom, Pulsar ##
