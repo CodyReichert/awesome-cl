@@ -789,6 +789,7 @@ For an overview and a tutorial on GUI toolkits, see [the Cookbook/GUI](https://l
   - IUP is cross-platform (Windows, macOS, GNU/Linux, with new Android, iOs, Cocoa and Web Assembly drivers), has many widgets, has a small api and is actively developed.
   - has a web view.
 * 🆕 [Barium](https://tomscii.sig7.se/barium/) - an X widget toolkit, directly accessing the X client library and other platform libraries (OpenGL, Cairo). [MIT][200].
+  * with menus, panes, tabs, dialogs, a file chooser, a flexible event loop…
   * not a wrapper of another toolkit. Allows incremental GUI development.
   * new as of April, 2025.
 
