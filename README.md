@@ -1459,7 +1459,7 @@ Websockets
 
 * 👍 [usocket](https://github.com/usocket/usocket) - A portable TCP and UDP socket interface. [Expat][14].
 * [Portal](https://github.com/charJe/portal) - Portable websockets for Common Lisp, using usocket. [LLGPL][8].
-* [clws](https://github.com/3b/clws) -  websockets server in CL, built on IOlib and libfixposix. No licence specified.
+* [clws](https://github.com/3b/clws) -  websockets server in CL, built on IOlib and libfixposix. MIT.
 * [Hunchensocket](https://github.com/joaotavora/hunchensocket) -  RFC6455 compliant WebSockets for Common Lisp, as an extension to Hunchentoot. [MIT][200].
 * [websocket-driver](https://github.com/fukamachi/websocket-driver) - based on Clack.
 * [iolib](https://github.com/sionescu/iolib) - I/O library. [Expat][14].
