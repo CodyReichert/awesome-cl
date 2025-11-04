@@ -876,6 +876,7 @@ Proprietary:
 * [Allegro CL](https://franz.com/products/allegro-common-lisp/) - provides the full ANSI Common Lisp standard with many extensions.
   * reputed features include: the AllegroCache object persistence database system, the KnowledgeGraph system, its concurrent garbage collector, its web-based IDE, and more.
   * has a free edition. It includes AllegroCache, with a size limit.
+  * might be pricy. Licensed developers get access to much of the source code. Franz Inc. also publishes [open-source libraries](https://github.com/franzinc) (often tied to AllegroCL).
 
 Other implementations, mainly for historical purposes:
 
@@ -1258,7 +1259,7 @@ HTTP Servers
 
 See also:
 
-* [portableaserve](https://github.com/sharplispers/portableaserve) - an attempt to provide the functionality of Franz.com's AllegroServe web server to other lisp implementations.
+* [portableaserve](https://github.com/sharplispers/portableaserve) - an attempt to provide the functionality of Franz.com's [AllegroServe web server](https://github.com/franzinc/aserve) (open-source but tied to AllegroCL) to other lisp implementations.
   * the system named `aserve` on Quicklisp.
   * AllegroServe is open-source: LGPL2.1.
   * it provides:
