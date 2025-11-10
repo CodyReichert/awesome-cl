@@ -1373,7 +1373,9 @@ Javascript
   * [paren6](https://github.com/BnMcGn/paren6/) - a set of ES6 macros for Parenscript.
   * [paren-async](https://github.com/Junker/paren-async) async/await for Parenscript.
   * [paren-jquery](https://github.com/Junker/paren-jquery) - Jquery-style macros for Parenscript. MIT.
-* [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.
+* [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. GPL3.0.
+  * supports `loop`([tests](https://github.com/jscl-project/jscl/tree/master/tests/loop)) and `CLOS`([tests](https://github.com/jscl-project/jscl/blob/master/tests/clos.lisp)), limited support of `format`([tests](https://github.com/jscl-project/jscl/blob/master/tests/format.lisp)).
+  * [live playground](https://jscl-project.github.io/)
 * [CL-JavaScript](http://marijnhaverbeke.nl/cl-javascript/) - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
 * [parse-js](http://marijnhaverbeke.nl/parse-js/) - A package for parsing ECMAScript 3. [zlib][33].
 * [remote-js](https://github.com/ceramic/remote-js) - send JavaScript from Common Lisp to a browser. [MIT][200].
