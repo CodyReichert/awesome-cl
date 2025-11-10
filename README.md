@@ -296,6 +296,7 @@ Build Systems
 
 * ⭐[ASDF](https://common-lisp.net/project/asdf/) - Another System Definition Facility; a build system for Common Lisp. [Expat][14]. Quicklisp (see [library manager](#library-manager)) uses ASDF under the hood.
   * [known ASDF extensions](https://common-lisp.net/project/asdf/#extensions), such as `asdf-system-connections`, that lets you specify systems that are automatically loaded when two other systems are loaded, to connect them.
+* [asdf-linguist](https://github.com/eudoxia0/asdf-linguist) - Extensions for ASDF. Unmaintained. [Expat][14].
 * [asdf-viz](https://github.com/guicho271828/asdf-viz) - a tool to visualize the library dependencies of ASDF systems, the call graph of a function and the class inheritances. [LLGPL][8].
 
 See also:
@@ -696,6 +697,7 @@ See also [async-process](https://github.com/cxxxr/async-process/).
 
 For Emacs Lisp:
 
+* [CEDAR](https://gitlab.com/sasanidas/cedar) - an advance interactive development environment aiming to be Emacs compatible with all the features that come with it. Unmaintained.
 * [CLOCC's elisp.lisp](https://sourceforge.net/p/clocc/hg/ci/default/tree/src/cllib/elisp.lisp) - Emacs Lisp in Common Lisp.
   * implementation of the Emacs Lisp language as a Common Lisp package. [1999]
   * does not attempt to reimplement the library of functions provided in Emacs to manipulate buffers and other related objects, so it focuses on the "pure" Emacs Lisp language; but it was able to run the non-UI parts of the Emacs Calendar. (S. Monnier, M. Sperber)
@@ -1276,6 +1278,7 @@ See also:
 ### Clack plugins
 
 * [tiny-routes](https://github.com/jeko2000/tiny-routes) -  A tiny routing library for Common Lisp targeting Clack. [BSD_3Clause][15].
+* [clack-errors](https://github.com/eudoxia0/clack-errors) - Error page middleware for Clack. Unmaintained. [LLGPL][8].
 * [clath](https://github.com/BnMcGn/clath) - a single sign-on
   middleware for Clack. It allows basic login with OAuth1.0a, OAuth2
   and OpenID. At the time of writing, it supports authentication from
@@ -1363,6 +1366,7 @@ URI and IP handling
 * [quri](https://github.com/fukamachi/quri) - Another URI library for
   Common Lisp. Supports userinfo, IPv6 hostname, encoding/decoding
   utilities,… [BSD_3Clause][15].
+* [cl-slug](https://github.com/EuAndreh/cl-slug) - a small library to make slugs, mainly for URIs, transform in CamelCase, remove accentuation and punctuation, for english and beyond. Unmaintained. [LLGPL][8].
 * [netaddr](https://github.com/ynadji/netaddr) -  A network address manipulation library for Common Lisp. MIT.
   * for manipulating IP addresses, subnets, ranges, and sets. It is inspired by its namesake library in Python, netaddr.
 
@@ -1496,7 +1500,9 @@ Others
 
 * [LASS](https://codeberg.org/shinmera/LASS) -  Lisp Augmented Style Sheets. Largely inspired by SASS. Zlib.
 * [css-lite](https://github.com/paddymul/css-lite) - A CSS grammar. [Expat][14].
+* [find-port](https://github.com/eudoxia0/find-port) -  Programmatically find open ports. Unmaintained. [MIT][200].
 * [cl-wget](https://github.com/cl-wget/cl-wget) - Makes retrieving large files or mirroring entire websites easy. [AGPL-3.0][51].
+* [trivial-download](https://github.com/eudoxia0/trivial-download) - Download files. Unmaintained. [MIT][200].
 * [cl-cookie](https://github.com/fukamachi/cl-cookie) HTTP Cookie (jar) manager: parse and write (set-)cookie headers, compare cookies, optional cookie attribute sanity check. [MIT][200]
 * [dns-client](https://codeberg.org/Shinmera/dns-client) - DNS record client. See [documentation](https://shinmera.github.io/dns-client/). [zlib][33].
 * [mobiledetect](https://github.com/Junker/mobiledetect) - System for detecting mobile devices (including tablets) in User-Agent strings. MIT.
@@ -1966,6 +1972,7 @@ Tools:
 ## Online editors ##
 
 * [Judge0 IDE](https://ide.judge0.com/?lUpj) is an online editor which supports Common Lisp (SBCL). [MIT][200].
+* [Riju](https://riju.codes/commonlisp), a "fast online playground for every programming language", supports Common Lisp (SBCL).
 
 Text and binary parsers
 ============================
