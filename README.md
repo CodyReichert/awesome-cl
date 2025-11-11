@@ -1379,6 +1379,8 @@ Javascript
   * [paren6](https://github.com/BnMcGn/paren6/) - a set of ES6 macros for Parenscript.
   * [paren-async](https://github.com/Junker/paren-async) async/await for Parenscript.
   * [paren-jquery](https://github.com/Junker/paren-jquery) - Jquery-style macros for Parenscript. MIT.
+  * example: [ParenScript + Mithril demo](https://mmontone.codeberg.page/lisp-pwa/#!/home) for Progressive Web Apps (PWA) [2025].
+  * example: [Building a Freecell game with ParenScript and Preact](https://nickfa.ro/wiki/Building_with_Parenscript_and_Preact) [2024].
 * [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. GPL3.0.
   * supports `loop`([tests](https://github.com/jscl-project/jscl/tree/master/tests/loop)) and `CLOS`([tests](https://github.com/jscl-project/jscl/blob/master/tests/clos.lisp)), limited support of `format`([tests](https://github.com/jscl-project/jscl/blob/master/tests/format.lisp)).
   * [live playground](https://jscl-project.github.io/)
