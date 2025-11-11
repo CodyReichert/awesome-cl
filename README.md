@@ -1501,7 +1501,7 @@ Others
 
 * [LASS](https://codeberg.org/shinmera/LASS) -  Lisp Augmented Style Sheets. Largely inspired by SASS. Zlib.
 * [css-lite](https://github.com/paddymul/css-lite) - A CSS grammar. [Expat][14].
-* [find-port](https://github.com/eudoxia0/find-port) -  Programmatically find open ports. Unmaintained. [MIT][200].
+* [find-port](https://github.com/lisp-maintainers/find-port) -  Programmatically find open ports. [MIT][200].
 * [cl-wget](https://github.com/cl-wget/cl-wget) - Makes retrieving large files or mirroring entire websites easy. [AGPL-3.0][51].
 * [trivial-download](https://github.com/eudoxia0/trivial-download) - Download files. Unmaintained. [MIT][200].
 * [cl-cookie](https://github.com/fukamachi/cl-cookie) HTTP Cookie (jar) manager: parse and write (set-)cookie headers, compare cookies, optional cookie attribute sanity check. [MIT][200]
