@@ -863,6 +863,7 @@ Implementations
   * [SBCL on Chocolatey for Windows](https://community.chocolatey.org/packages/sbcl) (unofficial)
   * [WIP, 2021] [Static Executables with SBCL](https://www.timmons.dev/posts/static-executables-with-sbcl-v2.html).
   * [SBCL Windows builds supporting Windows 7+](https://github.com/lockie/sbcl-w7), packaged into NSIS installer and updated monthly (unofficial)
+  * *tip: to enhance the default terminal experience of SBCL, see also `icl` or `cl-repl` in the Editors section below.*
 * ⭐ [CCL](https://ccl.clozure.com/) - Clozure Common Lisp; compiler-only implementation, generates native code.  [LLGPL][8].
 * [ECL](https://common-lisp.net/project/ecl/) - Embeddable Common Lisp; compiles to C. [GNU LGPL2.1][11].
   * WASM support in development ([NLNET grant in 2025](https://nlnet.nl/project/ECL/))
@@ -1973,9 +1974,12 @@ Tools:
 
 ## REPLs ##
 
+* [icl](https://github.com/atgreen/icl) - an enhanced REPL for the terminal. MIT.
+  * based on Slynk: shares many features with Slime.
 * [cl-repl](https://github.com/lisp-maintainers/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [GPL3][2].
   * binary releases: simply download a binary (Ubuntu, OSX, Windows) and run it.
   * [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
+  * compared to icl: has an interactive debugger, has a `!` shell shortcut, has an `%edit` command, has classic readline-based autocompletion (icl has a drop-down), not based on Slynk, can't connect to a running Lisp image.
 * [sbcli](https://github.com/hellerve/sbcli) - a readline REPL for SBCL. With completion, quick commands, optional syntax highlighting (with pygments), and no interactive debugger. [GPL3][2].
 * [magic-ed](https://github.com/sanel/magic-ed) - a tiny editing facility, where you can directly load, edit, manipulate and evaluate file or file content from the REPL, when going to a full IDE is too much. [MIT][200].
 
