@@ -1976,6 +1976,8 @@ Tools:
 
 * [icl](https://github.com/atgreen/icl) - an enhanced REPL for the terminal. MIT.
   * based on Slynk: shares many features with Slime.
+  * interactive inspector
+  * experimental `,explain` command that fires up Gemini or Claude CLI.
 * [cl-repl](https://github.com/lisp-maintainers/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [GPL3][2].
   * binary releases: simply download a binary (Ubuntu, OSX, Windows) and run it.
   * [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
