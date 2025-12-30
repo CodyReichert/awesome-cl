@@ -1284,9 +1284,10 @@ See also:
 * [hunchentoot-stuck-connection-monitor](https://github.com/avodonosov/hunchentoot-stuck-connection-monitor/) - Monitors hunchentoot connections and logs the connections stuck in the same state for a long time.
   - offers an option to shutdown the stuck connections sockets manually or automatically, thus unblocking the connection threads and preventing thread and socket leakage. [BSD_2Clause][17].
 
-See also:
+Making Hunchentoot faster:
 
 * [cl-tbnl-gserver-tmgr](https://github.com/mdbergmann/cl-tbnl-gserver-tmgr) -  Hunchentoot Gserver-based taskmanager. cl-gserver is an actor-like message-passing library (see below in "Actors pattern"). Experimental.
+* [hunchentoot-recycling-taskmaster](https://github.com/y2q-actionman/hunchentoot-recycling-taskmaster) - a taskmaster implementation for Hunchentoot, aiming to improve connection establishment efficiency through thread-pooling and flexible thread count adjustment. BSD_2Clause.
 
 ### Clack plugins
 
