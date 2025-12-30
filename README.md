@@ -250,6 +250,7 @@ Work In Progress:
 ## Expert Systems
 
 * [Lisa](https://github.com/youngde811/Lisa) - a production-quality, forward-chaining expert system shell featuring an optimized implementation of Charles Forgy's Rete algorithm, a highly efficient solution to the difficult many-to-many pattern matching problem. MIT.
+* [WouldWork](https://github.com/davypough/wouldwork) - solve classical planning and constraint satisfaction problems without extensive programming experience. BSD_3Clause.
 
 Audio
 =====
