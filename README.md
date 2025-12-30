@@ -945,8 +945,8 @@ For strings:
 
 Experimental:
 
-* [Moonly](https://gitlab.com/digikar/moonli) - Algol-style syntax that transpiles to Common Lisp.
-  * not even experimental but *pre-experimental*. New as of 2025.
+* [Moonli](https://gitlab.com/digikar/moonli) - a Julia/Python-ish syntax layer that transpiles to Common Lisp.
+  * *experimental*. New as of 2025.
 
 CLOS extensions
 ---------------
