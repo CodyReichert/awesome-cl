@@ -450,7 +450,6 @@ To third parties
 * [cl-influxdb](https://github.com/mmaul/cl-influxdb/) - an interface to the Time Series Database InfluxDB. [MIT][200].
 * [cl-remizmq](https://fossil.cyberia9.org/cl-remizmq/index) - ZeroMQ sockets, messages, timers, atomics, and proxies.
   * low-level and high-level APIs. Tested with libzmq 5.2.5, any v4.x and v5.x should work, v3.x may as well.
-  * maybe also: [pzmq](https://github.com/orivej/pzmq) -  ZeroMQ 4.0+ Common Lisp bindings. Unlicense.
 * [coalton-zmq](https://github.com/coalton-lang/coalton-zmq) - ZeroMQ interface for Coalton.
   - "It's complete enough to be useful for building apps that use ZeroMQ". Many of the official [ZeroMQ examples](https://github.com/coalton-lang/coalton-zmq/tree/main/zmq-examples) are implemented.
 
