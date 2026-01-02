@@ -1348,12 +1348,16 @@ CLOG-based frameworks:
 Parsing html
 ---------------
 * 👍 [Plump][71] - A lenient HTML/XML parser, tolerant on malformed markup. [zlib][33]. Best used with [lquery][72] and [clss](https://codeberg.org/shinmera/CLSS).
-
-See also:
-
 * [cl-html5-parser](https://github.com/rotatef/cl-html5-parser) -  HTML5 parser for Common Lisp. GPL3.0.
   * a port of the Python library html5lib.
   * compared to Plump: Plump is a mix of an XML and an HTML parser and breaks on some HTML rules, while cl-html5-parser is a fully compliant HTML parser.
+
+Sanitizing HTML:
+
+* [cl-sanitize-html](https://github.com/atgreen/cl-sanitize-html/) - OWASP-style HTML sanitization library for Common Lisp, designed for safely rendering untrusted HTML content (like HTML emails or user-generated content). MIT.
+  - partly LLM. [reddit announce](https://old.reddit.com/r/Common_Lisp/comments/1q30bqh/atgreenclsanitizehtml_a_common_lisp_library_for/).
+  - related: [trivial-sanitize](https://codeberg.org/cage/trivial-sanitize)
+
 
 Querying HTML/DOM, web scraping
 ---------------------------------------
