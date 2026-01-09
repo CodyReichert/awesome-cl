@@ -121,6 +121,7 @@ sellers who aren't evil for physical resources.
     - [Hosting platforms](#hosting-platforms)
   - [Monitoring](#monitoring)
   - [Websockets](#websockets)
+  - [HTTPS](#https)
   - [Web development utilities](#web-development-utilities)
     - [Browser tests](#browser-tests)
     - [Form handling](#form-handling)
@@ -1488,6 +1489,16 @@ Websockets
   * "IOlib is to be a better and more modern I/O library than the standard Common Lisp library. It contains: a socket library, a DNS resolver, an I/O multiplexer, a pathname library and file-system utilities."
 
 *Editor's note: at the time of writing, it seems we don't have a full-featured websocket implementation for Common Lisp. We can however recommend Portal, and we invite you to double-check the current issues of Hunchensocket and websocket-driver.*
+
+HTTPS
+-----
+
+- [pure-tls](https://github.com/atgreen/pure-tls) -  Pure Common Lisp TLS 1.3 implementation, HTTPS server with automatic Let's Encrypt certificate. MIT
+  - warn: new code, partly done with LLMs.
+  - read:
+    - [Building a TLS 1.3 implementation in Common Lisp](https://atgreen.github.io/repl-yell/posts/pure-tls/)
+    - [Automatic TLS Certificates for Common Lisp with pure-tls/acme](https://atgreen.github.io/repl-yell/posts/pure-tls-acme/)
+
 
 
 Web development utilities
