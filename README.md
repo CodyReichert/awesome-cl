@@ -149,6 +149,7 @@ sellers who aren't evil for physical resources.
   - [Readline, ncurses and other graphical TUI helpers](#readline-ncurses-and-other-graphical-tui-helpers)
   - [Shells, shells interfaces](#shells-shells-interfaces)
   - [System administration](#system-administration)
+  - [Updating executables](#updating-executables)
   - [Other scripting utilities](#other-scripting-utilities)
 - [Text Editor Resources](#text-editor-resources)
   - [Emacs](#emacs)
@@ -1864,6 +1865,11 @@ Configuration tools not unlike Ansible, Chef or Puppet.
   * apache, apt, cmd, container, cron, disk, file, firewalld, git, hostname, lets-encrypt, locale, lxc, mount, network, os, package, periodic, postgres, reboot, service, ssh, sshd, systemd, timezone, user…
 * [cl-unix-cybernetics](https://github.com/cl-unix-cybernetics/cl-unix-cybernetics) (previously Adams) - UNIX system administration in Common Lisp. [ISC][22].
   - You describe your systems (hosts) using resources having properties. The properties are then probed and synchronized using only /bin/sh on the remote host, and /usr/bin/ssh on the control host.
+
+Updating executables
+--------------------
+
+* [cl-selfupdate](https://github.com/atgreen/cl-selfupdate) -  Self-update functionality for Common Lisp executables via GitHub/GitLab Releases. MIT.
 
 
 Other scripting utilities
