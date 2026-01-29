@@ -1424,6 +1424,7 @@ Javascript
   * full support of `format`([pull request](https://github.com/jscl-project/jscl/pull/525))
   * supports `loop`([tests](https://github.com/jscl-project/jscl/tree/master/tests/loop)) and `CLOS`([tests](https://github.com/jscl-project/jscl/blob/master/tests/clos.lisp))
   * [live playground](https://jscl-project.github.io/)
+  * 🔥 [live JupyterLite playground](https://wiki3-ai.github.io/jscl-kernel/) (Wasm powered Jupyter running in the browser). Project source: [jscl-kernel](https://github.com/wiki3-ai/jscl-kernel).
 * [CL-JavaScript](http://marijnhaverbeke.nl/cl-javascript/) - A translator from Javascript to Common Lisp. Not available on Quicklisp. [Expat][14].
 * [parse-js](http://marijnhaverbeke.nl/parse-js/) - A package for parsing ECMAScript 3. [zlib][33].
 * [remote-js](https://github.com/ceramic/remote-js) - send JavaScript from Common Lisp to a browser. [MIT][200].
