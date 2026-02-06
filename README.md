@@ -381,8 +381,7 @@ Database
 See also:
 
 * [endatabas](https://github.com/endatabas/endb) - Schemaless SQL document database with full history. [AGPL-3.0][89].
-  - built in Common Lisp and Rust.
-  - in development, alpha product scheduled for Q2 of 2024. [roadmap](https://docs.endatabas.com/appendix/roadmap.html).
+  - built in Common Lisp and Rust, in development.
 
 ORMs
 ----
@@ -414,7 +413,7 @@ Graph databases
 * [AllegroGraph](https://allegrograph.com/) - a high-performance, multi-model (document and graph), entity-event knowledge graph technology.
   * Proprietary, with a free version of a limit of 5 million RDF triples.
   * with a [hosted version](https://allegrograph.cloud/)
-  * AllegroGraph 8.0 (released December, 2023) "incorporates Large Language Model (LLM) components directly into SPARQL along with vector generation and vector storage for a comprehensive AI Knowledge Graph solution."
+  * AllegroGraph 8.0 - "incorporates Large Language Model (LLM) components directly into SPARQL along with vector generation and vector storage for a comprehensive AI Knowledge Graph solution."
 * [cl-agraph](https://github.com/vseloved/cl-agraph), a minimal client for AllegroGraph.
 * [neo4cl](https://codeberg.org/Equill/neo4cl) - a library for interacting with Neo4J. Sends Cypher queries to a Neo4J server, and decodes the responses into something useful for processing in CL. [Apache2][89].
   * and maybe: [cl-neo4j](https://github.com/kraison/cl-neo4j) - a thin neo4j RESTFUL client interface.
@@ -490,7 +489,6 @@ JSON
 * 👍 [jzon](https://github.com/Zulu-Inuoe/jzon/) - a correct, safe and fast JSON parser. [MIT][200].
   * jzon is the only CL JSON library which correctly declines all invalid inputs per the official JSON test suite and accepts all valid inputs per that suite.
   * it doesn't crash on invalid input (jsown), doesn't choke on large datasets (Jonathan), and more.
-  * v1.0 released in the Quicklisp dist of February, 2023.
   * "I believe jzon to be the superior choice and hope for it to become the new, true de-facto library in the world of JSON-in-CL once and for all."
 * [shasht](https://github.com/yitzchak/shasht) -  Common Lisp JSON reading and writing for the Kzinti. [MIT][14].
   - "Shasht is one of the two new libraries that I particularly like and is already in quicklisp. It is fast, it handles null correctly, it encodes CLOS objects, structures and hash-tables. It can also do incremental encoding." Sabra Crolleton.
@@ -728,7 +726,7 @@ Game Development
 
 * [Trial](https://codeberg.org/shirakumo/trial) - Trial is an OpenGL game engine with a heavy focus on modularity. It is supposed to provide a large toolkit of useful bits and pieces from which you can create a game. Custom: [zlib][33] with a political clause added.
   * the [Kandria](https://kandria.com/) game is built with Trial.
-* [claw-raylib](https://github.com/bohonghuang/claw-raylib) (2023) - Fully auto-generated Common Lisp bindings to Raylib and Raygui using claw and cffi-object. Apache 2.0.
+* [claw-raylib](https://github.com/bohonghuang/claw-raylib) - Fully auto-generated Common Lisp bindings to Raylib and Raygui using claw and cffi-object. Apache 2.0.
 * [raylib](https://github.com/fosskers/raylib/) (2025) - Hand-written bindings to Raylib for improved performance and smaller dependency footprint. [MPL-2.0][211].
 * [trivial-gamekit](https://github.com/borodust/trivial-gamekit) – With this small framework you would be able to make simple 2D games: draw basic geometric forms, images and text, play sounds and listen to mouse and keyboard input. [MIT][200].
 * [Xelf](https://gitlab.com/dto/xelf/) - Extensible game library. Not available on Quicklisp. [GNU LGPL2.1][11].
@@ -764,7 +762,7 @@ These are libraries for working with graphics, rather than making GUIs (i.e. wid
 
 These are bindings:
 
-* [glfw](https://github.com/shirakumo/glfw) NEW in 2023 - An up-to-date Common Lisp bindings library to the most recent GLFW OpenGL context management library.
+* [glfw](https://github.com/shirakumo/glfw) - An up-to-date Common Lisp bindings library to the most recent GLFW OpenGL context management library.
 * [common-cv](https://github.com/byulparan/common-cv) - the OpenCV (Open Source Computer Vision Library) binding library for CommonLisp. No license specified.
 * [cl-cairo2](https://github.com/rpav/cl-cairo2) - Cairo bindings. [Boost 1.0][54]
 * [cl-gd](http://weitz.de/cl-gd/) - A library providing an interface to the GD graphics library. [FreeBSD][39].
@@ -1576,7 +1574,6 @@ Sending emails with a third-party provider:
 Parsing email addresses:
 
 * [parcom/email](https://github.com/fosskers/parcom/?tab=readme-ov-file#email-addresses) - types and parsers for RFC5322 email addresses. The implementation is RFC-compliant and particularly memory-efficient for well-behaved addresses.
-  * *NEW As of 2025*
 
 
 ### OpenAPI, OData, OpenRPC
