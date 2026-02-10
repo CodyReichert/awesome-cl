@@ -1454,6 +1454,11 @@ Utilities for **React**:
 * [Parenscriptx](https://github.com/jasom/parenscriptx) -  Parenscript Macros to aid generating react code. [MIT][200].
 * [jscl-react](https://github.com/nilesr/jscl-react) -  A web framework for writing react components in common lisp using jscl. No license specified.
 
+SDK for **[Datastar](https://data-star.dev/)**:
+
+- [datastar-cl](https://github.com/fsmunoz/datastar-cl) - Datastar Common Lisp SDK.
+  - online demo: https://dataspice.interlaye.red/
+
 
 See also:
 
