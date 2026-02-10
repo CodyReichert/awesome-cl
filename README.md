@@ -1806,6 +1806,7 @@ Regular expressions and string parsing
 See also:
 
 * [rexxparse](https://github.com/dtenny/rexxparse) -  A string parsing tool inspired by the REXX PARSE construct. MIT.
+* [pregexp](http://ds26gte.github.io/pregexp/index.html) -  Portable Regular Expressions for Scheme and Common Lisp.
 
 See also clj-re above.
 
