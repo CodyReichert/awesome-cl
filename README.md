@@ -541,8 +541,10 @@ XML
 
 To read Excel files:
 
-* [lisp-xl](https://github.com/defunkydrummer/lisp-xl) -  Common Lisp Microsoft XLSX (Microsoft Excel) loader for arbitrarily-sized / big-size files. MIT.
-* [xlsx](https://gitlab.common-lisp.net/cungil/xlsx) - a basic reader for Excel files.
+* [cl-excel](https://github.com/gwangjinkim/cl-excel) - a modern and powerful Common Lisp library for reading and writing Microsoft Excel .xlsx and LibreOffice .ods files. MIT.
+  * "allow developers to handle complex spreadsheets with minimal code while maintaining memory efficiency for large datasets."
+  * full writing support.
+  * robust format detection.
 
 YAML
 ----
