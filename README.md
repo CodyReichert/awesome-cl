@@ -513,6 +513,8 @@ JSON tools:
 * [cl-jwk](https://github.com/dnaeon/cl-jwk) -  Common Lisp system for decoding public JSON Web Keys (JWK). BSD License.
 * [JOSE](https://github.com/fukamachi/jose) - A JSON Object Signing and Encryption (JOSE) implementation for Common Lisp. BSD_2Clause.
 * [cl-jsonpath](https://git.sr.ht/~hajovonta/cl-jsonpath) - A JSONPath implementation for Common Lisp with 99% test compliance and complete real-world compatibility. MIT. With AI inside.
+* [cl-json-utils](https://git.sr.ht/~q3cpma/cl-json-utils) - querying JSON, inspired by JSONPath by lisp-ier.
+  * jsonpath: `$.store.book[*].author`, json-utils: `(query $ "store" "book" :wild "author")`
 
 JSON online services:
 
