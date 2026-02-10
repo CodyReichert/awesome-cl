@@ -1931,6 +1931,8 @@ Starter kits:
 * [cl-devel2](https://hub.docker.com/r/eshamster/cl-devel2/) - a Docker container for Common Lisp development environment. Ships SBCL, CCL, Roswell and Emacs25 with Slime.
 * [Portacle](https://shinmera.github.io/portacle/) - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
   * *warm: Portacle is now un-maintained and ships an old Emacs.*
+* [IDEmacs](https://codeberg.org/IDEmacs/IDEmacs) is an attempt at making Emacs beginner friendly.
+    * it ships Sly for Common Lisp. With Emacs v29 or higher, you can try IDEmacs temporarily without messing with your .emacs configuration, thanks to the new `--init-directory` option.
 * [Varhammer](https://github.com/varhammer/varhammer) -  Portable Common Lisp IDE for Windows (Emacs + SBCL + SLIME). New in 2025.
   * Emacs 30.2 + SBCL 2.6.0 + SLIME 2.32 + Quicklisp as of January, 2026.
   * fully offline, USB ready, no installation required.
