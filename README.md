@@ -182,6 +182,7 @@ sellers who aren't evil for physical resources.
   - [Data validation](#data-validation)
   - [Developer utilities](#developer-utilities)
   - [Documentation builders](#documentation-builders)
+  - [Documentation lookup](#documentation-lookup)
   - [Files and directories](#files-and-directories)
   - [Git](#git)
   - [i18n](#i18n)
@@ -2250,15 +2251,24 @@ code must look pretty, documentation is code. [MIT][200].
 * [adp](https://github.com/HectareaGalbis/adp) -  Common Lisp documentation generator using Scribble files. [MIT][200].
 * 🟢 [NEW in 2025] [HyperDoc](https://hyperdoc.khinsen.net/) - scientific publications that combine code, data, and computed results with explanatory text, and software documentation that is an integral part of a software system, rather than a pile of documents remaining outside of it.
 
-See also:
-
-* [docbrowser](https://github.com/lokedhs/docbrowser) - a server that generates documentation for the loaded systems on the fly.
-  - Its main page presents a list of all loaded systems in your Lisp image. Click on one system, and you get a page with three panes: functions, classes and variables. Click on a function to see its source, in context, with line numbers. Click on classes to see their slots and specializing functions.
-* [cl-livedocs](https://github.com/mmontone/cl-livedocs) - similar and newer, based on Webinfo, with full text search enabled by default.
 
 An overview blog post with even more documentation generators: https://lisp-journey.gitlab.io/blog/overview-of-documentation-generators/ and a dedicated site with reviews and demos: https://cl-doc-systems.github.io/
 
 You might also like: [literate programming systems](#literate-programming).
+
+Documentation lookup
+--------------------
+
+`apropos` and `ppcre:regex-apropos` search in function names.
+
+* [docbrowser](https://github.com/lokedhs/docbrowser) - a server that generates documentation for the loaded systems on the fly.
+  - Its main page presents a list of all loaded systems in your Lisp image. Click on one system, and you get a page with three panes: functions, classes and variables. Click on a function to see its source, in context, with line numbers. Click on classes to see their slots and specializing functions.
+* [cl-livedocs](https://github.com/mmontone/cl-livedocs) - similar and newer, based on Webinfo.
+    * full text search is enabled by default.
+* [cl-docsearch](https://github.com/digikar99/cl-docsearch) -  A tool to search documentation of lisp symbols in the current lisp image.
+  * indexes and searches the documentation string too.
+  * [docsearch-ollama](https://github.com/digikar99/cl-docsearch/blob/main/README-docsearch-ollama.md) provides Common Lisp documentation search functionality through Ollama. It computes and caches embeddings corresponding to symbol documentation, and looks up user queries by comparing the cosine similarity of the query embedding with symbol documentation embeddings.
+    * we can do something like: `(query "How do I remove whitespace from the ends of a string?")`
 
 
 Files and directories
