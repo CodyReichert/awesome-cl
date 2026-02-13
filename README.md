@@ -8,8 +8,6 @@
 
 A curated list of _awesome_ Common Lisp libraries.
 
-For awesome *software*, see [lisp-lang.org's success stories](http://lisp-lang.org/success/) and the [awesome-cl-software](https://github.com/azzamsa/awesome-cl-software) list.
-
 All libraries listed here are available from [Quicklisp][16] unless
 stated otherwise. The ones marked with a ⭐ are so widespread and
 solid that they became community standards. You can't be wrong with
@@ -19,6 +17,18 @@ promote here at the Awesome-cl list. They proved solid, they may solve
 a problem better than a community standard but they aren't as
 widespread, or not considered as stable. For example, we prefer
 Spinneret over Cl-Who.
+
+---
+
+For a list of *software*, see the [lisp-screenshots.org](https://www.lisp-screenshots.org/) gallery and the
+[awesome-cl-software](https://github.com/azzamsa/awesome-cl-software) list.
+
+For examples of *companies* using CL in production, see [lisp-lang.org's success stories](http://lisp-lang.org/success/),
+the [awesome-lisp-companies](https://github.com/azzamsa/awesome-lisp-companies/) list,
+but also [LispWorks' success stories](https://www.lispworks.com/success-stories/index.html)
+and [Allegro's success stories](https://franz.com/success/).
+
+---
 
 Add something new! See the [contributing](#contributing) section for adding something to the
 list.
@@ -105,6 +115,7 @@ sellers who aren't evil for physical resources.
   - [Advanced](#advanced-1)
   - [Other books](#other-books)
   - [Community](#community)
+  - [Showcase](#showcase)
 - [Library Manager](#library-manager)
   - [Interfaces to other package managers](#interfaces-to-other-package-managers)
 - [Network and Internet](#network-and-internet)
@@ -1212,7 +1223,6 @@ Community
 * [/r/Common_Lisp](https://www.reddit.com/r/Common_Lisp/) - subreddit about Common Lisp
 * [/r/learnlisp](https://www.reddit.com/r/learnlisp/) - a subreddit to ask questions and get help about Lisp
 * [common-lisp.net](https://common-lisp.net)
-* [lisp-lang.org](https://lisp-lang.org/)
 * [Lisp Discord Server](https://discord.gg/hhk46CE)
 * [#commonlisp](https://irclog.tymoon.eu/libera/%23commonlisp) on Libera Chat - main Common Lisp IRC channel.
 * [#lisp](https://irclog.tymoon.eu/libera/%23lisp) on Libera Chat - IRC channel for all Lisp dialects.
@@ -1221,6 +1231,14 @@ Community
 * [Planet Lisp](http://planet.lisp.org/) - A meta blog that collects the contents of various Lisp-related blogs.
 * [Common Lisp chat](https://chat.hexstreamsoft.com/) - Keybase team with well-defined rules and retention policies.
 * [Lisp Jabber/XMPP channel](https://xmpp.link/#lisp@conference.a3.pm?join)
+
+Showcase
+--------
+
+* [lisp-lang.org](https://lisp-lang.org/)
+* 🔥 [lisp-screenshots.org](https://www.lisp-screenshots.org/)
+* [awesome-lisp-companies](https://github.com/azzamsa/awesome-lisp-companies/)
+* [cl-software](https://github.com/azzamsa/awesome-cl-software)
 
 Library Manager
 ===============
