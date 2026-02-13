@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://awesome-cl.com" target="_blank">
-    <img src="https://i.imgur.com/jLVXhpc.png">
+    <img src="https://raw.githubusercontent.com/CodyReichert/awesome-cl/refs/heads/master/alien.png">
   </a>
 </div>
 
