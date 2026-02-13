@@ -24,9 +24,7 @@ Add something new! See the [contributing](#contributing) section for adding some
 list.
 
 This is released under the GNU Free Documentation License - its text
-is provided in the LICENSE file. This repository is also mirrored on
-[NotABug](https://notabug.org/CodyReichert/awesome-cl) - a **fully-free** (as in libre)
-alternative to Github.  Preference is given to [free software][13] and
+is provided in the LICENSE file. Preference is given to [free software][13] and
 sellers who aren't evil for physical resources.
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
