@@ -1976,6 +1976,7 @@ Slime extensions:
   - [Slite](https://github.com/tdrhq/slite/) - a test runner for FiveAM.
   - [Quicklisp-apropos](https://github.com/mmontone/quicklisp-apropos) - Perform `apropos` queries across libraries in Quicklisp (full-text search on symbol names, classes, documentation…).
   - [slime-critic](https://github.com/mmontone/slime-critic) - the lisp critic gently critiques your code for bad patterns.
+  - [5:59am](https://github.com/diasbruno/5-59am/) - an emacs plugin to run and manage FiveAM tests. [Unlicense][5]
 
 Sly extensions:
 
