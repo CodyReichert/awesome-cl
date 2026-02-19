@@ -2304,6 +2304,8 @@ Documentation lookup
   * [docsearch-ollama](https://github.com/digikar99/cl-docsearch/blob/main/README-docsearch-ollama.md) provides Common Lisp documentation search functionality through Ollama. It computes and caches embeddings corresponding to symbol documentation, and looks up user queries by comparing the cosine similarity of the query embedding with symbol documentation embeddings.
     * we can do something like: `(query "How do I remove whitespace from the ends of a string?")`
 
+mgl-pax (see above) also has a live documentation browser. [doc](https://melisgl.github.io/mgl-pax-world/mgl-pax-manual.html#MGL-PAX:@BROWSING-LIVE-DOCUMENTATION%20MGL-PAX:SECTION) and [demo video](https://www.youtube.com/watch?v=4bl8PS8OW94&list=PLxbqYr4DvjX68AEdLky4IiHG69VJu6f5s).
+
 
 Files and directories
 ---------------------
