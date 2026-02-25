@@ -2041,8 +2041,9 @@ Tools:
 
 ## JetBrains
 
-* [SLT](https://github.com/Enerccio/SLT) -  an IDE Plugin for Itellij/Jetbrains IDE lineup implementing support for Common Lisp via SBCL and Slime/Swank.
-  - released in Jan, 2023.
+* [SLT](https://github.com/Enerccio/SLT) -  an IDE Plugin for Intellij/Jetbrains IDE lineup implementing support for Common Lisp via SBCL and Slime/Swank.
+  - released in Jan, 2023. Experimental.
+  - see [this fork](https://github.com/ivanbulanov/SLT/releases) that is updated to work on Intellij 2025.3.2.
 
 ## Geany (experimental) ##
 
