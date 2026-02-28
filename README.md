@@ -562,8 +562,10 @@ YAML
 
 * 👍 [cl-yaml](https://github.com/eudoxia0/cl-yaml.git) - a YAML parser and emitter built on top of libyaml. [MIT][200].
   * an active fork: [cl-RemiYaml](https://nanako.mooo.com/fossil/cl-remiyaml/index) with a few fixes. Not a drop-in replacement.
-* [nyaml](https://github.com/jasom/nyaml) - A lisp native YAML parser. MIT.
-* [cl-yaclyaml](https://github.com/mabragor/cl-yaclyaml) - a pure lisp YAML processor (loader, but not yet dumper). [GPL3][2].
+* [yamson](https://github.com/bohonghuang/yamson) - Fast YAML and JSON parsers for Common Lisp (not yet emitters). Apache2.0.
+
+<!-- * [nyaml](https://github.com/jasom/nyaml) - A lisp native YAML parser. MIT. -->
+  <!-- * *in our tests (2026), nyaml was slow (too orders of magnitude slower than cl-yaml* -->
 
 Data Structures
 ===============
