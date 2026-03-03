@@ -2156,6 +2156,12 @@ Editor utilities:
 * [Slite](https://github.com/tdrhq/slite/) - a SLIme-based TEst runner for FiveAM Tests. [Apache2.0][89]
   - Slite interactively runs your Common Lisp tests (at the time of writing only FiveAM is supported). It allows you to see the summary of test failures, jump to test definitions, rerun tests with the debugger, all from inside Emacs.
 
+CI utilities:
+
+* [CI-utils](https://github.com/neil-lindquist/CI-Utils) (low activity) - a set of utilities and examples for working on continuous integration platforms, including a run script for the Fiveam test library.
+  * helps run Fiveam tests with the right exit code.
+  * integrated with Roswell.
+
 For more: [Sabra Crolleton's extensive test frameworks comparison](https://sabracrolleton.github.io/testing-framework).
 
 
