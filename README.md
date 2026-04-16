@@ -1914,6 +1914,13 @@ Lisp utilities:
   * `uiop:run-program` (synchronous) and `uiop:launch-program` (async) are shipped with ASDF and available on all modern implementations. See the [CL Cookbook: running external programs](https://lispcookbook.github.io/cl-cookbook/os.html#running-external-programs).
 * [Clesh](https://github.com/Neronus/Clesh) - extends Common Lisp to embed shell code in a manner similar to perl's backtick. [FreeBSD][39].
 
+See also:
+
+* [Lish](https://github.com/lisp-mirror/yew) - `lish` may someday be a lisp shell. [GPL3][2].
+  * supports tab-completion of executables in the path and Lisp symbols, allows to write and to mix shell commands and Lisp code, has a tiny REPL and an interactive debugger, and more.
+  * WARN: this is an old backup. The original repository is no more.
+
+
 System administration
 ---------------------
 
