@@ -575,6 +575,7 @@ strings:
 
 * 👍 [str](https://github.com/vindarel/cl-str) - a modern, simple and consistent string manipulation library. [MIT][200].
 * [rope](https://github.com/garlic0x1/rope) -  Immutable Ropes for Common Lisp. MIT.
+  - see also: ropes in Sycamore.
 
 lists and sequences:
 
