@@ -170,6 +170,7 @@ sellers who aren't evil for physical resources.
   - [Eclipse](#eclipse)
   - [Lem](#lem)
   - [LispWorks](#lispworks)
+  - [Mine - single-download beginner friendly IDE for Common Lisp and Coalton](#mine---single-download-beginner-friendly-ide-for-common-lisp-and-coalton)
   - [Atom, Pulsar](#atom-pulsar)
   - [Sublime Text](#sublime-text)
   - [VSCode](#vscode)
@@ -1094,6 +1095,7 @@ Typing
   * [tokyo-tojo-json](https://github.com/tojoqk/tokyo.tojo.json) - a JSON parser implemented in Coalton.
   * [coalton-threads](https://github.com/garlic0x1/coalton-threads) - primitive thread and concurrency operations for Coalton.
   * [coalton-io](https://github.com/Jason94/coalton-io) - Functional IO interfaces. Includes terminal IO, file system IO, random variables, mutable variables, multithreading, and safely sharing state between threads.
+  * [mine editor](https://coalton-lang.github.io/mine/) - an integrated development environment for Coalton and Common Lisp for Windows, macOS, and Linux.
   * [Lem editor mode for Coalton](https://lem-project.github.io/modes/coalton-lang/) - syntax highlighting, code completion, autodoc, interactive compilation commands (`coalton-compile-defun`, `C-c C-c`).
   * [Slime contrib for Coalton](https://github.com/slime/slime/pull/919) - shows type signatures. With a short demo video.
   * [Coalton.app playground](https://coalton.app/) - a web-based REPL for Coalton. [blog post announce](https://abacusnoir.com/2025/08/12/coalton-playground-type-safe-lisp-in-your-browser/).
@@ -2033,6 +2035,9 @@ Tools:
   * terminal integration, code folding, side tree, markdown highlighting, Nerd Fonts, fuzzy-matching, enhanced directory mode, expand region, pair editing, SVG rendering…
 * [lw-rich-text](https://codeberg.org/fourier/lw-rich-text/) - LispWorks panes with support for HTML-like markup.
 
+## Mine - single-download beginner friendly IDE for Common Lisp and Coalton
+
+* [mine](https://coalton-lang.github.io/mine/) - an integrated development environment for Coalton and Common Lisp for Windows, macOS, and Linux.
 
 ## Atom, Pulsar ##
 
