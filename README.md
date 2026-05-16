@@ -2284,6 +2284,12 @@ call hooks when loading a package,…). [BSD_2Clause][17].
 * [printv](https://github.com/danlentz/printv) -  A batteries-included tracing and debug-logging macro. [Apache2][89].
 * [journal](https://github.com/melisgl/journal) - a library for logging, tracing, record-and-replay testing and persistence. MIT.
 * [brake](https://github.com/varjagg/brake) -  An extended breakpoint facility for Common Lisp. [MIT][200].
+* [cl-codegraph](https://sr.ht/~hajovonta/cl-codegraph/) - Automatic Knowledge Graph of Common Lisp code via live image introspection.
+  * Given a package loaded in the SBCL image, builds and maintains a
+    graph of its symbols, class hierarchies, method
+    specializations, call relationships, and metadata — all without
+    parsing source code. Includes a live Emacs integration that shows
+    code intelligence as you navigate and a web-based graph viewer.
 
 and also:
 
