@@ -1990,6 +1990,7 @@ Starter kits:
   * *warm: Portacle is now un-maintained and ships an old Emacs.*
 * [IDEmacs](https://codeberg.org/IDEmacs/IDEmacs) is an attempt at making Emacs beginner friendly.
     * it ships Sly for Common Lisp. With Emacs v29 or higher, you can try IDEmacs temporarily without messing with your .emacs configuration, thanks to the new `--init-directory` option.
+* [lisp-stat's Docker image](https://lisp-stat.dev/blog/2026/03/09/getting-started/) comes with a ready-to-use Emacs.
 
 Slime extensions:
 
