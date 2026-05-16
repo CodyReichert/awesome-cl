@@ -1243,8 +1243,10 @@ Community
 * #clschool on Libera Chat - IRC channel for learning Common Lisp.
 * #lispcafe on Libera Chat - IRC channel for off-topic discussions.
 * [Planet Lisp](http://planet.lisp.org/) - A meta blog that collects the contents of various Lisp-related blogs.
-* [Common Lisp chat](https://chat.hexstreamsoft.com/) - Keybase team with well-defined rules and retention policies.
 * [Lisp Jabber/XMPP channel](https://xmpp.link/#lisp@conference.a3.pm?join)
+* [Matrix-for-lispers](https://web.matrix-for-lispers.net/) - a space for chatting about different lisp topics with support for persistency, markdown, screenshots.
+  * NEW as of May, 2026.
+  * the registration token is `lisp-spelt-without-caps`. Click on "explore" to see all the available rooms.
 
 Showcase
 --------
