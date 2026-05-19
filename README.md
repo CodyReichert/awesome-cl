@@ -714,6 +714,11 @@ See also those libraries:
   * "bridges the gap between Java and Common Lisp by incrementally translating Java bytecode into Lisp, which is then compiled into native machine code for execution. This unique approach allows Java classes to be seamlessly mapped to Common Lisp Object System (CLOS) classes, enabling effortless integration between Java and Common Lisp codebases."
   * "provides a practical solution for integrating Java libraries into a Lisp-based workflow without the need for an out-of-process Java runtime environment."
 
+See also:
+
+* [FOIL](https://github.com/jasom/foil/blob/master/docs/foil.md) - Rich Hickey's Foreign Object Interface for Lisp to access the JVM and the CLI/CLR.
+
+
 ## Objective-C ##
 
 * [cl-nextstep](https://github.com/byulparan/cl-nextstep) -  Cocoa binding for Common Lisp on macOS.
