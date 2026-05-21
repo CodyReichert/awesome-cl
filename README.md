@@ -2186,6 +2186,7 @@ Unit Testing
   library to post test coverage to Coveralls. See [SBCL's code coverage tool](http://www.sbcl.org/manual/index.html#sb_002dcover). [FreeBSD][39].
 * [CheckL](https://github.com/rpav/CheckL/) - Why write programs in Common Lisp but tests like Java? Meet CheckL!
   * a testing library that checks the current test value against the previous one and offers restarts.
+* [Try](https://github.com/melisgl/try) - Try is an extensible test anti-framework with equal support for interactive and non-interactive workflows, as well as Emacs integration. [MIT][200].
 
 See also:
 
