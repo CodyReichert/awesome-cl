@@ -1954,6 +1954,9 @@ Configuration tools not unlike Ansible, Chef or Puppet.
   * apache, apt, cmd, container, cron, disk, file, firewalld, git, hostname, lets-encrypt, locale, lxc, mount, network, os, package, periodic, postgres, reboot, service, ssh, sshd, systemd, timezone, user…
 * [cl-unix-cybernetics](https://github.com/cl-unix-cybernetics/cl-unix-cybernetics) (previously Adams) - UNIX system administration in Common Lisp. [ISC][22].
   - You describe your systems (hosts) using resources having properties. The properties are then probed and synchronized using only /bin/sh on the remote host, and /usr/bin/ssh on the control host.
+- [cl-ssh](https://github.com/jmeissen/cl-ssh) -  SSH v2 client implementation. MIT.
+  * Core transport, authentication, and session execution work. Use at your own risk.
+  * see also: [trivial-ssh](https://github.com/eudoxia0/trivial-ssh) (*bitrot as of 2026?*)
 
 Updating executables
 --------------------
