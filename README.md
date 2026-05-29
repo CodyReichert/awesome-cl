@@ -1616,6 +1616,7 @@ Others
 * [dns-client](https://codeberg.org/Shinmera/dns-client) - DNS record client. See [documentation](https://shinmera.github.io/dns-client/). [zlib][33].
 * [mobiledetect](https://github.com/Junker/mobiledetect) - System for detecting mobile devices (including tablets) in User-Agent strings. MIT.
 * [random-ua](https://github.com/Junker/random-ua) - Random User-Agent generator for Common Lisp. BSD_2Clause.
+* [cl-web-push](https://github.com/ryukinix/cl-web-push) - Web Push Notifications for Common Lisp applications.
 
 
 ### Email
