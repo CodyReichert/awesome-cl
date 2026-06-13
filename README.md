@@ -954,6 +954,7 @@ See also:
 * [Eclector](https://github.com/fstamour/breeze/) - A portable Common Lisp reader that is highly customizable, can recover from errors and can return concrete syntax trees.
   * *under active development*
 * [rewrite-cl](https://github.com/atgreen/rewrite-cl) - Read, modify, and write Common Lisp source code while preserving whitespace and comments. MIT. *Built with LLMs*.
+* [cl-sourcery](https://sr.ht/~hajovonta/cl-sourcery/) - Intercepts all standard CL definition forms (defun, defmacro, defclass, defstruct, etc.) to capture and store the exact source as written — including whitespace, comments, and formatting. MIT. *Built with LLMs*.
 
 See also:
 
