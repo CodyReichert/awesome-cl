@@ -264,6 +264,7 @@ Credit: borretti.me's [State of CL Ecosystem 2015](http://borretti.me/article/co
 ## Expert Systems
 
 * [Lisa](https://github.com/youngde811/Lisa) - a production-quality, forward-chaining expert system shell featuring an optimized implementation of Charles Forgy's Rete algorithm, a highly efficient solution to the difficult many-to-many pattern matching problem. MIT.
+  * [Lisa 4.0.0](https://github.com/youngde811/Lisa/releases/tag/v4.0.0): hybrid Symbolic/LLM Support that integrates Anthropic's Claude with Lisa's symbolic reasoning engine.
 * [WouldWork](https://github.com/davypough/wouldwork) - solve classical planning and constraint satisfaction problems without extensive programming experience. BSD_3Clause.
 
 ## Educational
