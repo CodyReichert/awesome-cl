@@ -1684,6 +1684,7 @@ Service (S3) and CloudFront service. [BSD][15].
   * *built with LLMs*
 * [tooter](https://codeberg.org/shinmera/tooter) - a client library implementing the full v1 REST API protocol for Mastodon. [zlib][33].
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
+* [clatter-irc](https://github.com/parenworks/clatter-irc) - A modern IRC client library with IRCv3 support. [MIT][200].
 * [cl-mediawiki](https://github.com/AccelerationNet/cl-mediawiki) - a wrapper around the MediaWiki api. [MIT][200].
 * [cl-openid](https://github.com/cl-openid/cl-openid) - An implementation of OpenID. [LLGPL][8].
 * [cl-pushover](https://github.com/TeMPOraL/cl-pushover) -  Common Lisp bindings to Pushover. [MIT][200].
@@ -1696,6 +1697,11 @@ Service (S3) and CloudFront service. [BSD][15].
   * includes example bots such as a calculator, payment with invoices, an actor-based bot…
   * automatic API spec parser
   * [cl-telegram-bot-auto-api](https://github.com/aartaka/cl-telegram-bot-auto-api) - Alternative Telegram Bot API bindings, auto-generated from Telegram website. [3-clause BSD][15].
+
+### Chat clients
+
+* [CLatter](https://github.com/parenworks/CLatter) - A terminal-based IRC client with IRCv3, SASL, DCC, multi-network support, and more. [MIT][200].
+* [CLabber](https://github.com/parenworks/CLabber) - A terminal UI XMPP client with OMEMO, MUC, file upload, and more. [MIT][200].
 
 
 Numerical and Scientific
