@@ -41,6 +41,7 @@ sellers who aren't evil for physical resources.
 **Table of Contents**
 
 - [Artificial Intelligence (AI, LLMs)](#artificial-intelligence-ai-llms)
+  - [Agents](#agents)
   - [Around the OpenAI API](#around-the-openai-api)
   - [MCP servers](#mcp-servers)
   - [Machine Learning](#machine-learning)
@@ -215,6 +216,10 @@ sellers who aren't evil for physical resources.
 
 Artificial Intelligence (AI, LLMs)
 ==================================
+
+## Agents
+
+* [Autolith](https://github.com/lambda-symbolics/autolith) - a live, self-modifying Common Lisp agent.
 
 ## Around the OpenAI API
 
