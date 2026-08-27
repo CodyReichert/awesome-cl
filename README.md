@@ -1210,6 +1210,7 @@ Web Development
 Reference
 ---------
 
+* NEW! [Metaspec](https://metaspec.dev/) - another rendition of the dpANS3R CL specification, but to an s-expression based document format, and then to HTML.  All divergences from the specification are documented, all revisions are versioned and dated.  Math is rendered via MathML.  Also includes an info render and an emacs integration package.  Free to copy, modify, and distribute.
 * NEW! [CL CommunitySpec](https://cl-community-spec.github.io/pages/index.html) - a rendition of the Common Lisp ANSI Specification draft.
   * with an interactive search, syntax highlighting! And open-source.
 * NEW! [novaspec](https://novaspec.org/) - a modern rendition of the CL ANSI draft.
