@@ -2144,6 +2144,7 @@ Tools:
   * [ngl widget](https://github.com/yitzchak/ngl-clj) -  A ngl widget (protein viewer) for common-lisp-jupyter.
   * [sheet widget](https://github.com/yitzchak/sheet-clj) -  Data grid widget for common-lisp-jupyter.
 * [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
+* [icl](https://github.com/atgreeen/icl) - the enhanced REPL (see below) includes a very capable notebook feature with advanced charting capabilities.
 
 ## REPLs ##
 
