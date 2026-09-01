@@ -367,7 +367,7 @@ C, C++
 * [ecrepl](https://gitlab.common-lisp.net/ecl/ecrepl) - an interactive REPL for the C language. [BSD_2Clause][17].
 * [Software-Evolution-Library](https://github.com/GrammaTech/sel) - The SEL enables the programmatic modification and evaluation of software (C/C++ support using Clang, compiled assembler, and linked ELF binaries). [GPL3][2].
 * [vacietis](https://github.com/vsedach/Vacietis) -  C to Common Lisp compiler. [LGPL3][9].
-* NEW as of 2025 [Cicili](https://github.com/saman-pasha/cicili/) - C generator macro-driven language. GPL3.0.
+* [Cicili](https://github.com/saman-pasha/cicili/) - C generator macro-driven language. GPL3.0.
   * "can use lisp libraries to produce compile time content like html, json, sql, ... for inside C generated code".
 
 Cryptography
@@ -855,7 +855,6 @@ For an overview and a tutorial on GUI toolkits, see [the Cookbook/GUI](https://l
 * 🆕 [Barium](https://tomscii.sig7.se/barium/) - an X widget toolkit, directly accessing the X client library and other platform libraries (OpenGL, Cairo). [MIT][200].
   * with menus, panes, tabs, dialogs, a file chooser, a flexible event loop…
   * not a wrapper of another toolkit. Allows incremental GUI development.
-  * new as of April, 2025.
 
 But that's not all.
 
@@ -1029,7 +1028,7 @@ For strings:
 Experimental:
 
 * [Moonli](https://gitlab.com/digikar/moonli) - a Julia/Python-ish syntax layer that transpiles to Common Lisp.
-  * *experimental*. New as of 2025.
+  * *experimental*. 
 
 CLOS extensions
 ---------------
@@ -1431,6 +1430,9 @@ See OpenAPI, OData and other libraries below.
   - example code bases: [Ultralisp](https://github.com/ultralisp/ultralisp/), [krasnodar](https://github.com/lct23/krasnodar), a dashboard made for a hackaton (2024) ([demo video](https://diode.zone/videos/watch/9e379a86-c530-4e9d-b8be-7437b1f7200b)).
 * [Interactive SSR](https://github.com/interactive-ssr/client/blob/master/main.org/) - ISSR allows you to make interactive web pages without writing client scripting. No knowledge about Javascript or DOM is necessary.
   - it is not unlike Phoenix LiveView or Hotwire.
+- 🔥 [Fluxion](https://github.com/parenworks/Fluxion) - Live, server-rendered reactive web UI framework. MIT.
+  - NEW as of 2026
+  - blog post: ["Fluxion: Building a Propagator-Based Reactive Web UI Framework in Common Lisp"](https://glenneth.org/content/posts/2026-04-25-fluxion-reactive-web-ui-common-lisp.html)
 
 CLOG-based frameworks:
 
@@ -2089,7 +2091,6 @@ Tools:
 
 * 🚀 [Rooms: Lem on the cloud](https://www.youtube.com/watch?v=IMN7feOQOak) (video presentation)
   * "Rooms is a product that runs Lem, a text editor created in Common Lisp, in the Cloud and can be used by multiple users."
-  * NEW as of April, 2024.
 
 ## LispWorks
 
