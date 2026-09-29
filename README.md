@@ -1827,7 +1827,10 @@ See also the chart facilities of IUP and ltk-plotchart (GUI section).
 Utils
 -----
 
-* [cmu-infix](https://github.com/rigetti/cmu-infix) - A library for writing infix mathematical notation in Common Lisp. See also [polisher](https://github.com/mrcdr/polisher).
+* [infix-math](https://github.com/ruricolist/infix-math) - An extensible infix syntax for math. MIT.
+  - can also turn the REPL into a calculator.
+* [cmu-infix](https://github.com/rigetti/cmu-infix) - A library for writing infix mathematical notation in Common Lisp.
+  - see also [polisher](https://github.com/mrcdr/polisher).
 
 
 Parallelism and Concurrency
