@@ -89,7 +89,7 @@ sellers who aren't evil for physical resources.
 - [Implementations](#implementations)
   - [Open-source and active](#open-source-and-active)
   - [Proprietary](#proprietary)
-  - [AI-developped](#ai-developped)
+  - [Work in progress](#work-in-progress)
   - [Other implementations](#other-implementations)
   - [Tools to work with different implementations](#tools-to-work-with-different-implementations)
 - [Language libraries](#language-libraries)
@@ -959,9 +959,10 @@ AI-developed, new and experimental as of Oct, 2026:
   * has a free edition. It includes AllegroCache, with a size limit.
   * might be pricy. Licensed developers get access to much of the source code. Franz Inc. also publishes [open-source libraries](https://github.com/franzinc) (often tied to AllegroCL).
 
-## AI-developped
+## Work in progress
 
-- [Evergreen](https://github.com/atgreen/evergreen): Evergreen is Common Lisp with a HotSpot-inspired native runtime, built from scratch in Rust. It starts executing in bytecode, compiles hot code to native instructions, and specializes dynamically typed programs as they run.
+- [LCL - Lua Common Lisp](https://codeberg.org/gsou/LCL) -  Lua Common Lisp is an implementation of Common Lisp targeting the Lua language. The goal of this project is to provide an implementation of Common Lisp that can be used wherever an unmodified Lua VM is running.
+- (LLM) [Evergreen](https://github.com/atgreen/evergreen): Evergreen is Common Lisp with a HotSpot-inspired native runtime, built from scratch in Rust. It starts executing in bytecode, compiles hot code to native instructions, and specializes dynamically typed programs as they run.
   - new as of Oct, 2026
   - *warning: this is an experiment. The parts that do work may not behave the way you expect, or the way the standard says they should. It may never work.*
   - Lightweight fibers with synchronous socket I/O
