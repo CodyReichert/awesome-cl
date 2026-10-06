@@ -226,6 +226,7 @@ Artificial Intelligence (AI, LLMs)
 ## Agents
 
 * [Autolith](https://github.com/lambda-symbolics/autolith) - a live, self-modifying Common Lisp agent.
+  - https://autolith.rocks/
 
 ## Around the OpenAI API
 
