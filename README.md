@@ -227,6 +227,7 @@ Artificial Intelligence (AI, LLMs)
 
 * [Autolith](https://github.com/lambda-symbolics/autolith) - a live, self-modifying Common Lisp agent.
   - https://autolith.rocks/
+* [nodecode](https://github.com/nodecode-ai/nodecode) - a coding agent that lives in a running SBCL image and redefines itself as it works. MIT.
 
 ## Around the OpenAI API
 
