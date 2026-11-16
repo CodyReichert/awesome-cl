@@ -1188,6 +1188,7 @@ Theorem provers
   * [Proceedings of the 19th International Workshop on the ACL2 theorem prover and its applications, 2025 (PDF)](https://cgi.cse.unsw.edu.au/~eptcs/Published/ACL2in2025/Proceedings.pdf)
 * NASA's [PVS](https://pvs.csl.sri.com/), the Prototype Verification System, and [NASAlib](https://github.com/nasa/pvslib), a collection of formal development libraries.
   * its 63 top-level libraries span the fields of: real analysis, limits, continuity, derivatives, integrals; complex integration; directed graphs; exact real arithmetic including trig functions; interval arithmetic and numerical approximations; linear algebra; 2-D, 3-D, 4-D, and n-dimensional vectors… and more.
+* [McCarthy](https://github.com/SMC17/mccarthy) - A self-contained, sound automated theorem prover with a 10-primitive higher-order logic kernel written homoiconically in Common Lisp and an agentic proof-search layer on top. Apache-2.0, not in Quicklisp.
 
 Learning and Tutorials
 =====================
