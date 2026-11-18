@@ -2619,6 +2619,9 @@ This contains anything which doesn't fit into another category.
 * [simple-currency](https://github.com/a0-prw/simple-currency) - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
 * [trivial-garbage](https://github.com/trivial-garbage/trivial-garbage) - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-utf8](https://common-lisp.net/project/trivial-utf-8/) - A small library for doing UTF-8-based I/O. BSD.
+* [Chipi](https://github.com/mdbergmann/chipi) - a home automation framework, a lightweight alternative to openHAB or Home Assistant. Describe your house in one Lisp file (items, bindings, rules, persistence) and change the running system from the REPL. [Apache2][89].
+  * bindings for KNX, Matter (as a bridge for Apple Home or Google Home) or any pull/push function (HTTP, serial port…), cron and event-based rules, InfluxDB history.
+  * comes with a real-time web UI (WebSockets, custom pages and charts) and a REST API. Built on the Sento actor framework.
 
 Contributing
 ============
