@@ -950,6 +950,10 @@ AI-developed, new and experimental as of Oct, 2026:
   * [abcl-memory-compiler](https://gitlab.com/cl-projects/abcl-memory-compiler) - a way to compile Java source code to create Java classes at runtime with ABCL. [Apache2][89].
   * [py4abcl](https://gitlab.com/cl-projects/py4abcl) - communicate with Python in ABCL.
 * [CLASP](https://github.com/drmeister/clasp) - a new Common Lisp implementation that seamlessly interoperates with C++ libraries and programs using LLVM for compilation to native code. This allows Clasp to take advantage of a vast array of preexisting libraries and programs, such as out of the scientific computing ecosystem. [LGPL2.1][11] (and others).
+* [AmiLisp](https://github.com/mdbergmann/amilisp) - a compact, portable Common Lisp with native binaries for **macOS, Linux and Windows** as well as the Amiga family: AmigaOS 3+ (68020+) and MorphOS (PPC). A bytecode VM written in portable C, with an optional native JIT (arm64, m68k). [Apache2][89].
+  * runs identically on all platforms: develop on macOS, Linux or Windows, run the same code (and the same compiled FASL files) on an Amiga.
+  * loads ASDF and Quicklisp, runs libraries such as Alexandria, FSet, Sento, Drakma and Hunchentoot. CLOS, threads, sockets, FFI, SLY support.
+  * native Amiga GUI and OS bindings (Intuition, ReAction, MUI, ARexx…), and ships with Clamacs, an Emacs-flavoured editor/IDE written in Common Lisp. Amiga and MorphOS binaries are [on Aminet](http://aminet.net/package/dev/lang/amilisp).
 
 ## Proprietary
 
